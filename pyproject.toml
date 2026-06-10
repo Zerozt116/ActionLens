@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "video-analyst"
+version = "0.1.0"
+description = "Stage 1 prototype for person detection and tracking in videos."
+requires-python = ">=3.10"
+dependencies = [
+  "ultralytics>=8.3.0",
+  "opencv-python-headless>=4.10.0",
+  "numpy>=1.26.0",
+  "lap>=0.5.12",
+  "yt-dlp>=2025.1.0",
+]
+
+[project.scripts]
+video-analyst = "video_analyst.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

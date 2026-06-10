@@ -1,0 +1,57 @@
+dataset_name: charades
+train_split: ['all']
+val_split: ['all']
+dataset: {
+  json_file: ./data/charades/tal_annotations.json,
+  clips_manifest: ./outputs/charades_clips_50.csv,
+  feature_manifest: ./data/charades/features_smoke_manifest.json,
+  feat_folder: ./data/charades/features_smoke,
+  file_prefix: ~,
+  file_ext: .npz,
+  num_classes: 24,
+  input_dim: 2304,
+  feat_stride: 15,
+  num_frames: 1,
+  default_fps: 30,
+  downsample_rate: 1,
+  trunc_thresh: 0.5,
+  crop_ratio: ~,
+  max_seq_len: 256,
+}
+model: {
+  backbone_arch: [1, 1, 5],
+  regression_range: [[0, 4], [4, 8], [8, 16], [16, 32], [32, 64], [64, 10000]],
+  fpn_type: identity,
+  max_buffer_len_factor: 4.0,
+  n_mha_win_size: 8,
+  embd_dim: 128,
+  fpn_dim: 128,
+  head_dim: 128,
+  n_head: 4,
+}
+loader: {
+  batch_size: 1,
+  num_workers: 0,
+}
+train_cfg: {
+  init_loss_norm: 100,
+  clip_grad_l2norm: -1,
+  cls_prior_prob: 0.01,
+  center_sample: radius,
+  center_sample_radius: 1.5,
+  droppath: 0.0,
+}
+test_cfg: {
+  pre_nms_thresh: 0.001,
+  pre_nms_topk: 200,
+  max_seg_num: 20,
+  min_score: 0.01,
+  nms_method: none,
+  multiclass_nms: True,
+}
+opt: {
+  learning_rate: 0.0001,
+  epochs: 1,
+  weight_decay: 0.05,
+}
+output_folder: ./ckpt/
