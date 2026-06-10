@@ -41,9 +41,16 @@ def setup_paths() -> None:
 
 def choose_device(requested: str) -> str:
     if requested == "auto":
+        if torch.cuda.is_available():
+            return "cuda"
         if torch.backends.mps.is_available() and torch.backends.mps.is_built():
             return "mps"
         return "cpu"
+    if requested == "cuda" and not torch.cuda.is_available():
+        raise RuntimeError(
+            "CUDA requested but torch.cuda.is_available() is false. "
+            f"Installed torch CUDA runtime: {getattr(torch.version, 'cuda', None)}"
+        )
     return requested
 
 
@@ -150,7 +157,7 @@ def main() -> None:
         default="train-loss",
         help="Forward mode. train-loss checks GT labels/segments; eval checks postprocess.",
     )
-    parser.add_argument("--device", choices=["auto", "mps", "cpu"], default="auto")
+    parser.add_argument("--device", choices=["auto", "cuda", "mps", "cpu"], default="auto")
     parser.add_argument(
         "--summary-output",
         type=Path,
