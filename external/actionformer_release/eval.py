@@ -19,6 +19,12 @@ from libs.utils import valid_one_epoch, ANETdetection, fix_random_seed
 
 
 ################################################################################
+def get_checkpoint_map_location(device):
+    if isinstance(device, int):
+        return torch.device("cuda", device)
+    return torch.device(device)
+
+
 def main(args):
     """0. load config"""
     # sanity check
@@ -69,7 +75,7 @@ def main(args):
     # load ckpt, reset epoch / best rmse
     checkpoint = torch.load(
         ckpt_file,
-        map_location = lambda storage, loc: storage.cuda(cfg['devices'][0])
+        map_location=get_checkpoint_map_location(cfg['devices'][0])
     )
     # load ema model instead
     print("Loading from EMA model ...")

@@ -22,6 +22,12 @@ from libs.utils import (train_one_epoch, valid_one_epoch, ANETdetection,
 
 
 ################################################################################
+def get_checkpoint_map_location(device):
+    if isinstance(device, int):
+        return torch.device("cuda", device)
+    return torch.device(device)
+
+
 def main(args):
     """main function that handles training / inference"""
 
@@ -89,9 +95,10 @@ def main(args):
     if args.resume:
         if os.path.isfile(args.resume):
             # load ckpt, reset epoch / best rmse
-            checkpoint = torch.load(args.resume,
-                map_location = lambda storage, loc: storage.cuda(
-                    cfg['devices'][0]))
+            checkpoint = torch.load(
+                args.resume,
+                map_location=get_checkpoint_map_location(cfg['devices'][0])
+            )
             args.start_epoch = checkpoint['epoch']
             model.load_state_dict(checkpoint['state_dict'])
             model_ema.module.load_state_dict(checkpoint['state_dict_ema'])
