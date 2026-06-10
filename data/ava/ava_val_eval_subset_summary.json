@@ -1,0 +1,140 @@
+{
+  "num_rows": 160,
+  "num_videos": 15,
+  "by_action_type": {
+    "OBJECT_MANIPULATION": 70,
+    "PERSON_INTERACTION": 40,
+    "PERSON_MOVEMENT": 50
+  },
+  "by_action": [
+    {
+      "action_id": 1,
+      "action": "bend_bow",
+      "action_name": "bend/bow (at the waist)",
+      "action_type": "PERSON_MOVEMENT",
+      "count": 10
+    },
+    {
+      "action_id": 10,
+      "action": "run_jog",
+      "action_name": "run/jog",
+      "action_type": "PERSON_MOVEMENT",
+      "count": 10
+    },
+    {
+      "action_id": 11,
+      "action": "sit",
+      "action_name": "sit",
+      "action_type": "PERSON_MOVEMENT",
+      "count": 10
+    },
+    {
+      "action_id": 12,
+      "action": "stand",
+      "action_name": "stand",
+      "action_type": "PERSON_MOVEMENT",
+      "count": 10
+    },
+    {
+      "action_id": 14,
+      "action": "walk",
+      "action_name": "walk",
+      "action_type": "PERSON_MOVEMENT",
+      "count": 10
+    },
+    {
+      "action_id": 15,
+      "action": "answer_phone",
+      "action_name": "answer phone",
+      "action_type": "OBJECT_MANIPULATION",
+      "count": 10
+    },
+    {
+      "action_id": 17,
+      "action": "carry_hold",
+      "action_name": "carry/hold (an object)",
+      "action_type": "OBJECT_MANIPULATION",
+      "count": 10
+    },
+    {
+      "action_id": 27,
+      "action": "drink",
+      "action_name": "drink",
+      "action_type": "OBJECT_MANIPULATION",
+      "count": 10
+    },
+    {
+      "action_id": 29,
+      "action": "eat",
+      "action_name": "eat",
+      "action_type": "OBJECT_MANIPULATION",
+      "count": 10
+    },
+    {
+      "action_id": 48,
+      "action": "read",
+      "action_name": "read",
+      "action_type": "OBJECT_MANIPULATION",
+      "count": 10
+    },
+    {
+      "action_id": 57,
+      "action": "text_on_look_at_a_cellphone",
+      "action_name": "text on/look at a cellphone",
+      "action_type": "OBJECT_MANIPULATION",
+      "count": 10
+    },
+    {
+      "action_id": 59,
+      "action": "touch",
+      "action_name": "touch (an object)",
+      "action_type": "OBJECT_MANIPULATION",
+      "count": 10
+    },
+    {
+      "action_id": 70,
+      "action": "hug",
+      "action_name": "hug (a person)",
+      "action_type": "PERSON_INTERACTION",
+      "count": 10
+    },
+    {
+      "action_id": 74,
+      "action": "listen_to",
+      "action_name": "listen to (a person)",
+      "action_type": "PERSON_INTERACTION",
+      "count": 10
+    },
+    {
+      "action_id": 79,
+      "action": "talk_to",
+      "action_name": "talk to (e.g., self, a person, a group)",
+      "action_type": "PERSON_INTERACTION",
+      "count": 10
+    },
+    {
+      "action_id": 80,
+      "action": "watch",
+      "action_name": "watch (a person)",
+      "action_type": "PERSON_INTERACTION",
+      "count": 10
+    }
+  ],
+  "video_ids": [
+    "1j20qq1JyX4",
+    "2PpxiG0WU18",
+    "55Ihr6uVIDA",
+    "5BDj0ow5hnA",
+    "6d5u6FHvz7Q",
+    "7T5G0CmwTPo",
+    "914yZXz-iRs",
+    "9F2voT6QWvQ",
+    "9Y_l9NsnYE0",
+    "BXCh3r-pPAM",
+    "CMCPhm2L400",
+    "CZ2NP8UsPuE",
+    "Di1MG6auDYo",
+    "Ekwy7wzLfjc",
+    "G4qq1MRXCiY"
+  ]
+}
