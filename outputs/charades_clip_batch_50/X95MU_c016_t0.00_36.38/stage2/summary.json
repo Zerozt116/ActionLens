@@ -1,0 +1,53 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/X95MU_c016_t0.00_36.38.mp4",
+    "fps": 30.0,
+    "frame_count": 1092,
+    "width": 270,
+    "height": 480,
+    "duration_seconds": 36.4
+  },
+  "num_objects": 74,
+  "num_poses": 992,
+  "num_frame_scores": 60,
+  "num_events": 3,
+  "events": [
+    {
+      "person_id": 1,
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "start_time": "00:00:16.233",
+      "end_time": "00:00:16.700",
+      "start_seconds": 16.233,
+      "end_seconds": 16.7,
+      "frame_count": 13,
+      "confidence": 0.7218,
+      "evidence": "cell phone close to head; head_dist=0.17"
+    },
+    {
+      "person_id": 1,
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "start_time": "00:00:17.033",
+      "end_time": "00:00:17.400",
+      "start_seconds": 17.033,
+      "end_seconds": 17.4,
+      "frame_count": 12,
+      "confidence": 0.6903,
+      "evidence": "cell phone close to head; head_dist=0.16"
+    },
+    {
+      "person_id": 1,
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "start_time": "00:00:20.333",
+      "end_time": "00:00:21.333",
+      "start_seconds": 20.333,
+      "end_seconds": 21.333,
+      "frame_count": 31,
+      "confidence": 0.9101,
+      "evidence": "cell phone close to head; head_dist=0.02"
+    }
+  ],
+  "annotated_video": null
+}

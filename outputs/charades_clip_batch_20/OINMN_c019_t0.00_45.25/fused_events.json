@@ -1,0 +1,91 @@
+{
+  "video_id": "OINMN",
+  "summary": {
+    "video_id": "OINMN",
+    "final_events": 0,
+    "semantic_candidates": 1,
+    "pending_events": 0,
+    "rejected_events": 0,
+    "fused_events": 1,
+    "event_center_reviews": 0
+  },
+  "final_events": [],
+  "semantic_candidates": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "start_seconds": 0.0,
+      "end_seconds": 46.0,
+      "confidence": 0.8,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 0.8,
+        "evidence": "In frame 5, the person holds an object to their ear, consistent with making a phone call. The object is not clearly identifiable as a phone, but the posture matches the action definition.",
+        "supporting_frame_indices": [
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c019"
+        ],
+        "action_names": [
+          "Talking on a phone/camera"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 46.0
+          }
+        ]
+      }
+    }
+  ],
+  "pending_events": [],
+  "rejected_events": [],
+  "fused_events": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "start_seconds": 0.0,
+      "end_seconds": 46.0,
+      "confidence": 0.8,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 0.8,
+        "evidence": "In frame 5, the person holds an object to their ear, consistent with making a phone call. The object is not clearly identifiable as a phone, but the posture matches the action definition.",
+        "supporting_frame_indices": [
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c019"
+        ],
+        "action_names": [
+          "Talking on a phone/camera"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 46.0
+          }
+        ]
+      }
+    }
+  ]
+}

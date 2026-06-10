@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/6TNP4_c107_t0.90_44.58.mp4",
+    "fps": 30.0,
+    "frame_count": 1339,
+    "width": 270,
+    "height": 480,
+    "duration_seconds": 44.63333333333333
+  },
+  "num_objects": 1,
+  "num_poses": 2236,
+  "num_frame_scores": 0,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": null
+}

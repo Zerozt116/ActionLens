@@ -1,0 +1,49 @@
+{
+  "overall_summary": "The person is seated and holding a phone, appearing to watch TV. No drinking or phone talking is observed.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "No cup or water bottle is visible in any frame.",
+      "supporting_frame_indices": []
+    },
+    {
+      "action": "talking_on_phone",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "The person is holding a phone but not to their ear; no visible mouth movement or phone call behavior.",
+      "supporting_frame_indices": []
+    },
+    {
+      "action": "holding_phone",
+      "present": true,
+      "confidence": 0.9,
+      "evidence": "In frame 1, the person is holding a phone in their lap while seated. The phone is visible in frames 1-5.",
+      "supporting_frame_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "action": "looking_at_phone",
+      "present": true,
+      "confidence": 0.8,
+      "evidence": "In frames 1-5, the person is holding the phone and looking down at it, consistent with viewing the screen.",
+      "supporting_frame_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "phone"
+  ],
+  "risk_notes": []
+}

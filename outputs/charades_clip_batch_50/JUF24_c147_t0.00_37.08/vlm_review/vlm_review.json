@@ -1,0 +1,26 @@
+{
+  "overall_summary": "Person is cooking in a kitchen, stirring a pot on the stove.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "No cup or bottle visible, person is stirring a pot.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone"
+  ],
+  "risk_notes": [
+    "no cup or phone visible in frames"
+  ]
+}

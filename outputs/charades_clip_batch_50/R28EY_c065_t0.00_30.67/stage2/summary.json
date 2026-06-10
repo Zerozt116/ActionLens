@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/R28EY_c065_t0.00_30.67.mp4",
+    "fps": 30.0,
+    "frame_count": 921,
+    "width": 480,
+    "height": 360,
+    "duration_seconds": 30.7
+  },
+  "num_objects": 6,
+  "num_poses": 1762,
+  "num_frame_scores": 0,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": null
+}

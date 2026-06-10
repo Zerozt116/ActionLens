@@ -1,0 +1,22 @@
+{
+  "id": "019ea64d20d33710f36a17bd72a12136",
+  "object": "chat.completion",
+  "created": 1780906534,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"Person is cooking in a kitchen, stirring a pot on the stove.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"No cup or bottle visible, person is stirring a pot.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"cup\", \"phone\"],\n  \"risk_notes\": [\"no cup or phone visible in frames\"]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 125,
+    "total_tokens": 1306
+  },
+  "system_fingerprint": ""
+}

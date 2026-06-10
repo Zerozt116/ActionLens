@@ -1,0 +1,22 @@
+{
+  "id": "019eab5ef3e6089272d55b6895ff781a",
+  "object": "chat.completion",
+  "created": 1780991587,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A man and a girl are standing in a doorway area, interacting with a book or magazine. The man moves toward a counter and bends down, while the girl stands beside him. No one is walking through the doorway.\",\n  \"actions\": [\n    {\n      \"action\": \"walking_through_doorway\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"The man and girl are standing in the doorway area, not walking through it. The man moves toward a counter and bends down, and the girl remains beside him.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1212,
+    "completion_tokens": 164,
+    "total_tokens": 1376
+  },
+  "system_fingerprint": ""
+}

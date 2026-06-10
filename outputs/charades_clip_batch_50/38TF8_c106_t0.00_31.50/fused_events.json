@@ -1,0 +1,1194 @@
+{
+  "video_id": "38TF8",
+  "summary": {
+    "video_id": "38TF8",
+    "final_events": 1,
+    "semantic_candidates": 0,
+    "pending_events": 0,
+    "rejected_events": 8,
+    "fused_events": 9,
+    "event_center_reviews": 9
+  },
+  "final_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 8,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 29.316,
+      "end_seconds": 31.346,
+      "start_time": "00:00:29.316",
+      "end_time": "00:00:31.346",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.18",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.5141,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.5281,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.5,
+        "evidence": "Person in background holding a cup to mouth; cup is visible and close to head and mouth area.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 28.316,
+          "end_seconds": 31.5416,
+          "source": "event:8"
+        },
+        "visible_objects": [
+          "cup"
+        ],
+        "risk_notes": []
+      }
+    }
+  ],
+  "semantic_candidates": [],
+  "pending_events": [],
+  "rejected_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 11.555,
+      "end_seconds": 12.023,
+      "start_time": "00:00:11.555",
+      "end_time": "00:00:12.023",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.47, wrist_dist=0.06",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1517,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.6069,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Foreground person is eating from a bowl. Background person is holding a cup to their mouth, which is consistent with drinking.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 10.555,
+          "end_seconds": 13.023,
+          "source": "event:0"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": [
+          "possible occlusion"
+        ]
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 14.717,
+      "end_seconds": 15.107,
+      "start_time": "00:00:14.717",
+      "end_time": "00:00:15.107",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.06",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1504,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.6014,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person in the foreground is eating from a bowl. The person in the background is holding a phone or similar object, not drinking from a container.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 13.717,
+          "end_seconds": 16.107,
+          "source": "event:1"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": [
+          "possible occlusion"
+        ]
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 2,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 16.512,
+      "end_seconds": 17.566,
+      "start_time": "00:00:16.512",
+      "end_time": "00:00:17.566",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.16",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.139,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.556,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is eating food from a metal bowl, not drinking from a cup or container.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 15.512,
+          "end_seconds": 18.566,
+          "source": "event:2"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": [
+          "no cup or phone visible",
+          "person eating, not drinking"
+        ]
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 3,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 18.425,
+      "end_seconds": 19.011,
+      "start_time": "00:00:18.425",
+      "end_time": "00:00:19.011",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.18",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1431,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.5724,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is eating food from a bowl, not drinking from a cup or similar container.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 17.425,
+          "end_seconds": 20.011,
+          "source": "event:3"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 4,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 19.44,
+      "end_seconds": 19.87,
+      "start_time": "00:00:19.440",
+      "end_time": "00:00:19.870",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.47, wrist_dist=0.16",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.156,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.6241,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is eating food from a bowl, not drinking from a cup or container.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 18.44,
+          "end_seconds": 20.87,
+          "source": "event:4"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 5,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 21.665,
+      "end_seconds": 22.134,
+      "start_time": "00:00:21.665",
+      "end_time": "00:00:22.134",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.14",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1333,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.5332,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is sitting on floor eating from a metal bowl with a spoon, not drinking from a cup or similar container.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 20.665,
+          "end_seconds": 23.134,
+          "source": "event:5"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": [
+          "no cup or phone visible",
+          "possible occlusion"
+        ]
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 6,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 23.617,
+      "end_seconds": 24.007,
+      "start_time": "00:00:23.617",
+      "end_time": "00:00:24.007",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.17",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1291,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.5165,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The boy is sitting with a metal bowl, not a cup or bottle, and is not drinking. The man in the background is opening a refrigerator and not drinking.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 22.617,
+          "end_seconds": 25.007,
+          "source": "event:6"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 7,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 24.632,
+      "end_seconds": 25.764,
+      "start_time": "00:00:24.632",
+      "end_time": "00:00:25.764",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.45, wrist_dist=0.16",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1383,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.5531,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person in the background is handling a garment near a door, not drinking. The foreground person is eating from a bowl, not drinking water.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 23.632,
+          "end_seconds": 26.764,
+          "source": "event:7"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": [
+          "possible occlusion"
+        ]
+      }
+    }
+  ],
+  "fused_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 8,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 29.316,
+      "end_seconds": 31.346,
+      "start_time": "00:00:29.316",
+      "end_time": "00:00:31.346",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.18",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.5141,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.5281,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.5,
+        "evidence": "Person in background holding a cup to mouth; cup is visible and close to head and mouth area.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 28.316,
+          "end_seconds": 31.5416,
+          "source": "event:8"
+        },
+        "visible_objects": [
+          "cup"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 11.555,
+      "end_seconds": 12.023,
+      "start_time": "00:00:11.555",
+      "end_time": "00:00:12.023",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.47, wrist_dist=0.06",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1517,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.6069,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Foreground person is eating from a bowl. Background person is holding a cup to their mouth, which is consistent with drinking.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 10.555,
+          "end_seconds": 13.023,
+          "source": "event:0"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": [
+          "possible occlusion"
+        ]
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 14.717,
+      "end_seconds": 15.107,
+      "start_time": "00:00:14.717",
+      "end_time": "00:00:15.107",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.06",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1504,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.6014,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person in the foreground is eating from a bowl. The person in the background is holding a phone or similar object, not drinking from a container.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 13.717,
+          "end_seconds": 16.107,
+          "source": "event:1"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": [
+          "possible occlusion"
+        ]
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 2,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 16.512,
+      "end_seconds": 17.566,
+      "start_time": "00:00:16.512",
+      "end_time": "00:00:17.566",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.16",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.139,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.556,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is eating food from a metal bowl, not drinking from a cup or container.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 15.512,
+          "end_seconds": 18.566,
+          "source": "event:2"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": [
+          "no cup or phone visible",
+          "person eating, not drinking"
+        ]
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 3,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 18.425,
+      "end_seconds": 19.011,
+      "start_time": "00:00:18.425",
+      "end_time": "00:00:19.011",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.18",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1431,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.5724,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is eating food from a bowl, not drinking from a cup or similar container.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 17.425,
+          "end_seconds": 20.011,
+          "source": "event:3"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 4,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 19.44,
+      "end_seconds": 19.87,
+      "start_time": "00:00:19.440",
+      "end_time": "00:00:19.870",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.47, wrist_dist=0.16",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.156,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.6241,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is eating food from a bowl, not drinking from a cup or container.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 18.44,
+          "end_seconds": 20.87,
+          "source": "event:4"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 5,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 21.665,
+      "end_seconds": 22.134,
+      "start_time": "00:00:21.665",
+      "end_time": "00:00:22.134",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.14",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1333,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.5332,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is sitting on floor eating from a metal bowl with a spoon, not drinking from a cup or similar container.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 20.665,
+          "end_seconds": 23.134,
+          "source": "event:5"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": [
+          "no cup or phone visible",
+          "possible occlusion"
+        ]
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 6,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 23.617,
+      "end_seconds": 24.007,
+      "start_time": "00:00:23.617",
+      "end_time": "00:00:24.007",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.17",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1291,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.5165,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The boy is sitting with a metal bowl, not a cup or bottle, and is not drinking. The man in the background is opening a refrigerator and not drinking.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 22.617,
+          "end_seconds": 25.007,
+          "source": "event:6"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 7,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 24.632,
+      "end_seconds": 25.764,
+      "start_time": "00:00:24.632",
+      "end_time": "00:00:25.764",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.45, wrist_dist=0.16",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1383,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.5531,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person in the background is handling a garment near a door, not drinking. The foreground person is eating from a bowl, not drinking water.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 23.632,
+          "end_seconds": 26.764,
+          "source": "event:7"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": [
+          "possible occlusion"
+        ]
+      }
+    }
+  ]
+}

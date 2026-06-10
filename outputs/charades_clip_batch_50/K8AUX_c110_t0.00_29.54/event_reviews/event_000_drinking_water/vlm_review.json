@@ -1,0 +1,23 @@
+{
+  "overall_summary": "The person is holding a blue cup and appears to be drinking from it during the sampled frames.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": true,
+      "confidence": 0.61,
+      "evidence": "Person is holding a blue cup and bringing it to mouth; head is close to cup, consistent with drinking action.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup"
+  ],
+  "risk_notes": []
+}

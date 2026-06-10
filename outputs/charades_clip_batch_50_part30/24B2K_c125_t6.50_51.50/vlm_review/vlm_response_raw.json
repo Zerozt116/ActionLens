@@ -1,0 +1,22 @@
+{
+  "id": "019eab65baf1b2407401ff02725f5c58",
+  "object": "chat.completion",
+  "created": 1780992032,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person is not sitting on the floor in any of the sampled frames. They are standing or leaning against a wall, holding various objects.\",\n  \"actions\": [\n    {\n      \"action\": \"sitting_on_floor\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"The person is standing or leaning against a wall in all frames, not seated on the floor.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"cup\", \"phone\", \"box\", \"clothing\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1502,
+    "completion_tokens": 146,
+    "total_tokens": 1648
+  },
+  "system_fingerprint": ""
+}

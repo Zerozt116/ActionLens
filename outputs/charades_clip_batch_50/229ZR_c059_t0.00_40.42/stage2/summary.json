@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/229ZR_c059_t0.00_40.42.mp4",
+    "fps": 29.333333333333332,
+    "frame_count": 1188,
+    "width": 270,
+    "height": 480,
+    "duration_seconds": 40.5
+  },
+  "num_objects": 0,
+  "num_poses": 2254,
+  "num_frame_scores": 0,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": null
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:01:11.482",
+    "end_time": "00:01:13.522",
+    "start_seconds": 71.482,
+    "end_seconds": 73.522,
+    "frame_count": 43,
+    "confidence": 0.6982,
+    "evidence": "cup close to head and wrist; head_dist=0.34, wrist_dist=0.06"
+  }
+]

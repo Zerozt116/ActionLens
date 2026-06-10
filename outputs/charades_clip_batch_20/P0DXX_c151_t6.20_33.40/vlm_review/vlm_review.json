@@ -1,0 +1,21 @@
+{
+  "overall_summary": "A man is seen in a garage, initially standing and then crouching near a cardboard box, appearing to sort or unpack items. No drinking or phone use is observed.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "No cup or bottle is visible, and the person is not seen drinking.",
+      "supporting_frame_indices": [
+        0
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone"
+  ],
+  "risk_notes": [
+    "possible occlusion"
+  ]
+}

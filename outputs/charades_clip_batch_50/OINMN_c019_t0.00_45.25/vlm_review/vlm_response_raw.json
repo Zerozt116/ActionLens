@@ -1,0 +1,22 @@
+{
+  "id": "019ea640940ae888663b132bd967bdc8",
+  "object": "chat.completion",
+  "created": 1780905710,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A person is seen in a bedroom, moving around and interacting with items near a dresser. In frame 5, the person holds an object to their ear, consistent with talking on a phone.\",\n  \"actions\": [\n    {\n      \"action\": \"talking_on_phone\",\n      \"present\": true,\n      \"confidence\": 0.8,\n      \"evidence\": \"In frame 5, the person holds an object to their ear, consistent with making a phone call. The object is not clearly identifiable as a phone, but the posture matches the action definition.\",\n      \"supporting_frame_indices\": [5]\n    }\n  ],\n  \"visible_objects\": [\"phone\"],\n  \"risk_notes\": [\"phone not clearly visible in frame 5\"]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1235,
+    "completion_tokens": 161,
+    "total_tokens": 1396
+  },
+  "system_fingerprint": ""
+}

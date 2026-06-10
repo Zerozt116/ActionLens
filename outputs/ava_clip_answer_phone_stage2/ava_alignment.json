@@ -1,0 +1,40 @@
+{
+  "clip_path": "data/ava/clips/5BDj0ow5hnA_t0997_p114_a15_answer_phone.mp4",
+  "stage2_output_dir": "outputs/ava_clip_answer_phone_stage2",
+  "target": {
+    "video_id": "5BDj0ow5hnA",
+    "timestamp": 997,
+    "person_id": 114,
+    "action_id": 15,
+    "action": "answer_phone",
+    "action_name": "answer phone",
+    "action_type": "OBJECT_MANIPULATION",
+    "bbox_xyxy_norm": [
+      0.146,
+      0.6,
+      0.186,
+      0.796
+    ]
+  },
+  "center_frame": 50,
+  "frame_window": 5,
+  "best_iou": 0.8739,
+  "best_frame_id": 55,
+  "best_stage2_person_id": 40,
+  "best_stage2_bbox_xyxy": [
+    189.484,
+    435.409,
+    237.209,
+    579.307
+  ],
+  "ava_bbox_xyxy_pixels": [
+    186.88,
+    432.0,
+    238.08,
+    573.12
+  ],
+  "has_pose_for_best_person": true,
+  "object_count_in_window": 0,
+  "event_count": 0,
+  "notes": "matched"
+}

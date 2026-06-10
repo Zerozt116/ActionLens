@@ -1,0 +1,92 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/38TF8_c106_t0.00_31.50.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 22.9584,
+      "frame_number": 588,
+      "path": "outputs/charades_clip_batch_50/38TF8_c106_t0.00_31.50/event_reviews/event_006_drinking_water/frames/frame_00_22.958s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 23.2999,
+      "frame_number": 597,
+      "path": "outputs/charades_clip_batch_50/38TF8_c106_t0.00_31.50/event_reviews/event_006_drinking_water/frames/frame_01_23.300s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 23.6413,
+      "frame_number": 606,
+      "path": "outputs/charades_clip_batch_50/38TF8_c106_t0.00_31.50/event_reviews/event_006_drinking_water/frames/frame_02_23.641s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 23.9827,
+      "frame_number": 614,
+      "path": "outputs/charades_clip_batch_50/38TF8_c106_t0.00_31.50/event_reviews/event_006_drinking_water/frames/frame_03_23.983s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 24.3241,
+      "frame_number": 623,
+      "path": "outputs/charades_clip_batch_50/38TF8_c106_t0.00_31.50/event_reviews/event_006_drinking_water/frames/frame_04_24.324s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 24.6656,
+      "frame_number": 632,
+      "path": "outputs/charades_clip_batch_50/38TF8_c106_t0.00_31.50/event_reviews/event_006_drinking_water/frames/frame_05_24.666s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": 22.617,
+    "end_seconds": 25.007,
+    "source": "event:6",
+    "event": {
+      "person_id": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_time": "00:00:23.617",
+      "end_time": "00:00:24.007",
+      "start_seconds": 23.617,
+      "end_seconds": 24.007,
+      "frame_count": 8,
+      "confidence": 0.5165,
+      "evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.17"
+    }
+  },
+  "actions": [
+    "drinking_water"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50/38TF8_c106_t0.00_31.50/event_reviews/event_006_drinking_water/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50/38TF8_c106_t0.00_31.50/event_reviews/event_006_drinking_water/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50/38TF8_c106_t0.00_31.50/event_reviews/event_006_drinking_water/vlm_review.json",
+  "review_json": {
+    "overall_summary": "The sampled frames show a boy sitting on the floor with a metal bowl, not drinking from a cup or container. A man is in the background interacting with a refrigerator. The action 'drinking_water' is not occurring.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The boy is sitting with a metal bowl, not a cup or bottle, and is not drinking. The man in the background is opening a refrigerator and not drinking.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup",
+      "phone"
+    ],
+    "risk_notes": []
+  }
+}

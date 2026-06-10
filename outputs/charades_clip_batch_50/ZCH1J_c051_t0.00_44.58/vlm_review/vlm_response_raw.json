@@ -1,0 +1,22 @@
+{
+  "id": "019ea64c2d5b39bc09d9138c6784edab",
+  "object": "chat.completion",
+  "created": 1780906471,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A person is seated, using a laptop, and intermittently bringing a small object to their mouth, possibly eating.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"No cup or bottle is visible. The person is bringing a small object to their mouth, which appears to be food, not a drink.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"laptop\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1182,
+    "completion_tokens": 140,
+    "total_tokens": 1322
+  },
+  "system_fingerprint": ""
+}

@@ -1,0 +1,40 @@
+{
+  "overall_summary": "Person is seen holding and looking at a phone in the later frames, and appears to be talking on it in frame 5.",
+  "actions": [
+    {
+      "action": "talking_on_phone",
+      "present": true,
+      "confidence": 0.9,
+      "evidence": "In frame 5, person is holding a phone to their ear with visible mouth movement consistent with talking.",
+      "supporting_frame_indices": [
+        5
+      ]
+    },
+    {
+      "action": "holding_phone",
+      "present": true,
+      "confidence": 0.95,
+      "evidence": "In frame 5, person is holding a phone to their ear. In frame 2, person is holding a phone to their ear. In frame 3, person is holding a phone to their ear.",
+      "supporting_frame_indices": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "action": "looking_at_phone",
+      "present": true,
+      "confidence": 0.9,
+      "evidence": "In frame 5, person is holding phone to ear and looking at it. In frame 2, person is holding phone to ear and looking at it. In frame 3, person is holding phone to ear and looking at it.",
+      "supporting_frame_indices": [
+        2,
+        3,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "phone"
+  ],
+  "risk_notes": []
+}

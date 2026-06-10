@@ -1,0 +1,26 @@
+{
+  "overall_summary": "Two people are in a living room; one is seated and appears to be interacting with a phone or tablet, while the other is standing and moving around. No clear drinking or phone use is visible.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "No cup or bottle is being held to the mouth or used for drinking. No liquid consumption is visible.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "phone",
+    "cup"
+  ],
+  "risk_notes": [
+    "possible occlusion"
+  ]
+}

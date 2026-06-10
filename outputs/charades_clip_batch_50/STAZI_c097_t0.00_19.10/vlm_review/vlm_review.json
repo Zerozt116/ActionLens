@@ -1,0 +1,21 @@
+{
+  "overall_summary": "A man and a girl are standing in a doorway area, interacting with a book or magazine. The man moves toward a counter and bends down, while the girl stands beside him. No one is walking through the doorway.",
+  "actions": [
+    {
+      "action": "walking_through_doorway",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "The man and girl are standing in the doorway area, not walking through it. The man moves toward a counter and bends down, and the girl remains beside him.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [],
+  "risk_notes": []
+}

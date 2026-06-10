@@ -1,0 +1,24 @@
+{
+  "overall_summary": "A person is sitting on a sofa throughout the sampled frames, occasionally holding and drinking from a purple cup.",
+  "actions": [
+    {
+      "action": "sitting_on_sofa",
+      "present": true,
+      "confidence": 1.0,
+      "evidence": "The person is seated on a dark-colored sofa in all frames.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone"
+  ],
+  "risk_notes": []
+}

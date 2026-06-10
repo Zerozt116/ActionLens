@@ -1,0 +1,91 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/QU2WL_c019_t0.00_34.21.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 22.2384,
+      "frame_number": 667,
+      "path": "outputs/charades_clip_batch_50/QU2WL_c019_t0.00_34.21/event_reviews/event_007_drinking_water/frames/frame_00_22.238s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 22.6099,
+      "frame_number": 678,
+      "path": "outputs/charades_clip_batch_50/QU2WL_c019_t0.00_34.21/event_reviews/event_007_drinking_water/frames/frame_01_22.610s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 22.9813,
+      "frame_number": 689,
+      "path": "outputs/charades_clip_batch_50/QU2WL_c019_t0.00_34.21/event_reviews/event_007_drinking_water/frames/frame_02_22.981s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 23.3527,
+      "frame_number": 701,
+      "path": "outputs/charades_clip_batch_50/QU2WL_c019_t0.00_34.21/event_reviews/event_007_drinking_water/frames/frame_03_23.353s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 23.7241,
+      "frame_number": 712,
+      "path": "outputs/charades_clip_batch_50/QU2WL_c019_t0.00_34.21/event_reviews/event_007_drinking_water/frames/frame_04_23.724s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 24.0956,
+      "frame_number": 723,
+      "path": "outputs/charades_clip_batch_50/QU2WL_c019_t0.00_34.21/event_reviews/event_007_drinking_water/frames/frame_05_24.096s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": 21.867,
+    "end_seconds": 24.467,
+    "source": "event:7",
+    "event": {
+      "person_id": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_time": "00:00:22.867",
+      "end_time": "00:00:23.467",
+      "start_seconds": 22.867,
+      "end_seconds": 23.467,
+      "frame_count": 17,
+      "confidence": 0.6403,
+      "evidence": "cup close to head and wrist; head_dist=0.25, wrist_dist=0.17"
+    }
+  },
+  "actions": [
+    "drinking_water"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50/QU2WL_c019_t0.00_34.21/event_reviews/event_007_drinking_water/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50/QU2WL_c019_t0.00_34.21/event_reviews/event_007_drinking_water/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50/QU2WL_c019_t0.00_34.21/event_reviews/event_007_drinking_water/vlm_review.json",
+  "review_json": {
+    "overall_summary": "The person is holding a phone to their ear and leaning over a table, not drinking from a container.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is holding a phone to their ear and leaning over a table; no cup or container is being used for drinking.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "phone"
+    ],
+    "risk_notes": []
+  }
+}

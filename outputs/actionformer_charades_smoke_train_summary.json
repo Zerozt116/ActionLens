@@ -1,0 +1,36 @@
+{
+  "mode": "train-loss",
+  "device": "cpu",
+  "dataset_length": 50,
+  "index": 0,
+  "video_id": "8BG1T_c106_t5.60_45.46",
+  "feats_shape_cxt": [
+    2304,
+    91
+  ],
+  "segments_shape": [
+    5,
+    2
+  ],
+  "labels_shape": [
+    5
+  ],
+  "labels": [
+    21,
+    9,
+    13,
+    13,
+    10
+  ],
+  "fps": 30.0,
+  "duration": 45.5,
+  "feat_stride": 15,
+  "feat_num_frames": 1,
+  "elapsed_ms": 72.5,
+  "model_params": 2295328,
+  "losses": {
+    "cls_loss": 0.153818,
+    "reg_loss": 0.149423,
+    "final_loss": 0.30324
+  }
+}

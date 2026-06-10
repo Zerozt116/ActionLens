@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/YVH4J_c051_t0.00_38.30.mp4",
+    "fps": 29.0,
+    "frame_count": 1113,
+    "width": 270,
+    "height": 480,
+    "duration_seconds": 38.37931034482759
+  },
+  "num_objects": 83,
+  "num_poses": 804,
+  "num_frame_scores": 0,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": null
+}

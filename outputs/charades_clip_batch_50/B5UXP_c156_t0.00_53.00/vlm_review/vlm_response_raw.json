@@ -1,0 +1,22 @@
+{
+  "id": "019ea64428f6654c160d0c7264888fd4",
+  "object": "chat.completion",
+  "created": 1780905946,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"Person is standing in a pantry holding a box of cereal and appears to be drinking from a cup at one point.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": true,\n      \"confidence\": 0.8,\n      \"evidence\": \"In frame 4, the person raises a cup to their mouth, consistent with drinking.\",\n      \"supporting_frame_indices\": [4]\n    }\n  ],\n  \"visible_objects\": [\"cup\", \"phone\"],\n  \"risk_notes\": [\"phone not visible\"]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 121,
+    "total_tokens": 1330
+  },
+  "system_fingerprint": ""
+}

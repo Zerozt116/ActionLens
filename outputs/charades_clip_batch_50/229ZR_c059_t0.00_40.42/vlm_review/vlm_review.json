@@ -1,0 +1,21 @@
+{
+  "overall_summary": "A woman is seated on a white plastic chair throughout the sampled frames, while a man interacts with her and the environment nearby.",
+  "actions": [
+    {
+      "action": "sitting_on_chair",
+      "present": true,
+      "confidence": 1.0,
+      "evidence": "A woman is visibly seated on a white plastic chair in all sampled frames, maintaining a seated posture.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [],
+  "risk_notes": []
+}

@@ -1,0 +1,77 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/1Y09V_c109_t0.00_30.79.mp4",
+    "fps": 29.97002997002997,
+    "frame_count": 924,
+    "width": 480,
+    "height": 270,
+    "duration_seconds": 30.8308
+  },
+  "num_objects": 185,
+  "num_poses": 835,
+  "num_frame_scores": 182,
+  "num_events": 5,
+  "events": [
+    {
+      "person_id": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_time": "00:00:00.000",
+      "end_time": "00:00:01.602",
+      "start_seconds": 0.0,
+      "end_seconds": 1.602,
+      "frame_count": 42,
+      "confidence": 0.7815,
+      "evidence": "cup close to head and wrist; head_dist=0.32, wrist_dist=0.22"
+    },
+    {
+      "person_id": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_time": "00:00:03.003",
+      "end_time": "00:00:03.604",
+      "start_seconds": 3.003,
+      "end_seconds": 3.604,
+      "frame_count": 18,
+      "confidence": 0.6987,
+      "evidence": "cup close to head and wrist; head_dist=0.28, wrist_dist=0.11"
+    },
+    {
+      "person_id": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_time": "00:00:12.346",
+      "end_time": "00:00:13.747",
+      "start_seconds": 12.346,
+      "end_seconds": 13.747,
+      "frame_count": 42,
+      "confidence": 0.798,
+      "evidence": "cup close to head and wrist; head_dist=0.13, wrist_dist=0.14"
+    },
+    {
+      "person_id": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_time": "00:00:20.587",
+      "end_time": "00:00:22.022",
+      "start_seconds": 20.587,
+      "end_seconds": 22.022,
+      "frame_count": 36,
+      "confidence": 0.7426,
+      "evidence": "cup close to head and wrist; head_dist=0.29, wrist_dist=0.08"
+    },
+    {
+      "person_id": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_time": "00:00:22.689",
+      "end_time": "00:00:23.557",
+      "start_seconds": 22.689,
+      "end_seconds": 23.557,
+      "frame_count": 26,
+      "confidence": 0.6716,
+      "evidence": "cup close to head and wrist; head_dist=0.37, wrist_dist=0.08"
+    }
+  ],
+  "annotated_video": null
+}

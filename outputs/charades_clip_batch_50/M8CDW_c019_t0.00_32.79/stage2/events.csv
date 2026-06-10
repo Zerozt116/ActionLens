@@ -1,0 +1,9 @@
+person_id,action,action_name,start_time,end_time,start_seconds,end_seconds,frame_count,confidence,evidence
+1,drinking_water,喝水,00:00:00.000,00:00:00.667,0.0,0.667,18,0.698,"bottle close to head and wrist; head_dist=0.09, wrist_dist=0.20"
+1,drinking_water,喝水,00:00:01.201,00:00:01.568,1.201,1.568,10,0.6907,"bottle close to head and wrist; head_dist=0.09, wrist_dist=0.19"
+1,drinking_water,喝水,00:00:03.737,00:00:04.905,3.737,4.905,34,0.6518,"bottle close to head and wrist; head_dist=0.14, wrist_dist=0.26"
+1,drinking_water,喝水,00:00:05.706,00:00:11.712,5.706,11.712,158,0.6694,"bottle close to head and wrist; head_dist=0.13, wrist_dist=0.25"
+1,drinking_water,喝水,00:00:12.012,00:00:13.780,12.012,13.78,43,0.642,"bottle close to head and wrist; head_dist=0.15, wrist_dist=0.26"
+1,drinking_water,喝水,00:00:14.114,00:00:20.754,14.114,20.754,187,0.6724,"bottle close to head and wrist; head_dist=0.13, wrist_dist=0.25"
+1,drinking_water,喝水,00:00:21.622,00:00:22.289,21.622,22.289,18,0.6527,"bottle close to head and wrist; head_dist=0.13, wrist_dist=0.26"
+1,drinking_water,喝水,00:00:25.726,00:00:32.799,25.726,32.799,198,0.678,"bottle close to head and wrist; head_dist=0.10, wrist_dist=0.23"

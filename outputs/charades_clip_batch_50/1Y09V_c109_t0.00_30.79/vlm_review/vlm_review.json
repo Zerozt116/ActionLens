@@ -1,0 +1,21 @@
+{
+  "overall_summary": "A person is seen holding and drinking from a cup while standing, then placing the cup on a chair.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": true,
+      "confidence": 0.95,
+      "evidence": "The person is holding a white cup and bringing it to their mouth in multiple frames, consistent with drinking.",
+      "supporting_frame_indices": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup"
+  ],
+  "risk_notes": []
+}

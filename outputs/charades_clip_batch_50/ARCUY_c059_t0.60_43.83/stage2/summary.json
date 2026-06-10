@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/ARCUY_c059_t0.60_43.83.mp4",
+    "fps": 23.934,
+    "frame_count": 1050,
+    "width": 480,
+    "height": 270,
+    "duration_seconds": 43.8706442717473
+  },
+  "num_objects": 0,
+  "num_poses": 966,
+  "num_frame_scores": 0,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": null
+}

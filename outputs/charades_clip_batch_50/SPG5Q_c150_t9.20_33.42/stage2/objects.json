@@ -1,0 +1,10530 @@
+[
+  {
+    "frame_id": 0,
+    "timestamp": "00:00:00.000",
+    "seconds": 0.0,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5913,
+    "bbox_xyxy": [
+      254.779,
+      194.537,
+      272.004,
+      223.765
+    ]
+  },
+  {
+    "frame_id": 1,
+    "timestamp": "00:00:00.033",
+    "seconds": 0.033,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6054,
+    "bbox_xyxy": [
+      254.799,
+      194.59,
+      271.995,
+      223.768
+    ]
+  },
+  {
+    "frame_id": 2,
+    "timestamp": "00:00:00.067",
+    "seconds": 0.067,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5988,
+    "bbox_xyxy": [
+      254.774,
+      194.498,
+      272.027,
+      223.778
+    ]
+  },
+  {
+    "frame_id": 3,
+    "timestamp": "00:00:00.100",
+    "seconds": 0.1,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5836,
+    "bbox_xyxy": [
+      254.789,
+      194.527,
+      272.013,
+      223.761
+    ]
+  },
+  {
+    "frame_id": 4,
+    "timestamp": "00:00:00.133",
+    "seconds": 0.133,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5802,
+    "bbox_xyxy": [
+      254.78,
+      194.539,
+      271.999,
+      223.766
+    ]
+  },
+  {
+    "frame_id": 5,
+    "timestamp": "00:00:00.167",
+    "seconds": 0.167,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6031,
+    "bbox_xyxy": [
+      254.808,
+      194.629,
+      271.962,
+      223.743
+    ]
+  },
+  {
+    "frame_id": 6,
+    "timestamp": "00:00:00.200",
+    "seconds": 0.2,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5685,
+    "bbox_xyxy": [
+      254.862,
+      194.624,
+      271.931,
+      223.584
+    ]
+  },
+  {
+    "frame_id": 7,
+    "timestamp": "00:00:00.234",
+    "seconds": 0.234,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5843,
+    "bbox_xyxy": [
+      254.884,
+      194.663,
+      271.915,
+      223.546
+    ]
+  },
+  {
+    "frame_id": 8,
+    "timestamp": "00:00:00.267",
+    "seconds": 0.267,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5642,
+    "bbox_xyxy": [
+      254.875,
+      194.647,
+      271.933,
+      223.568
+    ]
+  },
+  {
+    "frame_id": 9,
+    "timestamp": "00:00:00.300",
+    "seconds": 0.3,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5792,
+    "bbox_xyxy": [
+      254.878,
+      194.675,
+      271.932,
+      223.577
+    ]
+  },
+  {
+    "frame_id": 10,
+    "timestamp": "00:00:00.334",
+    "seconds": 0.334,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5739,
+    "bbox_xyxy": [
+      254.882,
+      194.682,
+      271.925,
+      223.554
+    ]
+  },
+  {
+    "frame_id": 11,
+    "timestamp": "00:00:00.367",
+    "seconds": 0.367,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.557,
+    "bbox_xyxy": [
+      254.906,
+      194.683,
+      271.92,
+      223.483
+    ]
+  },
+  {
+    "frame_id": 12,
+    "timestamp": "00:00:00.400",
+    "seconds": 0.4,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5587,
+    "bbox_xyxy": [
+      254.912,
+      194.692,
+      271.936,
+      223.488
+    ]
+  },
+  {
+    "frame_id": 13,
+    "timestamp": "00:00:00.434",
+    "seconds": 0.434,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5663,
+    "bbox_xyxy": [
+      254.92,
+      194.732,
+      271.935,
+      223.49
+    ]
+  },
+  {
+    "frame_id": 14,
+    "timestamp": "00:00:00.467",
+    "seconds": 0.467,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5597,
+    "bbox_xyxy": [
+      254.932,
+      194.748,
+      271.93,
+      223.449
+    ]
+  },
+  {
+    "frame_id": 15,
+    "timestamp": "00:00:00.501",
+    "seconds": 0.501,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5539,
+    "bbox_xyxy": [
+      254.941,
+      194.743,
+      271.9,
+      223.347
+    ]
+  },
+  {
+    "frame_id": 16,
+    "timestamp": "00:00:00.534",
+    "seconds": 0.534,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5592,
+    "bbox_xyxy": [
+      254.929,
+      194.751,
+      271.892,
+      223.329
+    ]
+  },
+  {
+    "frame_id": 17,
+    "timestamp": "00:00:00.567",
+    "seconds": 0.567,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5629,
+    "bbox_xyxy": [
+      254.924,
+      194.714,
+      271.926,
+      223.336
+    ]
+  },
+  {
+    "frame_id": 18,
+    "timestamp": "00:00:00.601",
+    "seconds": 0.601,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5385,
+    "bbox_xyxy": [
+      254.915,
+      194.646,
+      271.955,
+      223.309
+    ]
+  },
+  {
+    "frame_id": 19,
+    "timestamp": "00:00:00.634",
+    "seconds": 0.634,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5634,
+    "bbox_xyxy": [
+      254.907,
+      194.684,
+      271.953,
+      223.332
+    ]
+  },
+  {
+    "frame_id": 20,
+    "timestamp": "00:00:00.667",
+    "seconds": 0.667,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5609,
+    "bbox_xyxy": [
+      254.926,
+      194.702,
+      271.951,
+      223.276
+    ]
+  },
+  {
+    "frame_id": 21,
+    "timestamp": "00:00:00.701",
+    "seconds": 0.701,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5601,
+    "bbox_xyxy": [
+      254.928,
+      194.713,
+      271.96,
+      223.266
+    ]
+  },
+  {
+    "frame_id": 22,
+    "timestamp": "00:00:00.734",
+    "seconds": 0.734,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5606,
+    "bbox_xyxy": [
+      254.926,
+      194.711,
+      271.981,
+      223.262
+    ]
+  },
+  {
+    "frame_id": 23,
+    "timestamp": "00:00:00.767",
+    "seconds": 0.767,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.56,
+    "bbox_xyxy": [
+      254.916,
+      194.712,
+      271.999,
+      223.278
+    ]
+  },
+  {
+    "frame_id": 24,
+    "timestamp": "00:00:00.801",
+    "seconds": 0.801,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5572,
+    "bbox_xyxy": [
+      254.893,
+      194.711,
+      271.986,
+      223.258
+    ]
+  },
+  {
+    "frame_id": 25,
+    "timestamp": "00:00:00.834",
+    "seconds": 0.834,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5587,
+    "bbox_xyxy": [
+      254.881,
+      194.708,
+      271.985,
+      223.245
+    ]
+  },
+  {
+    "frame_id": 26,
+    "timestamp": "00:00:00.868",
+    "seconds": 0.868,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5676,
+    "bbox_xyxy": [
+      254.868,
+      194.706,
+      271.992,
+      223.249
+    ]
+  },
+  {
+    "frame_id": 27,
+    "timestamp": "00:00:00.901",
+    "seconds": 0.901,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5608,
+    "bbox_xyxy": [
+      254.86,
+      194.696,
+      271.995,
+      223.236
+    ]
+  },
+  {
+    "frame_id": 28,
+    "timestamp": "00:00:00.934",
+    "seconds": 0.934,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5564,
+    "bbox_xyxy": [
+      254.865,
+      194.699,
+      272.007,
+      223.227
+    ]
+  },
+  {
+    "frame_id": 29,
+    "timestamp": "00:00:00.968",
+    "seconds": 0.968,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5541,
+    "bbox_xyxy": [
+      254.868,
+      194.692,
+      272.023,
+      223.223
+    ]
+  },
+  {
+    "frame_id": 30,
+    "timestamp": "00:00:01.001",
+    "seconds": 1.001,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5507,
+    "bbox_xyxy": [
+      254.9,
+      194.686,
+      272.039,
+      223.179
+    ]
+  },
+  {
+    "frame_id": 31,
+    "timestamp": "00:00:01.034",
+    "seconds": 1.034,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5483,
+    "bbox_xyxy": [
+      254.893,
+      194.691,
+      272.031,
+      223.163
+    ]
+  },
+  {
+    "frame_id": 32,
+    "timestamp": "00:00:01.068",
+    "seconds": 1.068,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5531,
+    "bbox_xyxy": [
+      254.88,
+      194.697,
+      272.032,
+      223.165
+    ]
+  },
+  {
+    "frame_id": 33,
+    "timestamp": "00:00:01.101",
+    "seconds": 1.101,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5577,
+    "bbox_xyxy": [
+      254.87,
+      194.715,
+      272.034,
+      223.177
+    ]
+  },
+  {
+    "frame_id": 34,
+    "timestamp": "00:00:01.134",
+    "seconds": 1.134,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5678,
+    "bbox_xyxy": [
+      254.867,
+      194.725,
+      272.028,
+      223.156
+    ]
+  },
+  {
+    "frame_id": 35,
+    "timestamp": "00:00:01.168",
+    "seconds": 1.168,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5691,
+    "bbox_xyxy": [
+      254.86,
+      194.73,
+      272.03,
+      223.156
+    ]
+  },
+  {
+    "frame_id": 36,
+    "timestamp": "00:00:01.201",
+    "seconds": 1.201,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5673,
+    "bbox_xyxy": [
+      254.858,
+      194.734,
+      272.036,
+      223.15
+    ]
+  },
+  {
+    "frame_id": 37,
+    "timestamp": "00:00:01.235",
+    "seconds": 1.235,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5701,
+    "bbox_xyxy": [
+      254.858,
+      194.741,
+      272.045,
+      223.154
+    ]
+  },
+  {
+    "frame_id": 38,
+    "timestamp": "00:00:01.268",
+    "seconds": 1.268,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5876,
+    "bbox_xyxy": [
+      254.865,
+      194.749,
+      272.044,
+      223.127
+    ]
+  },
+  {
+    "frame_id": 39,
+    "timestamp": "00:00:01.301",
+    "seconds": 1.301,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5862,
+    "bbox_xyxy": [
+      254.866,
+      194.758,
+      272.047,
+      223.124
+    ]
+  },
+  {
+    "frame_id": 40,
+    "timestamp": "00:00:01.335",
+    "seconds": 1.335,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5871,
+    "bbox_xyxy": [
+      254.862,
+      194.761,
+      272.048,
+      223.119
+    ]
+  },
+  {
+    "frame_id": 41,
+    "timestamp": "00:00:01.368",
+    "seconds": 1.368,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5958,
+    "bbox_xyxy": [
+      254.861,
+      194.745,
+      272.074,
+      223.135
+    ]
+  },
+  {
+    "frame_id": 42,
+    "timestamp": "00:00:01.401",
+    "seconds": 1.401,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5732,
+    "bbox_xyxy": [
+      254.857,
+      194.718,
+      272.089,
+      223.136
+    ]
+  },
+  {
+    "frame_id": 43,
+    "timestamp": "00:00:01.435",
+    "seconds": 1.435,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5515,
+    "bbox_xyxy": [
+      254.859,
+      194.693,
+      272.101,
+      223.133
+    ]
+  },
+  {
+    "frame_id": 44,
+    "timestamp": "00:00:01.468",
+    "seconds": 1.468,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5508,
+    "bbox_xyxy": [
+      254.859,
+      194.686,
+      272.107,
+      223.14
+    ]
+  },
+  {
+    "frame_id": 45,
+    "timestamp": "00:00:01.502",
+    "seconds": 1.502,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5493,
+    "bbox_xyxy": [
+      254.857,
+      194.692,
+      272.105,
+      223.146
+    ]
+  },
+  {
+    "frame_id": 46,
+    "timestamp": "00:00:01.535",
+    "seconds": 1.535,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5504,
+    "bbox_xyxy": [
+      254.86,
+      194.687,
+      272.105,
+      223.14
+    ]
+  },
+  {
+    "frame_id": 47,
+    "timestamp": "00:00:01.568",
+    "seconds": 1.568,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5606,
+    "bbox_xyxy": [
+      254.858,
+      194.7,
+      272.099,
+      223.152
+    ]
+  },
+  {
+    "frame_id": 48,
+    "timestamp": "00:00:01.602",
+    "seconds": 1.602,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5614,
+    "bbox_xyxy": [
+      254.845,
+      194.722,
+      272.111,
+      223.221
+    ]
+  },
+  {
+    "frame_id": 49,
+    "timestamp": "00:00:01.635",
+    "seconds": 1.635,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5638,
+    "bbox_xyxy": [
+      254.819,
+      194.729,
+      272.12,
+      223.302
+    ]
+  },
+  {
+    "frame_id": 50,
+    "timestamp": "00:00:01.668",
+    "seconds": 1.668,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5755,
+    "bbox_xyxy": [
+      254.791,
+      194.717,
+      272.134,
+      223.385
+    ]
+  },
+  {
+    "frame_id": 51,
+    "timestamp": "00:00:01.702",
+    "seconds": 1.702,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5738,
+    "bbox_xyxy": [
+      254.791,
+      194.725,
+      272.132,
+      223.412
+    ]
+  },
+  {
+    "frame_id": 52,
+    "timestamp": "00:00:01.735",
+    "seconds": 1.735,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5742,
+    "bbox_xyxy": [
+      254.788,
+      194.752,
+      272.134,
+      223.474
+    ]
+  },
+  {
+    "frame_id": 53,
+    "timestamp": "00:00:01.768",
+    "seconds": 1.768,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5831,
+    "bbox_xyxy": [
+      254.785,
+      194.766,
+      272.138,
+      223.526
+    ]
+  },
+  {
+    "frame_id": 54,
+    "timestamp": "00:00:01.802",
+    "seconds": 1.802,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5897,
+    "bbox_xyxy": [
+      254.765,
+      194.761,
+      272.139,
+      223.586
+    ]
+  },
+  {
+    "frame_id": 55,
+    "timestamp": "00:00:01.835",
+    "seconds": 1.835,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5858,
+    "bbox_xyxy": [
+      254.744,
+      194.748,
+      272.138,
+      223.645
+    ]
+  },
+  {
+    "frame_id": 56,
+    "timestamp": "00:00:01.869",
+    "seconds": 1.869,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5827,
+    "bbox_xyxy": [
+      254.745,
+      194.694,
+      272.148,
+      223.639
+    ]
+  },
+  {
+    "frame_id": 57,
+    "timestamp": "00:00:01.902",
+    "seconds": 1.902,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5769,
+    "bbox_xyxy": [
+      254.74,
+      194.633,
+      272.165,
+      223.651
+    ]
+  },
+  {
+    "frame_id": 58,
+    "timestamp": "00:00:01.935",
+    "seconds": 1.935,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5928,
+    "bbox_xyxy": [
+      254.78,
+      194.719,
+      272.192,
+      223.759
+    ]
+  },
+  {
+    "frame_id": 59,
+    "timestamp": "00:00:01.969",
+    "seconds": 1.969,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6194,
+    "bbox_xyxy": [
+      254.668,
+      194.75,
+      272.203,
+      224.078
+    ]
+  },
+  {
+    "frame_id": 60,
+    "timestamp": "00:00:02.002",
+    "seconds": 2.002,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6228,
+    "bbox_xyxy": [
+      254.675,
+      194.649,
+      272.204,
+      224.019
+    ]
+  },
+  {
+    "frame_id": 61,
+    "timestamp": "00:00:02.035",
+    "seconds": 2.035,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6301,
+    "bbox_xyxy": [
+      254.672,
+      194.598,
+      272.184,
+      224.012
+    ]
+  },
+  {
+    "frame_id": 62,
+    "timestamp": "00:00:02.069",
+    "seconds": 2.069,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6207,
+    "bbox_xyxy": [
+      254.663,
+      194.554,
+      272.185,
+      224.059
+    ]
+  },
+  {
+    "frame_id": 63,
+    "timestamp": "00:00:02.102",
+    "seconds": 2.102,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6463,
+    "bbox_xyxy": [
+      254.652,
+      194.553,
+      272.18,
+      224.137
+    ]
+  },
+  {
+    "frame_id": 64,
+    "timestamp": "00:00:02.135",
+    "seconds": 2.135,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6441,
+    "bbox_xyxy": [
+      254.665,
+      194.523,
+      272.166,
+      224.125
+    ]
+  },
+  {
+    "frame_id": 65,
+    "timestamp": "00:00:02.169",
+    "seconds": 2.169,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6475,
+    "bbox_xyxy": [
+      254.695,
+      194.487,
+      272.156,
+      224.079
+    ]
+  },
+  {
+    "frame_id": 66,
+    "timestamp": "00:00:02.202",
+    "seconds": 2.202,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6444,
+    "bbox_xyxy": [
+      254.715,
+      194.472,
+      272.136,
+      224.049
+    ]
+  },
+  {
+    "frame_id": 67,
+    "timestamp": "00:00:02.236",
+    "seconds": 2.236,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6252,
+    "bbox_xyxy": [
+      254.734,
+      194.502,
+      272.131,
+      224.082
+    ]
+  },
+  {
+    "frame_id": 68,
+    "timestamp": "00:00:02.269",
+    "seconds": 2.269,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6074,
+    "bbox_xyxy": [
+      254.706,
+      194.355,
+      272.187,
+      224.136
+    ]
+  },
+  {
+    "frame_id": 69,
+    "timestamp": "00:00:02.302",
+    "seconds": 2.302,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5998,
+    "bbox_xyxy": [
+      254.713,
+      194.311,
+      272.168,
+      224.093
+    ]
+  },
+  {
+    "frame_id": 70,
+    "timestamp": "00:00:02.336",
+    "seconds": 2.336,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5703,
+    "bbox_xyxy": [
+      254.737,
+      194.294,
+      272.118,
+      223.987
+    ]
+  },
+  {
+    "frame_id": 71,
+    "timestamp": "00:00:02.369",
+    "seconds": 2.369,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.589,
+    "bbox_xyxy": [
+      254.748,
+      194.354,
+      272.059,
+      223.944
+    ]
+  },
+  {
+    "frame_id": 72,
+    "timestamp": "00:00:02.402",
+    "seconds": 2.402,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6023,
+    "bbox_xyxy": [
+      254.757,
+      194.426,
+      272.028,
+      223.951
+    ]
+  },
+  {
+    "frame_id": 73,
+    "timestamp": "00:00:02.436",
+    "seconds": 2.436,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6007,
+    "bbox_xyxy": [
+      254.747,
+      194.449,
+      272.01,
+      223.952
+    ]
+  },
+  {
+    "frame_id": 74,
+    "timestamp": "00:00:02.469",
+    "seconds": 2.469,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5777,
+    "bbox_xyxy": [
+      254.727,
+      194.438,
+      271.993,
+      223.932
+    ]
+  },
+  {
+    "frame_id": 75,
+    "timestamp": "00:00:02.502",
+    "seconds": 2.502,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5661,
+    "bbox_xyxy": [
+      254.709,
+      194.426,
+      271.979,
+      223.907
+    ]
+  },
+  {
+    "frame_id": 76,
+    "timestamp": "00:00:02.536",
+    "seconds": 2.536,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5643,
+    "bbox_xyxy": [
+      254.693,
+      194.436,
+      271.978,
+      223.929
+    ]
+  },
+  {
+    "frame_id": 77,
+    "timestamp": "00:00:02.569",
+    "seconds": 2.569,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5589,
+    "bbox_xyxy": [
+      254.699,
+      194.426,
+      271.962,
+      223.866
+    ]
+  },
+  {
+    "frame_id": 78,
+    "timestamp": "00:00:02.603",
+    "seconds": 2.603,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5688,
+    "bbox_xyxy": [
+      254.7,
+      194.43,
+      271.964,
+      223.854
+    ]
+  },
+  {
+    "frame_id": 79,
+    "timestamp": "00:00:02.636",
+    "seconds": 2.636,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5801,
+    "bbox_xyxy": [
+      254.708,
+      194.443,
+      271.968,
+      223.834
+    ]
+  },
+  {
+    "frame_id": 80,
+    "timestamp": "00:00:02.669",
+    "seconds": 2.669,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5775,
+    "bbox_xyxy": [
+      254.717,
+      194.468,
+      271.978,
+      223.829
+    ]
+  },
+  {
+    "frame_id": 81,
+    "timestamp": "00:00:02.703",
+    "seconds": 2.703,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5733,
+    "bbox_xyxy": [
+      254.733,
+      194.498,
+      271.985,
+      223.811
+    ]
+  },
+  {
+    "frame_id": 82,
+    "timestamp": "00:00:02.736",
+    "seconds": 2.736,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.564,
+    "bbox_xyxy": [
+      254.727,
+      194.487,
+      272.003,
+      223.814
+    ]
+  },
+  {
+    "frame_id": 83,
+    "timestamp": "00:00:02.769",
+    "seconds": 2.769,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5605,
+    "bbox_xyxy": [
+      254.721,
+      194.489,
+      271.999,
+      223.794
+    ]
+  },
+  {
+    "frame_id": 84,
+    "timestamp": "00:00:02.803",
+    "seconds": 2.803,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5504,
+    "bbox_xyxy": [
+      254.717,
+      194.502,
+      272.03,
+      223.836
+    ]
+  },
+  {
+    "frame_id": 85,
+    "timestamp": "00:00:02.836",
+    "seconds": 2.836,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5513,
+    "bbox_xyxy": [
+      254.717,
+      194.493,
+      272.058,
+      223.86
+    ]
+  },
+  {
+    "frame_id": 86,
+    "timestamp": "00:00:02.870",
+    "seconds": 2.87,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5509,
+    "bbox_xyxy": [
+      254.703,
+      194.482,
+      272.062,
+      223.871
+    ]
+  },
+  {
+    "frame_id": 87,
+    "timestamp": "00:00:02.903",
+    "seconds": 2.903,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5518,
+    "bbox_xyxy": [
+      254.702,
+      194.477,
+      272.082,
+      223.896
+    ]
+  },
+  {
+    "frame_id": 88,
+    "timestamp": "00:00:02.936",
+    "seconds": 2.936,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5675,
+    "bbox_xyxy": [
+      254.655,
+      194.402,
+      272.127,
+      224.007
+    ]
+  },
+  {
+    "frame_id": 89,
+    "timestamp": "00:00:02.970",
+    "seconds": 2.97,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5763,
+    "bbox_xyxy": [
+      254.627,
+      194.384,
+      272.14,
+      224.091
+    ]
+  },
+  {
+    "frame_id": 90,
+    "timestamp": "00:00:03.003",
+    "seconds": 3.003,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5739,
+    "bbox_xyxy": [
+      254.601,
+      194.381,
+      272.158,
+      224.202
+    ]
+  },
+  {
+    "frame_id": 91,
+    "timestamp": "00:00:03.036",
+    "seconds": 3.036,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5773,
+    "bbox_xyxy": [
+      254.601,
+      194.411,
+      272.16,
+      224.259
+    ]
+  },
+  {
+    "frame_id": 92,
+    "timestamp": "00:00:03.070",
+    "seconds": 3.07,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5726,
+    "bbox_xyxy": [
+      254.572,
+      194.355,
+      272.17,
+      224.312
+    ]
+  },
+  {
+    "frame_id": 93,
+    "timestamp": "00:00:03.103",
+    "seconds": 3.103,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5637,
+    "bbox_xyxy": [
+      254.603,
+      194.43,
+      272.115,
+      224.288
+    ]
+  },
+  {
+    "frame_id": 94,
+    "timestamp": "00:00:03.136",
+    "seconds": 3.136,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5906,
+    "bbox_xyxy": [
+      254.592,
+      194.447,
+      272.11,
+      224.364
+    ]
+  },
+  {
+    "frame_id": 95,
+    "timestamp": "00:00:03.170",
+    "seconds": 3.17,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6004,
+    "bbox_xyxy": [
+      254.602,
+      194.473,
+      272.092,
+      224.379
+    ]
+  },
+  {
+    "frame_id": 96,
+    "timestamp": "00:00:03.203",
+    "seconds": 3.203,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5864,
+    "bbox_xyxy": [
+      254.599,
+      194.573,
+      272.048,
+      224.432
+    ]
+  },
+  {
+    "frame_id": 97,
+    "timestamp": "00:00:03.237",
+    "seconds": 3.237,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.609,
+    "bbox_xyxy": [
+      254.581,
+      194.581,
+      272.034,
+      224.476
+    ]
+  },
+  {
+    "frame_id": 98,
+    "timestamp": "00:00:03.270",
+    "seconds": 3.27,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5888,
+    "bbox_xyxy": [
+      254.58,
+      194.571,
+      272.036,
+      224.512
+    ]
+  },
+  {
+    "frame_id": 99,
+    "timestamp": "00:00:03.303",
+    "seconds": 3.303,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5827,
+    "bbox_xyxy": [
+      254.605,
+      194.599,
+      272.012,
+      224.477
+    ]
+  },
+  {
+    "frame_id": 100,
+    "timestamp": "00:00:03.337",
+    "seconds": 3.337,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5891,
+    "bbox_xyxy": [
+      254.623,
+      194.617,
+      272.011,
+      224.491
+    ]
+  },
+  {
+    "frame_id": 101,
+    "timestamp": "00:00:03.370",
+    "seconds": 3.37,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5821,
+    "bbox_xyxy": [
+      254.629,
+      194.612,
+      271.994,
+      224.471
+    ]
+  },
+  {
+    "frame_id": 102,
+    "timestamp": "00:00:03.403",
+    "seconds": 3.403,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5739,
+    "bbox_xyxy": [
+      254.678,
+      194.621,
+      271.987,
+      224.385
+    ]
+  },
+  {
+    "frame_id": 103,
+    "timestamp": "00:00:03.437",
+    "seconds": 3.437,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5516,
+    "bbox_xyxy": [
+      254.689,
+      194.593,
+      271.976,
+      224.317
+    ]
+  },
+  {
+    "frame_id": 104,
+    "timestamp": "00:00:03.470",
+    "seconds": 3.47,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5665,
+    "bbox_xyxy": [
+      254.7,
+      194.612,
+      271.978,
+      224.315
+    ]
+  },
+  {
+    "frame_id": 105,
+    "timestamp": "00:00:03.504",
+    "seconds": 3.504,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5606,
+    "bbox_xyxy": [
+      254.702,
+      194.615,
+      271.98,
+      224.313
+    ]
+  },
+  {
+    "frame_id": 106,
+    "timestamp": "00:00:03.537",
+    "seconds": 3.537,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5401,
+    "bbox_xyxy": [
+      254.684,
+      194.587,
+      272.004,
+      224.367
+    ]
+  },
+  {
+    "frame_id": 107,
+    "timestamp": "00:00:03.570",
+    "seconds": 3.57,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5637,
+    "bbox_xyxy": [
+      254.688,
+      194.571,
+      272.022,
+      224.381
+    ]
+  },
+  {
+    "frame_id": 108,
+    "timestamp": "00:00:03.604",
+    "seconds": 3.604,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5632,
+    "bbox_xyxy": [
+      254.695,
+      194.593,
+      272.033,
+      224.414
+    ]
+  },
+  {
+    "frame_id": 109,
+    "timestamp": "00:00:03.637",
+    "seconds": 3.637,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.567,
+    "bbox_xyxy": [
+      254.71,
+      194.663,
+      272.021,
+      224.43
+    ]
+  },
+  {
+    "frame_id": 110,
+    "timestamp": "00:00:03.670",
+    "seconds": 3.67,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5697,
+    "bbox_xyxy": [
+      254.698,
+      194.631,
+      272.017,
+      224.419
+    ]
+  },
+  {
+    "frame_id": 111,
+    "timestamp": "00:00:03.704",
+    "seconds": 3.704,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5749,
+    "bbox_xyxy": [
+      254.689,
+      194.585,
+      271.991,
+      224.352
+    ]
+  },
+  {
+    "frame_id": 112,
+    "timestamp": "00:00:03.737",
+    "seconds": 3.737,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5716,
+    "bbox_xyxy": [
+      254.714,
+      194.607,
+      271.982,
+      224.311
+    ]
+  },
+  {
+    "frame_id": 113,
+    "timestamp": "00:00:03.770",
+    "seconds": 3.77,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5626,
+    "bbox_xyxy": [
+      254.721,
+      194.628,
+      271.972,
+      224.287
+    ]
+  },
+  {
+    "frame_id": 114,
+    "timestamp": "00:00:03.804",
+    "seconds": 3.804,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5673,
+    "bbox_xyxy": [
+      254.739,
+      194.67,
+      271.991,
+      224.296
+    ]
+  },
+  {
+    "frame_id": 115,
+    "timestamp": "00:00:03.837",
+    "seconds": 3.837,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5875,
+    "bbox_xyxy": [
+      254.745,
+      194.642,
+      272.029,
+      224.296
+    ]
+  },
+  {
+    "frame_id": 116,
+    "timestamp": "00:00:03.871",
+    "seconds": 3.871,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5785,
+    "bbox_xyxy": [
+      254.734,
+      194.64,
+      272.034,
+      224.3
+    ]
+  },
+  {
+    "frame_id": 117,
+    "timestamp": "00:00:03.904",
+    "seconds": 3.904,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.581,
+    "bbox_xyxy": [
+      254.722,
+      194.626,
+      272.043,
+      224.309
+    ]
+  },
+  {
+    "frame_id": 118,
+    "timestamp": "00:00:03.937",
+    "seconds": 3.937,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6013,
+    "bbox_xyxy": [
+      254.711,
+      194.683,
+      272.016,
+      224.338
+    ]
+  },
+  {
+    "frame_id": 119,
+    "timestamp": "00:00:03.971",
+    "seconds": 3.971,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5883,
+    "bbox_xyxy": [
+      254.715,
+      194.684,
+      272.014,
+      224.319
+    ]
+  },
+  {
+    "frame_id": 120,
+    "timestamp": "00:00:04.004",
+    "seconds": 4.004,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5818,
+    "bbox_xyxy": [
+      254.722,
+      194.695,
+      272.023,
+      224.32
+    ]
+  },
+  {
+    "frame_id": 121,
+    "timestamp": "00:00:04.037",
+    "seconds": 4.037,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5666,
+    "bbox_xyxy": [
+      254.726,
+      194.689,
+      272.021,
+      224.29
+    ]
+  },
+  {
+    "frame_id": 122,
+    "timestamp": "00:00:04.071",
+    "seconds": 4.071,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5668,
+    "bbox_xyxy": [
+      254.734,
+      194.724,
+      271.999,
+      224.255
+    ]
+  },
+  {
+    "frame_id": 123,
+    "timestamp": "00:00:04.104",
+    "seconds": 4.104,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.551,
+    "bbox_xyxy": [
+      254.706,
+      194.649,
+      272.014,
+      224.25
+    ]
+  },
+  {
+    "frame_id": 124,
+    "timestamp": "00:00:04.137",
+    "seconds": 4.137,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5499,
+    "bbox_xyxy": [
+      254.699,
+      194.649,
+      272.0,
+      224.231
+    ]
+  },
+  {
+    "frame_id": 125,
+    "timestamp": "00:00:04.171",
+    "seconds": 4.171,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5557,
+    "bbox_xyxy": [
+      254.662,
+      194.598,
+      271.992,
+      224.234
+    ]
+  },
+  {
+    "frame_id": 126,
+    "timestamp": "00:00:04.204",
+    "seconds": 4.204,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5397,
+    "bbox_xyxy": [
+      254.624,
+      194.502,
+      271.99,
+      224.215
+    ]
+  },
+  {
+    "frame_id": 127,
+    "timestamp": "00:00:04.238",
+    "seconds": 4.238,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.567,
+    "bbox_xyxy": [
+      254.615,
+      194.465,
+      271.989,
+      224.213
+    ]
+  },
+  {
+    "frame_id": 128,
+    "timestamp": "00:00:04.271",
+    "seconds": 4.271,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5576,
+    "bbox_xyxy": [
+      254.605,
+      194.427,
+      271.968,
+      224.183
+    ]
+  },
+  {
+    "frame_id": 129,
+    "timestamp": "00:00:04.304",
+    "seconds": 4.304,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5381,
+    "bbox_xyxy": [
+      254.58,
+      194.333,
+      271.958,
+      224.154
+    ]
+  },
+  {
+    "frame_id": 130,
+    "timestamp": "00:00:04.338",
+    "seconds": 4.338,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5483,
+    "bbox_xyxy": [
+      254.604,
+      194.354,
+      271.949,
+      224.136
+    ]
+  },
+  {
+    "frame_id": 131,
+    "timestamp": "00:00:04.371",
+    "seconds": 4.371,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5407,
+    "bbox_xyxy": [
+      254.61,
+      194.411,
+      271.941,
+      224.191
+    ]
+  },
+  {
+    "frame_id": 132,
+    "timestamp": "00:00:04.404",
+    "seconds": 4.404,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5669,
+    "bbox_xyxy": [
+      254.625,
+      194.451,
+      271.955,
+      224.248
+    ]
+  },
+  {
+    "frame_id": 133,
+    "timestamp": "00:00:04.438",
+    "seconds": 4.438,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5608,
+    "bbox_xyxy": [
+      254.632,
+      194.465,
+      271.942,
+      224.254
+    ]
+  },
+  {
+    "frame_id": 134,
+    "timestamp": "00:00:04.471",
+    "seconds": 4.471,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5496,
+    "bbox_xyxy": [
+      254.638,
+      194.455,
+      271.909,
+      224.196
+    ]
+  },
+  {
+    "frame_id": 135,
+    "timestamp": "00:00:04.504",
+    "seconds": 4.505,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5581,
+    "bbox_xyxy": [
+      254.641,
+      194.456,
+      271.899,
+      224.194
+    ]
+  },
+  {
+    "frame_id": 136,
+    "timestamp": "00:00:04.538",
+    "seconds": 4.538,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5643,
+    "bbox_xyxy": [
+      254.681,
+      194.54,
+      271.903,
+      224.219
+    ]
+  },
+  {
+    "frame_id": 137,
+    "timestamp": "00:00:04.571",
+    "seconds": 4.571,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5724,
+    "bbox_xyxy": [
+      254.722,
+      194.639,
+      271.895,
+      224.223
+    ]
+  },
+  {
+    "frame_id": 138,
+    "timestamp": "00:00:04.605",
+    "seconds": 4.605,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.577,
+    "bbox_xyxy": [
+      254.752,
+      194.716,
+      271.9,
+      224.238
+    ]
+  },
+  {
+    "frame_id": 139,
+    "timestamp": "00:00:04.638",
+    "seconds": 4.638,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5872,
+    "bbox_xyxy": [
+      254.753,
+      194.746,
+      271.896,
+      224.239
+    ]
+  },
+  {
+    "frame_id": 140,
+    "timestamp": "00:00:04.671",
+    "seconds": 4.671,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6052,
+    "bbox_xyxy": [
+      254.732,
+      194.759,
+      271.9,
+      224.283
+    ]
+  },
+  {
+    "frame_id": 141,
+    "timestamp": "00:00:04.705",
+    "seconds": 4.705,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5999,
+    "bbox_xyxy": [
+      254.728,
+      194.752,
+      271.912,
+      224.283
+    ]
+  },
+  {
+    "frame_id": 142,
+    "timestamp": "00:00:04.738",
+    "seconds": 4.738,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5937,
+    "bbox_xyxy": [
+      254.73,
+      194.76,
+      271.917,
+      224.28
+    ]
+  },
+  {
+    "frame_id": 143,
+    "timestamp": "00:00:04.771",
+    "seconds": 4.771,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5905,
+    "bbox_xyxy": [
+      254.741,
+      194.764,
+      271.937,
+      224.278
+    ]
+  },
+  {
+    "frame_id": 144,
+    "timestamp": "00:00:04.805",
+    "seconds": 4.805,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5939,
+    "bbox_xyxy": [
+      254.747,
+      194.751,
+      271.972,
+      224.281
+    ]
+  },
+  {
+    "frame_id": 145,
+    "timestamp": "00:00:04.838",
+    "seconds": 4.838,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.574,
+    "bbox_xyxy": [
+      254.778,
+      194.753,
+      271.97,
+      224.188
+    ]
+  },
+  {
+    "frame_id": 146,
+    "timestamp": "00:00:04.872",
+    "seconds": 4.872,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5835,
+    "bbox_xyxy": [
+      254.795,
+      194.752,
+      271.976,
+      224.141
+    ]
+  },
+  {
+    "frame_id": 147,
+    "timestamp": "00:00:04.905",
+    "seconds": 4.905,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5771,
+    "bbox_xyxy": [
+      254.831,
+      194.771,
+      271.947,
+      224.005
+    ]
+  },
+  {
+    "frame_id": 148,
+    "timestamp": "00:00:04.938",
+    "seconds": 4.938,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5857,
+    "bbox_xyxy": [
+      254.823,
+      194.778,
+      271.948,
+      223.99
+    ]
+  },
+  {
+    "frame_id": 149,
+    "timestamp": "00:00:04.972",
+    "seconds": 4.972,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6059,
+    "bbox_xyxy": [
+      254.811,
+      194.755,
+      271.977,
+      224.01
+    ]
+  },
+  {
+    "frame_id": 150,
+    "timestamp": "00:00:05.005",
+    "seconds": 5.005,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6177,
+    "bbox_xyxy": [
+      254.791,
+      194.721,
+      271.993,
+      224.016
+    ]
+  },
+  {
+    "frame_id": 151,
+    "timestamp": "00:00:05.038",
+    "seconds": 5.038,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6161,
+    "bbox_xyxy": [
+      254.782,
+      194.719,
+      271.98,
+      223.982
+    ]
+  },
+  {
+    "frame_id": 152,
+    "timestamp": "00:00:05.072",
+    "seconds": 5.072,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6058,
+    "bbox_xyxy": [
+      254.772,
+      194.707,
+      271.971,
+      223.948
+    ]
+  },
+  {
+    "frame_id": 153,
+    "timestamp": "00:00:05.105",
+    "seconds": 5.105,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6227,
+    "bbox_xyxy": [
+      254.771,
+      194.738,
+      271.966,
+      223.945
+    ]
+  },
+  {
+    "frame_id": 154,
+    "timestamp": "00:00:05.138",
+    "seconds": 5.138,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6385,
+    "bbox_xyxy": [
+      254.769,
+      194.733,
+      271.989,
+      223.971
+    ]
+  },
+  {
+    "frame_id": 155,
+    "timestamp": "00:00:05.172",
+    "seconds": 5.172,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6441,
+    "bbox_xyxy": [
+      254.746,
+      194.654,
+      272.016,
+      223.982
+    ]
+  },
+  {
+    "frame_id": 156,
+    "timestamp": "00:00:05.205",
+    "seconds": 5.205,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6326,
+    "bbox_xyxy": [
+      254.737,
+      194.64,
+      272.035,
+      224.019
+    ]
+  },
+  {
+    "frame_id": 157,
+    "timestamp": "00:00:05.239",
+    "seconds": 5.239,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6096,
+    "bbox_xyxy": [
+      254.73,
+      194.618,
+      272.031,
+      223.998
+    ]
+  },
+  {
+    "frame_id": 158,
+    "timestamp": "00:00:05.272",
+    "seconds": 5.272,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6081,
+    "bbox_xyxy": [
+      254.726,
+      194.618,
+      272.029,
+      223.997
+    ]
+  },
+  {
+    "frame_id": 159,
+    "timestamp": "00:00:05.305",
+    "seconds": 5.305,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.612,
+    "bbox_xyxy": [
+      254.722,
+      194.617,
+      272.042,
+      224.021
+    ]
+  },
+  {
+    "frame_id": 160,
+    "timestamp": "00:00:05.339",
+    "seconds": 5.339,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6015,
+    "bbox_xyxy": [
+      254.716,
+      194.62,
+      272.043,
+      224.036
+    ]
+  },
+  {
+    "frame_id": 161,
+    "timestamp": "00:00:05.372",
+    "seconds": 5.372,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5983,
+    "bbox_xyxy": [
+      254.716,
+      194.613,
+      272.044,
+      224.035
+    ]
+  },
+  {
+    "frame_id": 162,
+    "timestamp": "00:00:05.405",
+    "seconds": 5.405,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5864,
+    "bbox_xyxy": [
+      254.712,
+      194.63,
+      272.023,
+      224.016
+    ]
+  },
+  {
+    "frame_id": 163,
+    "timestamp": "00:00:05.439",
+    "seconds": 5.439,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.578,
+    "bbox_xyxy": [
+      254.714,
+      194.651,
+      272.013,
+      224.01
+    ]
+  },
+  {
+    "frame_id": 164,
+    "timestamp": "00:00:05.472",
+    "seconds": 5.472,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5746,
+    "bbox_xyxy": [
+      254.712,
+      194.648,
+      272.011,
+      223.997
+    ]
+  },
+  {
+    "frame_id": 165,
+    "timestamp": "00:00:05.506",
+    "seconds": 5.506,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5825,
+    "bbox_xyxy": [
+      254.716,
+      194.663,
+      272.008,
+      223.995
+    ]
+  },
+  {
+    "frame_id": 166,
+    "timestamp": "00:00:05.539",
+    "seconds": 5.539,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5862,
+    "bbox_xyxy": [
+      254.692,
+      194.637,
+      272.036,
+      224.062
+    ]
+  },
+  {
+    "frame_id": 167,
+    "timestamp": "00:00:05.572",
+    "seconds": 5.572,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.588,
+    "bbox_xyxy": [
+      254.68,
+      194.582,
+      272.027,
+      224.015
+    ]
+  },
+  {
+    "frame_id": 168,
+    "timestamp": "00:00:05.606",
+    "seconds": 5.606,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5891,
+    "bbox_xyxy": [
+      254.676,
+      194.567,
+      272.018,
+      223.991
+    ]
+  },
+  {
+    "frame_id": 169,
+    "timestamp": "00:00:05.639",
+    "seconds": 5.639,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5929,
+    "bbox_xyxy": [
+      254.703,
+      194.592,
+      272.037,
+      223.986
+    ]
+  },
+  {
+    "frame_id": 170,
+    "timestamp": "00:00:05.672",
+    "seconds": 5.672,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5853,
+    "bbox_xyxy": [
+      254.714,
+      194.629,
+      272.021,
+      223.965
+    ]
+  },
+  {
+    "frame_id": 171,
+    "timestamp": "00:00:05.706",
+    "seconds": 5.706,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6021,
+    "bbox_xyxy": [
+      254.707,
+      194.589,
+      272.049,
+      223.989
+    ]
+  },
+  {
+    "frame_id": 172,
+    "timestamp": "00:00:05.739",
+    "seconds": 5.739,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6005,
+    "bbox_xyxy": [
+      254.714,
+      194.605,
+      272.063,
+      224.018
+    ]
+  },
+  {
+    "frame_id": 173,
+    "timestamp": "00:00:05.772",
+    "seconds": 5.772,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5947,
+    "bbox_xyxy": [
+      254.711,
+      194.57,
+      272.055,
+      223.974
+    ]
+  },
+  {
+    "frame_id": 174,
+    "timestamp": "00:00:05.806",
+    "seconds": 5.806,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5978,
+    "bbox_xyxy": [
+      254.704,
+      194.564,
+      272.049,
+      223.971
+    ]
+  },
+  {
+    "frame_id": 175,
+    "timestamp": "00:00:05.839",
+    "seconds": 5.839,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5886,
+    "bbox_xyxy": [
+      254.691,
+      194.565,
+      272.044,
+      223.982
+    ]
+  },
+  {
+    "frame_id": 176,
+    "timestamp": "00:00:05.873",
+    "seconds": 5.873,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.581,
+    "bbox_xyxy": [
+      254.713,
+      194.567,
+      272.011,
+      223.868
+    ]
+  },
+  {
+    "frame_id": 177,
+    "timestamp": "00:00:05.906",
+    "seconds": 5.906,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5744,
+    "bbox_xyxy": [
+      254.712,
+      194.534,
+      272.013,
+      223.817
+    ]
+  },
+  {
+    "frame_id": 178,
+    "timestamp": "00:00:05.939",
+    "seconds": 5.939,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5728,
+    "bbox_xyxy": [
+      254.729,
+      194.573,
+      272.016,
+      223.808
+    ]
+  },
+  {
+    "frame_id": 179,
+    "timestamp": "00:00:05.973",
+    "seconds": 5.973,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5959,
+    "bbox_xyxy": [
+      254.732,
+      194.586,
+      272.024,
+      223.808
+    ]
+  },
+  {
+    "frame_id": 180,
+    "timestamp": "00:00:06.006",
+    "seconds": 6.006,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5939,
+    "bbox_xyxy": [
+      254.739,
+      194.585,
+      272.044,
+      223.811
+    ]
+  },
+  {
+    "frame_id": 181,
+    "timestamp": "00:00:06.039",
+    "seconds": 6.039,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5986,
+    "bbox_xyxy": [
+      254.749,
+      194.591,
+      272.035,
+      223.77
+    ]
+  },
+  {
+    "frame_id": 182,
+    "timestamp": "00:00:06.073",
+    "seconds": 6.073,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.576,
+    "bbox_xyxy": [
+      254.756,
+      194.6,
+      272.049,
+      223.768
+    ]
+  },
+  {
+    "frame_id": 183,
+    "timestamp": "00:00:06.106",
+    "seconds": 6.106,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.605,
+    "bbox_xyxy": [
+      254.732,
+      194.575,
+      272.091,
+      223.855
+    ]
+  },
+  {
+    "frame_id": 184,
+    "timestamp": "00:00:06.139",
+    "seconds": 6.139,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6037,
+    "bbox_xyxy": [
+      254.712,
+      194.576,
+      272.111,
+      223.928
+    ]
+  },
+  {
+    "frame_id": 185,
+    "timestamp": "00:00:06.173",
+    "seconds": 6.173,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6216,
+    "bbox_xyxy": [
+      254.699,
+      194.584,
+      272.127,
+      223.994
+    ]
+  },
+  {
+    "frame_id": 186,
+    "timestamp": "00:00:06.206",
+    "seconds": 6.206,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6275,
+    "bbox_xyxy": [
+      254.687,
+      194.584,
+      272.104,
+      223.984
+    ]
+  },
+  {
+    "frame_id": 187,
+    "timestamp": "00:00:06.240",
+    "seconds": 6.24,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6261,
+    "bbox_xyxy": [
+      254.69,
+      194.609,
+      272.063,
+      223.959
+    ]
+  },
+  {
+    "frame_id": 188,
+    "timestamp": "00:00:06.273",
+    "seconds": 6.273,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6105,
+    "bbox_xyxy": [
+      254.645,
+      194.594,
+      272.009,
+      223.941
+    ]
+  },
+  {
+    "frame_id": 189,
+    "timestamp": "00:00:06.306",
+    "seconds": 6.306,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6207,
+    "bbox_xyxy": [
+      254.637,
+      194.576,
+      272.01,
+      223.951
+    ]
+  },
+  {
+    "frame_id": 190,
+    "timestamp": "00:00:06.340",
+    "seconds": 6.34,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6207,
+    "bbox_xyxy": [
+      254.646,
+      194.574,
+      272.012,
+      223.949
+    ]
+  },
+  {
+    "frame_id": 191,
+    "timestamp": "00:00:06.373",
+    "seconds": 6.373,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6015,
+    "bbox_xyxy": [
+      254.647,
+      194.566,
+      272.011,
+      223.952
+    ]
+  },
+  {
+    "frame_id": 192,
+    "timestamp": "00:00:06.406",
+    "seconds": 6.406,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5899,
+    "bbox_xyxy": [
+      254.65,
+      194.545,
+      272.03,
+      223.975
+    ]
+  },
+  {
+    "frame_id": 193,
+    "timestamp": "00:00:06.440",
+    "seconds": 6.44,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5957,
+    "bbox_xyxy": [
+      254.671,
+      194.57,
+      272.03,
+      223.969
+    ]
+  },
+  {
+    "frame_id": 194,
+    "timestamp": "00:00:06.473",
+    "seconds": 6.473,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6046,
+    "bbox_xyxy": [
+      254.682,
+      194.616,
+      272.005,
+      223.955
+    ]
+  },
+  {
+    "frame_id": 195,
+    "timestamp": "00:00:06.506",
+    "seconds": 6.506,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6065,
+    "bbox_xyxy": [
+      254.685,
+      194.594,
+      272.004,
+      223.934
+    ]
+  },
+  {
+    "frame_id": 196,
+    "timestamp": "00:00:06.540",
+    "seconds": 6.54,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.599,
+    "bbox_xyxy": [
+      254.706,
+      194.586,
+      271.983,
+      223.865
+    ]
+  },
+  {
+    "frame_id": 197,
+    "timestamp": "00:00:06.573",
+    "seconds": 6.573,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6066,
+    "bbox_xyxy": [
+      254.705,
+      194.587,
+      271.989,
+      223.878
+    ]
+  },
+  {
+    "frame_id": 198,
+    "timestamp": "00:00:06.607",
+    "seconds": 6.607,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6141,
+    "bbox_xyxy": [
+      254.714,
+      194.652,
+      271.967,
+      223.883
+    ]
+  },
+  {
+    "frame_id": 199,
+    "timestamp": "00:00:06.640",
+    "seconds": 6.64,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6298,
+    "bbox_xyxy": [
+      254.704,
+      194.639,
+      271.986,
+      223.916
+    ]
+  },
+  {
+    "frame_id": 200,
+    "timestamp": "00:00:06.673",
+    "seconds": 6.673,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5915,
+    "bbox_xyxy": [
+      254.707,
+      194.666,
+      271.955,
+      223.876
+    ]
+  },
+  {
+    "frame_id": 201,
+    "timestamp": "00:00:06.707",
+    "seconds": 6.707,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5947,
+    "bbox_xyxy": [
+      254.709,
+      194.675,
+      271.954,
+      223.871
+    ]
+  },
+  {
+    "frame_id": 202,
+    "timestamp": "00:00:06.740",
+    "seconds": 6.74,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5957,
+    "bbox_xyxy": [
+      254.704,
+      194.648,
+      271.954,
+      223.848
+    ]
+  },
+  {
+    "frame_id": 203,
+    "timestamp": "00:00:06.773",
+    "seconds": 6.773,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6011,
+    "bbox_xyxy": [
+      254.706,
+      194.658,
+      271.943,
+      223.827
+    ]
+  },
+  {
+    "frame_id": 204,
+    "timestamp": "00:00:06.807",
+    "seconds": 6.807,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6044,
+    "bbox_xyxy": [
+      254.701,
+      194.67,
+      271.943,
+      223.845
+    ]
+  },
+  {
+    "frame_id": 205,
+    "timestamp": "00:00:06.840",
+    "seconds": 6.84,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6149,
+    "bbox_xyxy": [
+      254.692,
+      194.689,
+      271.948,
+      223.887
+    ]
+  },
+  {
+    "frame_id": 206,
+    "timestamp": "00:00:06.874",
+    "seconds": 6.874,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6204,
+    "bbox_xyxy": [
+      254.687,
+      194.668,
+      271.957,
+      223.889
+    ]
+  },
+  {
+    "frame_id": 207,
+    "timestamp": "00:00:06.907",
+    "seconds": 6.907,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6009,
+    "bbox_xyxy": [
+      254.682,
+      194.65,
+      271.962,
+      223.889
+    ]
+  },
+  {
+    "frame_id": 208,
+    "timestamp": "00:00:06.940",
+    "seconds": 6.94,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5974,
+    "bbox_xyxy": [
+      254.689,
+      194.639,
+      271.963,
+      223.864
+    ]
+  },
+  {
+    "frame_id": 209,
+    "timestamp": "00:00:06.974",
+    "seconds": 6.974,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6185,
+    "bbox_xyxy": [
+      254.69,
+      194.639,
+      271.965,
+      223.86
+    ]
+  },
+  {
+    "frame_id": 210,
+    "timestamp": "00:00:07.007",
+    "seconds": 7.007,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6284,
+    "bbox_xyxy": [
+      254.688,
+      194.609,
+      271.973,
+      223.853
+    ]
+  },
+  {
+    "frame_id": 211,
+    "timestamp": "00:00:07.040",
+    "seconds": 7.04,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6003,
+    "bbox_xyxy": [
+      254.689,
+      194.57,
+      271.993,
+      223.848
+    ]
+  },
+  {
+    "frame_id": 212,
+    "timestamp": "00:00:07.074",
+    "seconds": 7.074,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5828,
+    "bbox_xyxy": [
+      254.687,
+      194.558,
+      271.99,
+      223.839
+    ]
+  },
+  {
+    "frame_id": 213,
+    "timestamp": "00:00:07.107",
+    "seconds": 7.107,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5845,
+    "bbox_xyxy": [
+      254.653,
+      194.421,
+      272.015,
+      223.834
+    ]
+  },
+  {
+    "frame_id": 214,
+    "timestamp": "00:00:07.140",
+    "seconds": 7.14,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.575,
+    "bbox_xyxy": [
+      254.693,
+      194.503,
+      272.0,
+      223.82
+    ]
+  },
+  {
+    "frame_id": 215,
+    "timestamp": "00:00:07.174",
+    "seconds": 7.174,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5845,
+    "bbox_xyxy": [
+      254.703,
+      194.528,
+      272.002,
+      223.834
+    ]
+  },
+  {
+    "frame_id": 216,
+    "timestamp": "00:00:07.207",
+    "seconds": 7.207,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5978,
+    "bbox_xyxy": [
+      254.715,
+      194.566,
+      272.009,
+      223.861
+    ]
+  },
+  {
+    "frame_id": 217,
+    "timestamp": "00:00:07.241",
+    "seconds": 7.241,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5904,
+    "bbox_xyxy": [
+      254.724,
+      194.572,
+      272.013,
+      223.858
+    ]
+  },
+  {
+    "frame_id": 218,
+    "timestamp": "00:00:07.274",
+    "seconds": 7.274,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6004,
+    "bbox_xyxy": [
+      254.704,
+      194.517,
+      272.034,
+      223.882
+    ]
+  },
+  {
+    "frame_id": 219,
+    "timestamp": "00:00:07.307",
+    "seconds": 7.307,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6077,
+    "bbox_xyxy": [
+      254.692,
+      194.488,
+      272.043,
+      223.901
+    ]
+  },
+  {
+    "frame_id": 220,
+    "timestamp": "00:00:07.341",
+    "seconds": 7.341,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6107,
+    "bbox_xyxy": [
+      254.688,
+      194.45,
+      272.045,
+      223.879
+    ]
+  },
+  {
+    "frame_id": 221,
+    "timestamp": "00:00:07.374",
+    "seconds": 7.374,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.6038,
+    "bbox_xyxy": [
+      254.708,
+      194.49,
+      272.015,
+      223.835
+    ]
+  },
+  {
+    "frame_id": 222,
+    "timestamp": "00:00:07.407",
+    "seconds": 7.407,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5957,
+    "bbox_xyxy": [
+      254.709,
+      194.557,
+      271.946,
+      223.785
+    ]
+  },
+  {
+    "frame_id": 223,
+    "timestamp": "00:00:07.441",
+    "seconds": 7.441,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5777,
+    "bbox_xyxy": [
+      254.728,
+      194.609,
+      271.914,
+      223.747
+    ]
+  },
+  {
+    "frame_id": 224,
+    "timestamp": "00:00:07.474",
+    "seconds": 7.474,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5847,
+    "bbox_xyxy": [
+      254.73,
+      194.608,
+      271.915,
+      223.738
+    ]
+  },
+  {
+    "frame_id": 225,
+    "timestamp": "00:00:07.508",
+    "seconds": 7.508,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5871,
+    "bbox_xyxy": [
+      254.726,
+      194.593,
+      271.909,
+      223.72
+    ]
+  },
+  {
+    "frame_id": 226,
+    "timestamp": "00:00:07.541",
+    "seconds": 7.541,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5804,
+    "bbox_xyxy": [
+      254.718,
+      194.574,
+      271.879,
+      223.672
+    ]
+  },
+  {
+    "frame_id": 227,
+    "timestamp": "00:00:07.574",
+    "seconds": 7.574,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5966,
+    "bbox_xyxy": [
+      254.709,
+      194.558,
+      271.877,
+      223.678
+    ]
+  },
+  {
+    "frame_id": 228,
+    "timestamp": "00:00:07.608",
+    "seconds": 7.608,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5918,
+    "bbox_xyxy": [
+      254.715,
+      194.546,
+      271.894,
+      223.687
+    ]
+  },
+  {
+    "frame_id": 229,
+    "timestamp": "00:00:07.641",
+    "seconds": 7.641,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5802,
+    "bbox_xyxy": [
+      254.736,
+      194.531,
+      271.921,
+      223.675
+    ]
+  },
+  {
+    "frame_id": 230,
+    "timestamp": "00:00:07.674",
+    "seconds": 7.674,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5447,
+    "bbox_xyxy": [
+      254.738,
+      194.512,
+      271.921,
+      223.633
+    ]
+  },
+  {
+    "frame_id": 231,
+    "timestamp": "00:00:07.708",
+    "seconds": 7.708,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5424,
+    "bbox_xyxy": [
+      254.732,
+      194.559,
+      271.906,
+      223.642
+    ]
+  },
+  {
+    "frame_id": 232,
+    "timestamp": "00:00:07.741",
+    "seconds": 7.741,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5443,
+    "bbox_xyxy": [
+      254.737,
+      194.577,
+      271.875,
+      223.576
+    ]
+  },
+  {
+    "frame_id": 233,
+    "timestamp": "00:00:07.774",
+    "seconds": 7.774,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5534,
+    "bbox_xyxy": [
+      254.763,
+      194.625,
+      271.879,
+      223.56
+    ]
+  },
+  {
+    "frame_id": 234,
+    "timestamp": "00:00:07.808",
+    "seconds": 7.808,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5588,
+    "bbox_xyxy": [
+      254.801,
+      194.652,
+      271.928,
+      223.573
+    ]
+  },
+  {
+    "frame_id": 235,
+    "timestamp": "00:00:07.841",
+    "seconds": 7.841,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5547,
+    "bbox_xyxy": [
+      254.81,
+      194.691,
+      271.955,
+      223.608
+    ]
+  },
+  {
+    "frame_id": 236,
+    "timestamp": "00:00:07.875",
+    "seconds": 7.875,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.548,
+    "bbox_xyxy": [
+      254.616,
+      194.359,
+      272.244,
+      224.171
+    ]
+  },
+  {
+    "frame_id": 237,
+    "timestamp": "00:00:07.908",
+    "seconds": 7.908,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5508,
+    "bbox_xyxy": [
+      254.572,
+      194.259,
+      272.327,
+      224.354
+    ]
+  },
+  {
+    "frame_id": 238,
+    "timestamp": "00:00:07.941",
+    "seconds": 7.941,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5517,
+    "bbox_xyxy": [
+      254.557,
+      194.173,
+      272.345,
+      224.413
+    ]
+  },
+  {
+    "frame_id": 239,
+    "timestamp": "00:00:07.975",
+    "seconds": 7.975,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5501,
+    "bbox_xyxy": [
+      254.506,
+      194.12,
+      272.316,
+      224.47
+    ]
+  },
+  {
+    "frame_id": 240,
+    "timestamp": "00:00:08.008",
+    "seconds": 8.008,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5516,
+    "bbox_xyxy": [
+      254.66,
+      194.38,
+      272.12,
+      224.103
+    ]
+  },
+  {
+    "frame_id": 241,
+    "timestamp": "00:00:08.041",
+    "seconds": 8.041,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5566,
+    "bbox_xyxy": [
+      254.579,
+      194.227,
+      272.205,
+      224.3
+    ]
+  },
+  {
+    "frame_id": 242,
+    "timestamp": "00:00:08.075",
+    "seconds": 8.075,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5593,
+    "bbox_xyxy": [
+      254.565,
+      194.157,
+      272.222,
+      224.349
+    ]
+  },
+  {
+    "frame_id": 243,
+    "timestamp": "00:00:08.108",
+    "seconds": 8.108,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5536,
+    "bbox_xyxy": [
+      254.598,
+      194.174,
+      272.222,
+      224.354
+    ]
+  },
+  {
+    "frame_id": 244,
+    "timestamp": "00:00:08.141",
+    "seconds": 8.141,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5606,
+    "bbox_xyxy": [
+      254.625,
+      194.22,
+      272.209,
+      224.37
+    ]
+  },
+  {
+    "frame_id": 245,
+    "timestamp": "00:00:08.175",
+    "seconds": 8.175,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5546,
+    "bbox_xyxy": [
+      254.774,
+      194.506,
+      272.01,
+      223.982
+    ]
+  },
+  {
+    "frame_id": 246,
+    "timestamp": "00:00:08.208",
+    "seconds": 8.208,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5533,
+    "bbox_xyxy": [
+      254.826,
+      194.579,
+      271.924,
+      223.746
+    ]
+  },
+  {
+    "frame_id": 247,
+    "timestamp": "00:00:08.242",
+    "seconds": 8.242,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5445,
+    "bbox_xyxy": [
+      254.831,
+      194.583,
+      271.899,
+      223.632
+    ]
+  },
+  {
+    "frame_id": 248,
+    "timestamp": "00:00:08.275",
+    "seconds": 8.275,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.557,
+    "bbox_xyxy": [
+      254.828,
+      194.604,
+      271.89,
+      223.577
+    ]
+  },
+  {
+    "frame_id": 249,
+    "timestamp": "00:00:08.308",
+    "seconds": 8.308,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5471,
+    "bbox_xyxy": [
+      254.82,
+      194.617,
+      271.894,
+      223.552
+    ]
+  },
+  {
+    "frame_id": 250,
+    "timestamp": "00:00:08.342",
+    "seconds": 8.342,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.496,
+    "bbox_xyxy": [
+      254.703,
+      194.343,
+      272.022,
+      223.755
+    ]
+  },
+  {
+    "frame_id": 251,
+    "timestamp": "00:00:08.375",
+    "seconds": 8.375,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4995,
+    "bbox_xyxy": [
+      254.668,
+      194.263,
+      272.069,
+      223.873
+    ]
+  },
+  {
+    "frame_id": 252,
+    "timestamp": "00:00:08.408",
+    "seconds": 8.408,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5037,
+    "bbox_xyxy": [
+      254.658,
+      194.234,
+      272.094,
+      223.953
+    ]
+  },
+  {
+    "frame_id": 253,
+    "timestamp": "00:00:08.442",
+    "seconds": 8.442,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5042,
+    "bbox_xyxy": [
+      254.661,
+      194.22,
+      272.131,
+      224.054
+    ]
+  },
+  {
+    "frame_id": 254,
+    "timestamp": "00:00:08.475",
+    "seconds": 8.475,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4791,
+    "bbox_xyxy": [
+      254.671,
+      194.227,
+      272.124,
+      224.071
+    ]
+  },
+  {
+    "frame_id": 255,
+    "timestamp": "00:00:08.508",
+    "seconds": 8.508,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4967,
+    "bbox_xyxy": [
+      254.697,
+      194.315,
+      272.078,
+      224.072
+    ]
+  },
+  {
+    "frame_id": 256,
+    "timestamp": "00:00:08.542",
+    "seconds": 8.542,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.494,
+    "bbox_xyxy": [
+      254.713,
+      194.378,
+      272.033,
+      224.062
+    ]
+  },
+  {
+    "frame_id": 257,
+    "timestamp": "00:00:08.575",
+    "seconds": 8.575,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4835,
+    "bbox_xyxy": [
+      254.714,
+      194.405,
+      271.975,
+      224.021
+    ]
+  },
+  {
+    "frame_id": 258,
+    "timestamp": "00:00:08.609",
+    "seconds": 8.609,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4679,
+    "bbox_xyxy": [
+      254.702,
+      194.385,
+      271.943,
+      223.991
+    ]
+  },
+  {
+    "frame_id": 259,
+    "timestamp": "00:00:08.642",
+    "seconds": 8.642,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4843,
+    "bbox_xyxy": [
+      254.731,
+      194.414,
+      271.945,
+      223.99
+    ]
+  },
+  {
+    "frame_id": 260,
+    "timestamp": "00:00:08.675",
+    "seconds": 8.675,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4802,
+    "bbox_xyxy": [
+      254.741,
+      194.414,
+      271.939,
+      223.988
+    ]
+  },
+  {
+    "frame_id": 261,
+    "timestamp": "00:00:08.709",
+    "seconds": 8.709,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4766,
+    "bbox_xyxy": [
+      254.701,
+      194.421,
+      271.884,
+      223.964
+    ]
+  },
+  {
+    "frame_id": 262,
+    "timestamp": "00:00:08.742",
+    "seconds": 8.742,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4689,
+    "bbox_xyxy": [
+      254.726,
+      194.409,
+      271.878,
+      223.927
+    ]
+  },
+  {
+    "frame_id": 263,
+    "timestamp": "00:00:08.775",
+    "seconds": 8.775,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4482,
+    "bbox_xyxy": [
+      254.73,
+      194.367,
+      271.894,
+      223.933
+    ]
+  },
+  {
+    "frame_id": 264,
+    "timestamp": "00:00:08.809",
+    "seconds": 8.809,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4459,
+    "bbox_xyxy": [
+      254.748,
+      194.338,
+      271.92,
+      223.939
+    ]
+  },
+  {
+    "frame_id": 265,
+    "timestamp": "00:00:08.842",
+    "seconds": 8.842,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4631,
+    "bbox_xyxy": [
+      254.771,
+      194.405,
+      271.912,
+      223.959
+    ]
+  },
+  {
+    "frame_id": 266,
+    "timestamp": "00:00:08.876",
+    "seconds": 8.876,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4599,
+    "bbox_xyxy": [
+      254.792,
+      194.459,
+      271.904,
+      223.956
+    ]
+  },
+  {
+    "frame_id": 267,
+    "timestamp": "00:00:08.909",
+    "seconds": 8.909,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4572,
+    "bbox_xyxy": [
+      254.801,
+      194.473,
+      271.872,
+      223.874
+    ]
+  },
+  {
+    "frame_id": 268,
+    "timestamp": "00:00:08.942",
+    "seconds": 8.942,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.476,
+    "bbox_xyxy": [
+      254.82,
+      194.559,
+      271.832,
+      223.826
+    ]
+  },
+  {
+    "frame_id": 269,
+    "timestamp": "00:00:08.976",
+    "seconds": 8.976,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4631,
+    "bbox_xyxy": [
+      254.811,
+      194.515,
+      271.849,
+      223.804
+    ]
+  },
+  {
+    "frame_id": 270,
+    "timestamp": "00:00:09.009",
+    "seconds": 9.009,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4425,
+    "bbox_xyxy": [
+      254.814,
+      194.457,
+      271.874,
+      223.768
+    ]
+  },
+  {
+    "frame_id": 271,
+    "timestamp": "00:00:09.042",
+    "seconds": 9.042,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4324,
+    "bbox_xyxy": [
+      254.808,
+      194.375,
+      271.904,
+      223.738
+    ]
+  },
+  {
+    "frame_id": 272,
+    "timestamp": "00:00:09.076",
+    "seconds": 9.076,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4495,
+    "bbox_xyxy": [
+      254.755,
+      194.293,
+      271.924,
+      223.805
+    ]
+  },
+  {
+    "frame_id": 273,
+    "timestamp": "00:00:09.109",
+    "seconds": 9.109,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4453,
+    "bbox_xyxy": [
+      254.823,
+      194.408,
+      271.964,
+      223.849
+    ]
+  },
+  {
+    "frame_id": 274,
+    "timestamp": "00:00:09.142",
+    "seconds": 9.142,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4243,
+    "bbox_xyxy": [
+      254.885,
+      194.507,
+      271.969,
+      223.82
+    ]
+  },
+  {
+    "frame_id": 275,
+    "timestamp": "00:00:09.176",
+    "seconds": 9.176,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.433,
+    "bbox_xyxy": [
+      254.898,
+      194.557,
+      271.975,
+      223.833
+    ]
+  },
+  {
+    "frame_id": 276,
+    "timestamp": "00:00:09.209",
+    "seconds": 9.209,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.448,
+    "bbox_xyxy": [
+      254.877,
+      194.586,
+      271.965,
+      223.85
+    ]
+  },
+  {
+    "frame_id": 277,
+    "timestamp": "00:00:09.243",
+    "seconds": 9.243,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4349,
+    "bbox_xyxy": [
+      254.84,
+      194.608,
+      271.943,
+      223.888
+    ]
+  },
+  {
+    "frame_id": 278,
+    "timestamp": "00:00:09.276",
+    "seconds": 9.276,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4388,
+    "bbox_xyxy": [
+      254.826,
+      194.584,
+      271.935,
+      223.869
+    ]
+  },
+  {
+    "frame_id": 279,
+    "timestamp": "00:00:09.309",
+    "seconds": 9.309,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4591,
+    "bbox_xyxy": [
+      254.831,
+      194.595,
+      271.946,
+      223.875
+    ]
+  },
+  {
+    "frame_id": 280,
+    "timestamp": "00:00:09.343",
+    "seconds": 9.343,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4406,
+    "bbox_xyxy": [
+      254.839,
+      194.604,
+      271.92,
+      223.813
+    ]
+  },
+  {
+    "frame_id": 281,
+    "timestamp": "00:00:09.376",
+    "seconds": 9.376,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4462,
+    "bbox_xyxy": [
+      254.843,
+      194.618,
+      271.912,
+      223.787
+    ]
+  },
+  {
+    "frame_id": 282,
+    "timestamp": "00:00:09.409",
+    "seconds": 9.409,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4471,
+    "bbox_xyxy": [
+      254.858,
+      194.618,
+      271.945,
+      223.797
+    ]
+  },
+  {
+    "frame_id": 283,
+    "timestamp": "00:00:09.443",
+    "seconds": 9.443,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4698,
+    "bbox_xyxy": [
+      254.864,
+      194.617,
+      271.975,
+      223.818
+    ]
+  },
+  {
+    "frame_id": 284,
+    "timestamp": "00:00:09.476",
+    "seconds": 9.476,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4579,
+    "bbox_xyxy": [
+      254.874,
+      194.628,
+      271.991,
+      223.798
+    ]
+  },
+  {
+    "frame_id": 285,
+    "timestamp": "00:00:09.510",
+    "seconds": 9.51,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4492,
+    "bbox_xyxy": [
+      254.879,
+      194.679,
+      271.974,
+      223.769
+    ]
+  },
+  {
+    "frame_id": 286,
+    "timestamp": "00:00:09.543",
+    "seconds": 9.543,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4508,
+    "bbox_xyxy": [
+      254.853,
+      194.628,
+      271.956,
+      223.704
+    ]
+  },
+  {
+    "frame_id": 287,
+    "timestamp": "00:00:09.576",
+    "seconds": 9.576,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4583,
+    "bbox_xyxy": [
+      254.833,
+      194.629,
+      271.961,
+      223.72
+    ]
+  },
+  {
+    "frame_id": 288,
+    "timestamp": "00:00:09.610",
+    "seconds": 9.61,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4579,
+    "bbox_xyxy": [
+      254.811,
+      194.602,
+      271.976,
+      223.737
+    ]
+  },
+  {
+    "frame_id": 289,
+    "timestamp": "00:00:09.643",
+    "seconds": 9.643,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4589,
+    "bbox_xyxy": [
+      254.805,
+      194.608,
+      271.975,
+      223.737
+    ]
+  },
+  {
+    "frame_id": 290,
+    "timestamp": "00:00:09.676",
+    "seconds": 9.676,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4794,
+    "bbox_xyxy": [
+      254.809,
+      194.602,
+      271.988,
+      223.737
+    ]
+  },
+  {
+    "frame_id": 291,
+    "timestamp": "00:00:09.710",
+    "seconds": 9.71,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4572,
+    "bbox_xyxy": [
+      254.829,
+      194.638,
+      271.99,
+      223.724
+    ]
+  },
+  {
+    "frame_id": 292,
+    "timestamp": "00:00:09.743",
+    "seconds": 9.743,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.428,
+    "bbox_xyxy": [
+      254.827,
+      194.56,
+      272.018,
+      223.681
+    ]
+  },
+  {
+    "frame_id": 293,
+    "timestamp": "00:00:09.776",
+    "seconds": 9.776,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4154,
+    "bbox_xyxy": [
+      254.795,
+      194.457,
+      272.036,
+      223.67
+    ]
+  },
+  {
+    "frame_id": 294,
+    "timestamp": "00:00:09.810",
+    "seconds": 9.81,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4071,
+    "bbox_xyxy": [
+      254.789,
+      194.401,
+      272.039,
+      223.642
+    ]
+  },
+  {
+    "frame_id": 295,
+    "timestamp": "00:00:09.843",
+    "seconds": 9.843,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4388,
+    "bbox_xyxy": [
+      254.763,
+      194.385,
+      272.025,
+      223.676
+    ]
+  },
+  {
+    "frame_id": 296,
+    "timestamp": "00:00:09.877",
+    "seconds": 9.877,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4405,
+    "bbox_xyxy": [
+      254.773,
+      194.411,
+      272.018,
+      223.687
+    ]
+  },
+  {
+    "frame_id": 297,
+    "timestamp": "00:00:09.910",
+    "seconds": 9.91,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4438,
+    "bbox_xyxy": [
+      254.767,
+      194.396,
+      272.005,
+      223.687
+    ]
+  },
+  {
+    "frame_id": 298,
+    "timestamp": "00:00:09.943",
+    "seconds": 9.943,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.438,
+    "bbox_xyxy": [
+      254.78,
+      194.38,
+      271.981,
+      223.627
+    ]
+  },
+  {
+    "frame_id": 299,
+    "timestamp": "00:00:09.977",
+    "seconds": 9.977,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4308,
+    "bbox_xyxy": [
+      254.776,
+      194.304,
+      271.977,
+      223.568
+    ]
+  },
+  {
+    "frame_id": 300,
+    "timestamp": "00:00:10.010",
+    "seconds": 10.01,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4399,
+    "bbox_xyxy": [
+      254.766,
+      194.277,
+      271.994,
+      223.603
+    ]
+  },
+  {
+    "frame_id": 301,
+    "timestamp": "00:00:10.043",
+    "seconds": 10.043,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4343,
+    "bbox_xyxy": [
+      254.718,
+      194.215,
+      271.999,
+      223.67
+    ]
+  },
+  {
+    "frame_id": 302,
+    "timestamp": "00:00:10.077",
+    "seconds": 10.077,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4431,
+    "bbox_xyxy": [
+      254.73,
+      194.21,
+      272.017,
+      223.706
+    ]
+  },
+  {
+    "frame_id": 303,
+    "timestamp": "00:00:10.110",
+    "seconds": 10.11,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4593,
+    "bbox_xyxy": [
+      254.725,
+      194.199,
+      272.005,
+      223.708
+    ]
+  },
+  {
+    "frame_id": 304,
+    "timestamp": "00:00:10.143",
+    "seconds": 10.143,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4521,
+    "bbox_xyxy": [
+      254.703,
+      194.168,
+      271.937,
+      223.635
+    ]
+  },
+  {
+    "frame_id": 305,
+    "timestamp": "00:00:10.177",
+    "seconds": 10.177,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4688,
+    "bbox_xyxy": [
+      254.686,
+      194.197,
+      271.883,
+      223.651
+    ]
+  },
+  {
+    "frame_id": 306,
+    "timestamp": "00:00:10.210",
+    "seconds": 10.21,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.489,
+    "bbox_xyxy": [
+      254.689,
+      194.195,
+      271.863,
+      223.66
+    ]
+  },
+  {
+    "frame_id": 307,
+    "timestamp": "00:00:10.244",
+    "seconds": 10.244,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4491,
+    "bbox_xyxy": [
+      254.709,
+      194.17,
+      271.861,
+      223.645
+    ]
+  },
+  {
+    "frame_id": 308,
+    "timestamp": "00:00:10.277",
+    "seconds": 10.277,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4331,
+    "bbox_xyxy": [
+      254.733,
+      194.126,
+      271.882,
+      223.635
+    ]
+  },
+  {
+    "frame_id": 309,
+    "timestamp": "00:00:10.310",
+    "seconds": 10.31,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4316,
+    "bbox_xyxy": [
+      254.762,
+      194.083,
+      271.909,
+      223.617
+    ]
+  },
+  {
+    "frame_id": 310,
+    "timestamp": "00:00:10.344",
+    "seconds": 10.344,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4399,
+    "bbox_xyxy": [
+      254.768,
+      194.062,
+      271.893,
+      223.591
+    ]
+  },
+  {
+    "frame_id": 311,
+    "timestamp": "00:00:10.377",
+    "seconds": 10.377,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4369,
+    "bbox_xyxy": [
+      254.775,
+      194.11,
+      271.861,
+      223.596
+    ]
+  },
+  {
+    "frame_id": 312,
+    "timestamp": "00:00:10.410",
+    "seconds": 10.41,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4507,
+    "bbox_xyxy": [
+      254.807,
+      194.11,
+      271.901,
+      223.626
+    ]
+  },
+  {
+    "frame_id": 313,
+    "timestamp": "00:00:10.444",
+    "seconds": 10.444,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4958,
+    "bbox_xyxy": [
+      254.759,
+      194.128,
+      271.936,
+      223.809
+    ]
+  },
+  {
+    "frame_id": 314,
+    "timestamp": "00:00:10.477",
+    "seconds": 10.477,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.493,
+    "bbox_xyxy": [
+      254.766,
+      194.191,
+      271.954,
+      223.884
+    ]
+  },
+  {
+    "frame_id": 315,
+    "timestamp": "00:00:10.510",
+    "seconds": 10.511,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4646,
+    "bbox_xyxy": [
+      254.792,
+      194.194,
+      271.982,
+      223.886
+    ]
+  },
+  {
+    "frame_id": 316,
+    "timestamp": "00:00:10.544",
+    "seconds": 10.544,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4566,
+    "bbox_xyxy": [
+      254.791,
+      194.127,
+      271.994,
+      223.834
+    ]
+  },
+  {
+    "frame_id": 317,
+    "timestamp": "00:00:10.577",
+    "seconds": 10.577,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4392,
+    "bbox_xyxy": [
+      254.859,
+      194.074,
+      271.972,
+      223.618
+    ]
+  },
+  {
+    "frame_id": 318,
+    "timestamp": "00:00:10.611",
+    "seconds": 10.611,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4407,
+    "bbox_xyxy": [
+      254.899,
+      194.106,
+      271.994,
+      223.586
+    ]
+  },
+  {
+    "frame_id": 319,
+    "timestamp": "00:00:10.644",
+    "seconds": 10.644,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.428,
+    "bbox_xyxy": [
+      254.916,
+      194.113,
+      272.012,
+      223.573
+    ]
+  },
+  {
+    "frame_id": 320,
+    "timestamp": "00:00:10.677",
+    "seconds": 10.677,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4482,
+    "bbox_xyxy": [
+      254.916,
+      194.219,
+      271.993,
+      223.617
+    ]
+  },
+  {
+    "frame_id": 321,
+    "timestamp": "00:00:10.711",
+    "seconds": 10.711,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.472,
+    "bbox_xyxy": [
+      254.884,
+      194.287,
+      272.006,
+      223.741
+    ]
+  },
+  {
+    "frame_id": 322,
+    "timestamp": "00:00:10.744",
+    "seconds": 10.744,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.478,
+    "bbox_xyxy": [
+      254.864,
+      194.274,
+      272.018,
+      223.767
+    ]
+  },
+  {
+    "frame_id": 323,
+    "timestamp": "00:00:10.777",
+    "seconds": 10.777,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5051,
+    "bbox_xyxy": [
+      254.81,
+      194.208,
+      272.046,
+      223.859
+    ]
+  },
+  {
+    "frame_id": 324,
+    "timestamp": "00:00:10.811",
+    "seconds": 10.811,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5123,
+    "bbox_xyxy": [
+      254.794,
+      194.178,
+      272.096,
+      223.954
+    ]
+  },
+  {
+    "frame_id": 325,
+    "timestamp": "00:00:10.844",
+    "seconds": 10.844,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4913,
+    "bbox_xyxy": [
+      254.808,
+      194.158,
+      272.157,
+      224.017
+    ]
+  },
+  {
+    "frame_id": 326,
+    "timestamp": "00:00:10.878",
+    "seconds": 10.878,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4728,
+    "bbox_xyxy": [
+      254.825,
+      194.155,
+      272.148,
+      223.959
+    ]
+  },
+  {
+    "frame_id": 327,
+    "timestamp": "00:00:10.911",
+    "seconds": 10.911,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4734,
+    "bbox_xyxy": [
+      254.836,
+      194.186,
+      272.149,
+      223.952
+    ]
+  },
+  {
+    "frame_id": 328,
+    "timestamp": "00:00:10.944",
+    "seconds": 10.944,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4656,
+    "bbox_xyxy": [
+      254.844,
+      194.203,
+      272.133,
+      223.915
+    ]
+  },
+  {
+    "frame_id": 329,
+    "timestamp": "00:00:10.978",
+    "seconds": 10.978,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4874,
+    "bbox_xyxy": [
+      254.861,
+      194.291,
+      272.122,
+      223.943
+    ]
+  },
+  {
+    "frame_id": 330,
+    "timestamp": "00:00:11.011",
+    "seconds": 11.011,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4599,
+    "bbox_xyxy": [
+      254.823,
+      194.193,
+      272.115,
+      223.914
+    ]
+  },
+  {
+    "frame_id": 331,
+    "timestamp": "00:00:11.044",
+    "seconds": 11.044,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4449,
+    "bbox_xyxy": [
+      254.761,
+      194.139,
+      272.041,
+      223.883
+    ]
+  },
+  {
+    "frame_id": 332,
+    "timestamp": "00:00:11.078",
+    "seconds": 11.078,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4643,
+    "bbox_xyxy": [
+      254.734,
+      194.084,
+      272.03,
+      223.906
+    ]
+  },
+  {
+    "frame_id": 333,
+    "timestamp": "00:00:11.111",
+    "seconds": 11.111,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4963,
+    "bbox_xyxy": [
+      254.741,
+      194.142,
+      271.991,
+      223.907
+    ]
+  },
+  {
+    "frame_id": 334,
+    "timestamp": "00:00:11.144",
+    "seconds": 11.144,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.498,
+    "bbox_xyxy": [
+      254.755,
+      194.195,
+      271.956,
+      223.889
+    ]
+  },
+  {
+    "frame_id": 335,
+    "timestamp": "00:00:11.178",
+    "seconds": 11.178,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4792,
+    "bbox_xyxy": [
+      254.756,
+      194.189,
+      271.944,
+      223.866
+    ]
+  },
+  {
+    "frame_id": 336,
+    "timestamp": "00:00:11.211",
+    "seconds": 11.211,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4653,
+    "bbox_xyxy": [
+      254.765,
+      194.181,
+      271.949,
+      223.851
+    ]
+  },
+  {
+    "frame_id": 337,
+    "timestamp": "00:00:11.245",
+    "seconds": 11.245,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4699,
+    "bbox_xyxy": [
+      254.745,
+      194.194,
+      271.934,
+      223.884
+    ]
+  },
+  {
+    "frame_id": 338,
+    "timestamp": "00:00:11.278",
+    "seconds": 11.278,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4834,
+    "bbox_xyxy": [
+      254.77,
+      194.241,
+      271.967,
+      223.934
+    ]
+  },
+  {
+    "frame_id": 339,
+    "timestamp": "00:00:11.311",
+    "seconds": 11.311,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4798,
+    "bbox_xyxy": [
+      254.774,
+      194.282,
+      271.98,
+      223.988
+    ]
+  },
+  {
+    "frame_id": 340,
+    "timestamp": "00:00:11.345",
+    "seconds": 11.345,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4567,
+    "bbox_xyxy": [
+      254.778,
+      194.31,
+      271.998,
+      224.025
+    ]
+  },
+  {
+    "frame_id": 341,
+    "timestamp": "00:00:11.378",
+    "seconds": 11.378,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5183,
+    "bbox_xyxy": [
+      254.741,
+      194.27,
+      272.022,
+      224.113
+    ]
+  },
+  {
+    "frame_id": 342,
+    "timestamp": "00:00:11.411",
+    "seconds": 11.411,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5158,
+    "bbox_xyxy": [
+      254.731,
+      194.249,
+      272.035,
+      224.162
+    ]
+  },
+  {
+    "frame_id": 343,
+    "timestamp": "00:00:11.445",
+    "seconds": 11.445,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5092,
+    "bbox_xyxy": [
+      254.748,
+      194.249,
+      272.046,
+      224.164
+    ]
+  },
+  {
+    "frame_id": 344,
+    "timestamp": "00:00:11.478",
+    "seconds": 11.478,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4946,
+    "bbox_xyxy": [
+      254.747,
+      194.26,
+      272.049,
+      224.187
+    ]
+  },
+  {
+    "frame_id": 345,
+    "timestamp": "00:00:11.512",
+    "seconds": 11.511,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4816,
+    "bbox_xyxy": [
+      254.764,
+      194.264,
+      272.046,
+      224.157
+    ]
+  },
+  {
+    "frame_id": 346,
+    "timestamp": "00:00:11.545",
+    "seconds": 11.545,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4564,
+    "bbox_xyxy": [
+      254.81,
+      194.296,
+      272.031,
+      224.064
+    ]
+  },
+  {
+    "frame_id": 347,
+    "timestamp": "00:00:11.578",
+    "seconds": 11.578,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4607,
+    "bbox_xyxy": [
+      254.82,
+      194.316,
+      272.021,
+      224.03
+    ]
+  },
+  {
+    "frame_id": 348,
+    "timestamp": "00:00:11.612",
+    "seconds": 11.612,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.451,
+    "bbox_xyxy": [
+      254.822,
+      194.317,
+      272.015,
+      224.004
+    ]
+  },
+  {
+    "frame_id": 349,
+    "timestamp": "00:00:11.645",
+    "seconds": 11.645,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4462,
+    "bbox_xyxy": [
+      254.809,
+      194.339,
+      272.014,
+      224.041
+    ]
+  },
+  {
+    "frame_id": 350,
+    "timestamp": "00:00:11.678",
+    "seconds": 11.678,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4799,
+    "bbox_xyxy": [
+      254.8,
+      194.383,
+      272.008,
+      224.099
+    ]
+  },
+  {
+    "frame_id": 351,
+    "timestamp": "00:00:11.712",
+    "seconds": 11.712,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4808,
+    "bbox_xyxy": [
+      254.79,
+      194.377,
+      271.995,
+      224.098
+    ]
+  },
+  {
+    "frame_id": 352,
+    "timestamp": "00:00:11.745",
+    "seconds": 11.745,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4932,
+    "bbox_xyxy": [
+      254.773,
+      194.385,
+      271.981,
+      224.13
+    ]
+  },
+  {
+    "frame_id": 353,
+    "timestamp": "00:00:11.778",
+    "seconds": 11.778,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5045,
+    "bbox_xyxy": [
+      254.786,
+      194.431,
+      271.974,
+      224.147
+    ]
+  },
+  {
+    "frame_id": 354,
+    "timestamp": "00:00:11.812",
+    "seconds": 11.812,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4838,
+    "bbox_xyxy": [
+      254.782,
+      194.402,
+      271.999,
+      224.178
+    ]
+  },
+  {
+    "frame_id": 355,
+    "timestamp": "00:00:11.845",
+    "seconds": 11.845,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4796,
+    "bbox_xyxy": [
+      254.756,
+      194.358,
+      271.979,
+      224.178
+    ]
+  },
+  {
+    "frame_id": 356,
+    "timestamp": "00:00:11.879",
+    "seconds": 11.879,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4741,
+    "bbox_xyxy": [
+      254.756,
+      194.325,
+      271.973,
+      224.157
+    ]
+  },
+  {
+    "frame_id": 357,
+    "timestamp": "00:00:11.912",
+    "seconds": 11.912,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4635,
+    "bbox_xyxy": [
+      254.769,
+      194.3,
+      271.973,
+      224.123
+    ]
+  },
+  {
+    "frame_id": 358,
+    "timestamp": "00:00:11.945",
+    "seconds": 11.945,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4672,
+    "bbox_xyxy": [
+      254.762,
+      194.294,
+      271.959,
+      224.125
+    ]
+  },
+  {
+    "frame_id": 359,
+    "timestamp": "00:00:11.979",
+    "seconds": 11.979,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4747,
+    "bbox_xyxy": [
+      254.786,
+      194.311,
+      271.988,
+      224.153
+    ]
+  },
+  {
+    "frame_id": 360,
+    "timestamp": "00:00:12.012",
+    "seconds": 12.012,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4952,
+    "bbox_xyxy": [
+      254.812,
+      194.354,
+      271.993,
+      224.156
+    ]
+  },
+  {
+    "frame_id": 361,
+    "timestamp": "00:00:12.045",
+    "seconds": 12.045,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5026,
+    "bbox_xyxy": [
+      254.813,
+      194.373,
+      272.026,
+      224.221
+    ]
+  },
+  {
+    "frame_id": 362,
+    "timestamp": "00:00:12.079",
+    "seconds": 12.079,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4875,
+    "bbox_xyxy": [
+      254.816,
+      194.417,
+      272.012,
+      224.226
+    ]
+  },
+  {
+    "frame_id": 363,
+    "timestamp": "00:00:12.112",
+    "seconds": 12.112,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.492,
+    "bbox_xyxy": [
+      254.812,
+      194.423,
+      272.004,
+      224.217
+    ]
+  },
+  {
+    "frame_id": 364,
+    "timestamp": "00:00:12.145",
+    "seconds": 12.145,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4786,
+    "bbox_xyxy": [
+      254.829,
+      194.427,
+      272.017,
+      224.203
+    ]
+  },
+  {
+    "frame_id": 365,
+    "timestamp": "00:00:12.179",
+    "seconds": 12.179,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4732,
+    "bbox_xyxy": [
+      254.82,
+      194.446,
+      271.984,
+      224.184
+    ]
+  },
+  {
+    "frame_id": 366,
+    "timestamp": "00:00:12.212",
+    "seconds": 12.212,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4778,
+    "bbox_xyxy": [
+      254.817,
+      194.449,
+      271.971,
+      224.176
+    ]
+  },
+  {
+    "frame_id": 367,
+    "timestamp": "00:00:12.246",
+    "seconds": 12.246,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4908,
+    "bbox_xyxy": [
+      254.812,
+      194.396,
+      271.967,
+      224.132
+    ]
+  },
+  {
+    "frame_id": 368,
+    "timestamp": "00:00:12.279",
+    "seconds": 12.279,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.48,
+    "bbox_xyxy": [
+      254.828,
+      194.386,
+      271.954,
+      224.065
+    ]
+  },
+  {
+    "frame_id": 369,
+    "timestamp": "00:00:12.312",
+    "seconds": 12.312,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4936,
+    "bbox_xyxy": [
+      254.836,
+      194.437,
+      271.932,
+      224.064
+    ]
+  },
+  {
+    "frame_id": 370,
+    "timestamp": "00:00:12.346",
+    "seconds": 12.346,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4966,
+    "bbox_xyxy": [
+      254.844,
+      194.435,
+      271.948,
+      224.064
+    ]
+  },
+  {
+    "frame_id": 371,
+    "timestamp": "00:00:12.379",
+    "seconds": 12.379,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4983,
+    "bbox_xyxy": [
+      254.858,
+      194.47,
+      271.952,
+      224.066
+    ]
+  },
+  {
+    "frame_id": 372,
+    "timestamp": "00:00:12.412",
+    "seconds": 12.412,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4967,
+    "bbox_xyxy": [
+      254.851,
+      194.506,
+      271.95,
+      224.099
+    ]
+  },
+  {
+    "frame_id": 373,
+    "timestamp": "00:00:12.446",
+    "seconds": 12.446,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4966,
+    "bbox_xyxy": [
+      254.843,
+      194.499,
+      271.953,
+      224.099
+    ]
+  },
+  {
+    "frame_id": 374,
+    "timestamp": "00:00:12.479",
+    "seconds": 12.479,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4913,
+    "bbox_xyxy": [
+      254.836,
+      194.478,
+      271.951,
+      224.072
+    ]
+  },
+  {
+    "frame_id": 375,
+    "timestamp": "00:00:12.513",
+    "seconds": 12.513,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4888,
+    "bbox_xyxy": [
+      254.83,
+      194.466,
+      271.951,
+      224.062
+    ]
+  },
+  {
+    "frame_id": 376,
+    "timestamp": "00:00:12.546",
+    "seconds": 12.546,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4777,
+    "bbox_xyxy": [
+      254.817,
+      194.454,
+      271.968,
+      224.096
+    ]
+  },
+  {
+    "frame_id": 377,
+    "timestamp": "00:00:12.579",
+    "seconds": 12.579,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4518,
+    "bbox_xyxy": [
+      254.801,
+      194.364,
+      271.996,
+      224.085
+    ]
+  },
+  {
+    "frame_id": 378,
+    "timestamp": "00:00:12.613",
+    "seconds": 12.613,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4693,
+    "bbox_xyxy": [
+      254.786,
+      194.36,
+      272.007,
+      224.137
+    ]
+  },
+  {
+    "frame_id": 379,
+    "timestamp": "00:00:12.646",
+    "seconds": 12.646,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5024,
+    "bbox_xyxy": [
+      254.776,
+      194.377,
+      272.014,
+      224.176
+    ]
+  },
+  {
+    "frame_id": 380,
+    "timestamp": "00:00:12.679",
+    "seconds": 12.679,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5004,
+    "bbox_xyxy": [
+      254.77,
+      194.39,
+      272.004,
+      224.179
+    ]
+  },
+  {
+    "frame_id": 381,
+    "timestamp": "00:00:12.713",
+    "seconds": 12.713,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4903,
+    "bbox_xyxy": [
+      254.757,
+      194.401,
+      271.975,
+      224.174
+    ]
+  },
+  {
+    "frame_id": 382,
+    "timestamp": "00:00:12.746",
+    "seconds": 12.746,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.489,
+    "bbox_xyxy": [
+      254.756,
+      194.391,
+      271.961,
+      224.148
+    ]
+  },
+  {
+    "frame_id": 383,
+    "timestamp": "00:00:12.779",
+    "seconds": 12.779,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4772,
+    "bbox_xyxy": [
+      254.756,
+      194.382,
+      271.949,
+      224.124
+    ]
+  },
+  {
+    "frame_id": 384,
+    "timestamp": "00:00:12.813",
+    "seconds": 12.813,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4675,
+    "bbox_xyxy": [
+      254.757,
+      194.39,
+      271.91,
+      224.072
+    ]
+  },
+  {
+    "frame_id": 385,
+    "timestamp": "00:00:12.846",
+    "seconds": 12.846,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4493,
+    "bbox_xyxy": [
+      254.751,
+      194.35,
+      271.895,
+      224.03
+    ]
+  },
+  {
+    "frame_id": 386,
+    "timestamp": "00:00:12.880",
+    "seconds": 12.88,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4803,
+    "bbox_xyxy": [
+      254.756,
+      194.337,
+      271.89,
+      224.008
+    ]
+  },
+  {
+    "frame_id": 387,
+    "timestamp": "00:00:12.913",
+    "seconds": 12.913,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4761,
+    "bbox_xyxy": [
+      254.776,
+      194.363,
+      271.891,
+      224.009
+    ]
+  },
+  {
+    "frame_id": 388,
+    "timestamp": "00:00:12.946",
+    "seconds": 12.946,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4829,
+    "bbox_xyxy": [
+      254.798,
+      194.357,
+      271.914,
+      224.001
+    ]
+  },
+  {
+    "frame_id": 389,
+    "timestamp": "00:00:12.980",
+    "seconds": 12.98,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4926,
+    "bbox_xyxy": [
+      254.804,
+      194.339,
+      271.939,
+      224.007
+    ]
+  },
+  {
+    "frame_id": 390,
+    "timestamp": "00:00:13.013",
+    "seconds": 13.013,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4927,
+    "bbox_xyxy": [
+      254.786,
+      194.32,
+      271.961,
+      224.065
+    ]
+  },
+  {
+    "frame_id": 391,
+    "timestamp": "00:00:13.046",
+    "seconds": 13.046,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4705,
+    "bbox_xyxy": [
+      254.786,
+      194.293,
+      271.96,
+      224.042
+    ]
+  },
+  {
+    "frame_id": 392,
+    "timestamp": "00:00:13.080",
+    "seconds": 13.08,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.485,
+    "bbox_xyxy": [
+      254.795,
+      194.304,
+      271.971,
+      224.055
+    ]
+  },
+  {
+    "frame_id": 393,
+    "timestamp": "00:00:13.113",
+    "seconds": 13.113,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4932,
+    "bbox_xyxy": [
+      254.808,
+      194.337,
+      271.987,
+      224.085
+    ]
+  },
+  {
+    "frame_id": 394,
+    "timestamp": "00:00:13.146",
+    "seconds": 13.146,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5103,
+    "bbox_xyxy": [
+      254.818,
+      194.398,
+      271.991,
+      224.127
+    ]
+  },
+  {
+    "frame_id": 395,
+    "timestamp": "00:00:13.180",
+    "seconds": 13.18,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5389,
+    "bbox_xyxy": [
+      254.807,
+      194.395,
+      271.998,
+      224.155
+    ]
+  },
+  {
+    "frame_id": 396,
+    "timestamp": "00:00:13.213",
+    "seconds": 13.213,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5314,
+    "bbox_xyxy": [
+      254.79,
+      194.399,
+      272.004,
+      224.211
+    ]
+  },
+  {
+    "frame_id": 397,
+    "timestamp": "00:00:13.247",
+    "seconds": 13.247,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5428,
+    "bbox_xyxy": [
+      254.778,
+      194.411,
+      272.006,
+      224.266
+    ]
+  },
+  {
+    "frame_id": 398,
+    "timestamp": "00:00:13.280",
+    "seconds": 13.28,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5259,
+    "bbox_xyxy": [
+      254.784,
+      194.427,
+      271.999,
+      224.277
+    ]
+  },
+  {
+    "frame_id": 399,
+    "timestamp": "00:00:13.313",
+    "seconds": 13.313,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.492,
+    "bbox_xyxy": [
+      254.8,
+      194.394,
+      271.977,
+      224.197
+    ]
+  },
+  {
+    "frame_id": 400,
+    "timestamp": "00:00:13.347",
+    "seconds": 13.347,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4814,
+    "bbox_xyxy": [
+      254.82,
+      194.39,
+      271.959,
+      224.138
+    ]
+  },
+  {
+    "frame_id": 401,
+    "timestamp": "00:00:13.380",
+    "seconds": 13.38,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4668,
+    "bbox_xyxy": [
+      254.836,
+      194.402,
+      271.932,
+      224.084
+    ]
+  },
+  {
+    "frame_id": 402,
+    "timestamp": "00:00:13.413",
+    "seconds": 13.413,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4717,
+    "bbox_xyxy": [
+      254.851,
+      194.406,
+      271.908,
+      224.024
+    ]
+  },
+  {
+    "frame_id": 403,
+    "timestamp": "00:00:13.447",
+    "seconds": 13.447,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4775,
+    "bbox_xyxy": [
+      254.856,
+      194.348,
+      271.925,
+      223.975
+    ]
+  },
+  {
+    "frame_id": 404,
+    "timestamp": "00:00:13.480",
+    "seconds": 13.48,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4767,
+    "bbox_xyxy": [
+      254.854,
+      194.382,
+      271.882,
+      223.93
+    ]
+  },
+  {
+    "frame_id": 405,
+    "timestamp": "00:00:13.514",
+    "seconds": 13.514,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5024,
+    "bbox_xyxy": [
+      254.847,
+      194.387,
+      271.868,
+      223.922
+    ]
+  },
+  {
+    "frame_id": 406,
+    "timestamp": "00:00:13.547",
+    "seconds": 13.547,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.501,
+    "bbox_xyxy": [
+      254.846,
+      194.399,
+      271.869,
+      223.933
+    ]
+  },
+  {
+    "frame_id": 407,
+    "timestamp": "00:00:13.580",
+    "seconds": 13.58,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5014,
+    "bbox_xyxy": [
+      254.854,
+      194.426,
+      271.875,
+      223.945
+    ]
+  },
+  {
+    "frame_id": 408,
+    "timestamp": "00:00:13.614",
+    "seconds": 13.614,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4901,
+    "bbox_xyxy": [
+      254.866,
+      194.424,
+      271.883,
+      223.924
+    ]
+  },
+  {
+    "frame_id": 409,
+    "timestamp": "00:00:13.647",
+    "seconds": 13.647,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4996,
+    "bbox_xyxy": [
+      254.911,
+      194.413,
+      271.887,
+      223.807
+    ]
+  },
+  {
+    "frame_id": 410,
+    "timestamp": "00:00:13.680",
+    "seconds": 13.68,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5066,
+    "bbox_xyxy": [
+      254.904,
+      194.396,
+      271.918,
+      223.815
+    ]
+  },
+  {
+    "frame_id": 411,
+    "timestamp": "00:00:13.714",
+    "seconds": 13.714,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5158,
+    "bbox_xyxy": [
+      254.897,
+      194.396,
+      271.936,
+      223.825
+    ]
+  },
+  {
+    "frame_id": 412,
+    "timestamp": "00:00:13.747",
+    "seconds": 13.747,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5059,
+    "bbox_xyxy": [
+      254.918,
+      194.517,
+      271.947,
+      223.884
+    ]
+  },
+  {
+    "frame_id": 413,
+    "timestamp": "00:00:13.780",
+    "seconds": 13.78,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5129,
+    "bbox_xyxy": [
+      254.903,
+      194.56,
+      271.984,
+      223.977
+    ]
+  },
+  {
+    "frame_id": 414,
+    "timestamp": "00:00:13.814",
+    "seconds": 13.814,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5087,
+    "bbox_xyxy": [
+      254.859,
+      194.471,
+      272.022,
+      224.016
+    ]
+  },
+  {
+    "frame_id": 415,
+    "timestamp": "00:00:13.847",
+    "seconds": 13.847,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5249,
+    "bbox_xyxy": [
+      254.818,
+      194.423,
+      272.043,
+      224.064
+    ]
+  },
+  {
+    "frame_id": 416,
+    "timestamp": "00:00:13.881",
+    "seconds": 13.881,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.535,
+    "bbox_xyxy": [
+      254.801,
+      194.409,
+      272.049,
+      224.083
+    ]
+  },
+  {
+    "frame_id": 417,
+    "timestamp": "00:00:13.914",
+    "seconds": 13.914,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5027,
+    "bbox_xyxy": [
+      254.811,
+      194.407,
+      272.041,
+      224.039
+    ]
+  },
+  {
+    "frame_id": 418,
+    "timestamp": "00:00:13.947",
+    "seconds": 13.947,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4895,
+    "bbox_xyxy": [
+      254.832,
+      194.404,
+      272.023,
+      223.956
+    ]
+  },
+  {
+    "frame_id": 419,
+    "timestamp": "00:00:13.981",
+    "seconds": 13.981,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4793,
+    "bbox_xyxy": [
+      254.824,
+      194.379,
+      272.016,
+      223.92
+    ]
+  },
+  {
+    "frame_id": 420,
+    "timestamp": "00:00:14.014",
+    "seconds": 14.014,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.474,
+    "bbox_xyxy": [
+      254.818,
+      194.386,
+      272.002,
+      223.91
+    ]
+  },
+  {
+    "frame_id": 421,
+    "timestamp": "00:00:14.047",
+    "seconds": 14.047,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4751,
+    "bbox_xyxy": [
+      254.809,
+      194.309,
+      272.032,
+      223.903
+    ]
+  },
+  {
+    "frame_id": 422,
+    "timestamp": "00:00:14.081",
+    "seconds": 14.081,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4957,
+    "bbox_xyxy": [
+      254.778,
+      194.301,
+      272.034,
+      223.972
+    ]
+  },
+  {
+    "frame_id": 423,
+    "timestamp": "00:00:14.114",
+    "seconds": 14.114,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5198,
+    "bbox_xyxy": [
+      254.768,
+      194.299,
+      272.025,
+      223.994
+    ]
+  },
+  {
+    "frame_id": 424,
+    "timestamp": "00:00:14.147",
+    "seconds": 14.147,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5129,
+    "bbox_xyxy": [
+      254.768,
+      194.289,
+      272.034,
+      224.018
+    ]
+  },
+  {
+    "frame_id": 425,
+    "timestamp": "00:00:14.181",
+    "seconds": 14.181,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5102,
+    "bbox_xyxy": [
+      254.774,
+      194.285,
+      272.046,
+      224.04
+    ]
+  },
+  {
+    "frame_id": 426,
+    "timestamp": "00:00:14.214",
+    "seconds": 14.214,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5094,
+    "bbox_xyxy": [
+      254.777,
+      194.271,
+      272.028,
+      224.001
+    ]
+  },
+  {
+    "frame_id": 427,
+    "timestamp": "00:00:14.248",
+    "seconds": 14.248,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4831,
+    "bbox_xyxy": [
+      254.792,
+      194.263,
+      272.029,
+      223.978
+    ]
+  },
+  {
+    "frame_id": 428,
+    "timestamp": "00:00:14.281",
+    "seconds": 14.281,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4792,
+    "bbox_xyxy": [
+      254.798,
+      194.254,
+      272.027,
+      223.968
+    ]
+  },
+  {
+    "frame_id": 429,
+    "timestamp": "00:00:14.314",
+    "seconds": 14.314,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4741,
+    "bbox_xyxy": [
+      254.807,
+      194.272,
+      272.012,
+      223.955
+    ]
+  },
+  {
+    "frame_id": 430,
+    "timestamp": "00:00:14.348",
+    "seconds": 14.348,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4951,
+    "bbox_xyxy": [
+      254.825,
+      194.299,
+      272.024,
+      223.977
+    ]
+  },
+  {
+    "frame_id": 431,
+    "timestamp": "00:00:14.381",
+    "seconds": 14.381,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4668,
+    "bbox_xyxy": [
+      254.831,
+      194.303,
+      272.042,
+      224.001
+    ]
+  },
+  {
+    "frame_id": 432,
+    "timestamp": "00:00:14.414",
+    "seconds": 14.414,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4738,
+    "bbox_xyxy": [
+      254.852,
+      194.329,
+      272.057,
+      224.013
+    ]
+  },
+  {
+    "frame_id": 433,
+    "timestamp": "00:00:14.448",
+    "seconds": 14.448,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.485,
+    "bbox_xyxy": [
+      254.846,
+      194.302,
+      272.106,
+      224.095
+    ]
+  },
+  {
+    "frame_id": 434,
+    "timestamp": "00:00:14.481",
+    "seconds": 14.481,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4816,
+    "bbox_xyxy": [
+      254.843,
+      194.293,
+      272.113,
+      224.112
+    ]
+  },
+  {
+    "frame_id": 435,
+    "timestamp": "00:00:14.514",
+    "seconds": 14.514,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.473,
+    "bbox_xyxy": [
+      254.845,
+      194.291,
+      272.114,
+      224.117
+    ]
+  },
+  {
+    "frame_id": 436,
+    "timestamp": "00:00:14.548",
+    "seconds": 14.548,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4597,
+    "bbox_xyxy": [
+      254.871,
+      194.323,
+      272.111,
+      224.092
+    ]
+  },
+  {
+    "frame_id": 437,
+    "timestamp": "00:00:14.581",
+    "seconds": 14.581,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4573,
+    "bbox_xyxy": [
+      254.877,
+      194.328,
+      272.11,
+      224.085
+    ]
+  },
+  {
+    "frame_id": 438,
+    "timestamp": "00:00:14.615",
+    "seconds": 14.615,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4454,
+    "bbox_xyxy": [
+      254.876,
+      194.335,
+      272.092,
+      224.057
+    ]
+  },
+  {
+    "frame_id": 439,
+    "timestamp": "00:00:14.648",
+    "seconds": 14.648,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.451,
+    "bbox_xyxy": [
+      254.875,
+      194.334,
+      272.065,
+      224.002
+    ]
+  },
+  {
+    "frame_id": 440,
+    "timestamp": "00:00:14.681",
+    "seconds": 14.681,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4999,
+    "bbox_xyxy": [
+      254.863,
+      194.385,
+      272.019,
+      223.999
+    ]
+  },
+  {
+    "frame_id": 441,
+    "timestamp": "00:00:14.715",
+    "seconds": 14.715,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4966,
+    "bbox_xyxy": [
+      254.844,
+      194.369,
+      272.005,
+      224.004
+    ]
+  },
+  {
+    "frame_id": 442,
+    "timestamp": "00:00:14.748",
+    "seconds": 14.748,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5058,
+    "bbox_xyxy": [
+      254.848,
+      194.37,
+      272.015,
+      224.024
+    ]
+  },
+  {
+    "frame_id": 443,
+    "timestamp": "00:00:14.781",
+    "seconds": 14.781,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5047,
+    "bbox_xyxy": [
+      254.834,
+      194.34,
+      272.015,
+      224.033
+    ]
+  },
+  {
+    "frame_id": 444,
+    "timestamp": "00:00:14.815",
+    "seconds": 14.815,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4969,
+    "bbox_xyxy": [
+      254.836,
+      194.311,
+      272.009,
+      224.011
+    ]
+  },
+  {
+    "frame_id": 445,
+    "timestamp": "00:00:14.848",
+    "seconds": 14.848,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.501,
+    "bbox_xyxy": [
+      254.839,
+      194.279,
+      272.004,
+      223.981
+    ]
+  },
+  {
+    "frame_id": 446,
+    "timestamp": "00:00:14.882",
+    "seconds": 14.882,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5036,
+    "bbox_xyxy": [
+      254.843,
+      194.231,
+      272.039,
+      224.003
+    ]
+  },
+  {
+    "frame_id": 447,
+    "timestamp": "00:00:14.915",
+    "seconds": 14.915,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4963,
+    "bbox_xyxy": [
+      254.846,
+      194.214,
+      272.058,
+      224.021
+    ]
+  },
+  {
+    "frame_id": 448,
+    "timestamp": "00:00:14.948",
+    "seconds": 14.948,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4803,
+    "bbox_xyxy": [
+      254.872,
+      194.259,
+      272.047,
+      223.997
+    ]
+  },
+  {
+    "frame_id": 449,
+    "timestamp": "00:00:14.982",
+    "seconds": 14.982,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4929,
+    "bbox_xyxy": [
+      254.899,
+      194.345,
+      272.05,
+      224.029
+    ]
+  },
+  {
+    "frame_id": 450,
+    "timestamp": "00:00:15.015",
+    "seconds": 15.015,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4899,
+    "bbox_xyxy": [
+      254.906,
+      194.356,
+      272.054,
+      224.021
+    ]
+  },
+  {
+    "frame_id": 451,
+    "timestamp": "00:00:15.048",
+    "seconds": 15.048,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4971,
+    "bbox_xyxy": [
+      254.889,
+      194.341,
+      272.06,
+      224.037
+    ]
+  },
+  {
+    "frame_id": 452,
+    "timestamp": "00:00:15.082",
+    "seconds": 15.082,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.514,
+    "bbox_xyxy": [
+      254.877,
+      194.312,
+      272.059,
+      224.029
+    ]
+  },
+  {
+    "frame_id": 453,
+    "timestamp": "00:00:15.115",
+    "seconds": 15.115,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5032,
+    "bbox_xyxy": [
+      254.874,
+      194.316,
+      272.065,
+      224.045
+    ]
+  },
+  {
+    "frame_id": 454,
+    "timestamp": "00:00:15.148",
+    "seconds": 15.148,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4993,
+    "bbox_xyxy": [
+      254.877,
+      194.332,
+      272.071,
+      224.059
+    ]
+  },
+  {
+    "frame_id": 455,
+    "timestamp": "00:00:15.182",
+    "seconds": 15.182,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4622,
+    "bbox_xyxy": [
+      254.854,
+      194.28,
+      272.039,
+      224.002
+    ]
+  },
+  {
+    "frame_id": 456,
+    "timestamp": "00:00:15.215",
+    "seconds": 15.215,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4604,
+    "bbox_xyxy": [
+      254.864,
+      194.263,
+      272.052,
+      223.989
+    ]
+  },
+  {
+    "frame_id": 457,
+    "timestamp": "00:00:15.249",
+    "seconds": 15.249,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4639,
+    "bbox_xyxy": [
+      254.872,
+      194.267,
+      272.041,
+      223.965
+    ]
+  },
+  {
+    "frame_id": 458,
+    "timestamp": "00:00:15.282",
+    "seconds": 15.282,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4682,
+    "bbox_xyxy": [
+      254.867,
+      194.256,
+      272.031,
+      223.955
+    ]
+  },
+  {
+    "frame_id": 459,
+    "timestamp": "00:00:15.315",
+    "seconds": 15.315,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4766,
+    "bbox_xyxy": [
+      254.866,
+      194.257,
+      272.017,
+      223.943
+    ]
+  },
+  {
+    "frame_id": 460,
+    "timestamp": "00:00:15.349",
+    "seconds": 15.349,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4913,
+    "bbox_xyxy": [
+      254.862,
+      194.287,
+      272.0,
+      223.96
+    ]
+  },
+  {
+    "frame_id": 461,
+    "timestamp": "00:00:15.382",
+    "seconds": 15.382,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4774,
+    "bbox_xyxy": [
+      254.866,
+      194.281,
+      271.987,
+      223.925
+    ]
+  },
+  {
+    "frame_id": 462,
+    "timestamp": "00:00:15.415",
+    "seconds": 15.415,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4817,
+    "bbox_xyxy": [
+      254.868,
+      194.29,
+      271.982,
+      223.917
+    ]
+  },
+  {
+    "frame_id": 463,
+    "timestamp": "00:00:15.449",
+    "seconds": 15.449,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4594,
+    "bbox_xyxy": [
+      254.86,
+      194.256,
+      271.998,
+      223.928
+    ]
+  },
+  {
+    "frame_id": 464,
+    "timestamp": "00:00:15.482",
+    "seconds": 15.482,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4438,
+    "bbox_xyxy": [
+      254.869,
+      194.213,
+      272.038,
+      223.932
+    ]
+  },
+  {
+    "frame_id": 465,
+    "timestamp": "00:00:15.516",
+    "seconds": 15.515,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4608,
+    "bbox_xyxy": [
+      254.846,
+      194.191,
+      272.067,
+      223.996
+    ]
+  },
+  {
+    "frame_id": 466,
+    "timestamp": "00:00:15.549",
+    "seconds": 15.549,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4626,
+    "bbox_xyxy": [
+      254.831,
+      194.126,
+      272.116,
+      224.043
+    ]
+  },
+  {
+    "frame_id": 467,
+    "timestamp": "00:00:15.582",
+    "seconds": 15.582,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4693,
+    "bbox_xyxy": [
+      254.815,
+      194.069,
+      272.135,
+      224.053
+    ]
+  },
+  {
+    "frame_id": 468,
+    "timestamp": "00:00:15.616",
+    "seconds": 15.616,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4423,
+    "bbox_xyxy": [
+      254.805,
+      194.088,
+      272.134,
+      224.091
+    ]
+  },
+  {
+    "frame_id": 469,
+    "timestamp": "00:00:15.649",
+    "seconds": 15.649,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4514,
+    "bbox_xyxy": [
+      254.778,
+      194.072,
+      272.097,
+      224.079
+    ]
+  },
+  {
+    "frame_id": 470,
+    "timestamp": "00:00:15.682",
+    "seconds": 15.682,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4693,
+    "bbox_xyxy": [
+      254.791,
+      194.13,
+      272.07,
+      224.083
+    ]
+  },
+  {
+    "frame_id": 471,
+    "timestamp": "00:00:15.716",
+    "seconds": 15.716,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4637,
+    "bbox_xyxy": [
+      254.8,
+      194.175,
+      272.077,
+      224.138
+    ]
+  },
+  {
+    "frame_id": 472,
+    "timestamp": "00:00:15.749",
+    "seconds": 15.749,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4779,
+    "bbox_xyxy": [
+      254.814,
+      194.248,
+      272.084,
+      224.2
+    ]
+  },
+  {
+    "frame_id": 473,
+    "timestamp": "00:00:15.782",
+    "seconds": 15.782,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4696,
+    "bbox_xyxy": [
+      254.835,
+      194.281,
+      272.101,
+      224.219
+    ]
+  },
+  {
+    "frame_id": 474,
+    "timestamp": "00:00:15.816",
+    "seconds": 15.816,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4758,
+    "bbox_xyxy": [
+      254.827,
+      194.309,
+      272.065,
+      224.195
+    ]
+  },
+  {
+    "frame_id": 475,
+    "timestamp": "00:00:15.849",
+    "seconds": 15.849,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5102,
+    "bbox_xyxy": [
+      254.823,
+      194.325,
+      272.06,
+      224.204
+    ]
+  },
+  {
+    "frame_id": 476,
+    "timestamp": "00:00:15.883",
+    "seconds": 15.883,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.505,
+    "bbox_xyxy": [
+      254.824,
+      194.32,
+      272.04,
+      224.159
+    ]
+  },
+  {
+    "frame_id": 477,
+    "timestamp": "00:00:15.916",
+    "seconds": 15.916,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5099,
+    "bbox_xyxy": [
+      254.827,
+      194.297,
+      272.043,
+      224.136
+    ]
+  },
+  {
+    "frame_id": 478,
+    "timestamp": "00:00:15.949",
+    "seconds": 15.949,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5133,
+    "bbox_xyxy": [
+      254.827,
+      194.307,
+      272.03,
+      224.117
+    ]
+  },
+  {
+    "frame_id": 479,
+    "timestamp": "00:00:15.983",
+    "seconds": 15.983,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5121,
+    "bbox_xyxy": [
+      254.824,
+      194.318,
+      272.023,
+      224.115
+    ]
+  },
+  {
+    "frame_id": 480,
+    "timestamp": "00:00:16.016",
+    "seconds": 16.016,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5346,
+    "bbox_xyxy": [
+      254.812,
+      194.342,
+      272.026,
+      224.165
+    ]
+  },
+  {
+    "frame_id": 481,
+    "timestamp": "00:00:16.049",
+    "seconds": 16.049,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5384,
+    "bbox_xyxy": [
+      254.814,
+      194.366,
+      272.022,
+      224.178
+    ]
+  },
+  {
+    "frame_id": 482,
+    "timestamp": "00:00:16.083",
+    "seconds": 16.083,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5247,
+    "bbox_xyxy": [
+      254.826,
+      194.369,
+      272.02,
+      224.157
+    ]
+  },
+  {
+    "frame_id": 483,
+    "timestamp": "00:00:16.116",
+    "seconds": 16.116,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.531,
+    "bbox_xyxy": [
+      254.822,
+      194.334,
+      272.023,
+      224.136
+    ]
+  },
+  {
+    "frame_id": 484,
+    "timestamp": "00:00:16.149",
+    "seconds": 16.149,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5498,
+    "bbox_xyxy": [
+      254.799,
+      194.312,
+      272.005,
+      224.134
+    ]
+  },
+  {
+    "frame_id": 485,
+    "timestamp": "00:00:16.183",
+    "seconds": 16.183,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5348,
+    "bbox_xyxy": [
+      254.806,
+      194.325,
+      272.016,
+      224.164
+    ]
+  },
+  {
+    "frame_id": 486,
+    "timestamp": "00:00:16.216",
+    "seconds": 16.216,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5384,
+    "bbox_xyxy": [
+      254.814,
+      194.34,
+      272.004,
+      224.162
+    ]
+  },
+  {
+    "frame_id": 487,
+    "timestamp": "00:00:16.250",
+    "seconds": 16.25,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5201,
+    "bbox_xyxy": [
+      254.831,
+      194.325,
+      272.008,
+      224.145
+    ]
+  },
+  {
+    "frame_id": 488,
+    "timestamp": "00:00:16.283",
+    "seconds": 16.283,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4981,
+    "bbox_xyxy": [
+      254.83,
+      194.314,
+      271.992,
+      224.129
+    ]
+  },
+  {
+    "frame_id": 489,
+    "timestamp": "00:00:16.316",
+    "seconds": 16.316,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5063,
+    "bbox_xyxy": [
+      254.822,
+      194.328,
+      271.962,
+      224.129
+    ]
+  },
+  {
+    "frame_id": 490,
+    "timestamp": "00:00:16.350",
+    "seconds": 16.35,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5288,
+    "bbox_xyxy": [
+      254.817,
+      194.338,
+      271.968,
+      224.173
+    ]
+  },
+  {
+    "frame_id": 491,
+    "timestamp": "00:00:16.383",
+    "seconds": 16.383,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5059,
+    "bbox_xyxy": [
+      254.827,
+      194.342,
+      271.981,
+      224.194
+    ]
+  },
+  {
+    "frame_id": 492,
+    "timestamp": "00:00:16.416",
+    "seconds": 16.416,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5061,
+    "bbox_xyxy": [
+      254.849,
+      194.359,
+      271.978,
+      224.168
+    ]
+  },
+  {
+    "frame_id": 493,
+    "timestamp": "00:00:16.450",
+    "seconds": 16.45,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4919,
+    "bbox_xyxy": [
+      254.868,
+      194.39,
+      271.976,
+      224.158
+    ]
+  },
+  {
+    "frame_id": 494,
+    "timestamp": "00:00:16.483",
+    "seconds": 16.483,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4924,
+    "bbox_xyxy": [
+      254.88,
+      194.403,
+      271.96,
+      224.115
+    ]
+  },
+  {
+    "frame_id": 495,
+    "timestamp": "00:00:16.516",
+    "seconds": 16.517,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4762,
+    "bbox_xyxy": [
+      254.873,
+      194.428,
+      271.928,
+      224.107
+    ]
+  },
+  {
+    "frame_id": 496,
+    "timestamp": "00:00:16.550",
+    "seconds": 16.55,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4897,
+    "bbox_xyxy": [
+      254.912,
+      194.383,
+      271.965,
+      224.041
+    ]
+  },
+  {
+    "frame_id": 497,
+    "timestamp": "00:00:16.583",
+    "seconds": 16.583,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5156,
+    "bbox_xyxy": [
+      254.913,
+      194.406,
+      271.963,
+      224.046
+    ]
+  },
+  {
+    "frame_id": 498,
+    "timestamp": "00:00:16.617",
+    "seconds": 16.617,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5126,
+    "bbox_xyxy": [
+      254.913,
+      194.418,
+      271.958,
+      224.037
+    ]
+  },
+  {
+    "frame_id": 499,
+    "timestamp": "00:00:16.650",
+    "seconds": 16.65,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5171,
+    "bbox_xyxy": [
+      254.915,
+      194.443,
+      271.965,
+      224.053
+    ]
+  },
+  {
+    "frame_id": 500,
+    "timestamp": "00:00:16.683",
+    "seconds": 16.683,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5468,
+    "bbox_xyxy": [
+      254.94,
+      194.398,
+      271.933,
+      223.833
+    ]
+  },
+  {
+    "frame_id": 501,
+    "timestamp": "00:00:16.717",
+    "seconds": 16.717,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5375,
+    "bbox_xyxy": [
+      254.932,
+      194.362,
+      271.944,
+      223.761
+    ]
+  },
+  {
+    "frame_id": 502,
+    "timestamp": "00:00:16.750",
+    "seconds": 16.75,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5155,
+    "bbox_xyxy": [
+      254.949,
+      194.299,
+      271.974,
+      223.672
+    ]
+  },
+  {
+    "frame_id": 503,
+    "timestamp": "00:00:16.783",
+    "seconds": 16.783,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.511,
+    "bbox_xyxy": [
+      254.945,
+      194.264,
+      271.984,
+      223.622
+    ]
+  },
+  {
+    "frame_id": 504,
+    "timestamp": "00:00:16.817",
+    "seconds": 16.817,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5356,
+    "bbox_xyxy": [
+      254.936,
+      194.28,
+      272.016,
+      223.665
+    ]
+  },
+  {
+    "frame_id": 505,
+    "timestamp": "00:00:16.850",
+    "seconds": 16.85,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5487,
+    "bbox_xyxy": [
+      254.914,
+      194.284,
+      272.049,
+      223.741
+    ]
+  },
+  {
+    "frame_id": 506,
+    "timestamp": "00:00:16.884",
+    "seconds": 16.884,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5581,
+    "bbox_xyxy": [
+      254.902,
+      194.281,
+      272.071,
+      223.783
+    ]
+  },
+  {
+    "frame_id": 507,
+    "timestamp": "00:00:16.917",
+    "seconds": 16.917,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5695,
+    "bbox_xyxy": [
+      254.898,
+      194.293,
+      272.092,
+      223.823
+    ]
+  },
+  {
+    "frame_id": 508,
+    "timestamp": "00:00:16.950",
+    "seconds": 16.95,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.567,
+    "bbox_xyxy": [
+      254.887,
+      194.283,
+      272.112,
+      223.854
+    ]
+  },
+  {
+    "frame_id": 509,
+    "timestamp": "00:00:16.984",
+    "seconds": 16.984,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5705,
+    "bbox_xyxy": [
+      254.889,
+      194.307,
+      272.129,
+      223.889
+    ]
+  },
+  {
+    "frame_id": 510,
+    "timestamp": "00:00:17.017",
+    "seconds": 17.017,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5522,
+    "bbox_xyxy": [
+      254.895,
+      194.333,
+      272.105,
+      223.848
+    ]
+  },
+  {
+    "frame_id": 511,
+    "timestamp": "00:00:17.050",
+    "seconds": 17.05,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5328,
+    "bbox_xyxy": [
+      254.898,
+      194.337,
+      272.084,
+      223.797
+    ]
+  },
+  {
+    "frame_id": 512,
+    "timestamp": "00:00:17.084",
+    "seconds": 17.084,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5277,
+    "bbox_xyxy": [
+      254.896,
+      194.296,
+      272.075,
+      223.736
+    ]
+  },
+  {
+    "frame_id": 513,
+    "timestamp": "00:00:17.117",
+    "seconds": 17.117,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5348,
+    "bbox_xyxy": [
+      254.897,
+      194.263,
+      272.085,
+      223.713
+    ]
+  },
+  {
+    "frame_id": 514,
+    "timestamp": "00:00:17.150",
+    "seconds": 17.15,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5106,
+    "bbox_xyxy": [
+      254.881,
+      194.247,
+      272.049,
+      223.671
+    ]
+  },
+  {
+    "frame_id": 515,
+    "timestamp": "00:00:17.184",
+    "seconds": 17.184,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4988,
+    "bbox_xyxy": [
+      254.893,
+      194.292,
+      272.006,
+      223.617
+    ]
+  },
+  {
+    "frame_id": 516,
+    "timestamp": "00:00:17.217",
+    "seconds": 17.217,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5034,
+    "bbox_xyxy": [
+      254.895,
+      194.294,
+      271.992,
+      223.594
+    ]
+  },
+  {
+    "frame_id": 517,
+    "timestamp": "00:00:17.251",
+    "seconds": 17.251,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5054,
+    "bbox_xyxy": [
+      254.899,
+      194.3,
+      271.997,
+      223.601
+    ]
+  },
+  {
+    "frame_id": 518,
+    "timestamp": "00:00:17.284",
+    "seconds": 17.284,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4974,
+    "bbox_xyxy": [
+      254.901,
+      194.299,
+      271.994,
+      223.578
+    ]
+  },
+  {
+    "frame_id": 519,
+    "timestamp": "00:00:17.317",
+    "seconds": 17.317,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5024,
+    "bbox_xyxy": [
+      254.897,
+      194.308,
+      271.993,
+      223.574
+    ]
+  },
+  {
+    "frame_id": 520,
+    "timestamp": "00:00:17.351",
+    "seconds": 17.351,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4976,
+    "bbox_xyxy": [
+      254.879,
+      194.222,
+      272.032,
+      223.574
+    ]
+  },
+  {
+    "frame_id": 521,
+    "timestamp": "00:00:17.384",
+    "seconds": 17.384,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5164,
+    "bbox_xyxy": [
+      254.874,
+      194.246,
+      272.028,
+      223.588
+    ]
+  },
+  {
+    "frame_id": 522,
+    "timestamp": "00:00:17.417",
+    "seconds": 17.417,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5147,
+    "bbox_xyxy": [
+      254.865,
+      194.253,
+      272.052,
+      223.647
+    ]
+  },
+  {
+    "frame_id": 523,
+    "timestamp": "00:00:17.451",
+    "seconds": 17.451,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.529,
+    "bbox_xyxy": [
+      254.865,
+      194.283,
+      272.056,
+      223.673
+    ]
+  },
+  {
+    "frame_id": 524,
+    "timestamp": "00:00:17.484",
+    "seconds": 17.484,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5158,
+    "bbox_xyxy": [
+      254.859,
+      194.224,
+      272.056,
+      223.626
+    ]
+  },
+  {
+    "frame_id": 525,
+    "timestamp": "00:00:17.518",
+    "seconds": 17.518,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.494,
+    "bbox_xyxy": [
+      254.845,
+      194.144,
+      272.069,
+      223.605
+    ]
+  },
+  {
+    "frame_id": 526,
+    "timestamp": "00:00:17.551",
+    "seconds": 17.551,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5041,
+    "bbox_xyxy": [
+      254.842,
+      194.133,
+      272.065,
+      223.6
+    ]
+  },
+  {
+    "frame_id": 527,
+    "timestamp": "00:00:17.584",
+    "seconds": 17.584,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5166,
+    "bbox_xyxy": [
+      254.86,
+      194.179,
+      272.055,
+      223.592
+    ]
+  },
+  {
+    "frame_id": 528,
+    "timestamp": "00:00:17.618",
+    "seconds": 17.618,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5203,
+    "bbox_xyxy": [
+      254.875,
+      194.208,
+      272.03,
+      223.533
+    ]
+  },
+  {
+    "frame_id": 529,
+    "timestamp": "00:00:17.651",
+    "seconds": 17.651,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.543,
+    "bbox_xyxy": [
+      254.862,
+      194.202,
+      272.022,
+      223.53
+    ]
+  },
+  {
+    "frame_id": 530,
+    "timestamp": "00:00:17.684",
+    "seconds": 17.684,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5325,
+    "bbox_xyxy": [
+      254.871,
+      194.157,
+      272.015,
+      223.45
+    ]
+  },
+  {
+    "frame_id": 531,
+    "timestamp": "00:00:17.718",
+    "seconds": 17.718,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5436,
+    "bbox_xyxy": [
+      254.889,
+      194.206,
+      271.999,
+      223.42
+    ]
+  },
+  {
+    "frame_id": 532,
+    "timestamp": "00:00:17.751",
+    "seconds": 17.751,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5499,
+    "bbox_xyxy": [
+      254.894,
+      194.219,
+      272.027,
+      223.475
+    ]
+  },
+  {
+    "frame_id": 533,
+    "timestamp": "00:00:17.784",
+    "seconds": 17.784,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.547,
+    "bbox_xyxy": [
+      254.872,
+      194.216,
+      271.992,
+      223.439
+    ]
+  },
+  {
+    "frame_id": 534,
+    "timestamp": "00:00:17.818",
+    "seconds": 17.818,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5393,
+    "bbox_xyxy": [
+      254.873,
+      194.177,
+      271.996,
+      223.395
+    ]
+  },
+  {
+    "frame_id": 535,
+    "timestamp": "00:00:17.851",
+    "seconds": 17.851,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5451,
+    "bbox_xyxy": [
+      254.879,
+      194.175,
+      271.991,
+      223.364
+    ]
+  },
+  {
+    "frame_id": 536,
+    "timestamp": "00:00:17.885",
+    "seconds": 17.885,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5354,
+    "bbox_xyxy": [
+      254.872,
+      194.136,
+      271.991,
+      223.322
+    ]
+  },
+  {
+    "frame_id": 537,
+    "timestamp": "00:00:17.918",
+    "seconds": 17.918,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5317,
+    "bbox_xyxy": [
+      254.873,
+      194.131,
+      271.988,
+      223.297
+    ]
+  },
+  {
+    "frame_id": 538,
+    "timestamp": "00:00:17.951",
+    "seconds": 17.951,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5156,
+    "bbox_xyxy": [
+      254.876,
+      194.13,
+      271.979,
+      223.263
+    ]
+  },
+  {
+    "frame_id": 539,
+    "timestamp": "00:00:17.985",
+    "seconds": 17.985,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.517,
+    "bbox_xyxy": [
+      254.872,
+      194.121,
+      271.979,
+      223.257
+    ]
+  },
+  {
+    "frame_id": 540,
+    "timestamp": "00:00:18.018",
+    "seconds": 18.018,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5097,
+    "bbox_xyxy": [
+      254.856,
+      194.117,
+      271.97,
+      223.261
+    ]
+  },
+  {
+    "frame_id": 541,
+    "timestamp": "00:00:18.051",
+    "seconds": 18.051,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5033,
+    "bbox_xyxy": [
+      254.846,
+      194.121,
+      271.969,
+      223.277
+    ]
+  },
+  {
+    "frame_id": 542,
+    "timestamp": "00:00:18.085",
+    "seconds": 18.085,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4894,
+    "bbox_xyxy": [
+      254.851,
+      194.1,
+      271.975,
+      223.257
+    ]
+  },
+  {
+    "frame_id": 543,
+    "timestamp": "00:00:18.118",
+    "seconds": 18.118,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4464,
+    "bbox_xyxy": [
+      254.848,
+      194.066,
+      271.991,
+      223.257
+    ]
+  },
+  {
+    "frame_id": 544,
+    "timestamp": "00:00:18.151",
+    "seconds": 18.151,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4617,
+    "bbox_xyxy": [
+      254.841,
+      194.019,
+      271.999,
+      223.238
+    ]
+  },
+  {
+    "frame_id": 545,
+    "timestamp": "00:00:18.185",
+    "seconds": 18.185,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4919,
+    "bbox_xyxy": [
+      254.837,
+      194.051,
+      271.989,
+      223.251
+    ]
+  },
+  {
+    "frame_id": 546,
+    "timestamp": "00:00:18.218",
+    "seconds": 18.218,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5025,
+    "bbox_xyxy": [
+      254.833,
+      194.075,
+      271.97,
+      223.246
+    ]
+  },
+  {
+    "frame_id": 547,
+    "timestamp": "00:00:18.252",
+    "seconds": 18.252,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5112,
+    "bbox_xyxy": [
+      254.831,
+      194.091,
+      271.982,
+      223.274
+    ]
+  },
+  {
+    "frame_id": 548,
+    "timestamp": "00:00:18.285",
+    "seconds": 18.285,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5251,
+    "bbox_xyxy": [
+      254.826,
+      194.128,
+      271.971,
+      223.292
+    ]
+  },
+  {
+    "frame_id": 549,
+    "timestamp": "00:00:18.318",
+    "seconds": 18.318,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5104,
+    "bbox_xyxy": [
+      254.822,
+      194.165,
+      271.971,
+      223.337
+    ]
+  },
+  {
+    "frame_id": 550,
+    "timestamp": "00:00:18.352",
+    "seconds": 18.352,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5061,
+    "bbox_xyxy": [
+      254.826,
+      194.195,
+      271.979,
+      223.37
+    ]
+  },
+  {
+    "frame_id": 551,
+    "timestamp": "00:00:18.385",
+    "seconds": 18.385,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.517,
+    "bbox_xyxy": [
+      254.822,
+      194.216,
+      272.004,
+      223.437
+    ]
+  },
+  {
+    "frame_id": 552,
+    "timestamp": "00:00:18.418",
+    "seconds": 18.418,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4778,
+    "bbox_xyxy": [
+      254.82,
+      194.233,
+      272.031,
+      223.501
+    ]
+  },
+  {
+    "frame_id": 553,
+    "timestamp": "00:00:18.452",
+    "seconds": 18.452,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4793,
+    "bbox_xyxy": [
+      254.86,
+      194.325,
+      272.012,
+      223.479
+    ]
+  },
+  {
+    "frame_id": 554,
+    "timestamp": "00:00:18.485",
+    "seconds": 18.485,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4884,
+    "bbox_xyxy": [
+      254.859,
+      194.34,
+      272.017,
+      223.503
+    ]
+  },
+  {
+    "frame_id": 555,
+    "timestamp": "00:00:18.518",
+    "seconds": 18.518,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5156,
+    "bbox_xyxy": [
+      254.859,
+      194.332,
+      272.033,
+      223.517
+    ]
+  },
+  {
+    "frame_id": 556,
+    "timestamp": "00:00:18.552",
+    "seconds": 18.552,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5108,
+    "bbox_xyxy": [
+      254.863,
+      194.346,
+      272.031,
+      223.514
+    ]
+  },
+  {
+    "frame_id": 557,
+    "timestamp": "00:00:18.585",
+    "seconds": 18.585,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4989,
+    "bbox_xyxy": [
+      254.874,
+      194.364,
+      272.014,
+      223.473
+    ]
+  },
+  {
+    "frame_id": 558,
+    "timestamp": "00:00:18.619",
+    "seconds": 18.619,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5094,
+    "bbox_xyxy": [
+      254.865,
+      194.373,
+      272.001,
+      223.465
+    ]
+  },
+  {
+    "frame_id": 559,
+    "timestamp": "00:00:18.652",
+    "seconds": 18.652,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.511,
+    "bbox_xyxy": [
+      254.857,
+      194.4,
+      271.997,
+      223.489
+    ]
+  },
+  {
+    "frame_id": 560,
+    "timestamp": "00:00:18.685",
+    "seconds": 18.685,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5369,
+    "bbox_xyxy": [
+      254.834,
+      194.39,
+      272.026,
+      223.565
+    ]
+  },
+  {
+    "frame_id": 561,
+    "timestamp": "00:00:18.719",
+    "seconds": 18.719,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5041,
+    "bbox_xyxy": [
+      254.85,
+      194.409,
+      272.028,
+      223.555
+    ]
+  },
+  {
+    "frame_id": 562,
+    "timestamp": "00:00:18.752",
+    "seconds": 18.752,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5378,
+    "bbox_xyxy": [
+      254.852,
+      194.423,
+      272.034,
+      223.573
+    ]
+  },
+  {
+    "frame_id": 563,
+    "timestamp": "00:00:18.785",
+    "seconds": 18.785,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5415,
+    "bbox_xyxy": [
+      254.846,
+      194.422,
+      272.052,
+      223.624
+    ]
+  },
+  {
+    "frame_id": 564,
+    "timestamp": "00:00:18.819",
+    "seconds": 18.819,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5369,
+    "bbox_xyxy": [
+      254.84,
+      194.429,
+      272.072,
+      223.68
+    ]
+  },
+  {
+    "frame_id": 565,
+    "timestamp": "00:00:18.852",
+    "seconds": 18.852,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5177,
+    "bbox_xyxy": [
+      254.818,
+      194.416,
+      272.087,
+      223.734
+    ]
+  },
+  {
+    "frame_id": 566,
+    "timestamp": "00:00:18.886",
+    "seconds": 18.886,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5114,
+    "bbox_xyxy": [
+      254.823,
+      194.436,
+      272.094,
+      223.754
+    ]
+  },
+  {
+    "frame_id": 567,
+    "timestamp": "00:00:18.919",
+    "seconds": 18.919,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5146,
+    "bbox_xyxy": [
+      254.821,
+      194.438,
+      272.073,
+      223.723
+    ]
+  },
+  {
+    "frame_id": 568,
+    "timestamp": "00:00:18.952",
+    "seconds": 18.952,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5104,
+    "bbox_xyxy": [
+      254.82,
+      194.437,
+      272.066,
+      223.71
+    ]
+  },
+  {
+    "frame_id": 569,
+    "timestamp": "00:00:18.986",
+    "seconds": 18.986,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5118,
+    "bbox_xyxy": [
+      254.83,
+      194.439,
+      272.067,
+      223.694
+    ]
+  },
+  {
+    "frame_id": 570,
+    "timestamp": "00:00:19.019",
+    "seconds": 19.019,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5214,
+    "bbox_xyxy": [
+      254.865,
+      194.505,
+      272.049,
+      223.647
+    ]
+  },
+  {
+    "frame_id": 571,
+    "timestamp": "00:00:19.052",
+    "seconds": 19.052,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5216,
+    "bbox_xyxy": [
+      254.885,
+      194.544,
+      272.021,
+      223.584
+    ]
+  },
+  {
+    "frame_id": 572,
+    "timestamp": "00:00:19.086",
+    "seconds": 19.086,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5166,
+    "bbox_xyxy": [
+      254.881,
+      194.557,
+      272.002,
+      223.54
+    ]
+  },
+  {
+    "frame_id": 573,
+    "timestamp": "00:00:19.119",
+    "seconds": 19.119,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5132,
+    "bbox_xyxy": [
+      254.878,
+      194.57,
+      271.983,
+      223.502
+    ]
+  },
+  {
+    "frame_id": 574,
+    "timestamp": "00:00:19.152",
+    "seconds": 19.152,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5285,
+    "bbox_xyxy": [
+      254.882,
+      194.62,
+      271.989,
+      223.533
+    ]
+  },
+  {
+    "frame_id": 575,
+    "timestamp": "00:00:19.186",
+    "seconds": 19.186,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5301,
+    "bbox_xyxy": [
+      254.869,
+      194.627,
+      271.994,
+      223.559
+    ]
+  },
+  {
+    "frame_id": 576,
+    "timestamp": "00:00:19.219",
+    "seconds": 19.219,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5344,
+    "bbox_xyxy": [
+      254.863,
+      194.627,
+      271.991,
+      223.553
+    ]
+  },
+  {
+    "frame_id": 577,
+    "timestamp": "00:00:19.253",
+    "seconds": 19.253,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5122,
+    "bbox_xyxy": [
+      254.846,
+      194.607,
+      271.989,
+      223.552
+    ]
+  },
+  {
+    "frame_id": 578,
+    "timestamp": "00:00:19.286",
+    "seconds": 19.286,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4918,
+    "bbox_xyxy": [
+      254.801,
+      194.571,
+      271.961,
+      223.541
+    ]
+  },
+  {
+    "frame_id": 579,
+    "timestamp": "00:00:19.319",
+    "seconds": 19.319,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5023,
+    "bbox_xyxy": [
+      254.777,
+      194.59,
+      271.986,
+      223.649
+    ]
+  },
+  {
+    "frame_id": 580,
+    "timestamp": "00:00:19.353",
+    "seconds": 19.353,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5506,
+    "bbox_xyxy": [
+      254.764,
+      194.613,
+      272.024,
+      223.768
+    ]
+  },
+  {
+    "frame_id": 581,
+    "timestamp": "00:00:19.386",
+    "seconds": 19.386,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5414,
+    "bbox_xyxy": [
+      254.738,
+      194.585,
+      272.049,
+      223.846
+    ]
+  },
+  {
+    "frame_id": 582,
+    "timestamp": "00:00:19.419",
+    "seconds": 19.419,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5715,
+    "bbox_xyxy": [
+      254.707,
+      194.568,
+      272.074,
+      223.929
+    ]
+  },
+  {
+    "frame_id": 583,
+    "timestamp": "00:00:19.453",
+    "seconds": 19.453,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5641,
+    "bbox_xyxy": [
+      254.691,
+      194.568,
+      272.104,
+      224.011
+    ]
+  },
+  {
+    "frame_id": 584,
+    "timestamp": "00:00:19.486",
+    "seconds": 19.486,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5559,
+    "bbox_xyxy": [
+      254.696,
+      194.548,
+      272.077,
+      223.931
+    ]
+  },
+  {
+    "frame_id": 585,
+    "timestamp": "00:00:19.520",
+    "seconds": 19.52,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5575,
+    "bbox_xyxy": [
+      254.69,
+      194.53,
+      272.108,
+      223.987
+    ]
+  },
+  {
+    "frame_id": 586,
+    "timestamp": "00:00:19.553",
+    "seconds": 19.553,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5564,
+    "bbox_xyxy": [
+      254.713,
+      194.535,
+      272.093,
+      223.941
+    ]
+  },
+  {
+    "frame_id": 587,
+    "timestamp": "00:00:19.586",
+    "seconds": 19.586,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5664,
+    "bbox_xyxy": [
+      254.735,
+      194.546,
+      272.064,
+      223.88
+    ]
+  },
+  {
+    "frame_id": 588,
+    "timestamp": "00:00:19.620",
+    "seconds": 19.62,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5416,
+    "bbox_xyxy": [
+      254.746,
+      194.526,
+      272.052,
+      223.831
+    ]
+  },
+  {
+    "frame_id": 589,
+    "timestamp": "00:00:19.653",
+    "seconds": 19.653,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5173,
+    "bbox_xyxy": [
+      254.779,
+      194.54,
+      271.999,
+      223.689
+    ]
+  },
+  {
+    "frame_id": 590,
+    "timestamp": "00:00:19.686",
+    "seconds": 19.686,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5092,
+    "bbox_xyxy": [
+      254.797,
+      194.521,
+      271.967,
+      223.572
+    ]
+  },
+  {
+    "frame_id": 591,
+    "timestamp": "00:00:19.720",
+    "seconds": 19.72,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5273,
+    "bbox_xyxy": [
+      254.812,
+      194.552,
+      271.93,
+      223.492
+    ]
+  },
+  {
+    "frame_id": 592,
+    "timestamp": "00:00:19.753",
+    "seconds": 19.753,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5279,
+    "bbox_xyxy": [
+      254.825,
+      194.578,
+      271.913,
+      223.439
+    ]
+  },
+  {
+    "frame_id": 593,
+    "timestamp": "00:00:19.786",
+    "seconds": 19.786,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5341,
+    "bbox_xyxy": [
+      254.816,
+      194.592,
+      271.918,
+      223.457
+    ]
+  },
+  {
+    "frame_id": 594,
+    "timestamp": "00:00:19.820",
+    "seconds": 19.82,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5322,
+    "bbox_xyxy": [
+      254.817,
+      194.57,
+      271.917,
+      223.411
+    ]
+  },
+  {
+    "frame_id": 595,
+    "timestamp": "00:00:19.853",
+    "seconds": 19.853,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.533,
+    "bbox_xyxy": [
+      254.788,
+      194.546,
+      271.915,
+      223.436
+    ]
+  },
+  {
+    "frame_id": 596,
+    "timestamp": "00:00:19.887",
+    "seconds": 19.887,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5309,
+    "bbox_xyxy": [
+      254.774,
+      194.526,
+      271.932,
+      223.462
+    ]
+  },
+  {
+    "frame_id": 597,
+    "timestamp": "00:00:19.920",
+    "seconds": 19.92,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5263,
+    "bbox_xyxy": [
+      254.738,
+      194.505,
+      271.945,
+      223.539
+    ]
+  },
+  {
+    "frame_id": 598,
+    "timestamp": "00:00:19.953",
+    "seconds": 19.953,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5223,
+    "bbox_xyxy": [
+      254.713,
+      194.493,
+      271.976,
+      223.642
+    ]
+  },
+  {
+    "frame_id": 599,
+    "timestamp": "00:00:19.987",
+    "seconds": 19.987,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5317,
+    "bbox_xyxy": [
+      254.708,
+      194.516,
+      271.985,
+      223.71
+    ]
+  },
+  {
+    "frame_id": 600,
+    "timestamp": "00:00:20.020",
+    "seconds": 20.02,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5479,
+    "bbox_xyxy": [
+      254.729,
+      194.585,
+      271.977,
+      223.735
+    ]
+  },
+  {
+    "frame_id": 601,
+    "timestamp": "00:00:20.053",
+    "seconds": 20.053,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5467,
+    "bbox_xyxy": [
+      254.723,
+      194.597,
+      271.997,
+      223.814
+    ]
+  },
+  {
+    "frame_id": 602,
+    "timestamp": "00:00:20.087",
+    "seconds": 20.087,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5489,
+    "bbox_xyxy": [
+      254.716,
+      194.574,
+      272.036,
+      223.885
+    ]
+  },
+  {
+    "frame_id": 603,
+    "timestamp": "00:00:20.120",
+    "seconds": 20.12,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.553,
+    "bbox_xyxy": [
+      254.726,
+      194.55,
+      272.048,
+      223.873
+    ]
+  },
+  {
+    "frame_id": 604,
+    "timestamp": "00:00:20.153",
+    "seconds": 20.153,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.516,
+    "bbox_xyxy": [
+      254.717,
+      194.517,
+      272.053,
+      223.879
+    ]
+  },
+  {
+    "frame_id": 605,
+    "timestamp": "00:00:20.187",
+    "seconds": 20.187,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5191,
+    "bbox_xyxy": [
+      254.719,
+      194.515,
+      272.053,
+      223.89
+    ]
+  },
+  {
+    "frame_id": 606,
+    "timestamp": "00:00:20.220",
+    "seconds": 20.22,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.525,
+    "bbox_xyxy": [
+      254.731,
+      194.509,
+      272.034,
+      223.836
+    ]
+  },
+  {
+    "frame_id": 607,
+    "timestamp": "00:00:20.254",
+    "seconds": 20.254,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.521,
+    "bbox_xyxy": [
+      254.755,
+      194.526,
+      272.015,
+      223.778
+    ]
+  },
+  {
+    "frame_id": 608,
+    "timestamp": "00:00:20.287",
+    "seconds": 20.287,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5286,
+    "bbox_xyxy": [
+      254.759,
+      194.535,
+      271.988,
+      223.736
+    ]
+  },
+  {
+    "frame_id": 609,
+    "timestamp": "00:00:20.320",
+    "seconds": 20.32,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5237,
+    "bbox_xyxy": [
+      254.763,
+      194.514,
+      271.987,
+      223.707
+    ]
+  },
+  {
+    "frame_id": 610,
+    "timestamp": "00:00:20.354",
+    "seconds": 20.354,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5291,
+    "bbox_xyxy": [
+      254.778,
+      194.528,
+      271.976,
+      223.676
+    ]
+  },
+  {
+    "frame_id": 611,
+    "timestamp": "00:00:20.387",
+    "seconds": 20.387,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5228,
+    "bbox_xyxy": [
+      254.778,
+      194.51,
+      271.996,
+      223.692
+    ]
+  },
+  {
+    "frame_id": 612,
+    "timestamp": "00:00:20.420",
+    "seconds": 20.42,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5215,
+    "bbox_xyxy": [
+      254.771,
+      194.481,
+      272.019,
+      223.71
+    ]
+  },
+  {
+    "frame_id": 613,
+    "timestamp": "00:00:20.454",
+    "seconds": 20.454,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5337,
+    "bbox_xyxy": [
+      254.769,
+      194.479,
+      272.039,
+      223.748
+    ]
+  },
+  {
+    "frame_id": 614,
+    "timestamp": "00:00:20.487",
+    "seconds": 20.487,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5372,
+    "bbox_xyxy": [
+      254.773,
+      194.467,
+      272.059,
+      223.763
+    ]
+  },
+  {
+    "frame_id": 615,
+    "timestamp": "00:00:20.521",
+    "seconds": 20.521,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5163,
+    "bbox_xyxy": [
+      254.798,
+      194.473,
+      272.05,
+      223.702
+    ]
+  },
+  {
+    "frame_id": 616,
+    "timestamp": "00:00:20.554",
+    "seconds": 20.554,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5252,
+    "bbox_xyxy": [
+      254.794,
+      194.478,
+      272.059,
+      223.723
+    ]
+  },
+  {
+    "frame_id": 617,
+    "timestamp": "00:00:20.587",
+    "seconds": 20.587,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5223,
+    "bbox_xyxy": [
+      254.784,
+      194.489,
+      272.059,
+      223.748
+    ]
+  },
+  {
+    "frame_id": 618,
+    "timestamp": "00:00:20.621",
+    "seconds": 20.621,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5321,
+    "bbox_xyxy": [
+      254.788,
+      194.5,
+      272.052,
+      223.743
+    ]
+  },
+  {
+    "frame_id": 619,
+    "timestamp": "00:00:20.654",
+    "seconds": 20.654,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5414,
+    "bbox_xyxy": [
+      254.779,
+      194.503,
+      272.063,
+      223.786
+    ]
+  },
+  {
+    "frame_id": 620,
+    "timestamp": "00:00:20.687",
+    "seconds": 20.687,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5416,
+    "bbox_xyxy": [
+      254.767,
+      194.503,
+      272.063,
+      223.815
+    ]
+  },
+  {
+    "frame_id": 621,
+    "timestamp": "00:00:20.721",
+    "seconds": 20.721,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5428,
+    "bbox_xyxy": [
+      254.742,
+      194.507,
+      272.065,
+      223.88
+    ]
+  },
+  {
+    "frame_id": 622,
+    "timestamp": "00:00:20.754",
+    "seconds": 20.754,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5481,
+    "bbox_xyxy": [
+      254.741,
+      194.518,
+      272.054,
+      223.879
+    ]
+  },
+  {
+    "frame_id": 623,
+    "timestamp": "00:00:20.787",
+    "seconds": 20.787,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5543,
+    "bbox_xyxy": [
+      254.728,
+      194.519,
+      272.065,
+      223.926
+    ]
+  },
+  {
+    "frame_id": 624,
+    "timestamp": "00:00:20.821",
+    "seconds": 20.821,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5361,
+    "bbox_xyxy": [
+      254.718,
+      194.507,
+      272.056,
+      223.923
+    ]
+  },
+  {
+    "frame_id": 625,
+    "timestamp": "00:00:20.854",
+    "seconds": 20.854,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5267,
+    "bbox_xyxy": [
+      254.734,
+      194.518,
+      272.063,
+      223.913
+    ]
+  },
+  {
+    "frame_id": 626,
+    "timestamp": "00:00:20.888",
+    "seconds": 20.888,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5402,
+    "bbox_xyxy": [
+      254.767,
+      194.534,
+      272.062,
+      223.866
+    ]
+  },
+  {
+    "frame_id": 627,
+    "timestamp": "00:00:20.921",
+    "seconds": 20.921,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5555,
+    "bbox_xyxy": [
+      254.772,
+      194.522,
+      272.044,
+      223.805
+    ]
+  },
+  {
+    "frame_id": 628,
+    "timestamp": "00:00:20.954",
+    "seconds": 20.954,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5769,
+    "bbox_xyxy": [
+      254.768,
+      194.541,
+      272.02,
+      223.782
+    ]
+  },
+  {
+    "frame_id": 629,
+    "timestamp": "00:00:20.988",
+    "seconds": 20.988,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5593,
+    "bbox_xyxy": [
+      254.757,
+      194.52,
+      272.006,
+      223.748
+    ]
+  },
+  {
+    "frame_id": 630,
+    "timestamp": "00:00:21.021",
+    "seconds": 21.021,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5512,
+    "bbox_xyxy": [
+      254.745,
+      194.46,
+      272.015,
+      223.716
+    ]
+  },
+  {
+    "frame_id": 631,
+    "timestamp": "00:00:21.054",
+    "seconds": 21.054,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5626,
+    "bbox_xyxy": [
+      254.735,
+      194.443,
+      272.04,
+      223.759
+    ]
+  },
+  {
+    "frame_id": 632,
+    "timestamp": "00:00:21.088",
+    "seconds": 21.088,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5621,
+    "bbox_xyxy": [
+      254.732,
+      194.428,
+      272.054,
+      223.768
+    ]
+  },
+  {
+    "frame_id": 633,
+    "timestamp": "00:00:21.121",
+    "seconds": 21.121,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5711,
+    "bbox_xyxy": [
+      254.723,
+      194.455,
+      272.061,
+      223.83
+    ]
+  },
+  {
+    "frame_id": 634,
+    "timestamp": "00:00:21.154",
+    "seconds": 21.154,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5657,
+    "bbox_xyxy": [
+      254.717,
+      194.511,
+      272.053,
+      223.873
+    ]
+  },
+  {
+    "frame_id": 635,
+    "timestamp": "00:00:21.188",
+    "seconds": 21.188,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5611,
+    "bbox_xyxy": [
+      254.718,
+      194.54,
+      272.035,
+      223.864
+    ]
+  },
+  {
+    "frame_id": 636,
+    "timestamp": "00:00:21.221",
+    "seconds": 21.221,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5598,
+    "bbox_xyxy": [
+      254.721,
+      194.555,
+      272.011,
+      223.826
+    ]
+  },
+  {
+    "frame_id": 637,
+    "timestamp": "00:00:21.255",
+    "seconds": 21.255,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5652,
+    "bbox_xyxy": [
+      254.72,
+      194.543,
+      272.03,
+      223.849
+    ]
+  },
+  {
+    "frame_id": 638,
+    "timestamp": "00:00:21.288",
+    "seconds": 21.288,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5539,
+    "bbox_xyxy": [
+      254.711,
+      194.518,
+      272.07,
+      223.925
+    ]
+  },
+  {
+    "frame_id": 639,
+    "timestamp": "00:00:21.321",
+    "seconds": 21.321,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5695,
+    "bbox_xyxy": [
+      254.709,
+      194.544,
+      272.081,
+      223.979
+    ]
+  },
+  {
+    "frame_id": 640,
+    "timestamp": "00:00:21.355",
+    "seconds": 21.355,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5618,
+    "bbox_xyxy": [
+      254.722,
+      194.578,
+      272.078,
+      223.989
+    ]
+  },
+  {
+    "frame_id": 641,
+    "timestamp": "00:00:21.388",
+    "seconds": 21.388,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5599,
+    "bbox_xyxy": [
+      254.728,
+      194.572,
+      272.086,
+      223.986
+    ]
+  },
+  {
+    "frame_id": 642,
+    "timestamp": "00:00:21.421",
+    "seconds": 21.421,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5431,
+    "bbox_xyxy": [
+      254.728,
+      194.55,
+      272.094,
+      223.98
+    ]
+  },
+  {
+    "frame_id": 643,
+    "timestamp": "00:00:21.455",
+    "seconds": 21.455,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5285,
+    "bbox_xyxy": [
+      254.736,
+      194.545,
+      272.074,
+      223.923
+    ]
+  },
+  {
+    "frame_id": 644,
+    "timestamp": "00:00:21.488",
+    "seconds": 21.488,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5305,
+    "bbox_xyxy": [
+      254.744,
+      194.546,
+      272.065,
+      223.89
+    ]
+  },
+  {
+    "frame_id": 645,
+    "timestamp": "00:00:21.522",
+    "seconds": 21.521,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5254,
+    "bbox_xyxy": [
+      254.748,
+      194.556,
+      272.04,
+      223.844
+    ]
+  },
+  {
+    "frame_id": 646,
+    "timestamp": "00:00:21.555",
+    "seconds": 21.555,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5238,
+    "bbox_xyxy": [
+      254.762,
+      194.619,
+      272.009,
+      223.822
+    ]
+  },
+  {
+    "frame_id": 647,
+    "timestamp": "00:00:21.588",
+    "seconds": 21.588,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5422,
+    "bbox_xyxy": [
+      254.766,
+      194.64,
+      271.988,
+      223.789
+    ]
+  },
+  {
+    "frame_id": 648,
+    "timestamp": "00:00:21.622",
+    "seconds": 21.622,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5421,
+    "bbox_xyxy": [
+      254.751,
+      194.665,
+      271.958,
+      223.786
+    ]
+  },
+  {
+    "frame_id": 649,
+    "timestamp": "00:00:21.655",
+    "seconds": 21.655,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5362,
+    "bbox_xyxy": [
+      254.752,
+      194.654,
+      271.948,
+      223.754
+    ]
+  },
+  {
+    "frame_id": 650,
+    "timestamp": "00:00:21.688",
+    "seconds": 21.688,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5382,
+    "bbox_xyxy": [
+      254.729,
+      194.667,
+      271.981,
+      223.866
+    ]
+  },
+  {
+    "frame_id": 651,
+    "timestamp": "00:00:21.722",
+    "seconds": 21.722,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5304,
+    "bbox_xyxy": [
+      254.717,
+      194.596,
+      271.988,
+      223.835
+    ]
+  },
+  {
+    "frame_id": 652,
+    "timestamp": "00:00:21.755",
+    "seconds": 21.755,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5157,
+    "bbox_xyxy": [
+      254.717,
+      194.546,
+      271.988,
+      223.791
+    ]
+  },
+  {
+    "frame_id": 653,
+    "timestamp": "00:00:21.788",
+    "seconds": 21.788,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5222,
+    "bbox_xyxy": [
+      254.715,
+      194.526,
+      272.007,
+      223.81
+    ]
+  },
+  {
+    "frame_id": 654,
+    "timestamp": "00:00:21.822",
+    "seconds": 21.822,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.512,
+    "bbox_xyxy": [
+      254.725,
+      194.559,
+      272.006,
+      223.817
+    ]
+  },
+  {
+    "frame_id": 655,
+    "timestamp": "00:00:21.855",
+    "seconds": 21.855,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5115,
+    "bbox_xyxy": [
+      254.739,
+      194.588,
+      271.993,
+      223.793
+    ]
+  },
+  {
+    "frame_id": 656,
+    "timestamp": "00:00:21.889",
+    "seconds": 21.889,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.499,
+    "bbox_xyxy": [
+      254.717,
+      194.572,
+      271.976,
+      223.783
+    ]
+  },
+  {
+    "frame_id": 657,
+    "timestamp": "00:00:21.922",
+    "seconds": 21.922,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.495,
+    "bbox_xyxy": [
+      254.697,
+      194.533,
+      271.975,
+      223.779
+    ]
+  },
+  {
+    "frame_id": 658,
+    "timestamp": "00:00:21.955",
+    "seconds": 21.955,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5222,
+    "bbox_xyxy": [
+      254.697,
+      194.547,
+      272.001,
+      223.838
+    ]
+  },
+  {
+    "frame_id": 659,
+    "timestamp": "00:00:21.989",
+    "seconds": 21.989,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5201,
+    "bbox_xyxy": [
+      254.703,
+      194.578,
+      271.983,
+      223.829
+    ]
+  },
+  {
+    "frame_id": 660,
+    "timestamp": "00:00:22.022",
+    "seconds": 22.022,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5259,
+    "bbox_xyxy": [
+      254.705,
+      194.626,
+      271.973,
+      223.845
+    ]
+  },
+  {
+    "frame_id": 661,
+    "timestamp": "00:00:22.055",
+    "seconds": 22.055,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5152,
+    "bbox_xyxy": [
+      254.695,
+      194.625,
+      271.979,
+      223.87
+    ]
+  },
+  {
+    "frame_id": 662,
+    "timestamp": "00:00:22.089",
+    "seconds": 22.089,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5175,
+    "bbox_xyxy": [
+      254.686,
+      194.586,
+      271.997,
+      223.88
+    ]
+  },
+  {
+    "frame_id": 663,
+    "timestamp": "00:00:22.122",
+    "seconds": 22.122,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5184,
+    "bbox_xyxy": [
+      254.686,
+      194.586,
+      271.996,
+      223.878
+    ]
+  },
+  {
+    "frame_id": 664,
+    "timestamp": "00:00:22.155",
+    "seconds": 22.155,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5113,
+    "bbox_xyxy": [
+      254.698,
+      194.592,
+      272.004,
+      223.875
+    ]
+  },
+  {
+    "frame_id": 665,
+    "timestamp": "00:00:22.189",
+    "seconds": 22.189,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4853,
+    "bbox_xyxy": [
+      254.7,
+      194.574,
+      272.004,
+      223.846
+    ]
+  },
+  {
+    "frame_id": 666,
+    "timestamp": "00:00:22.222",
+    "seconds": 22.222,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4898,
+    "bbox_xyxy": [
+      254.689,
+      194.559,
+      272.01,
+      223.854
+    ]
+  },
+  {
+    "frame_id": 667,
+    "timestamp": "00:00:22.256",
+    "seconds": 22.256,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4987,
+    "bbox_xyxy": [
+      254.693,
+      194.609,
+      271.996,
+      223.865
+    ]
+  },
+  {
+    "frame_id": 668,
+    "timestamp": "00:00:22.289",
+    "seconds": 22.289,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4989,
+    "bbox_xyxy": [
+      254.674,
+      194.628,
+      271.95,
+      223.84
+    ]
+  },
+  {
+    "frame_id": 669,
+    "timestamp": "00:00:22.322",
+    "seconds": 22.322,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5014,
+    "bbox_xyxy": [
+      254.659,
+      194.623,
+      271.94,
+      223.844
+    ]
+  },
+  {
+    "frame_id": 670,
+    "timestamp": "00:00:22.356",
+    "seconds": 22.356,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5084,
+    "bbox_xyxy": [
+      254.659,
+      194.61,
+      271.959,
+      223.862
+    ]
+  },
+  {
+    "frame_id": 671,
+    "timestamp": "00:00:22.389",
+    "seconds": 22.389,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5175,
+    "bbox_xyxy": [
+      254.644,
+      194.577,
+      271.977,
+      223.889
+    ]
+  },
+  {
+    "frame_id": 672,
+    "timestamp": "00:00:22.422",
+    "seconds": 22.422,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5289,
+    "bbox_xyxy": [
+      254.639,
+      194.576,
+      271.956,
+      223.861
+    ]
+  },
+  {
+    "frame_id": 673,
+    "timestamp": "00:00:22.456",
+    "seconds": 22.456,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5307,
+    "bbox_xyxy": [
+      254.617,
+      194.555,
+      271.986,
+      223.935
+    ]
+  },
+  {
+    "frame_id": 674,
+    "timestamp": "00:00:22.489",
+    "seconds": 22.489,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.559,
+    "bbox_xyxy": [
+      254.605,
+      194.581,
+      271.98,
+      223.98
+    ]
+  },
+  {
+    "frame_id": 675,
+    "timestamp": "00:00:22.522",
+    "seconds": 22.523,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5587,
+    "bbox_xyxy": [
+      254.607,
+      194.559,
+      272.006,
+      224.013
+    ]
+  },
+  {
+    "frame_id": 676,
+    "timestamp": "00:00:22.556",
+    "seconds": 22.556,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5623,
+    "bbox_xyxy": [
+      254.616,
+      194.57,
+      272.001,
+      224.014
+    ]
+  },
+  {
+    "frame_id": 677,
+    "timestamp": "00:00:22.589",
+    "seconds": 22.589,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5592,
+    "bbox_xyxy": [
+      254.609,
+      194.562,
+      272.008,
+      224.041
+    ]
+  },
+  {
+    "frame_id": 678,
+    "timestamp": "00:00:22.623",
+    "seconds": 22.623,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5607,
+    "bbox_xyxy": [
+      254.484,
+      194.174,
+      272.213,
+      224.422
+    ]
+  },
+  {
+    "frame_id": 679,
+    "timestamp": "00:00:22.656",
+    "seconds": 22.656,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5585,
+    "bbox_xyxy": [
+      254.607,
+      194.497,
+      272.049,
+      224.245
+    ]
+  },
+  {
+    "frame_id": 680,
+    "timestamp": "00:00:22.689",
+    "seconds": 22.689,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5687,
+    "bbox_xyxy": [
+      254.655,
+      194.612,
+      272.018,
+      224.217
+    ]
+  },
+  {
+    "frame_id": 681,
+    "timestamp": "00:00:22.723",
+    "seconds": 22.723,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5793,
+    "bbox_xyxy": [
+      254.688,
+      194.655,
+      272.0,
+      224.156
+    ]
+  },
+  {
+    "frame_id": 682,
+    "timestamp": "00:00:22.756",
+    "seconds": 22.756,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5486,
+    "bbox_xyxy": [
+      254.696,
+      194.659,
+      271.995,
+      224.129
+    ]
+  },
+  {
+    "frame_id": 683,
+    "timestamp": "00:00:22.789",
+    "seconds": 22.789,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5162,
+    "bbox_xyxy": [
+      254.692,
+      194.63,
+      271.996,
+      224.098
+    ]
+  },
+  {
+    "frame_id": 684,
+    "timestamp": "00:00:22.823",
+    "seconds": 22.823,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5034,
+    "bbox_xyxy": [
+      254.688,
+      194.596,
+      271.987,
+      224.043
+    ]
+  },
+  {
+    "frame_id": 685,
+    "timestamp": "00:00:22.856",
+    "seconds": 22.856,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5215,
+    "bbox_xyxy": [
+      254.645,
+      194.537,
+      271.987,
+      224.05
+    ]
+  },
+  {
+    "frame_id": 686,
+    "timestamp": "00:00:22.890",
+    "seconds": 22.89,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5256,
+    "bbox_xyxy": [
+      254.613,
+      194.506,
+      271.985,
+      224.064
+    ]
+  },
+  {
+    "frame_id": 687,
+    "timestamp": "00:00:22.923",
+    "seconds": 22.923,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5416,
+    "bbox_xyxy": [
+      254.645,
+      194.631,
+      271.973,
+      224.094
+    ]
+  },
+  {
+    "frame_id": 688,
+    "timestamp": "00:00:22.956",
+    "seconds": 22.956,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5236,
+    "bbox_xyxy": [
+      254.673,
+      194.634,
+      271.968,
+      224.038
+    ]
+  },
+  {
+    "frame_id": 689,
+    "timestamp": "00:00:22.990",
+    "seconds": 22.99,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5203,
+    "bbox_xyxy": [
+      254.691,
+      194.631,
+      271.963,
+      223.988
+    ]
+  },
+  {
+    "frame_id": 690,
+    "timestamp": "00:00:23.023",
+    "seconds": 23.023,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5106,
+    "bbox_xyxy": [
+      254.706,
+      194.613,
+      271.981,
+      223.975
+    ]
+  },
+  {
+    "frame_id": 691,
+    "timestamp": "00:00:23.056",
+    "seconds": 23.056,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5182,
+    "bbox_xyxy": [
+      254.726,
+      194.56,
+      272.016,
+      223.956
+    ]
+  },
+  {
+    "frame_id": 692,
+    "timestamp": "00:00:23.090",
+    "seconds": 23.09,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.492,
+    "bbox_xyxy": [
+      254.709,
+      194.514,
+      272.053,
+      224.018
+    ]
+  },
+  {
+    "frame_id": 693,
+    "timestamp": "00:00:23.123",
+    "seconds": 23.123,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4972,
+    "bbox_xyxy": [
+      254.702,
+      194.508,
+      272.056,
+      224.041
+    ]
+  },
+  {
+    "frame_id": 694,
+    "timestamp": "00:00:23.156",
+    "seconds": 23.156,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.511,
+    "bbox_xyxy": [
+      254.706,
+      194.52,
+      272.037,
+      224.023
+    ]
+  },
+  {
+    "frame_id": 695,
+    "timestamp": "00:00:23.190",
+    "seconds": 23.19,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5092,
+    "bbox_xyxy": [
+      254.713,
+      194.505,
+      272.029,
+      223.995
+    ]
+  },
+  {
+    "frame_id": 696,
+    "timestamp": "00:00:23.223",
+    "seconds": 23.223,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5103,
+    "bbox_xyxy": [
+      254.715,
+      194.512,
+      272.026,
+      224.012
+    ]
+  },
+  {
+    "frame_id": 697,
+    "timestamp": "00:00:23.257",
+    "seconds": 23.257,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.526,
+    "bbox_xyxy": [
+      254.707,
+      194.501,
+      272.032,
+      224.047
+    ]
+  },
+  {
+    "frame_id": 698,
+    "timestamp": "00:00:23.290",
+    "seconds": 23.29,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5179,
+    "bbox_xyxy": [
+      254.716,
+      194.5,
+      272.031,
+      224.04
+    ]
+  },
+  {
+    "frame_id": 699,
+    "timestamp": "00:00:23.323",
+    "seconds": 23.323,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.533,
+    "bbox_xyxy": [
+      254.724,
+      194.498,
+      272.053,
+      224.067
+    ]
+  },
+  {
+    "frame_id": 700,
+    "timestamp": "00:00:23.357",
+    "seconds": 23.357,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5326,
+    "bbox_xyxy": [
+      254.717,
+      194.437,
+      272.07,
+      224.061
+    ]
+  },
+  {
+    "frame_id": 701,
+    "timestamp": "00:00:23.390",
+    "seconds": 23.39,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5332,
+    "bbox_xyxy": [
+      254.716,
+      194.397,
+      272.089,
+      224.074
+    ]
+  },
+  {
+    "frame_id": 702,
+    "timestamp": "00:00:23.423",
+    "seconds": 23.423,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5074,
+    "bbox_xyxy": [
+      254.709,
+      194.389,
+      272.071,
+      224.067
+    ]
+  },
+  {
+    "frame_id": 703,
+    "timestamp": "00:00:23.457",
+    "seconds": 23.457,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5024,
+    "bbox_xyxy": [
+      254.74,
+      194.445,
+      272.028,
+      224.003
+    ]
+  },
+  {
+    "frame_id": 704,
+    "timestamp": "00:00:23.490",
+    "seconds": 23.49,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5277,
+    "bbox_xyxy": [
+      254.75,
+      194.491,
+      272.015,
+      224.004
+    ]
+  },
+  {
+    "frame_id": 705,
+    "timestamp": "00:00:23.524",
+    "seconds": 23.524,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5305,
+    "bbox_xyxy": [
+      254.765,
+      194.512,
+      271.993,
+      223.947
+    ]
+  },
+  {
+    "frame_id": 706,
+    "timestamp": "00:00:23.557",
+    "seconds": 23.557,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5281,
+    "bbox_xyxy": [
+      254.761,
+      194.497,
+      271.984,
+      223.907
+    ]
+  },
+  {
+    "frame_id": 707,
+    "timestamp": "00:00:23.590",
+    "seconds": 23.59,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5112,
+    "bbox_xyxy": [
+      254.759,
+      194.473,
+      271.974,
+      223.856
+    ]
+  },
+  {
+    "frame_id": 708,
+    "timestamp": "00:00:23.624",
+    "seconds": 23.624,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5229,
+    "bbox_xyxy": [
+      254.736,
+      194.502,
+      271.964,
+      223.889
+    ]
+  },
+  {
+    "frame_id": 709,
+    "timestamp": "00:00:23.657",
+    "seconds": 23.657,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5194,
+    "bbox_xyxy": [
+      254.732,
+      194.51,
+      271.957,
+      223.871
+    ]
+  },
+  {
+    "frame_id": 710,
+    "timestamp": "00:00:23.690",
+    "seconds": 23.69,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4855,
+    "bbox_xyxy": [
+      254.702,
+      194.415,
+      271.952,
+      223.793
+    ]
+  },
+  {
+    "frame_id": 711,
+    "timestamp": "00:00:23.724",
+    "seconds": 23.724,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4976,
+    "bbox_xyxy": [
+      254.684,
+      194.406,
+      271.963,
+      223.804
+    ]
+  },
+  {
+    "frame_id": 712,
+    "timestamp": "00:00:23.757",
+    "seconds": 23.757,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5035,
+    "bbox_xyxy": [
+      254.66,
+      194.416,
+      271.955,
+      223.815
+    ]
+  },
+  {
+    "frame_id": 713,
+    "timestamp": "00:00:23.790",
+    "seconds": 23.79,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5186,
+    "bbox_xyxy": [
+      254.657,
+      194.422,
+      271.974,
+      223.834
+    ]
+  },
+  {
+    "frame_id": 714,
+    "timestamp": "00:00:23.824",
+    "seconds": 23.824,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5086,
+    "bbox_xyxy": [
+      254.693,
+      194.412,
+      271.974,
+      223.753
+    ]
+  },
+  {
+    "frame_id": 715,
+    "timestamp": "00:00:23.857",
+    "seconds": 23.857,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5027,
+    "bbox_xyxy": [
+      254.715,
+      194.441,
+      271.991,
+      223.752
+    ]
+  },
+  {
+    "frame_id": 716,
+    "timestamp": "00:00:23.891",
+    "seconds": 23.891,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4872,
+    "bbox_xyxy": [
+      254.701,
+      194.455,
+      272.0,
+      223.792
+    ]
+  },
+  {
+    "frame_id": 717,
+    "timestamp": "00:00:23.924",
+    "seconds": 23.924,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4775,
+    "bbox_xyxy": [
+      254.705,
+      194.461,
+      272.017,
+      223.811
+    ]
+  },
+  {
+    "frame_id": 718,
+    "timestamp": "00:00:23.957",
+    "seconds": 23.957,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4586,
+    "bbox_xyxy": [
+      254.699,
+      194.437,
+      272.013,
+      223.785
+    ]
+  },
+  {
+    "frame_id": 719,
+    "timestamp": "00:00:23.991",
+    "seconds": 23.991,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5025,
+    "bbox_xyxy": [
+      254.698,
+      194.444,
+      272.035,
+      223.825
+    ]
+  },
+  {
+    "frame_id": 720,
+    "timestamp": "00:00:24.024",
+    "seconds": 24.024,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5079,
+    "bbox_xyxy": [
+      254.715,
+      194.493,
+      272.037,
+      223.84
+    ]
+  },
+  {
+    "frame_id": 721,
+    "timestamp": "00:00:24.057",
+    "seconds": 24.057,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5161,
+    "bbox_xyxy": [
+      254.73,
+      194.516,
+      272.018,
+      223.789
+    ]
+  },
+  {
+    "frame_id": 722,
+    "timestamp": "00:00:24.091",
+    "seconds": 24.091,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4978,
+    "bbox_xyxy": [
+      254.747,
+      194.492,
+      271.976,
+      223.654
+    ]
+  },
+  {
+    "frame_id": 723,
+    "timestamp": "00:00:24.124",
+    "seconds": 24.124,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5101,
+    "bbox_xyxy": [
+      254.749,
+      194.497,
+      271.95,
+      223.598
+    ]
+  },
+  {
+    "frame_id": 724,
+    "timestamp": "00:00:24.157",
+    "seconds": 24.157,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5097,
+    "bbox_xyxy": [
+      254.761,
+      194.54,
+      271.921,
+      223.54
+    ]
+  },
+  {
+    "frame_id": 725,
+    "timestamp": "00:00:24.191",
+    "seconds": 24.191,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5209,
+    "bbox_xyxy": [
+      254.747,
+      194.532,
+      271.92,
+      223.517
+    ]
+  },
+  {
+    "frame_id": 726,
+    "timestamp": "00:00:24.224",
+    "seconds": 24.224,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5221,
+    "bbox_xyxy": [
+      254.733,
+      194.496,
+      271.943,
+      223.527
+    ]
+  },
+  {
+    "frame_id": 727,
+    "timestamp": "00:00:24.258",
+    "seconds": 24.258,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5134,
+    "bbox_xyxy": [
+      254.733,
+      194.492,
+      271.96,
+      223.538
+    ]
+  },
+  {
+    "frame_id": 728,
+    "timestamp": "00:00:24.291",
+    "seconds": 24.291,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5134,
+    "bbox_xyxy": [
+      254.728,
+      194.491,
+      271.973,
+      223.558
+    ]
+  },
+  {
+    "frame_id": 729,
+    "timestamp": "00:00:24.324",
+    "seconds": 24.324,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5249,
+    "bbox_xyxy": [
+      254.727,
+      194.474,
+      272.021,
+      223.614
+    ]
+  },
+  {
+    "frame_id": 730,
+    "timestamp": "00:00:24.358",
+    "seconds": 24.358,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5176,
+    "bbox_xyxy": [
+      254.722,
+      194.462,
+      272.05,
+      223.653
+    ]
+  },
+  {
+    "frame_id": 731,
+    "timestamp": "00:00:24.391",
+    "seconds": 24.391,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.49,
+    "bbox_xyxy": [
+      254.737,
+      194.413,
+      272.068,
+      223.603
+    ]
+  },
+  {
+    "frame_id": 732,
+    "timestamp": "00:00:24.424",
+    "seconds": 24.424,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4844,
+    "bbox_xyxy": [
+      254.734,
+      194.443,
+      272.068,
+      223.632
+    ]
+  },
+  {
+    "frame_id": 733,
+    "timestamp": "00:00:24.458",
+    "seconds": 24.458,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4941,
+    "bbox_xyxy": [
+      254.712,
+      194.441,
+      272.095,
+      223.72
+    ]
+  },
+  {
+    "frame_id": 734,
+    "timestamp": "00:00:24.491",
+    "seconds": 24.491,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4977,
+    "bbox_xyxy": [
+      254.698,
+      194.46,
+      272.118,
+      223.809
+    ]
+  },
+  {
+    "frame_id": 735,
+    "timestamp": "00:00:24.524",
+    "seconds": 24.524,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4986,
+    "bbox_xyxy": [
+      254.684,
+      194.458,
+      272.117,
+      223.838
+    ]
+  },
+  {
+    "frame_id": 736,
+    "timestamp": "00:00:24.558",
+    "seconds": 24.558,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4971,
+    "bbox_xyxy": [
+      254.683,
+      194.458,
+      272.132,
+      223.877
+    ]
+  },
+  {
+    "frame_id": 737,
+    "timestamp": "00:00:24.591",
+    "seconds": 24.591,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4967,
+    "bbox_xyxy": [
+      254.698,
+      194.467,
+      272.132,
+      223.862
+    ]
+  },
+  {
+    "frame_id": 738,
+    "timestamp": "00:00:24.625",
+    "seconds": 24.625,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4927,
+    "bbox_xyxy": [
+      254.704,
+      194.504,
+      272.141,
+      223.906
+    ]
+  },
+  {
+    "frame_id": 739,
+    "timestamp": "00:00:24.658",
+    "seconds": 24.658,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.487,
+    "bbox_xyxy": [
+      254.697,
+      194.539,
+      272.148,
+      223.98
+    ]
+  },
+  {
+    "frame_id": 740,
+    "timestamp": "00:00:24.691",
+    "seconds": 24.691,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4854,
+    "bbox_xyxy": [
+      254.691,
+      194.586,
+      272.121,
+      223.986
+    ]
+  },
+  {
+    "frame_id": 741,
+    "timestamp": "00:00:24.725",
+    "seconds": 24.725,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.4962,
+    "bbox_xyxy": [
+      254.679,
+      194.591,
+      272.087,
+      223.948
+    ]
+  },
+  {
+    "frame_id": 742,
+    "timestamp": "00:00:24.758",
+    "seconds": 24.758,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5126,
+    "bbox_xyxy": [
+      254.699,
+      194.58,
+      272.063,
+      223.848
+    ]
+  },
+  {
+    "frame_id": 743,
+    "timestamp": "00:00:24.791",
+    "seconds": 24.791,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5103,
+    "bbox_xyxy": [
+      254.721,
+      194.605,
+      272.044,
+      223.781
+    ]
+  },
+  {
+    "frame_id": 744,
+    "timestamp": "00:00:24.825",
+    "seconds": 24.825,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5117,
+    "bbox_xyxy": [
+      254.73,
+      194.635,
+      272.024,
+      223.735
+    ]
+  },
+  {
+    "frame_id": 745,
+    "timestamp": "00:00:24.858",
+    "seconds": 24.858,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5169,
+    "bbox_xyxy": [
+      254.728,
+      194.638,
+      272.01,
+      223.697
+    ]
+  },
+  {
+    "frame_id": 746,
+    "timestamp": "00:00:24.892",
+    "seconds": 24.892,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5193,
+    "bbox_xyxy": [
+      254.719,
+      194.629,
+      272.025,
+      223.713
+    ]
+  },
+  {
+    "frame_id": 747,
+    "timestamp": "00:00:24.925",
+    "seconds": 24.925,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5057,
+    "bbox_xyxy": [
+      254.705,
+      194.612,
+      272.036,
+      223.733
+    ]
+  },
+  {
+    "frame_id": 748,
+    "timestamp": "00:00:24.958",
+    "seconds": 24.958,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5115,
+    "bbox_xyxy": [
+      254.693,
+      194.618,
+      272.046,
+      223.772
+    ]
+  },
+  {
+    "frame_id": 749,
+    "timestamp": "00:00:24.992",
+    "seconds": 24.992,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.5072,
+    "bbox_xyxy": [
+      254.691,
+      194.621,
+      272.052,
+      223.785
+    ]
+  },
+  {
+    "frame_id": 750,
+    "timestamp": "00:00:25.025",
+    "seconds": 25.025,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.3894,
+    "bbox_xyxy": [
+      254.564,
+      194.068,
+      272.194,
+      223.826
+    ]
+  },
+  {
+    "frame_id": 751,
+    "timestamp": "00:00:25.058",
+    "seconds": 25.058,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.3764,
+    "bbox_xyxy": [
+      254.535,
+      193.852,
+      272.237,
+      223.867
+    ]
+  }
+]

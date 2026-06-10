@@ -1,0 +1,20 @@
+{
+  "overall_summary": "A person is seen in a bedroom, moving around and interacting with items near a dresser. In frame 5, the person holds an object to their ear, consistent with talking on a phone.",
+  "actions": [
+    {
+      "action": "talking_on_phone",
+      "present": true,
+      "confidence": 0.8,
+      "evidence": "In frame 5, the person holds an object to their ear, consistent with making a phone call. The object is not clearly identifiable as a phone, but the posture matches the action definition.",
+      "supporting_frame_indices": [
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "phone"
+  ],
+  "risk_notes": [
+    "phone not clearly visible in frame 5"
+  ]
+}

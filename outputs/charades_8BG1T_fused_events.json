@@ -1,0 +1,385 @@
+{
+  "video_id": "8BG1T",
+  "summary": {
+    "video_id": "8BG1T",
+    "final_events": 1,
+    "semantic_candidates": 2,
+    "pending_events": 0,
+    "rejected_events": 1,
+    "fused_events": 4,
+    "event_center_reviews": 2
+  },
+  "final_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 11.833,
+      "end_seconds": 12.667,
+      "start_time": "00:00:11.833",
+      "end_time": "00:00:12.667",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.20, wrist_dist=0.06",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 7.6,
+            "end_seconds": 43.7
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.7042,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.7083,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.7,
+        "evidence": "Person is holding a can to their mouth and appears to be drinking from it. The can is visible in all frames.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 10.833,
+          "end_seconds": 13.667,
+          "source": "event:0"
+        },
+        "visible_objects": [
+          "can"
+        ],
+        "risk_notes": []
+      }
+    }
+  ],
+  "semantic_candidates": [
+    {
+      "source": "vlm_candidate_event",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "holding_phone",
+      "action_name": "拿手机",
+      "start_seconds": null,
+      "end_seconds": null,
+      "confidence": 0.9,
+      "evidence_sources": [
+        "full_video_vlm",
+        "unlabeled_candidate"
+      ],
+      "fusion_reason": "Full-video VLM found an unlabeled high-confidence action candidate.",
+      "vlm": {
+        "confidence": 0.9,
+        "evidence": "In frame 1, the person is holding a phone in their lap while seated. The phone is visible in frames 1-5.",
+        "supporting_frame_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      }
+    },
+    {
+      "source": "vlm_candidate_event",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "looking_at_phone",
+      "action_name": "看手机",
+      "start_seconds": null,
+      "end_seconds": null,
+      "confidence": 0.8,
+      "evidence_sources": [
+        "full_video_vlm",
+        "unlabeled_candidate"
+      ],
+      "fusion_reason": "Full-video VLM found an unlabeled high-confidence action candidate.",
+      "vlm": {
+        "confidence": 0.8,
+        "evidence": "In frames 1-5, the person is holding the phone and looking down at it, consistent with viewing the screen.",
+        "supporting_frame_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      }
+    }
+  ],
+  "pending_events": [],
+  "rejected_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 1,
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "person_id": 1,
+      "start_seconds": 12.367,
+      "end_seconds": 13.167,
+      "start_time": "00:00:12.367",
+      "end_time": "00:00:13.167",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cell phone close to head; head_dist=0.21",
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1609,
+      "evidence_sources": [
+        "stage2",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.6436,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is holding a can, not a phone; phone not visible.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 11.367,
+          "end_seconds": 14.167,
+          "source": "event:1"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": [
+          "phone not visible",
+          "possible occlusion"
+        ]
+      }
+    }
+  ],
+  "fused_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 11.833,
+      "end_seconds": 12.667,
+      "start_time": "00:00:11.833",
+      "end_time": "00:00:12.667",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.20, wrist_dist=0.06",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 7.6,
+            "end_seconds": 43.7
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.7042,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.7083,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.7,
+        "evidence": "Person is holding a can to their mouth and appears to be drinking from it. The can is visible in all frames.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 10.833,
+          "end_seconds": 13.667,
+          "source": "event:0"
+        },
+        "visible_objects": [
+          "can"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "vlm_candidate_event",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "holding_phone",
+      "action_name": "拿手机",
+      "start_seconds": null,
+      "end_seconds": null,
+      "confidence": 0.9,
+      "evidence_sources": [
+        "full_video_vlm",
+        "unlabeled_candidate"
+      ],
+      "fusion_reason": "Full-video VLM found an unlabeled high-confidence action candidate.",
+      "vlm": {
+        "confidence": 0.9,
+        "evidence": "In frame 1, the person is holding a phone in their lap while seated. The phone is visible in frames 1-5.",
+        "supporting_frame_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      }
+    },
+    {
+      "source": "vlm_candidate_event",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "looking_at_phone",
+      "action_name": "看手机",
+      "start_seconds": null,
+      "end_seconds": null,
+      "confidence": 0.8,
+      "evidence_sources": [
+        "full_video_vlm",
+        "unlabeled_candidate"
+      ],
+      "fusion_reason": "Full-video VLM found an unlabeled high-confidence action candidate.",
+      "vlm": {
+        "confidence": 0.8,
+        "evidence": "In frames 1-5, the person is holding the phone and looking down at it, consistent with viewing the screen.",
+        "supporting_frame_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 1,
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "person_id": 1,
+      "start_seconds": 12.367,
+      "end_seconds": 13.167,
+      "start_time": "00:00:12.367",
+      "end_time": "00:00:13.167",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cell phone close to head; head_dist=0.21",
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1609,
+      "evidence_sources": [
+        "stage2",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event rejected by event-centered VLM review.",
+      "stage2_confidence": 0.6436,
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is holding a can, not a phone; phone not visible.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 11.367,
+          "end_seconds": 14.167,
+          "source": "event:1"
+        },
+        "visible_objects": [
+          "cup",
+          "phone"
+        ],
+        "risk_notes": [
+          "phone not visible",
+          "possible occlusion"
+        ]
+      }
+    }
+  ]
+}

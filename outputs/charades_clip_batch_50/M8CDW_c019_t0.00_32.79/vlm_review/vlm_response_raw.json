@@ -1,0 +1,22 @@
+{
+  "id": "019eab41a3bcf3fe8bb1f6954191821b",
+  "object": "chat.completion",
+  "created": 1780989667,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A person wearing a mask is consistently holding a phone to their ear across all sampled frames, indicating they are talking on the phone.\",\n  \"actions\": [\n    {\n      \"action\": \"talking_on_phone\",\n      \"present\": true,\n      \"confidence\": 1.0,\n      \"evidence\": \"A person wearing a mask is holding a phone to their ear in all sampled frames, consistent with the action definition.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1224,
+    "completion_tokens": 138,
+    "total_tokens": 1362
+  },
+  "system_fingerprint": ""
+}

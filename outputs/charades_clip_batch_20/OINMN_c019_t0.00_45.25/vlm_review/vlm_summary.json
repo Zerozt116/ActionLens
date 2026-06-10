@@ -1,0 +1,77 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/OINMN_c019_t0.00_45.25.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 6.4684,
+      "frame_number": 194,
+      "path": "outputs/charades_clip_batch_20/OINMN_c019_t0.00_45.25/vlm_review/frames/frame_00_6.468s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 12.9367,
+      "frame_number": 388,
+      "path": "outputs/charades_clip_batch_20/OINMN_c019_t0.00_45.25/vlm_review/frames/frame_01_12.937s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 19.4051,
+      "frame_number": 582,
+      "path": "outputs/charades_clip_batch_20/OINMN_c019_t0.00_45.25/vlm_review/frames/frame_02_19.405s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 25.8735,
+      "frame_number": 775,
+      "path": "outputs/charades_clip_batch_20/OINMN_c019_t0.00_45.25/vlm_review/frames/frame_03_25.873s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 32.3418,
+      "frame_number": 969,
+      "path": "outputs/charades_clip_batch_20/OINMN_c019_t0.00_45.25/vlm_review/frames/frame_04_32.342s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 38.8102,
+      "frame_number": 1163,
+      "path": "outputs/charades_clip_batch_20/OINMN_c019_t0.00_45.25/vlm_review/frames/frame_05_38.810s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "talking_on_phone"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/OINMN_c019_t0.00_45.25/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/OINMN_c019_t0.00_45.25/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/OINMN_c019_t0.00_45.25/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A person is seen in a bedroom, moving around and interacting with items near a dresser. In frame 5, the person holds an object to their ear, consistent with talking on a phone.",
+    "actions": [
+      {
+        "action": "talking_on_phone",
+        "present": true,
+        "confidence": 0.8,
+        "evidence": "In frame 5, the person holds an object to their ear, consistent with making a phone call. The object is not clearly identifiable as a phone, but the posture matches the action definition.",
+        "supporting_frame_indices": [
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "phone"
+    ],
+    "risk_notes": [
+      "phone not clearly visible in frame 5"
+    ]
+  }
+}

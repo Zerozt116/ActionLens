@@ -1,0 +1,16 @@
+person_id,action,action_name,start_time,end_time,start_seconds,end_seconds,frame_count,confidence,evidence
+1,talking_on_phone,打电话,00:00:01.479,00:00:01.849,1.479,1.849,5,0.7082,cell phone close to head; head_dist=0.17
+1,drinking_water,喝水,00:00:02.925,00:00:03.429,2.925,3.429,10,0.7437,"cup close to head and wrist; head_dist=0.21, wrist_dist=0.03"
+1,talking_on_phone,打电话,00:00:03.463,00:00:05.548,3.463,5.548,55,0.7102,cell phone close to head; head_dist=0.20
+1,talking_on_phone,打电话,00:00:05.817,00:00:06.489,5.817,6.489,16,0.7316,cell phone close to head; head_dist=0.18
+1,talking_on_phone,打电话,00:00:06.758,00:00:09.414,6.758,9.414,78,0.7764,cell phone close to head; head_dist=0.19
+1,talking_on_phone,打电话,00:00:09.851,00:00:10.423,9.851,10.423,18,0.7012,cell phone close to head; head_dist=0.22
+1,talking_on_phone,打电话,00:00:10.793,00:00:11.533,10.793,11.533,23,0.6987,cell phone close to head; head_dist=0.18
+1,talking_on_phone,打电话,00:00:11.801,00:00:13.281,11.801,13.281,39,0.7849,cell phone close to head; head_dist=0.19
+1,drinking_water,喝水,00:00:13.180,00:00:13.886,13.18,13.886,18,0.8024,"cup close to head and wrist; head_dist=0.18, wrist_dist=0.02"
+1,talking_on_phone,打电话,00:00:13.920,00:00:17.013,13.92,17.013,79,0.7009,cell phone close to head; head_dist=0.18
+1,drinking_water,喝水,00:00:14.592,00:00:15.029,14.592,15.029,10,0.766,"cup close to head and wrist; head_dist=0.23, wrist_dist=0.03"
+1,talking_on_phone,打电话,00:00:17.854,00:00:19.972,17.854,19.972,60,0.7334,cell phone close to head; head_dist=0.23
+1,talking_on_phone,打电话,00:00:20.375,00:00:21.149,20.375,21.149,20,0.5909,cell phone close to head; head_dist=0.27
+1,talking_on_phone,打电话,00:00:26.495,00:00:27.402,26.495,27.402,21,0.655,cell phone close to head; head_dist=0.25
+1,talking_on_phone,打电话,00:00:35.539,00:00:35.875,35.539,35.875,11,0.7731,cell phone close to head; head_dist=0.16

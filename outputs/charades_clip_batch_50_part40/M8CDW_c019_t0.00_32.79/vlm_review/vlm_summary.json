@@ -1,0 +1,80 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/M8CDW_c019_t0.00_32.79.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 4.6904,
+      "frame_number": 141,
+      "path": "outputs/charades_clip_batch_50_part40/M8CDW_c019_t0.00_32.79/vlm_review/frames/frame_00_4.690s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 9.3808,
+      "frame_number": 281,
+      "path": "outputs/charades_clip_batch_50_part40/M8CDW_c019_t0.00_32.79/vlm_review/frames/frame_01_9.381s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 14.0712,
+      "frame_number": 422,
+      "path": "outputs/charades_clip_batch_50_part40/M8CDW_c019_t0.00_32.79/vlm_review/frames/frame_02_14.071s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 18.7616,
+      "frame_number": 562,
+      "path": "outputs/charades_clip_batch_50_part40/M8CDW_c019_t0.00_32.79/vlm_review/frames/frame_03_18.762s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 23.452,
+      "frame_number": 703,
+      "path": "outputs/charades_clip_batch_50_part40/M8CDW_c019_t0.00_32.79/vlm_review/frames/frame_04_23.452s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 28.1424,
+      "frame_number": 843,
+      "path": "outputs/charades_clip_batch_50_part40/M8CDW_c019_t0.00_32.79/vlm_review/frames/frame_05_28.142s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "talking_on_phone"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part40/M8CDW_c019_t0.00_32.79/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part40/M8CDW_c019_t0.00_32.79/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part40/M8CDW_c019_t0.00_32.79/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A person wearing a mask is consistently holding a phone to their ear across all sampled frames, indicating they are talking on the phone.",
+    "actions": [
+      {
+        "action": "talking_on_phone",
+        "present": true,
+        "confidence": 1.0,
+        "evidence": "A person wearing a mask is holding a phone to their ear in all sampled frames, consistent with the action definition.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "phone"
+    ],
+    "risk_notes": []
+  }
+}

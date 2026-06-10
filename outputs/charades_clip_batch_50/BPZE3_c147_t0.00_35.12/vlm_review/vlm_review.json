@@ -1,0 +1,21 @@
+{
+  "overall_summary": "A person is consistently seen cooking in a kitchen, stirring a pot on the stove across multiple frames.",
+  "actions": [
+    {
+      "action": "cooking",
+      "present": true,
+      "confidence": 1.0,
+      "evidence": "Person is standing at a stove, actively stirring food in a pot, with steam rising, indicating cooking activity.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [],
+  "risk_notes": []
+}

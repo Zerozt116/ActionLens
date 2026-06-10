@@ -1,0 +1,757 @@
+{
+  "video_id": "38TF8",
+  "summary": {
+    "video_id": "38TF8",
+    "final_events": 0,
+    "semantic_candidates": 0,
+    "pending_events": 9,
+    "rejected_events": 0,
+    "fused_events": 9,
+    "event_center_reviews": 0
+  },
+  "final_events": [],
+  "semantic_candidates": [],
+  "pending_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 11.555,
+      "end_seconds": 12.023,
+      "start_time": "00:00:11.555",
+      "end_time": "00:00:12.023",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.47, wrist_dist=0.06",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.6069,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.6069,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 14.717,
+      "end_seconds": 15.107,
+      "start_time": "00:00:14.717",
+      "end_time": "00:00:15.107",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.06",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.6014,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.6014,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 2,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 16.512,
+      "end_seconds": 17.566,
+      "start_time": "00:00:16.512",
+      "end_time": "00:00:17.566",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.16",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.556,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.556,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 3,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 18.425,
+      "end_seconds": 19.011,
+      "start_time": "00:00:18.425",
+      "end_time": "00:00:19.011",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.18",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.5724,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.5724,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 4,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 19.44,
+      "end_seconds": 19.87,
+      "start_time": "00:00:19.440",
+      "end_time": "00:00:19.870",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.47, wrist_dist=0.16",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.6241,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.6241,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 5,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 21.665,
+      "end_seconds": 22.134,
+      "start_time": "00:00:21.665",
+      "end_time": "00:00:22.134",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.14",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.5332,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.5332,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 6,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 23.617,
+      "end_seconds": 24.007,
+      "start_time": "00:00:23.617",
+      "end_time": "00:00:24.007",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.17",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.5165,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.5165,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 7,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 24.632,
+      "end_seconds": 25.764,
+      "start_time": "00:00:24.632",
+      "end_time": "00:00:25.764",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.45, wrist_dist=0.16",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.5531,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.5531,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 8,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 29.316,
+      "end_seconds": 31.346,
+      "start_time": "00:00:29.316",
+      "end_time": "00:00:31.346",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.18",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.5281,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.5281,
+      "comparison_status": "needs_temporal_review"
+    }
+  ],
+  "rejected_events": [],
+  "fused_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 11.555,
+      "end_seconds": 12.023,
+      "start_time": "00:00:11.555",
+      "end_time": "00:00:12.023",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.47, wrist_dist=0.06",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.6069,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.6069,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 14.717,
+      "end_seconds": 15.107,
+      "start_time": "00:00:14.717",
+      "end_time": "00:00:15.107",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.06",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.6014,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.6014,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 2,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 16.512,
+      "end_seconds": 17.566,
+      "start_time": "00:00:16.512",
+      "end_time": "00:00:17.566",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.16",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.556,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.556,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 3,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 18.425,
+      "end_seconds": 19.011,
+      "start_time": "00:00:18.425",
+      "end_time": "00:00:19.011",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.18",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.5724,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.5724,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 4,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 19.44,
+      "end_seconds": 19.87,
+      "start_time": "00:00:19.440",
+      "end_time": "00:00:19.870",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.47, wrist_dist=0.16",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.6241,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.6241,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 5,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 21.665,
+      "end_seconds": 22.134,
+      "start_time": "00:00:21.665",
+      "end_time": "00:00:22.134",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.14",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.5332,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.5332,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 6,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 23.617,
+      "end_seconds": 24.007,
+      "start_time": "00:00:23.617",
+      "end_time": "00:00:24.007",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.17",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.5165,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.5165,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 7,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 24.632,
+      "end_seconds": 25.764,
+      "start_time": "00:00:24.632",
+      "end_time": "00:00:25.764",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.45, wrist_dist=0.16",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.5531,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.5531,
+      "comparison_status": "needs_temporal_review"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 8,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 29.316,
+      "end_seconds": 31.346,
+      "start_time": "00:00:29.316",
+      "end_time": "00:00:31.346",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.18",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 33.0
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.5281,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.5281,
+      "comparison_status": "needs_temporal_review"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "019ea653b9682b481cb19f73819a5026",
+  "object": "chat.completion",
+  "created": 1780906966,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A boy in a pink shirt is eating from a plate while sitting on a couch. An adult male in a yellow shirt is seated in a chair nearby, looking at a computer monitor. No drinking or phone use is visible.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"No water or drinking action is visible. The boy is eating from a plate.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"cup\", \"phone\"],\n  \"risk_notes\": [\"phone not clearly visible\", \"no drinking activity\"]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1182,
+    "completion_tokens": 162,
+    "total_tokens": 1344
+  },
+  "system_fingerprint": ""
+}

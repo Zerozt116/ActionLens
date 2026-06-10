@@ -1,0 +1,77 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/024PD_c015_t0.00_59.04.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 8.437,
+      "frame_number": 253,
+      "path": "outputs/charades_clip_batch_20/024PD_c015_t0.00_59.04/vlm_review/frames/frame_00_8.437s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 16.874,
+      "frame_number": 506,
+      "path": "outputs/charades_clip_batch_20/024PD_c015_t0.00_59.04/vlm_review/frames/frame_01_16.874s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 25.311,
+      "frame_number": 759,
+      "path": "outputs/charades_clip_batch_20/024PD_c015_t0.00_59.04/vlm_review/frames/frame_02_25.311s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 33.748,
+      "frame_number": 1011,
+      "path": "outputs/charades_clip_batch_20/024PD_c015_t0.00_59.04/vlm_review/frames/frame_03_33.748s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 42.185,
+      "frame_number": 1264,
+      "path": "outputs/charades_clip_batch_20/024PD_c015_t0.00_59.04/vlm_review/frames/frame_04_42.185s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 50.622,
+      "frame_number": 1517,
+      "path": "outputs/charades_clip_batch_20/024PD_c015_t0.00_59.04/vlm_review/frames/frame_05_50.622s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "holding_phone"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/024PD_c015_t0.00_59.04/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/024PD_c015_t0.00_59.04/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/024PD_c015_t0.00_59.04/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "Person is holding a phone in multiple frames, visible in their hands while standing in a room.",
+    "actions": [
+      {
+        "action": "holding_phone",
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "Person is visibly holding a phone in their hands in frames 0, 1, 5.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "phone"
+    ],
+    "risk_notes": []
+  }
+}

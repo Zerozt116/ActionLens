@@ -1,0 +1,43 @@
+{
+  "video": {
+    "path": "data/sample_bus.mp4",
+    "fps": 5.0,
+    "frame_count": 10,
+    "width": 810,
+    "height": 1080,
+    "duration_seconds": 2.0
+  },
+  "num_detections": 40,
+  "num_tracks": 4,
+  "tracks": [
+    {
+      "person_id": 1,
+      "start_time": "00:00:00.000",
+      "end_time": "00:00:01.800",
+      "frame_count": 10,
+      "average_confidence": 0.8883
+    },
+    {
+      "person_id": 2,
+      "start_time": "00:00:00.000",
+      "end_time": "00:00:01.800",
+      "frame_count": 10,
+      "average_confidence": 0.882
+    },
+    {
+      "person_id": 3,
+      "start_time": "00:00:00.000",
+      "end_time": "00:00:01.800",
+      "frame_count": 10,
+      "average_confidence": 0.8581
+    },
+    {
+      "person_id": 4,
+      "start_time": "00:00:00.000",
+      "end_time": "00:00:01.800",
+      "frame_count": 10,
+      "average_confidence": 0.6232
+    }
+  ],
+  "annotated_video": "outputs/sample_bus/annotated.mp4"
+}

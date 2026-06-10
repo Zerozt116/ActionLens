@@ -1,0 +1,23 @@
+{
+  "overall_summary": "Person is lying in bed watching TV, holding a small object that appears to be a phone or remote.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "No cup or bottle visible; person is holding a small object that appears to be a phone or remote.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "phone"
+  ],
+  "risk_notes": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "019eab5f31083434807b3a4d3d714c54",
+  "object": "chat.completion",
+  "created": 1780991603,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A person is sitting on a sofa throughout the sampled frames, occasionally holding and drinking from a purple cup.\",\n  \"actions\": [\n    {\n      \"action\": \"sitting_on_sofa\",\n      \"present\": true,\n      \"confidence\": 1.0,\n      \"evidence\": \"The person is seated on a dark-colored sofa in all frames.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"cup\", \"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1218,
+    "completion_tokens": 128,
+    "total_tokens": 1346
+  },
+  "system_fingerprint": ""
+}

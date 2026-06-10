@@ -1,0 +1,21 @@
+{
+  "overall_summary": "A person is seen watching television throughout the sampled frames, with varying postures including standing and sitting. The TV is on and visible in all frames.",
+  "actions": [
+    {
+      "action": "watching_tv",
+      "present": true,
+      "confidence": 0.95,
+      "evidence": "The person is consistently facing the television, which is on and displaying content. Their posture and gaze direction indicate they are watching the screen.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [],
+  "risk_notes": []
+}

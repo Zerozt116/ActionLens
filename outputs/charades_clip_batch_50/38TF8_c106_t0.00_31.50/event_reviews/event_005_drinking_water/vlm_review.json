@@ -1,0 +1,27 @@
+{
+  "overall_summary": "The person is not drinking water; they are eating from a bowl while sitting on the floor. The event 'drinking_water' is not supported by the sampled frames.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "Person is sitting on floor eating from a metal bowl with a spoon, not drinking from a cup or similar container.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone"
+  ],
+  "risk_notes": [
+    "no cup or phone visible",
+    "possible occlusion"
+  ]
+}

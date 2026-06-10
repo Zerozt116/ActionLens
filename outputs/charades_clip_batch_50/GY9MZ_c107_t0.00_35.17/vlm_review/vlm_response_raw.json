@@ -1,0 +1,22 @@
+{
+  "id": "019eab4d55bfb904eadb2341f713b0ff",
+  "object": "chat.completion",
+  "created": 1780990432,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A man is seen holding and drinking from a small cup in multiple frames.\",\n  \"actions\": [\n    {\n      \"action\": \"holding_drink_container\",\n      \"present\": true,\n      \"confidence\": 0.95,\n      \"evidence\": \"The man is holding a small cup in his hand in frames 1 and 3, and the cup is clearly visible.\",\n      \"supporting_frame_indices\": [1, 3]\n    }\n  ],\n  \"visible_objects\": [\"cup\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 118,
+    "total_tokens": 1327
+  },
+  "system_fingerprint": ""
+}

@@ -1,0 +1,18 @@
+{
+  "overall_summary": "A person is interacting with a small red object, possibly a phone or remote, while standing or kneeling near a box. No drinking or phone use is evident.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "No cup or bottle is visible, and the person is not drinking.",
+      "supporting_frame_indices": [
+        0
+      ]
+    }
+  ],
+  "visible_objects": [
+    "phone"
+  ],
+  "risk_notes": []
+}

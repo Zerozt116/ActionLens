@@ -1,0 +1,62 @@
+[
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:10.544",
+    "end_time": "00:00:12.446",
+    "start_seconds": 10.544,
+    "end_seconds": 12.446,
+    "frame_count": 58,
+    "confidence": 0.5809,
+    "evidence": "bottle close to head and wrist; head_dist=0.49, wrist_dist=0.26"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:18.352",
+    "end_time": "00:00:18.919",
+    "start_seconds": 18.352,
+    "end_seconds": 18.919,
+    "frame_count": 15,
+    "confidence": 0.6043,
+    "evidence": "bottle close to head and wrist; head_dist=0.50, wrist_dist=0.21"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:19.286",
+    "end_time": "00:00:19.686",
+    "start_seconds": 19.286,
+    "end_seconds": 19.686,
+    "frame_count": 13,
+    "confidence": 0.6164,
+    "evidence": "bottle close to head and wrist; head_dist=0.50, wrist_dist=0.21"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:20.153",
+    "end_time": "00:00:20.721",
+    "start_seconds": 20.153,
+    "end_seconds": 20.721,
+    "frame_count": 11,
+    "confidence": 0.6054,
+    "evidence": "bottle close to head and wrist; head_dist=0.50, wrist_dist=0.23"
+  },
+  {
+    "person_id": 1,
+    "action": "talking_on_phone",
+    "action_name": "打电话",
+    "start_time": "00:00:30.097",
+    "end_time": "00:00:30.731",
+    "start_seconds": 30.097,
+    "end_seconds": 30.731,
+    "frame_count": 16,
+    "confidence": 0.5865,
+    "evidence": "cell phone close to head; head_dist=0.28"
+  }
+]

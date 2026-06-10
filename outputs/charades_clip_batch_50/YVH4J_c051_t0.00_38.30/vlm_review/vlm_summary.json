@@ -1,0 +1,80 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/YVH4J_c051_t0.00_38.30.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 5.4828,
+      "frame_number": 159,
+      "path": "outputs/charades_clip_batch_50_part30/YVH4J_c051_t0.00_38.30/vlm_review/frames/frame_00_5.483s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 10.9655,
+      "frame_number": 318,
+      "path": "outputs/charades_clip_batch_50_part30/YVH4J_c051_t0.00_38.30/vlm_review/frames/frame_01_10.966s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 16.4483,
+      "frame_number": 477,
+      "path": "outputs/charades_clip_batch_50_part30/YVH4J_c051_t0.00_38.30/vlm_review/frames/frame_02_16.448s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 21.931,
+      "frame_number": 636,
+      "path": "outputs/charades_clip_batch_50_part30/YVH4J_c051_t0.00_38.30/vlm_review/frames/frame_03_21.931s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 27.4138,
+      "frame_number": 795,
+      "path": "outputs/charades_clip_batch_50_part30/YVH4J_c051_t0.00_38.30/vlm_review/frames/frame_04_27.414s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 32.8966,
+      "frame_number": 954,
+      "path": "outputs/charades_clip_batch_50_part30/YVH4J_c051_t0.00_38.30/vlm_review/frames/frame_05_32.897s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "watching_laptop"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part30/YVH4J_c051_t0.00_38.30/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part30/YVH4J_c051_t0.00_38.30/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part30/YVH4J_c051_t0.00_38.30/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "Person is lying on bed, looking toward a laptop on a table nearby, but not interacting with it.",
+    "actions": [
+      {
+        "action": "watching_laptop",
+        "present": true,
+        "confidence": 0.9,
+        "evidence": "Person is lying on bed, looking in direction of laptop screen visible on table. No interaction with laptop.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "laptop",
+      "bed",
+      "table"
+    ],
+    "risk_notes": []
+  }
+}

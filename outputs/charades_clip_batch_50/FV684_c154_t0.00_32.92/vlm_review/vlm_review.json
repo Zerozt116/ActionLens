@@ -1,0 +1,24 @@
+{
+  "overall_summary": "The person is standing in front of a bathroom sink and later picks up a vacuum cleaner, but there is no clear evidence of transitioning from sitting or crouching to standing.",
+  "actions": [
+    {
+      "action": "standing_up",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "The person is already standing in all visible frames, no transition from sitting or crouching is observed.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone"
+  ],
+  "risk_notes": []
+}

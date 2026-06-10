@@ -1,0 +1,20 @@
+{
+  "overall_summary": "A person is seen drinking from a container while seated on a motorcycle, then walks away and places the container on a shelf.",
+  "actions": [
+    {
+      "action": "putting_drink_container",
+      "present": true,
+      "confidence": 0.95,
+      "evidence": "In frame 5, the person is seen placing a white container on a shelf after walking away from the motorcycle.",
+      "supporting_frame_indices": [
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "motorcycle",
+    "bicycle"
+  ],
+  "risk_notes": []
+}

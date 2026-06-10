@@ -1,0 +1,84 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/4FXUI_c052_t0.00_43.20.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 6.1835,
+      "frame_number": 182,
+      "path": "outputs/charades_clip_batch_20/4FXUI_c052_t0.00_43.20/vlm_review/frames/frame_00_6.183s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 12.3669,
+      "frame_number": 363,
+      "path": "outputs/charades_clip_batch_20/4FXUI_c052_t0.00_43.20/vlm_review/frames/frame_01_12.367s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 18.5504,
+      "frame_number": 545,
+      "path": "outputs/charades_clip_batch_20/4FXUI_c052_t0.00_43.20/vlm_review/frames/frame_02_18.550s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 24.7339,
+      "frame_number": 726,
+      "path": "outputs/charades_clip_batch_20/4FXUI_c052_t0.00_43.20/vlm_review/frames/frame_03_24.734s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 30.9174,
+      "frame_number": 908,
+      "path": "outputs/charades_clip_batch_20/4FXUI_c052_t0.00_43.20/vlm_review/frames/frame_04_30.917s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 37.1008,
+      "frame_number": 1089,
+      "path": "outputs/charades_clip_batch_20/4FXUI_c052_t0.00_43.20/vlm_review/frames/frame_05_37.101s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "c052"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/4FXUI_c052_t0.00_43.20/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/4FXUI_c052_t0.00_43.20/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/4FXUI_c052_t0.00_43.20/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "Person is using a laptop, seen from various angles, and closes it at the end.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "No cup or bottle visible, person is using a laptop.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "laptop",
+      "hand",
+      "tablecloth",
+      "bed",
+      "wooden pillar"
+    ],
+    "risk_notes": []
+  }
+}

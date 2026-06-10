@@ -1,0 +1,26 @@
+[
+  {
+    "person_id": 1,
+    "action": "talking_on_phone",
+    "action_name": "打电话",
+    "start_time": "00:00:01.435",
+    "end_time": "00:00:01.869",
+    "start_seconds": 1.435,
+    "end_seconds": 1.869,
+    "frame_count": 9,
+    "confidence": 0.7588,
+    "evidence": "cell phone close to head; head_dist=0.05"
+  },
+  {
+    "person_id": 29,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:31.899",
+    "end_time": "00:00:32.699",
+    "start_seconds": 31.899,
+    "end_seconds": 32.699,
+    "frame_count": 25,
+    "confidence": 0.7972,
+    "evidence": "bottle close to head and wrist; head_dist=0.15, wrist_dist=0.11"
+  }
+]

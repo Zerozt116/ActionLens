@@ -1,0 +1,24 @@
+{
+  "overall_summary": "The person is holding a can and appears to be watching TV, not drinking water.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "Person is holding a can, not a cup, and is not bringing it to mouth or showing drinking motion.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "can",
+    "phone"
+  ],
+  "risk_notes": []
+}

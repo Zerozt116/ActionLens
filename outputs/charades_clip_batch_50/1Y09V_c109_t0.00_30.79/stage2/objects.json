@@ -1,0 +1,2592 @@
+[
+  {
+    "frame_id": 0,
+    "timestamp": "00:00:00.000",
+    "seconds": 0.0,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8758,
+    "bbox_xyxy": [
+      189.434,
+      129.622,
+      313.921,
+      241.292
+    ]
+  },
+  {
+    "frame_id": 1,
+    "timestamp": "00:00:00.033",
+    "seconds": 0.033,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8776,
+    "bbox_xyxy": [
+      189.851,
+      129.424,
+      313.997,
+      240.793
+    ]
+  },
+  {
+    "frame_id": 2,
+    "timestamp": "00:00:00.067",
+    "seconds": 0.067,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8805,
+    "bbox_xyxy": [
+      190.164,
+      128.558,
+      314.789,
+      240.406
+    ]
+  },
+  {
+    "frame_id": 3,
+    "timestamp": "00:00:00.100",
+    "seconds": 0.1,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8772,
+    "bbox_xyxy": [
+      190.685,
+      127.545,
+      315.513,
+      239.69
+    ]
+  },
+  {
+    "frame_id": 4,
+    "timestamp": "00:00:00.133",
+    "seconds": 0.133,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8769,
+    "bbox_xyxy": [
+      191.289,
+      126.984,
+      315.513,
+      238.721
+    ]
+  },
+  {
+    "frame_id": 5,
+    "timestamp": "00:00:00.167",
+    "seconds": 0.167,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8715,
+    "bbox_xyxy": [
+      191.752,
+      126.783,
+      315.468,
+      238.152
+    ]
+  },
+  {
+    "frame_id": 6,
+    "timestamp": "00:00:00.200",
+    "seconds": 0.2,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8716,
+    "bbox_xyxy": [
+      192.432,
+      126.513,
+      315.787,
+      237.69
+    ]
+  },
+  {
+    "frame_id": 7,
+    "timestamp": "00:00:00.234",
+    "seconds": 0.234,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8573,
+    "bbox_xyxy": [
+      193.25,
+      126.306,
+      316.105,
+      237.168
+    ]
+  },
+  {
+    "frame_id": 8,
+    "timestamp": "00:00:00.267",
+    "seconds": 0.267,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8555,
+    "bbox_xyxy": [
+      193.478,
+      126.229,
+      316.01,
+      236.9
+    ]
+  },
+  {
+    "frame_id": 9,
+    "timestamp": "00:00:00.300",
+    "seconds": 0.3,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8604,
+    "bbox_xyxy": [
+      193.95,
+      126.098,
+      316.228,
+      236.666
+    ]
+  },
+  {
+    "frame_id": 10,
+    "timestamp": "00:00:00.334",
+    "seconds": 0.334,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8666,
+    "bbox_xyxy": [
+      194.606,
+      126.037,
+      316.485,
+      236.388
+    ]
+  },
+  {
+    "frame_id": 11,
+    "timestamp": "00:00:00.367",
+    "seconds": 0.367,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8682,
+    "bbox_xyxy": [
+      195.33,
+      125.773,
+      316.55,
+      235.579
+    ]
+  },
+  {
+    "frame_id": 12,
+    "timestamp": "00:00:00.400",
+    "seconds": 0.4,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8791,
+    "bbox_xyxy": [
+      196.042,
+      125.378,
+      317.791,
+      235.87
+    ]
+  },
+  {
+    "frame_id": 13,
+    "timestamp": "00:00:00.434",
+    "seconds": 0.434,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8662,
+    "bbox_xyxy": [
+      195.551,
+      124.925,
+      317.78,
+      235.87
+    ]
+  },
+  {
+    "frame_id": 14,
+    "timestamp": "00:00:00.467",
+    "seconds": 0.467,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.865,
+    "bbox_xyxy": [
+      195.145,
+      124.15,
+      317.142,
+      234.846
+    ]
+  },
+  {
+    "frame_id": 15,
+    "timestamp": "00:00:00.501",
+    "seconds": 0.501,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8688,
+    "bbox_xyxy": [
+      193.244,
+      123.861,
+      315.731,
+      234.726
+    ]
+  },
+  {
+    "frame_id": 16,
+    "timestamp": "00:00:00.534",
+    "seconds": 0.534,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8639,
+    "bbox_xyxy": [
+      193.622,
+      123.156,
+      315.585,
+      233.448
+    ]
+  },
+  {
+    "frame_id": 17,
+    "timestamp": "00:00:00.567",
+    "seconds": 0.567,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8961,
+    "bbox_xyxy": [
+      195.944,
+      121.943,
+      316.184,
+      230.796
+    ]
+  },
+  {
+    "frame_id": 18,
+    "timestamp": "00:00:00.601",
+    "seconds": 0.601,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8646,
+    "bbox_xyxy": [
+      196.544,
+      120.638,
+      316.472,
+      229.361
+    ]
+  },
+  {
+    "frame_id": 19,
+    "timestamp": "00:00:00.634",
+    "seconds": 0.634,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.7917,
+    "bbox_xyxy": [
+      196.972,
+      118.565,
+      316.233,
+      226.704
+    ]
+  },
+  {
+    "frame_id": 20,
+    "timestamp": "00:00:00.667",
+    "seconds": 0.667,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8442,
+    "bbox_xyxy": [
+      197.516,
+      116.597,
+      316.045,
+      224.146
+    ]
+  },
+  {
+    "frame_id": 21,
+    "timestamp": "00:00:00.701",
+    "seconds": 0.701,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.8372,
+    "bbox_xyxy": [
+      198.382,
+      113.944,
+      316.285,
+      220.942
+    ]
+  },
+  {
+    "frame_id": 22,
+    "timestamp": "00:00:00.734",
+    "seconds": 0.734,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.7952,
+    "bbox_xyxy": [
+      199.232,
+      111.026,
+      315.357,
+      216.135
+    ]
+  },
+  {
+    "frame_id": 23,
+    "timestamp": "00:00:00.767",
+    "seconds": 0.767,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.726,
+    "bbox_xyxy": [
+      199.693,
+      108.477,
+      314.518,
+      212.307
+    ]
+  },
+  {
+    "frame_id": 24,
+    "timestamp": "00:00:00.801",
+    "seconds": 0.801,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.7138,
+    "bbox_xyxy": [
+      200.244,
+      105.533,
+      314.001,
+      208.253
+    ]
+  },
+  {
+    "frame_id": 25,
+    "timestamp": "00:00:00.834",
+    "seconds": 0.834,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.7739,
+    "bbox_xyxy": [
+      201.28,
+      103.148,
+      314.297,
+      205.288
+    ]
+  },
+  {
+    "frame_id": 26,
+    "timestamp": "00:00:00.868",
+    "seconds": 0.868,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.7926,
+    "bbox_xyxy": [
+      202.886,
+      100.543,
+      313.935,
+      200.78
+    ]
+  },
+  {
+    "frame_id": 27,
+    "timestamp": "00:00:00.901",
+    "seconds": 0.901,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.7457,
+    "bbox_xyxy": [
+      204.158,
+      98.291,
+      315.074,
+      198.449
+    ]
+  },
+  {
+    "frame_id": 28,
+    "timestamp": "00:00:00.934",
+    "seconds": 0.934,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.7196,
+    "bbox_xyxy": [
+      206.662,
+      96.55,
+      315.013,
+      194.127
+    ]
+  },
+  {
+    "frame_id": 30,
+    "timestamp": "00:00:01.001",
+    "seconds": 1.001,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5187,
+    "bbox_xyxy": [
+      206.589,
+      93.55,
+      345.682,
+      218.424
+    ]
+  },
+  {
+    "frame_id": 31,
+    "timestamp": "00:00:01.034",
+    "seconds": 1.034,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4279,
+    "bbox_xyxy": [
+      206.332,
+      92.762,
+      351.65,
+      222.248
+    ]
+  },
+  {
+    "frame_id": 32,
+    "timestamp": "00:00:01.068",
+    "seconds": 1.068,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3754,
+    "bbox_xyxy": [
+      208.491,
+      91.841,
+      354.289,
+      221.19
+    ]
+  },
+  {
+    "frame_id": 33,
+    "timestamp": "00:00:01.101",
+    "seconds": 1.101,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4695,
+    "bbox_xyxy": [
+      213.199,
+      90.768,
+      333.357,
+      196.231
+    ]
+  },
+  {
+    "frame_id": 40,
+    "timestamp": "00:00:01.335",
+    "seconds": 1.335,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4077,
+    "bbox_xyxy": [
+      215.031,
+      87.246,
+      321.349,
+      181.01
+    ]
+  },
+  {
+    "frame_id": 41,
+    "timestamp": "00:00:01.368",
+    "seconds": 1.368,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4742,
+    "bbox_xyxy": [
+      211.131,
+      85.552,
+      326.887,
+      188.743
+    ]
+  },
+  {
+    "frame_id": 42,
+    "timestamp": "00:00:01.401",
+    "seconds": 1.401,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4717,
+    "bbox_xyxy": [
+      214.553,
+      84.114,
+      332.89,
+      188.306
+    ]
+  },
+  {
+    "frame_id": 43,
+    "timestamp": "00:00:01.435",
+    "seconds": 1.435,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4564,
+    "bbox_xyxy": [
+      209.745,
+      81.919,
+      324.389,
+      184.525
+    ]
+  },
+  {
+    "frame_id": 44,
+    "timestamp": "00:00:01.468",
+    "seconds": 1.468,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4412,
+    "bbox_xyxy": [
+      208.338,
+      80.595,
+      318.095,
+      180.182
+    ]
+  },
+  {
+    "frame_id": 45,
+    "timestamp": "00:00:01.502",
+    "seconds": 1.502,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4474,
+    "bbox_xyxy": [
+      215.756,
+      80.868,
+      307.412,
+      162.963
+    ]
+  },
+  {
+    "frame_id": 46,
+    "timestamp": "00:00:01.535",
+    "seconds": 1.535,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3983,
+    "bbox_xyxy": [
+      217.189,
+      80.762,
+      303.489,
+      157.449
+    ]
+  },
+  {
+    "frame_id": 47,
+    "timestamp": "00:00:01.568",
+    "seconds": 1.568,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4588,
+    "bbox_xyxy": [
+      215.431,
+      80.927,
+      304.742,
+      160.124
+    ]
+  },
+  {
+    "frame_id": 48,
+    "timestamp": "00:00:01.602",
+    "seconds": 1.602,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3568,
+    "bbox_xyxy": [
+      215.646,
+      81.902,
+      304.316,
+      160.073
+    ]
+  },
+  {
+    "frame_id": 90,
+    "timestamp": "00:00:03.003",
+    "seconds": 3.003,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4482,
+    "bbox_xyxy": [
+      241.447,
+      131.907,
+      299.905,
+      173.606
+    ]
+  },
+  {
+    "frame_id": 91,
+    "timestamp": "00:00:03.036",
+    "seconds": 3.036,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5586,
+    "bbox_xyxy": [
+      241.68,
+      132.384,
+      299.421,
+      173.569
+    ]
+  },
+  {
+    "frame_id": 92,
+    "timestamp": "00:00:03.070",
+    "seconds": 3.07,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5555,
+    "bbox_xyxy": [
+      241.785,
+      133.436,
+      298.319,
+      173.73
+    ]
+  },
+  {
+    "frame_id": 93,
+    "timestamp": "00:00:03.103",
+    "seconds": 3.103,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4695,
+    "bbox_xyxy": [
+      241.302,
+      133.561,
+      296.251,
+      172.738
+    ]
+  },
+  {
+    "frame_id": 94,
+    "timestamp": "00:00:03.136",
+    "seconds": 3.136,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.44,
+    "bbox_xyxy": [
+      239.716,
+      132.063,
+      294.608,
+      171.288
+    ]
+  },
+  {
+    "frame_id": 95,
+    "timestamp": "00:00:03.170",
+    "seconds": 3.17,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4007,
+    "bbox_xyxy": [
+      239.676,
+      128.736,
+      296.454,
+      169.309
+    ]
+  },
+  {
+    "frame_id": 97,
+    "timestamp": "00:00:03.237",
+    "seconds": 3.237,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3847,
+    "bbox_xyxy": [
+      241.381,
+      122.522,
+      296.416,
+      161.728
+    ]
+  },
+  {
+    "frame_id": 98,
+    "timestamp": "00:00:03.270",
+    "seconds": 3.27,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4669,
+    "bbox_xyxy": [
+      240.888,
+      120.169,
+      295.335,
+      158.999
+    ]
+  },
+  {
+    "frame_id": 99,
+    "timestamp": "00:00:03.303",
+    "seconds": 3.303,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5335,
+    "bbox_xyxy": [
+      240.759,
+      118.113,
+      291.294,
+      154.148
+    ]
+  },
+  {
+    "frame_id": 100,
+    "timestamp": "00:00:03.337",
+    "seconds": 3.337,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.6089,
+    "bbox_xyxy": [
+      240.814,
+      116.916,
+      289.011,
+      151.376
+    ]
+  },
+  {
+    "frame_id": 101,
+    "timestamp": "00:00:03.370",
+    "seconds": 3.37,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3988,
+    "bbox_xyxy": [
+      240.989,
+      117.521,
+      289.678,
+      152.156
+    ]
+  },
+  {
+    "frame_id": 102,
+    "timestamp": "00:00:03.403",
+    "seconds": 3.403,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4543,
+    "bbox_xyxy": [
+      241.581,
+      118.989,
+      290.151,
+      153.358
+    ]
+  },
+  {
+    "frame_id": 103,
+    "timestamp": "00:00:03.437",
+    "seconds": 3.437,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3649,
+    "bbox_xyxy": [
+      240.163,
+      119.684,
+      288.272,
+      153.658
+    ]
+  },
+  {
+    "frame_id": 104,
+    "timestamp": "00:00:03.470",
+    "seconds": 3.47,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4888,
+    "bbox_xyxy": [
+      239.186,
+      120.424,
+      288.625,
+      155.37
+    ]
+  },
+  {
+    "frame_id": 105,
+    "timestamp": "00:00:03.504",
+    "seconds": 3.504,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5186,
+    "bbox_xyxy": [
+      237.245,
+      121.635,
+      282.757,
+      153.868
+    ]
+  },
+  {
+    "frame_id": 106,
+    "timestamp": "00:00:03.537",
+    "seconds": 3.537,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2676,
+    "bbox_xyxy": [
+      235.304,
+      123.092,
+      278.514,
+      153.787
+    ]
+  },
+  {
+    "frame_id": 107,
+    "timestamp": "00:00:03.570",
+    "seconds": 3.57,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4184,
+    "bbox_xyxy": [
+      234.183,
+      125.287,
+      274.933,
+      154.373
+    ]
+  },
+  {
+    "frame_id": 108,
+    "timestamp": "00:00:03.604",
+    "seconds": 3.604,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3125,
+    "bbox_xyxy": [
+      232.822,
+      126.443,
+      272.989,
+      155.307
+    ]
+  },
+  {
+    "frame_id": 158,
+    "timestamp": "00:00:05.272",
+    "seconds": 5.272,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5066,
+    "bbox_xyxy": [
+      231.996,
+      98.482,
+      259.354,
+      125.525
+    ]
+  },
+  {
+    "frame_id": 159,
+    "timestamp": "00:00:05.305",
+    "seconds": 5.305,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.6902,
+    "bbox_xyxy": [
+      231.761,
+      97.051,
+      256.823,
+      121.744
+    ]
+  },
+  {
+    "frame_id": 160,
+    "timestamp": "00:00:05.339",
+    "seconds": 5.339,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5224,
+    "bbox_xyxy": [
+      231.72,
+      94.565,
+      256.826,
+      119.199
+    ]
+  },
+  {
+    "frame_id": 161,
+    "timestamp": "00:00:05.372",
+    "seconds": 5.372,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4891,
+    "bbox_xyxy": [
+      230.919,
+      92.518,
+      256.047,
+      117.093
+    ]
+  },
+  {
+    "frame_id": 162,
+    "timestamp": "00:00:05.405",
+    "seconds": 5.405,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4237,
+    "bbox_xyxy": [
+      228.843,
+      89.494,
+      254.628,
+      114.633
+    ]
+  },
+  {
+    "frame_id": 163,
+    "timestamp": "00:00:05.439",
+    "seconds": 5.439,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.514,
+    "bbox_xyxy": [
+      226.16,
+      87.043,
+      253.684,
+      113.857
+    ]
+  },
+  {
+    "frame_id": 164,
+    "timestamp": "00:00:05.472",
+    "seconds": 5.472,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.6386,
+    "bbox_xyxy": [
+      223.476,
+      85.35,
+      252.023,
+      113.178
+    ]
+  },
+  {
+    "frame_id": 165,
+    "timestamp": "00:00:05.506",
+    "seconds": 5.506,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5357,
+    "bbox_xyxy": [
+      220.242,
+      82.646,
+      252.511,
+      114.358
+    ]
+  },
+  {
+    "frame_id": 166,
+    "timestamp": "00:00:05.539",
+    "seconds": 5.539,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3343,
+    "bbox_xyxy": [
+      218.174,
+      80.412,
+      252.236,
+      114.292
+    ]
+  },
+  {
+    "frame_id": 181,
+    "timestamp": "00:00:06.039",
+    "seconds": 6.039,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3701,
+    "bbox_xyxy": [
+      209.28,
+      53.902,
+      234.187,
+      74.744
+    ]
+  },
+  {
+    "frame_id": 182,
+    "timestamp": "00:00:06.073",
+    "seconds": 6.073,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3798,
+    "bbox_xyxy": [
+      208.632,
+      53.416,
+      233.874,
+      74.6
+    ]
+  },
+  {
+    "frame_id": 183,
+    "timestamp": "00:00:06.106",
+    "seconds": 6.106,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3604,
+    "bbox_xyxy": [
+      208.285,
+      53.096,
+      233.303,
+      74.174
+    ]
+  },
+  {
+    "frame_id": 184,
+    "timestamp": "00:00:06.139",
+    "seconds": 6.139,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3931,
+    "bbox_xyxy": [
+      207.643,
+      52.948,
+      232.981,
+      74.411
+    ]
+  },
+  {
+    "frame_id": 370,
+    "timestamp": "00:00:12.346",
+    "seconds": 12.346,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4093,
+    "bbox_xyxy": [
+      258.296,
+      56.14,
+      281.459,
+      76.769
+    ]
+  },
+  {
+    "frame_id": 371,
+    "timestamp": "00:00:12.379",
+    "seconds": 12.379,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5888,
+    "bbox_xyxy": [
+      258.812,
+      57.292,
+      281.495,
+      77.48
+    ]
+  },
+  {
+    "frame_id": 372,
+    "timestamp": "00:00:12.412",
+    "seconds": 12.412,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5308,
+    "bbox_xyxy": [
+      259.047,
+      58.637,
+      281.832,
+      78.896
+    ]
+  },
+  {
+    "frame_id": 373,
+    "timestamp": "00:00:12.446",
+    "seconds": 12.446,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.6273,
+    "bbox_xyxy": [
+      258.827,
+      59.596,
+      282.363,
+      80.541
+    ]
+  },
+  {
+    "frame_id": 374,
+    "timestamp": "00:00:12.479",
+    "seconds": 12.479,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.6469,
+    "bbox_xyxy": [
+      259.074,
+      60.824,
+      282.863,
+      81.992
+    ]
+  },
+  {
+    "frame_id": 375,
+    "timestamp": "00:00:12.513",
+    "seconds": 12.513,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5714,
+    "bbox_xyxy": [
+      259.166,
+      61.74,
+      282.952,
+      82.884
+    ]
+  },
+  {
+    "frame_id": 376,
+    "timestamp": "00:00:12.546",
+    "seconds": 12.546,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4607,
+    "bbox_xyxy": [
+      259.36,
+      62.473,
+      282.89,
+      83.345
+    ]
+  },
+  {
+    "frame_id": 377,
+    "timestamp": "00:00:12.579",
+    "seconds": 12.579,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5965,
+    "bbox_xyxy": [
+      259.517,
+      62.942,
+      282.974,
+      83.695
+    ]
+  },
+  {
+    "frame_id": 378,
+    "timestamp": "00:00:12.613",
+    "seconds": 12.613,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.508,
+    "bbox_xyxy": [
+      259.475,
+      63.401,
+      282.991,
+      84.152
+    ]
+  },
+  {
+    "frame_id": 379,
+    "timestamp": "00:00:12.646",
+    "seconds": 12.646,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.6582,
+    "bbox_xyxy": [
+      259.509,
+      63.632,
+      283.064,
+      84.368
+    ]
+  },
+  {
+    "frame_id": 380,
+    "timestamp": "00:00:12.679",
+    "seconds": 12.679,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.6127,
+    "bbox_xyxy": [
+      259.428,
+      63.662,
+      283.059,
+      84.397
+    ]
+  },
+  {
+    "frame_id": 381,
+    "timestamp": "00:00:12.713",
+    "seconds": 12.713,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5428,
+    "bbox_xyxy": [
+      258.714,
+      63.932,
+      282.771,
+      84.958
+    ]
+  },
+  {
+    "frame_id": 382,
+    "timestamp": "00:00:12.746",
+    "seconds": 12.746,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5247,
+    "bbox_xyxy": [
+      258.732,
+      64.024,
+      282.793,
+      85.027
+    ]
+  },
+  {
+    "frame_id": 383,
+    "timestamp": "00:00:12.779",
+    "seconds": 12.779,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5629,
+    "bbox_xyxy": [
+      258.586,
+      63.828,
+      282.556,
+      84.646
+    ]
+  },
+  {
+    "frame_id": 384,
+    "timestamp": "00:00:12.813",
+    "seconds": 12.813,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5106,
+    "bbox_xyxy": [
+      258.681,
+      63.643,
+      282.593,
+      84.29
+    ]
+  },
+  {
+    "frame_id": 385,
+    "timestamp": "00:00:12.846",
+    "seconds": 12.846,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5414,
+    "bbox_xyxy": [
+      258.592,
+      63.58,
+      282.582,
+      84.201
+    ]
+  },
+  {
+    "frame_id": 386,
+    "timestamp": "00:00:12.880",
+    "seconds": 12.88,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5542,
+    "bbox_xyxy": [
+      258.457,
+      63.536,
+      282.652,
+      84.262
+    ]
+  },
+  {
+    "frame_id": 387,
+    "timestamp": "00:00:12.913",
+    "seconds": 12.913,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5665,
+    "bbox_xyxy": [
+      258.529,
+      63.525,
+      282.583,
+      84.032
+    ]
+  },
+  {
+    "frame_id": 388,
+    "timestamp": "00:00:12.946",
+    "seconds": 12.946,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5114,
+    "bbox_xyxy": [
+      258.456,
+      63.298,
+      282.709,
+      83.881
+    ]
+  },
+  {
+    "frame_id": 389,
+    "timestamp": "00:00:12.980",
+    "seconds": 12.98,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4824,
+    "bbox_xyxy": [
+      258.089,
+      63.223,
+      282.537,
+      83.803
+    ]
+  },
+  {
+    "frame_id": 390,
+    "timestamp": "00:00:13.013",
+    "seconds": 13.013,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.548,
+    "bbox_xyxy": [
+      258.374,
+      63.092,
+      282.878,
+      83.616
+    ]
+  },
+  {
+    "frame_id": 391,
+    "timestamp": "00:00:13.046",
+    "seconds": 13.046,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.553,
+    "bbox_xyxy": [
+      258.467,
+      62.996,
+      282.919,
+      83.382
+    ]
+  },
+  {
+    "frame_id": 392,
+    "timestamp": "00:00:13.080",
+    "seconds": 13.08,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.517,
+    "bbox_xyxy": [
+      258.533,
+      62.895,
+      283.055,
+      83.231
+    ]
+  },
+  {
+    "frame_id": 393,
+    "timestamp": "00:00:13.113",
+    "seconds": 13.113,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5645,
+    "bbox_xyxy": [
+      258.543,
+      62.686,
+      283.103,
+      82.971
+    ]
+  },
+  {
+    "frame_id": 394,
+    "timestamp": "00:00:13.146",
+    "seconds": 13.146,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5158,
+    "bbox_xyxy": [
+      258.435,
+      62.526,
+      282.983,
+      82.743
+    ]
+  },
+  {
+    "frame_id": 395,
+    "timestamp": "00:00:13.180",
+    "seconds": 13.18,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5412,
+    "bbox_xyxy": [
+      258.755,
+      61.604,
+      283.661,
+      82.066
+    ]
+  },
+  {
+    "frame_id": 396,
+    "timestamp": "00:00:13.213",
+    "seconds": 13.213,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4182,
+    "bbox_xyxy": [
+      258.74,
+      60.674,
+      283.738,
+      81.127
+    ]
+  },
+  {
+    "frame_id": 397,
+    "timestamp": "00:00:13.247",
+    "seconds": 13.247,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4613,
+    "bbox_xyxy": [
+      259.17,
+      59.929,
+      283.748,
+      79.867
+    ]
+  },
+  {
+    "frame_id": 398,
+    "timestamp": "00:00:13.280",
+    "seconds": 13.28,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4939,
+    "bbox_xyxy": [
+      259.681,
+      59.467,
+      283.542,
+      78.69
+    ]
+  },
+  {
+    "frame_id": 399,
+    "timestamp": "00:00:13.313",
+    "seconds": 13.313,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5216,
+    "bbox_xyxy": [
+      259.364,
+      58.342,
+      283.714,
+      77.816
+    ]
+  },
+  {
+    "frame_id": 400,
+    "timestamp": "00:00:13.347",
+    "seconds": 13.347,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5005,
+    "bbox_xyxy": [
+      259.355,
+      57.628,
+      283.942,
+      77.155
+    ]
+  },
+  {
+    "frame_id": 401,
+    "timestamp": "00:00:13.380",
+    "seconds": 13.38,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4717,
+    "bbox_xyxy": [
+      259.228,
+      57.002,
+      284.414,
+      76.869
+    ]
+  },
+  {
+    "frame_id": 402,
+    "timestamp": "00:00:13.413",
+    "seconds": 13.413,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5457,
+    "bbox_xyxy": [
+      259.439,
+      56.237,
+      285.04,
+      76.478
+    ]
+  },
+  {
+    "frame_id": 403,
+    "timestamp": "00:00:13.447",
+    "seconds": 13.447,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.602,
+    "bbox_xyxy": [
+      259.356,
+      55.562,
+      285.215,
+      76.097
+    ]
+  },
+  {
+    "frame_id": 404,
+    "timestamp": "00:00:13.480",
+    "seconds": 13.48,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4917,
+    "bbox_xyxy": [
+      258.599,
+      54.614,
+      285.251,
+      75.965
+    ]
+  },
+  {
+    "frame_id": 405,
+    "timestamp": "00:00:13.514",
+    "seconds": 13.514,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3208,
+    "bbox_xyxy": [
+      258.564,
+      53.709,
+      285.904,
+      75.985
+    ]
+  },
+  {
+    "frame_id": 406,
+    "timestamp": "00:00:13.547",
+    "seconds": 13.547,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2735,
+    "bbox_xyxy": [
+      259.117,
+      52.992,
+      284.572,
+      73.702
+    ]
+  },
+  {
+    "frame_id": 408,
+    "timestamp": "00:00:13.614",
+    "seconds": 13.614,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2898,
+    "bbox_xyxy": [
+      259.617,
+      51.922,
+      284.522,
+      72.335
+    ]
+  },
+  {
+    "frame_id": 409,
+    "timestamp": "00:00:13.647",
+    "seconds": 13.647,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2517,
+    "bbox_xyxy": [
+      259.438,
+      51.641,
+      284.018,
+      71.822
+    ]
+  },
+  {
+    "frame_id": 410,
+    "timestamp": "00:00:13.680",
+    "seconds": 13.68,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3056,
+    "bbox_xyxy": [
+      259.657,
+      51.756,
+      283.912,
+      71.714
+    ]
+  },
+  {
+    "frame_id": 411,
+    "timestamp": "00:00:13.714",
+    "seconds": 13.714,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4239,
+    "bbox_xyxy": [
+      260.053,
+      52.046,
+      283.939,
+      71.731
+    ]
+  },
+  {
+    "frame_id": 412,
+    "timestamp": "00:00:13.747",
+    "seconds": 13.747,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2717,
+    "bbox_xyxy": [
+      260.052,
+      52.236,
+      283.991,
+      71.911
+    ]
+  },
+  {
+    "frame_id": 420,
+    "timestamp": "00:00:14.014",
+    "seconds": 14.014,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3052,
+    "bbox_xyxy": [
+      260.481,
+      50.803,
+      286.083,
+      72.101
+    ]
+  },
+  {
+    "frame_id": 424,
+    "timestamp": "00:00:14.147",
+    "seconds": 14.147,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.275,
+    "bbox_xyxy": [
+      261.377,
+      49.298,
+      287.843,
+      71.919
+    ]
+  },
+  {
+    "frame_id": 425,
+    "timestamp": "00:00:14.181",
+    "seconds": 14.181,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2962,
+    "bbox_xyxy": [
+      262.099,
+      49.063,
+      287.47,
+      70.888
+    ]
+  },
+  {
+    "frame_id": 426,
+    "timestamp": "00:00:14.214",
+    "seconds": 14.214,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3335,
+    "bbox_xyxy": [
+      262.191,
+      48.538,
+      288.055,
+      71.144
+    ]
+  },
+  {
+    "frame_id": 428,
+    "timestamp": "00:00:14.281",
+    "seconds": 14.281,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.268,
+    "bbox_xyxy": [
+      262.426,
+      47.912,
+      288.361,
+      70.855
+    ]
+  },
+  {
+    "frame_id": 617,
+    "timestamp": "00:00:20.587",
+    "seconds": 20.587,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4309,
+    "bbox_xyxy": [
+      233.718,
+      67.569,
+      259.283,
+      88.421
+    ]
+  },
+  {
+    "frame_id": 618,
+    "timestamp": "00:00:20.621",
+    "seconds": 20.621,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4328,
+    "bbox_xyxy": [
+      226.53,
+      68.856,
+      265.96,
+      101.282
+    ]
+  },
+  {
+    "frame_id": 619,
+    "timestamp": "00:00:20.654",
+    "seconds": 20.654,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5104,
+    "bbox_xyxy": [
+      224.926,
+      70.075,
+      267.691,
+      105.625
+    ]
+  },
+  {
+    "frame_id": 620,
+    "timestamp": "00:00:20.687",
+    "seconds": 20.687,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4775,
+    "bbox_xyxy": [
+      225.184,
+      71.293,
+      267.245,
+      106.714
+    ]
+  },
+  {
+    "frame_id": 622,
+    "timestamp": "00:00:20.754",
+    "seconds": 20.754,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4526,
+    "bbox_xyxy": [
+      233.941,
+      73.648,
+      258.456,
+      104.041
+    ]
+  },
+  {
+    "frame_id": 623,
+    "timestamp": "00:00:20.787",
+    "seconds": 20.787,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4906,
+    "bbox_xyxy": [
+      234.494,
+      74.495,
+      258.424,
+      104.107
+    ]
+  },
+  {
+    "frame_id": 624,
+    "timestamp": "00:00:20.821",
+    "seconds": 20.821,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.6553,
+    "bbox_xyxy": [
+      236.11,
+      75.386,
+      259.477,
+      104.242
+    ]
+  },
+  {
+    "frame_id": 625,
+    "timestamp": "00:00:20.854",
+    "seconds": 20.854,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5152,
+    "bbox_xyxy": [
+      238.06,
+      76.342,
+      260.093,
+      103.418
+    ]
+  },
+  {
+    "frame_id": 626,
+    "timestamp": "00:00:20.888",
+    "seconds": 20.888,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.7073,
+    "bbox_xyxy": [
+      239.997,
+      78.47,
+      260.762,
+      103.754
+    ]
+  },
+  {
+    "frame_id": 627,
+    "timestamp": "00:00:20.921",
+    "seconds": 20.921,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.6872,
+    "bbox_xyxy": [
+      241.063,
+      79.705,
+      261.143,
+      103.864
+    ]
+  },
+  {
+    "frame_id": 628,
+    "timestamp": "00:00:20.954",
+    "seconds": 20.954,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.6991,
+    "bbox_xyxy": [
+      241.522,
+      80.453,
+      261.417,
+      104.02
+    ]
+  },
+  {
+    "frame_id": 629,
+    "timestamp": "00:00:20.988",
+    "seconds": 20.988,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.6394,
+    "bbox_xyxy": [
+      241.341,
+      81.189,
+      261.223,
+      104.179
+    ]
+  },
+  {
+    "frame_id": 630,
+    "timestamp": "00:00:21.021",
+    "seconds": 21.021,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.7173,
+    "bbox_xyxy": [
+      241.971,
+      82.062,
+      261.52,
+      104.165
+    ]
+  },
+  {
+    "frame_id": 631,
+    "timestamp": "00:00:21.054",
+    "seconds": 21.054,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.6637,
+    "bbox_xyxy": [
+      241.803,
+      82.658,
+      261.563,
+      104.458
+    ]
+  },
+  {
+    "frame_id": 632,
+    "timestamp": "00:00:21.088",
+    "seconds": 21.088,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5307,
+    "bbox_xyxy": [
+      242.222,
+      83.323,
+      262.19,
+      104.877
+    ]
+  },
+  {
+    "frame_id": 633,
+    "timestamp": "00:00:21.121",
+    "seconds": 21.121,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5487,
+    "bbox_xyxy": [
+      242.821,
+      83.868,
+      262.892,
+      105.01
+    ]
+  },
+  {
+    "frame_id": 634,
+    "timestamp": "00:00:21.154",
+    "seconds": 21.154,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4925,
+    "bbox_xyxy": [
+      243.094,
+      84.711,
+      263.176,
+      105.272
+    ]
+  },
+  {
+    "frame_id": 635,
+    "timestamp": "00:00:21.188",
+    "seconds": 21.188,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.419,
+    "bbox_xyxy": [
+      242.836,
+      85.566,
+      263.044,
+      105.565
+    ]
+  },
+  {
+    "frame_id": 636,
+    "timestamp": "00:00:21.221",
+    "seconds": 21.221,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.371,
+    "bbox_xyxy": [
+      242.331,
+      85.984,
+      263.261,
+      106.147
+    ]
+  },
+  {
+    "frame_id": 637,
+    "timestamp": "00:00:21.255",
+    "seconds": 21.255,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4667,
+    "bbox_xyxy": [
+      241.221,
+      86.757,
+      262.303,
+      106.427
+    ]
+  },
+  {
+    "frame_id": 638,
+    "timestamp": "00:00:21.288",
+    "seconds": 21.288,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4557,
+    "bbox_xyxy": [
+      240.32,
+      86.959,
+      261.521,
+      106.336
+    ]
+  },
+  {
+    "frame_id": 639,
+    "timestamp": "00:00:21.321",
+    "seconds": 21.321,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5578,
+    "bbox_xyxy": [
+      238.687,
+      87.073,
+      261.071,
+      107.241
+    ]
+  },
+  {
+    "frame_id": 640,
+    "timestamp": "00:00:21.355",
+    "seconds": 21.355,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.6228,
+    "bbox_xyxy": [
+      237.521,
+      87.112,
+      260.377,
+      107.553
+    ]
+  },
+  {
+    "frame_id": 641,
+    "timestamp": "00:00:21.388",
+    "seconds": 21.388,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.6171,
+    "bbox_xyxy": [
+      236.459,
+      87.294,
+      259.524,
+      107.698
+    ]
+  },
+  {
+    "frame_id": 642,
+    "timestamp": "00:00:21.421",
+    "seconds": 21.421,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5253,
+    "bbox_xyxy": [
+      235.257,
+      87.778,
+      257.905,
+      107.492
+    ]
+  },
+  {
+    "frame_id": 643,
+    "timestamp": "00:00:21.455",
+    "seconds": 21.455,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4377,
+    "bbox_xyxy": [
+      234.615,
+      88.13,
+      256.855,
+      107.286
+    ]
+  },
+  {
+    "frame_id": 644,
+    "timestamp": "00:00:21.488",
+    "seconds": 21.488,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.438,
+    "bbox_xyxy": [
+      233.471,
+      88.3,
+      256.036,
+      107.499
+    ]
+  },
+  {
+    "frame_id": 645,
+    "timestamp": "00:00:21.522",
+    "seconds": 21.521,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4569,
+    "bbox_xyxy": [
+      231.348,
+      88.711,
+      254.134,
+      107.699
+    ]
+  },
+  {
+    "frame_id": 646,
+    "timestamp": "00:00:21.555",
+    "seconds": 21.555,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.442,
+    "bbox_xyxy": [
+      228.919,
+      88.935,
+      252.216,
+      108.102
+    ]
+  },
+  {
+    "frame_id": 647,
+    "timestamp": "00:00:21.588",
+    "seconds": 21.588,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4363,
+    "bbox_xyxy": [
+      226.254,
+      89.272,
+      249.499,
+      108.102
+    ]
+  },
+  {
+    "frame_id": 650,
+    "timestamp": "00:00:21.688",
+    "seconds": 21.688,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4007,
+    "bbox_xyxy": [
+      222.89,
+      91.661,
+      247.433,
+      111.287
+    ]
+  },
+  {
+    "frame_id": 655,
+    "timestamp": "00:00:21.855",
+    "seconds": 21.855,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.426,
+    "bbox_xyxy": [
+      221.193,
+      99.403,
+      250.281,
+      119.741
+    ]
+  },
+  {
+    "frame_id": 656,
+    "timestamp": "00:00:21.889",
+    "seconds": 21.889,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3404,
+    "bbox_xyxy": [
+      224.654,
+      102.024,
+      252.002,
+      121.162
+    ]
+  },
+  {
+    "frame_id": 657,
+    "timestamp": "00:00:21.922",
+    "seconds": 21.922,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4198,
+    "bbox_xyxy": [
+      224.57,
+      103.917,
+      253.648,
+      124.321
+    ]
+  },
+  {
+    "frame_id": 658,
+    "timestamp": "00:00:21.955",
+    "seconds": 21.955,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2629,
+    "bbox_xyxy": [
+      224.294,
+      105.92,
+      256.051,
+      128.214
+    ]
+  },
+  {
+    "frame_id": 660,
+    "timestamp": "00:00:22.022",
+    "seconds": 22.022,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2785,
+    "bbox_xyxy": [
+      225.49,
+      109.101,
+      256.556,
+      130.759
+    ]
+  },
+  {
+    "frame_id": 680,
+    "timestamp": "00:00:22.689",
+    "seconds": 22.689,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4031,
+    "bbox_xyxy": [
+      229.262,
+      112.358,
+      261.198,
+      130.071
+    ]
+  },
+  {
+    "frame_id": 681,
+    "timestamp": "00:00:22.723",
+    "seconds": 22.723,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4215,
+    "bbox_xyxy": [
+      228.6,
+      112.311,
+      260.719,
+      130.092
+    ]
+  },
+  {
+    "frame_id": 682,
+    "timestamp": "00:00:22.756",
+    "seconds": 22.756,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3808,
+    "bbox_xyxy": [
+      227.337,
+      112.585,
+      260.877,
+      131.069
+    ]
+  },
+  {
+    "frame_id": 683,
+    "timestamp": "00:00:22.789",
+    "seconds": 22.789,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3473,
+    "bbox_xyxy": [
+      223.113,
+      110.921,
+      261.133,
+      131.866
+    ]
+  },
+  {
+    "frame_id": 684,
+    "timestamp": "00:00:22.823",
+    "seconds": 22.823,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3177,
+    "bbox_xyxy": [
+      221.502,
+      112.407,
+      258.371,
+      132.664
+    ]
+  },
+  {
+    "frame_id": 686,
+    "timestamp": "00:00:22.890",
+    "seconds": 22.89,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3356,
+    "bbox_xyxy": [
+      218.08,
+      112.423,
+      256.519,
+      133.78
+    ]
+  },
+  {
+    "frame_id": 687,
+    "timestamp": "00:00:22.923",
+    "seconds": 22.923,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3393,
+    "bbox_xyxy": [
+      218.105,
+      112.439,
+      256.899,
+      134.265
+    ]
+  },
+  {
+    "frame_id": 688,
+    "timestamp": "00:00:22.956",
+    "seconds": 22.956,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4069,
+    "bbox_xyxy": [
+      218.79,
+      112.564,
+      257.556,
+      134.633
+    ]
+  },
+  {
+    "frame_id": 689,
+    "timestamp": "00:00:22.990",
+    "seconds": 22.99,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.485,
+    "bbox_xyxy": [
+      220.247,
+      113.314,
+      256.052,
+      133.832
+    ]
+  },
+  {
+    "frame_id": 690,
+    "timestamp": "00:00:23.023",
+    "seconds": 23.023,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.509,
+    "bbox_xyxy": [
+      220.691,
+      113.988,
+      254.252,
+      133.419
+    ]
+  },
+  {
+    "frame_id": 691,
+    "timestamp": "00:00:23.056",
+    "seconds": 23.056,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5415,
+    "bbox_xyxy": [
+      220.888,
+      114.66,
+      253.464,
+      133.722
+    ]
+  },
+  {
+    "frame_id": 692,
+    "timestamp": "00:00:23.090",
+    "seconds": 23.09,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4158,
+    "bbox_xyxy": [
+      221.88,
+      115.33,
+      253.583,
+      134.032
+    ]
+  },
+  {
+    "frame_id": 693,
+    "timestamp": "00:00:23.123",
+    "seconds": 23.123,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.474,
+    "bbox_xyxy": [
+      222.38,
+      115.808,
+      255.092,
+      135.354
+    ]
+  },
+  {
+    "frame_id": 694,
+    "timestamp": "00:00:23.156",
+    "seconds": 23.156,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3749,
+    "bbox_xyxy": [
+      223.345,
+      116.068,
+      256.418,
+      136.047
+    ]
+  },
+  {
+    "frame_id": 695,
+    "timestamp": "00:00:23.190",
+    "seconds": 23.19,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4851,
+    "bbox_xyxy": [
+      224.332,
+      116.834,
+      257.128,
+      136.795
+    ]
+  },
+  {
+    "frame_id": 696,
+    "timestamp": "00:00:23.223",
+    "seconds": 23.223,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4858,
+    "bbox_xyxy": [
+      224.647,
+      117.167,
+      257.686,
+      137.481
+    ]
+  },
+  {
+    "frame_id": 697,
+    "timestamp": "00:00:23.257",
+    "seconds": 23.257,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5643,
+    "bbox_xyxy": [
+      225.991,
+      118.028,
+      259.015,
+      138.362
+    ]
+  },
+  {
+    "frame_id": 698,
+    "timestamp": "00:00:23.290",
+    "seconds": 23.29,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3641,
+    "bbox_xyxy": [
+      227.326,
+      119.286,
+      259.764,
+      139.297
+    ]
+  },
+  {
+    "frame_id": 699,
+    "timestamp": "00:00:23.323",
+    "seconds": 23.323,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4955,
+    "bbox_xyxy": [
+      226.978,
+      119.301,
+      259.872,
+      139.837
+    ]
+  },
+  {
+    "frame_id": 700,
+    "timestamp": "00:00:23.357",
+    "seconds": 23.357,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.5128,
+    "bbox_xyxy": [
+      226.881,
+      119.711,
+      259.482,
+      140.306
+    ]
+  },
+  {
+    "frame_id": 701,
+    "timestamp": "00:00:23.390",
+    "seconds": 23.39,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4685,
+    "bbox_xyxy": [
+      226.449,
+      120.29,
+      259.809,
+      141.662
+    ]
+  },
+  {
+    "frame_id": 702,
+    "timestamp": "00:00:23.423",
+    "seconds": 23.423,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3497,
+    "bbox_xyxy": [
+      226.865,
+      120.935,
+      259.706,
+      142.175
+    ]
+  },
+  {
+    "frame_id": 703,
+    "timestamp": "00:00:23.457",
+    "seconds": 23.457,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3332,
+    "bbox_xyxy": [
+      227.917,
+      121.539,
+      260.583,
+      142.858
+    ]
+  },
+  {
+    "frame_id": 704,
+    "timestamp": "00:00:23.490",
+    "seconds": 23.49,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2525,
+    "bbox_xyxy": [
+      229.583,
+      121.79,
+      262.282,
+      143.128
+    ]
+  },
+  {
+    "frame_id": 705,
+    "timestamp": "00:00:23.524",
+    "seconds": 23.524,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.421,
+    "bbox_xyxy": [
+      228.973,
+      121.489,
+      260.696,
+      142.349
+    ]
+  },
+  {
+    "frame_id": 706,
+    "timestamp": "00:00:23.557",
+    "seconds": 23.557,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.344,
+    "bbox_xyxy": [
+      229.145,
+      121.538,
+      259.878,
+      141.822
+    ]
+  },
+  {
+    "frame_id": 918,
+    "timestamp": "00:00:30.631",
+    "seconds": 30.631,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2528,
+    "bbox_xyxy": [
+      208.553,
+      60.989,
+      299.149,
+      148.261
+    ]
+  },
+  {
+    "frame_id": 919,
+    "timestamp": "00:00:30.664",
+    "seconds": 30.664,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3084,
+    "bbox_xyxy": [
+      208.014,
+      64.114,
+      297.574,
+      244.966
+    ]
+  },
+  {
+    "frame_id": 920,
+    "timestamp": "00:00:30.697",
+    "seconds": 30.697,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2645,
+    "bbox_xyxy": [
+      208.523,
+      66.491,
+      298.763,
+      152.405
+    ]
+  }
+]

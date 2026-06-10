@@ -1,0 +1,27 @@
+{
+  "overall_summary": "The person is holding a can and appears to be drinking from it, not talking on a phone.",
+  "actions": [
+    {
+      "action": "talking_on_phone",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "Person is holding a can, not a phone; phone not visible.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone"
+  ],
+  "risk_notes": [
+    "phone not visible",
+    "possible occlusion"
+  ]
+}

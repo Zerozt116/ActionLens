@@ -1,0 +1,22 @@
+{
+  "overall_summary": "The person is sitting on a bench and holding a small container, but there is no clear evidence of drinking from it.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "The person is holding a small container, but no drinking motion or liquid intake is visible.",
+      "supporting_frame_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup"
+  ],
+  "risk_notes": []
+}

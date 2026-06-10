@@ -1,0 +1,225 @@
+{
+  "video_id": "OINMN",
+  "summary": {
+    "video_id": "OINMN",
+    "final_events": 0,
+    "semantic_candidates": 3,
+    "pending_events": 0,
+    "rejected_events": 0,
+    "fused_events": 3,
+    "event_center_reviews": 0
+  },
+  "final_events": [],
+  "semantic_candidates": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "holding_phone",
+      "action_name": "拿手机",
+      "start_seconds": 0.0,
+      "end_seconds": 46.0,
+      "confidence": 0.95,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 0.95,
+        "evidence": "In frame 5, person is holding a phone to their ear. In frame 2, person is holding a phone to their ear. In frame 3, person is holding a phone to their ear.",
+        "supporting_frame_indices": [
+          2,
+          3,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c015"
+        ],
+        "action_names": [
+          "Holding a phone/camera"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 46.0
+          }
+        ]
+      }
+    },
+    {
+      "source": "vlm_candidate_event",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "looking_at_phone",
+      "action_name": "看手机",
+      "start_seconds": null,
+      "end_seconds": null,
+      "confidence": 0.9,
+      "evidence_sources": [
+        "full_video_vlm",
+        "unlabeled_candidate"
+      ],
+      "fusion_reason": "Full-video VLM found an unlabeled high-confidence action candidate.",
+      "vlm": {
+        "confidence": 0.9,
+        "evidence": "In frame 5, person is holding phone to ear and looking at it. In frame 2, person is holding phone to ear and looking at it. In frame 3, person is holding phone to ear and looking at it.",
+        "supporting_frame_indices": [
+          2,
+          3,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      }
+    },
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "start_seconds": 0.0,
+      "end_seconds": 46.0,
+      "confidence": 0.9,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 0.9,
+        "evidence": "In frame 5, person is holding a phone to their ear with visible mouth movement consistent with talking.",
+        "supporting_frame_indices": [
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c019"
+        ],
+        "action_names": [
+          "Talking on a phone/camera"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 46.0
+          }
+        ]
+      }
+    }
+  ],
+  "pending_events": [],
+  "rejected_events": [],
+  "fused_events": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "holding_phone",
+      "action_name": "拿手机",
+      "start_seconds": 0.0,
+      "end_seconds": 46.0,
+      "confidence": 0.95,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 0.95,
+        "evidence": "In frame 5, person is holding a phone to their ear. In frame 2, person is holding a phone to their ear. In frame 3, person is holding a phone to their ear.",
+        "supporting_frame_indices": [
+          2,
+          3,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c015"
+        ],
+        "action_names": [
+          "Holding a phone/camera"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 46.0
+          }
+        ]
+      }
+    },
+    {
+      "source": "vlm_candidate_event",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "looking_at_phone",
+      "action_name": "看手机",
+      "start_seconds": null,
+      "end_seconds": null,
+      "confidence": 0.9,
+      "evidence_sources": [
+        "full_video_vlm",
+        "unlabeled_candidate"
+      ],
+      "fusion_reason": "Full-video VLM found an unlabeled high-confidence action candidate.",
+      "vlm": {
+        "confidence": 0.9,
+        "evidence": "In frame 5, person is holding phone to ear and looking at it. In frame 2, person is holding phone to ear and looking at it. In frame 3, person is holding phone to ear and looking at it.",
+        "supporting_frame_indices": [
+          2,
+          3,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      }
+    },
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "start_seconds": 0.0,
+      "end_seconds": 46.0,
+      "confidence": 0.9,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 0.9,
+        "evidence": "In frame 5, person is holding a phone to their ear with visible mouth movement consistent with talking.",
+        "supporting_frame_indices": [
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c019"
+        ],
+        "action_names": [
+          "Talking on a phone/camera"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 46.0
+          }
+        ]
+      }
+    }
+  ]
+}

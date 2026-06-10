@@ -1,0 +1,29 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/4FXUI_c052_t0.00_43.20.mp4",
+    "fps": 29.364,
+    "frame_count": 1271,
+    "width": 270,
+    "height": 480,
+    "duration_seconds": 43.28429369295736
+  },
+  "num_objects": 296,
+  "num_poses": 1137,
+  "num_frame_scores": 7,
+  "num_events": 1,
+  "events": [
+    {
+      "person_id": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_time": "00:00:00.170",
+      "end_time": "00:00:00.511",
+      "start_seconds": 0.17,
+      "end_seconds": 0.511,
+      "frame_count": 6,
+      "confidence": 0.639,
+      "evidence": "bottle close to head and wrist; head_dist=0.13, wrist_dist=0.27"
+    }
+  ],
+  "annotated_video": null
+}

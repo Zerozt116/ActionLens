@@ -1,0 +1,22 @@
+{
+  "id": "019eab51a07f4a8c616939775d62a4b4",
+  "object": "chat.completion",
+  "created": 1780990715,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A person is seen drinking from a blue cup and then placing it down, consistent with the action of taking a drink container.\",\n  \"actions\": [\n    {\n      \"action\": \"taking_drink_container\",\n      \"present\": true,\n      \"confidence\": 0.95,\n      \"evidence\": \"The person is holding and drinking from a blue cup in frames 0-2, then places it down in frame 3. The cup is clearly visible throughout.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3]\n    }\n  ],\n  \"visible_objects\": [\"cup\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1238,
+    "completion_tokens": 142,
+    "total_tokens": 1380
+  },
+  "system_fingerprint": ""
+}

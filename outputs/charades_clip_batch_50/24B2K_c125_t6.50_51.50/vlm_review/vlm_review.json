@@ -1,0 +1,26 @@
+{
+  "overall_summary": "The person is not sitting on the floor in any of the sampled frames. They are standing or leaning against a wall, holding various objects.",
+  "actions": [
+    {
+      "action": "sitting_on_floor",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "The person is standing or leaning against a wall in all frames, not seated on the floor.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone",
+    "box",
+    "clothing"
+  ],
+  "risk_notes": []
+}

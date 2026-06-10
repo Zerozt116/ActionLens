@@ -1,0 +1,19 @@
+{
+  "overall_summary": "Person is drinking from a purple cup while seated on a couch, consistent with the 'drinking_water' action.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": true,
+      "confidence": 0.95,
+      "evidence": "Person is holding a purple cup to their mouth, tilting head back to drink. Cup is clearly visible and in use.",
+      "supporting_frame_indices": [
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup"
+  ],
+  "risk_notes": []
+}

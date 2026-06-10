@@ -1,0 +1,22 @@
+{
+  "id": "019eab6a94e2b266dd1bf96824b227a1",
+  "object": "chat.completion",
+  "created": 1780992350,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"Person is holding a purple cup and appears to be drinking from it, consistent with the 'drinking_water' action.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": true,\n      \"confidence\": 0.7355,\n      \"evidence\": \"Person is holding a purple cup close to their mouth and head; cup is visible in all frames. Head is tilted slightly downward, consistent with drinking.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"cup\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1369,
+    "completion_tokens": 145,
+    "total_tokens": 1514
+  },
+  "system_fingerprint": ""
+}

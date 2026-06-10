@@ -1,0 +1,22 @@
+{
+  "id": "019eab55fccc9b02b2f06ceed749cf3e",
+  "object": "chat.completion",
+  "created": 1780991000,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A person is seen drinking from a container while seated on a motorcycle, then walks away and places the container on a shelf.\",\n  \"actions\": [\n    {\n      \"action\": \"putting_drink_container\",\n      \"present\": true,\n      \"confidence\": 0.95,\n      \"evidence\": \"In frame 5, the person is seen placing a white container on a shelf after walking away from the motorcycle.\",\n      \"supporting_frame_indices\": [5]\n    }\n  ],\n  \"visible_objects\": [\"cup\", \"motorcycle\", \"bicycle\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 132,
+    "total_tokens": 1357
+  },
+  "system_fingerprint": ""
+}

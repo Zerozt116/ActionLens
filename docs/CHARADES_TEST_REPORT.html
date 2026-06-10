@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Charades Test Report</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="docs/assets/report.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Charades Test Report</h1>
+</header>
+<h1 id="charades-测试结果报告">Charades 测试结果报告</h1>
+<p>更新时间：2026-06-10</p>
+<h2 id="测试目的">1. 测试目的</h2>
+<p>本报告总结当前 ActionLens 方案在 Charades
+数据上的一次阶段性测试结果。</p>
+<p>当前被测试的是：</p>
+<pre class="text"><code>Charades clip
+-&gt; Stage2 规则检测
+-&gt; VLM 全视频/事件复核
+-&gt; 结果融合</code></pre>
+<p>其中 TAL / ActionFormer 目前只完成了数据适配与 smoke
+test，还没有进入真实 SlowFast 特征训练，因此本报告的主要结果来自
+<strong>规则 + VLM 融合方案</strong>。</p>
+<h2 id="数据与设置">2. 数据与设置</h2>
+<p>测试数据：</p>
+<ul>
+<li>数据集：Charades</li>
+<li>测试规模：50 个 clip</li>
+<li>视频数：50 个 unique videos</li>
+<li>动作覆盖：19 个 canonical actions</li>
+<li>输入清单：<code>outputs/charades_clips_50.csv</code></li>
+<li>批量输出目录：<code>outputs/charades_clip_batch_50/</code></li>
+</ul>
+<p>主要输出文件：</p>
+<ul>
+<li><code>outputs/charades_clip_batch_50/batch_summary.json</code></li>
+<li><code>outputs/charades_clip_batch_50/aggregation_report.json</code></li>
+<li><code>outputs/charades_clip_batch_50/aggregation_report.md</code></li>
+<li><code>outputs/charades_clip_batch_50/pending_event_review_summary.json</code></li>
+</ul>
+<h2 id="总体结果">3. 总体结果</h2>
+<h3 id="批处理状态">3.1 批处理状态</h3>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th style="text-align: right;">数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>total_clips</td>
+<td style="text-align: right;">50</td>
+</tr>
+<tr>
+<td>stage2_ok</td>
+<td style="text-align: right;">50</td>
+</tr>
+<tr>
+<td>vlm_ok</td>
+<td style="text-align: right;">50</td>
+</tr>
+<tr>
+<td>fused_ok</td>
+<td style="text-align: right;">50</td>
+</tr>
+<tr>
+<td>stage2_event_hits</td>
+<td style="text-align: right;">19</td>
+</tr>
+<tr>
+<td>stage2_event_rate</td>
+<td style="text-align: right;">0.38</td>
+</tr>
+<tr>
+<td>vlm_present_hits</td>
+<td style="text-align: right;">26</td>
+</tr>
+<tr>
+<td>vlm_present_rate</td>
+<td style="text-align: right;">0.52</td>
+</tr>
+</tbody>
+</table>
+<p>结论：</p>
+<ul>
+<li>50 个 clip 全部完成 Stage2、VLM 和融合流程。</li>
+<li>Stage2 规则在 50 个 clip 中命中 19 个，命中率为 38%。</li>
+<li>VLM 在 50 个 clip 中确认存在目标行为 26 个，确认率为 52%。</li>
+</ul>
+<h3 id="融合结果">3.2 融合结果</h3>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th style="text-align: right;">数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>total_fused_events</td>
+<td style="text-align: right;">115</td>
+</tr>
+<tr>
+<td>unique_videos</td>
+<td style="text-align: right;">50</td>
+</tr>
+<tr>
+<td>unique_actions</td>
+<td style="text-align: right;">19</td>
+</tr>
+<tr>
+<td>unique_actions_with_outputs</td>
+<td style="text-align: right;">16</td>
+</tr>
+<tr>
+<td>final_events</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr>
+<td>semantic_candidates</td>
+<td style="text-align: right;">24</td>
+</tr>
+<tr>
+<td>pending_events</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>rejected_events</td>
+<td style="text-align: right;">71</td>
+</tr>
+</tbody>
+</table>
+<p>解释：</p>
+<ul>
+<li><code>final_events</code>：规则、Charades 标注、VLM
+证据较一致的最终事件。</li>
+<li><code>semantic_candidates</code>：规则没有稳定检出，但 Charades/VLM
+提供语义证据的候选事件。</li>
+<li><code>rejected_events</code>：规则疑似误报，经 VLM
+或融合逻辑否定。</li>
+<li><code>pending_events</code>：需要进一步复核但尚未处理的事件；本轮已全部清零。</li>
+</ul>
+<h2 id="动作级别结果">4. 动作级别结果</h2>
+<h3 id="支持较好的动作">4.1 支持较好的动作</h3>
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr>
+<th>Action</th>
+<th style="text-align: right;">Charades GT clips</th>
+<th style="text-align: right;">Final</th>
+<th style="text-align: right;">Semantic</th>
+<th style="text-align: right;">Stage2 hits</th>
+<th style="text-align: right;">VLM present</th>
+<th style="text-align: right;">Rejected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>drinking_water</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">44</td>
+</tr>
+<tr>
+<td>talking_on_phone</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">27</td>
+</tr>
+<tr>
+<td>eating</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>holding_phone</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>looking_at_phone</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>sitting_on_chair</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+<p>观察：</p>
+<ul>
+<li>当前规则最能产生时间段事件的是 <code>drinking_water</code> 和
+<code>talking_on_phone</code>。</li>
+<li><code>eating</code>、<code>holding_phone</code>、<code>looking_at_phone</code>
+等动作主要依赖 Charades 标注和 VLM
+语义补充，还没有形成稳定的规则事件。</li>
+<li><code>drinking_water</code> 和 <code>talking_on_phone</code> 虽然
+final 数量较高，但 rejected 也高，说明规则召回较强但误报明显。</li>
+</ul>
+<h3 id="暂无输出的动作">4.2 暂无输出的动作</h3>
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr>
+<th>Action</th>
+<th style="text-align: right;">Charades GT clips</th>
+<th style="text-align: right;">Final</th>
+<th style="text-align: right;">Semantic</th>
+<th style="text-align: right;">Stage2 hits</th>
+<th style="text-align: right;">Rejected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>running</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>sitting_on_floor</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>standing_up</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+<p>这些动作对当前规则体系不友好：</p>
+<ul>
+<li><code>running</code> 更依赖运动轨迹和速度特征。</li>
+<li><code>standing_up</code> / <code>sitting_on_floor</code>
+更依赖姿态时序变化。</li>
+<li>这类动作更适合交给 TAL / ActionFormer
+或更强的姿态时序模型处理。</li>
+</ul>
+<h2 id="与-batch20-的对比">5. 与 batch20 的对比</h2>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th style="text-align: right;">batch20</th>
+<th style="text-align: right;">batch50</th>
+<th style="text-align: right;">变化</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>total_clips</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">+30</td>
+</tr>
+<tr>
+<td>stage2_event_hits</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">+10</td>
+</tr>
+<tr>
+<td>stage2_event_rate</td>
+<td style="text-align: right;">0.45</td>
+<td style="text-align: right;">0.38</td>
+<td style="text-align: right;">-0.07</td>
+</tr>
+<tr>
+<td>vlm_present_hits</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">+21</td>
+</tr>
+<tr>
+<td>vlm_present_rate</td>
+<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">0.52</td>
+<td style="text-align: right;">+0.27</td>
+</tr>
+<tr>
+<td>total_fused_events</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">115</td>
+<td style="text-align: right;">+84</td>
+</tr>
+<tr>
+<td>unique_actions_with_outputs</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">+12</td>
+</tr>
+<tr>
+<td>final_events</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">+14</td>
+</tr>
+<tr>
+<td>semantic_candidates</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">+20</td>
+</tr>
+<tr>
+<td>rejected_events</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">+50</td>
+</tr>
+</tbody>
+</table>
+<p>结论：</p>
+<ul>
+<li>扩展到 50 个 clip 后，动作覆盖明显提升：有输出的动作从 4 类增加到 16
+类。</li>
+<li>VLM 的语义补充能力更明显，<code>vlm_present_rate</code> 从 25%
+提升到 52%。</li>
+<li>Stage2 规则命中率略降，说明当前规则泛化不足。</li>
+<li>rejected 数量增加，主要来自 drink / phone 规则误报。</li>
+</ul>
+<h2 id="当前方案结论">6. 当前方案结论</h2>
+<p>当前 Charades batch50 测试说明：</p>
+<ol type="1">
+<li><strong>工程链路已经跑通</strong>：50 个 clip 全部完成
+Stage2、VLM、融合与聚合。</li>
+<li><strong>规则基线可作为初始事件生成器</strong>：对喝水、打电话等人-物交互动作有效，但误报较多。</li>
+<li><strong>VLM
+对泛化有明显帮助</strong>：能补充规则无法覆盖的语义动作，也能否定一部分规则误报。</li>
+<li><strong>规则方法不能覆盖全部 Charades 动作</strong>：尤其是
+running、standing_up、sitting_on_floor 等姿态/运动时序动作。</li>
+<li><strong>下一阶段需要 TAL / ActionFormer</strong>：当前 ActionFormer
+已完成 Charades adapter、split、feature smoke 和 GPU 执行包，待 4090
+上生成真实 SlowFast 特征后进入训练 smoke。</li>
+</ol>
+<h2 id="tal-actionformer-当前状态">7. TAL / ActionFormer 当前状态</h2>
+<p>TAL 侧已经完成：</p>
+<ul>
+<li><code>external/actionformer_release/libs/datasets/charades.py</code></li>
+<li><code>external/actionformer_release/configs/charades_smoke.yaml</code></li>
+<li><code>external/actionformer_release/configs/charades_slowfast.yaml</code></li>
+<li><code>scripts/tal/extract_slowfast_features.py</code></li>
+<li><code>scripts/tal/check_slowfast_backend.py</code></li>
+<li><code>docs/TAL_4090_EXECUTION_PACKAGE.md</code></li>
+</ul>
+<p>本机 smoke 结果：</p>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th style="text-align: right;">数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>dataloader smoke total</td>
+<td style="text-align: right;">50</td>
+</tr>
+<tr>
+<td>dataloader ok</td>
+<td style="text-align: right;">50</td>
+</tr>
+<tr>
+<td>feature dim</td>
+<td style="text-align: right;">2304</td>
+</tr>
+<tr>
+<td>feature length range</td>
+<td style="text-align: right;">38 - 207</td>
+</tr>
+<tr>
+<td>total GT segments</td>
+<td style="text-align: right;">148</td>
+</tr>
+<tr>
+<td>ActionFormer sample feats</td>
+<td style="text-align: right;"><code>[2304, 91]</code></td>
+</tr>
+<tr>
+<td>ActionFormer sample segments</td>
+<td style="text-align: right;"><code>[5, 2]</code></td>
+</tr>
+<tr>
+<td>train-loss smoke final_loss</td>
+<td style="text-align: right;">0.30324</td>
+</tr>
+</tbody>
+</table>
+<p>注意：</p>
+<ul>
+<li>当前 <code>features_smoke</code>
+只是格式验证特征，不能代表真实识别性能。</li>
+<li>ActionFormer 尚未训练，不能用 smoke 输出作为模型效果结论。</li>
+<li>下一步应在 4090 上先跑
+<code>check_slowfast_backend.py --device cuda</code>，再做
+<code>slowfast-r50 --limit 1</code>。</li>
+</ul>
+<h2 id="后续建议">8. 后续建议</h2>
+<p>短期建议：</p>
+<ol type="1">
+<li>在 4090 上修好 PyTorch CUDA / PyTorchVideo 环境。</li>
+<li>跑 SlowFast 后端自检。</li>
+<li>先提取 1 个 Charades clip 的真实 SlowFast 特征。</li>
+<li>limit1 成功后提取 50 个真实特征。</li>
+<li>跑真实特征 dataloader smoke。</li>
+<li>进入 ActionFormer 1 epoch 训练 smoke。</li>
+</ol>
+<p>中期建议：</p>
+<ul>
+<li>用 ActionFormer 作为 Stage3 时序动作定位模块。</li>
+<li>将 Stage3 输出接入现有融合逻辑，形成：</li>
+</ul>
+<pre class="text"><code>Stage2 rules + Stage3 TAL + VLM review + Charades GT comparison</code></pre>
+<p>预期收益：</p>
+<ul>
+<li>提高 running、standing_up、sitting_on_floor 等动作覆盖。</li>
+<li>降低 drink / phone 规则对 VLM 复核的依赖。</li>
+<li>形成规则基线 vs TAL 模型的可量化 A/B 对比。</li>
+</ul>
+</body>
+</html>

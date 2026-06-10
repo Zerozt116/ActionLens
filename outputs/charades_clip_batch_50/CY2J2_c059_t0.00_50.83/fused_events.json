@@ -1,0 +1,83 @@
+{
+  "video_id": "CY2J2",
+  "summary": {
+    "video_id": "CY2J2",
+    "final_events": 0,
+    "semantic_candidates": 0,
+    "pending_events": 0,
+    "rejected_events": 1,
+    "fused_events": 1,
+    "event_center_reviews": 0
+  },
+  "final_events": [],
+  "semantic_candidates": [],
+  "pending_events": [],
+  "rejected_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 2,
+      "start_seconds": 31.431,
+      "end_seconds": 31.999,
+      "start_time": "00:00:31.431",
+      "end_time": "00:00:31.999",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "bottle close to head and wrist; head_dist=0.49, wrist_dist=0.21",
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1794,
+      "evidence_sources": [
+        "stage2",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 event was denied by full-video VLM review.",
+      "stage2_confidence": 0.5127,
+      "comparison_status": "possible_false_positive"
+    }
+  ],
+  "fused_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 2,
+      "start_seconds": 31.431,
+      "end_seconds": 31.999,
+      "start_time": "00:00:31.431",
+      "end_time": "00:00:31.999",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "bottle close to head and wrist; head_dist=0.49, wrist_dist=0.21",
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "decision": "rejected_event",
+      "confidence": 0.1794,
+      "evidence_sources": [
+        "stage2",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 event was denied by full-video VLM review.",
+      "stage2_confidence": 0.5127,
+      "comparison_status": "possible_false_positive"
+    }
+  ]
+}

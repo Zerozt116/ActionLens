@@ -1,0 +1,24 @@
+{
+  "overall_summary": "The person in the foreground is not holding or interacting with a drink container; they are focused on tying shoes. The person in the background is holding a green container but appears to be pouring or handling it, not drinking from it.",
+  "actions": [
+    {
+      "action": "holding_drink_container",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "The person in the foreground is not holding any drink container. The person in the background is holding a green container but is not drinking from it; they appear to be pouring or handling it.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone"
+  ],
+  "risk_notes": []
+}

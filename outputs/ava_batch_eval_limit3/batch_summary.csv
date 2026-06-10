@@ -1,0 +1,4 @@
+clip_path,stage2_output_dir,video_id,timestamp,ava_person_id,action_id,action,action_name,action_type,best_iou,matched,has_pose_for_best_person,object_count_in_window,event_count,status
+data/ava/clips/5BDj0ow5hnA_t0997_p114_a15_answer_phone.mp4,outputs/ava_batch_eval_limit3/5BDj0ow5hnA_t0997_p114_a15_answer_phone,5BDj0ow5hnA,997,114,15,answer_phone,answer phone,OBJECT_MANIPULATION,0.8739,True,True,0,0,ok
+data/ava/clips/5BDj0ow5hnA_t1000_p130_a15_answer_phone.mp4,outputs/ava_batch_eval_limit3/5BDj0ow5hnA_t1000_p130_a15_answer_phone,5BDj0ow5hnA,1000,130,15,answer_phone,answer phone,OBJECT_MANIPULATION,0.9409,True,True,0,0,ok
+,outputs/ava_batch_eval_limit3/9F2voT6QWvQ_t1456_p673_a15_answer_phone,9F2voT6QWvQ,1456,673,15,answer_phone,,,0.0,False,False,0,0,download_failed

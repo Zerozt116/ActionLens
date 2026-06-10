@@ -1,0 +1,21 @@
+{
+  "overall_summary": "A person is seen drinking from a blue cup and then placing it down, consistent with the action of taking a drink container.",
+  "actions": [
+    {
+      "action": "taking_drink_container",
+      "present": true,
+      "confidence": 0.95,
+      "evidence": "The person is holding and drinking from a blue cup in frames 0-2, then places it down in frame 3. The cup is clearly visible throughout.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup"
+  ],
+  "risk_notes": []
+}

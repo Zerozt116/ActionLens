@@ -1,0 +1,77 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/406LH_c097_t1.00_21.00.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 3.0095,
+      "frame_number": 90,
+      "path": "outputs/charades_clip_batch_50_part40/406LH_c097_t1.00_21.00/vlm_review/frames/frame_00_3.010s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 6.019,
+      "frame_number": 181,
+      "path": "outputs/charades_clip_batch_50_part40/406LH_c097_t1.00_21.00/vlm_review/frames/frame_01_6.019s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 9.0286,
+      "frame_number": 271,
+      "path": "outputs/charades_clip_batch_50_part40/406LH_c097_t1.00_21.00/vlm_review/frames/frame_02_9.029s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 12.0381,
+      "frame_number": 361,
+      "path": "outputs/charades_clip_batch_50_part40/406LH_c097_t1.00_21.00/vlm_review/frames/frame_03_12.038s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 15.0476,
+      "frame_number": 451,
+      "path": "outputs/charades_clip_batch_50_part40/406LH_c097_t1.00_21.00/vlm_review/frames/frame_04_15.048s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 18.0571,
+      "frame_number": 542,
+      "path": "outputs/charades_clip_batch_50_part40/406LH_c097_t1.00_21.00/vlm_review/frames/frame_05_18.057s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "walking_through_doorway"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part40/406LH_c097_t1.00_21.00/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part40/406LH_c097_t1.00_21.00/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part40/406LH_c097_t1.00_21.00/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A person is seen walking through a doorway, transitioning from one room to another.",
+    "actions": [
+      {
+        "action": "walking_through_doorway",
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "Person is seen stepping through an open doorway from frame 1 to frame 5, moving from one room to another.",
+        "supporting_frame_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [],
+    "risk_notes": []
+  }
+}

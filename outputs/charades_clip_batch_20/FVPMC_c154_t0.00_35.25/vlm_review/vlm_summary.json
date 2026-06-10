@@ -1,0 +1,79 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/FVPMC_c154_t0.00_35.25.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 5.0381,
+      "frame_number": 151,
+      "path": "outputs/charades_clip_batch_20/FVPMC_c154_t0.00_35.25/vlm_review/frames/frame_00_5.038s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 10.0762,
+      "frame_number": 302,
+      "path": "outputs/charades_clip_batch_20/FVPMC_c154_t0.00_35.25/vlm_review/frames/frame_01_10.076s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 15.1143,
+      "frame_number": 453,
+      "path": "outputs/charades_clip_batch_20/FVPMC_c154_t0.00_35.25/vlm_review/frames/frame_02_15.114s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 20.1524,
+      "frame_number": 605,
+      "path": "outputs/charades_clip_batch_20/FVPMC_c154_t0.00_35.25/vlm_review/frames/frame_03_20.152s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 25.1905,
+      "frame_number": 756,
+      "path": "outputs/charades_clip_batch_20/FVPMC_c154_t0.00_35.25/vlm_review/frames/frame_04_25.190s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 30.2286,
+      "frame_number": 907,
+      "path": "outputs/charades_clip_batch_20/FVPMC_c154_t0.00_35.25/vlm_review/frames/frame_05_30.229s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "c154"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/FVPMC_c154_t0.00_35.25/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/FVPMC_c154_t0.00_35.25/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/FVPMC_c154_t0.00_35.25/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A man is seen interacting with a kitchen cabinet, retrieving items, and then eating from a bowl.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The man is eating from a bowl, not drinking water.",
+        "supporting_frame_indices": [
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup",
+      "phone"
+    ],
+    "risk_notes": [
+      "phone not visible",
+      "cup not clearly visible"
+    ]
+  }
+}

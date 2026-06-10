@@ -1,0 +1,24 @@
+{
+  "overall_summary": "The visible person is not drinking water or any beverage from a container. The boy is eating food from a bowl, and the man in the background is not performing the action.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "The boy is eating food from a bowl. The man in the background is not drinking from any container.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone"
+  ],
+  "risk_notes": []
+}

@@ -1,0 +1,21 @@
+{
+  "overall_summary": "The person is consistently seated on a chair throughout the sampled frames, performing the action 'sitting_on_chair'.",
+  "actions": [
+    {
+      "action": "sitting_on_chair",
+      "present": true,
+      "confidence": 1.0,
+      "evidence": "The person is visibly seated on a chair in all frames, maintaining a seated posture.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [],
+  "risk_notes": []
+}

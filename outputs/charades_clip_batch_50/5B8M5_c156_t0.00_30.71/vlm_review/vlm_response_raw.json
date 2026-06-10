@@ -1,0 +1,22 @@
+{
+  "id": "019eab5306bda94b13b6bf973a41f3e5",
+  "object": "chat.completion",
+  "created": 1780990806,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person is seen bringing food to their mouth in multiple frames, consistent with eating.\",\n  \"actions\": [\n    {\n      \"action\": \"eating\",\n      \"present\": true,\n      \"confidence\": 0.95,\n      \"evidence\": \"In frames 0, 1, 4, and 5, the person is seen bringing food to their mouth while holding a plate. This matches the definition of eating.\",\n      \"supporting_frame_indices\": [0, 1, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"plate\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1215,
+    "completion_tokens": 134,
+    "total_tokens": 1349
+  },
+  "system_fingerprint": ""
+}

@@ -1,0 +1,210 @@
+{
+  "video_id": "8BG1T",
+  "summary": {
+    "video_id": "8BG1T",
+    "final_events": 1,
+    "semantic_candidates": 0,
+    "pending_events": 0,
+    "rejected_events": 1,
+    "fused_events": 2,
+    "event_center_reviews": 1
+  },
+  "final_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 17.433,
+      "end_seconds": 18.267,
+      "start_time": "00:00:17.433",
+      "end_time": "00:00:18.267",
+      "clip_start_seconds": 11.833,
+      "clip_end_seconds": 12.667,
+      "clip_start_time": "00:00:11.833",
+      "clip_end_time": "00:00:12.667",
+      "time_offset_seconds": 5.6,
+      "time_coordinate": "source_video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.20, wrist_dist=0.06",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 7.6,
+            "end_seconds": 43.7
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.7042,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.7083,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.7,
+        "evidence": "Person is holding a can to their mouth and appears to be drinking from it. The can is visible in all frames.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 10.833,
+          "end_seconds": 13.667,
+          "source": "event:0"
+        },
+        "visible_objects": [
+          "can"
+        ],
+        "risk_notes": []
+      }
+    }
+  ],
+  "semantic_candidates": [],
+  "pending_events": [],
+  "rejected_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 1,
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "person_id": 1,
+      "start_seconds": 17.967,
+      "end_seconds": 18.767,
+      "start_time": "00:00:17.967",
+      "end_time": "00:00:18.767",
+      "clip_start_seconds": 12.367,
+      "clip_end_seconds": 13.167,
+      "clip_start_time": "00:00:12.367",
+      "clip_end_time": "00:00:13.167",
+      "time_offset_seconds": 5.6,
+      "time_coordinate": "source_video",
+      "stage2_evidence": "cell phone close to head; head_dist=0.21",
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "decision": "rejected_event",
+      "confidence": 0.2253,
+      "evidence_sources": [
+        "stage2",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 event was denied by full-video VLM review.",
+      "stage2_confidence": 0.6436,
+      "comparison_status": "possible_false_positive"
+    }
+  ],
+  "fused_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 17.433,
+      "end_seconds": 18.267,
+      "start_time": "00:00:17.433",
+      "end_time": "00:00:18.267",
+      "clip_start_seconds": 11.833,
+      "clip_end_seconds": 12.667,
+      "clip_start_time": "00:00:11.833",
+      "clip_end_time": "00:00:12.667",
+      "time_offset_seconds": 5.6,
+      "time_coordinate": "source_video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.20, wrist_dist=0.06",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 7.6,
+            "end_seconds": 43.7
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.7042,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.7083,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.7,
+        "evidence": "Person is holding a can to their mouth and appears to be drinking from it. The can is visible in all frames.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 10.833,
+          "end_seconds": 13.667,
+          "source": "event:0"
+        },
+        "visible_objects": [
+          "can"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 1,
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "person_id": 1,
+      "start_seconds": 17.967,
+      "end_seconds": 18.767,
+      "start_time": "00:00:17.967",
+      "end_time": "00:00:18.767",
+      "clip_start_seconds": 12.367,
+      "clip_end_seconds": 13.167,
+      "clip_start_time": "00:00:12.367",
+      "clip_end_time": "00:00:13.167",
+      "time_offset_seconds": 5.6,
+      "time_coordinate": "source_video",
+      "stage2_evidence": "cell phone close to head; head_dist=0.21",
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "decision": "rejected_event",
+      "confidence": 0.2253,
+      "evidence_sources": [
+        "stage2",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 event was denied by full-video VLM review.",
+      "stage2_confidence": 0.6436,
+      "comparison_status": "possible_false_positive"
+    }
+  ]
+}

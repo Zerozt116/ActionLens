@@ -1,0 +1,23 @@
+{
+  "overall_summary": "The person in the background is holding a cup to their mouth, consistent with drinking. The person in the foreground is eating food from a bowl.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": true,
+      "confidence": 0.5,
+      "evidence": "Person in background holding a cup to mouth; cup is visible and close to head and mouth area.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup"
+  ],
+  "risk_notes": []
+}

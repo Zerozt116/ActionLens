@@ -1,0 +1,24 @@
+{
+  "overall_summary": "The person is on the phone and not drinking water.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "Person is holding a phone to their ear and not interacting with a cup or container. A cup is visible on the table but not being used for drinking.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone"
+  ],
+  "risk_notes": []
+}

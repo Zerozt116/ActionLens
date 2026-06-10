@@ -1,0 +1,83 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/BGX4T_c097_t0.00_23.42.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 3.3512,
+      "frame_number": 80,
+      "path": "outputs/charades_clip_batch_20/BGX4T_c097_t0.00_23.42/vlm_review/frames/frame_00_3.351s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 6.7024,
+      "frame_number": 161,
+      "path": "outputs/charades_clip_batch_20/BGX4T_c097_t0.00_23.42/vlm_review/frames/frame_01_6.702s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 10.0536,
+      "frame_number": 241,
+      "path": "outputs/charades_clip_batch_20/BGX4T_c097_t0.00_23.42/vlm_review/frames/frame_02_10.054s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 13.4048,
+      "frame_number": 322,
+      "path": "outputs/charades_clip_batch_20/BGX4T_c097_t0.00_23.42/vlm_review/frames/frame_03_13.405s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 16.756,
+      "frame_number": 402,
+      "path": "outputs/charades_clip_batch_20/BGX4T_c097_t0.00_23.42/vlm_review/frames/frame_04_16.756s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 20.1071,
+      "frame_number": 483,
+      "path": "outputs/charades_clip_batch_20/BGX4T_c097_t0.00_23.42/vlm_review/frames/frame_05_20.107s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "c097"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/BGX4T_c097_t0.00_23.42/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/BGX4T_c097_t0.00_23.42/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/BGX4T_c097_t0.00_23.42/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "Person is holding and moving a yellow steam cleaner in a laundry room.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "No cup or bottle visible; person is holding a steam cleaner.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "steam_cleaner",
+      "washing_machine",
+      "ladder",
+      "door"
+    ],
+    "risk_notes": []
+  }
+}

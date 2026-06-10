@@ -1,0 +1,18 @@
+{
+  "overall_summary": "A person is seen drinking from a container in frame 2, which matches the 'drinking_water' action definition.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": true,
+      "confidence": 0.95,
+      "evidence": "Person on left is holding a white container to their mouth and drinking from it in frame 2.",
+      "supporting_frame_indices": [
+        2
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup"
+  ],
+  "risk_notes": []
+}

@@ -1,0 +1,436 @@
+[
+  {
+    "frame_id": 355,
+    "timestamp": "00:00:11.833",
+    "seconds": 11.833,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3968,
+    "bbox_xyxy": [
+      178.163,
+      201.218,
+      197.209,
+      231.769
+    ]
+  },
+  {
+    "frame_id": 356,
+    "timestamp": "00:00:11.867",
+    "seconds": 11.867,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.384,
+    "bbox_xyxy": [
+      178.104,
+      200.639,
+      197.449,
+      231.66
+    ]
+  },
+  {
+    "frame_id": 357,
+    "timestamp": "00:00:11.900",
+    "seconds": 11.9,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3839,
+    "bbox_xyxy": [
+      179.264,
+      200.552,
+      198.472,
+      231.387
+    ]
+  },
+  {
+    "frame_id": 358,
+    "timestamp": "00:00:11.933",
+    "seconds": 11.933,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4239,
+    "bbox_xyxy": [
+      180.14,
+      200.632,
+      199.28,
+      231.388
+    ]
+  },
+  {
+    "frame_id": 359,
+    "timestamp": "00:00:11.967",
+    "seconds": 11.967,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4215,
+    "bbox_xyxy": [
+      180.528,
+      200.289,
+      199.701,
+      231.139
+    ]
+  },
+  {
+    "frame_id": 360,
+    "timestamp": "00:00:12.000",
+    "seconds": 12.0,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.4954,
+    "bbox_xyxy": [
+      180.945,
+      200.232,
+      199.931,
+      230.821
+    ]
+  },
+  {
+    "frame_id": 361,
+    "timestamp": "00:00:12.033",
+    "seconds": 12.033,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3952,
+    "bbox_xyxy": [
+      181.102,
+      200.852,
+      199.858,
+      231.08
+    ]
+  },
+  {
+    "frame_id": 362,
+    "timestamp": "00:00:12.067",
+    "seconds": 12.067,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3731,
+    "bbox_xyxy": [
+      181.075,
+      200.862,
+      199.608,
+      230.719
+    ]
+  },
+  {
+    "frame_id": 363,
+    "timestamp": "00:00:12.100",
+    "seconds": 12.1,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3698,
+    "bbox_xyxy": [
+      181.478,
+      200.918,
+      199.836,
+      230.524
+    ]
+  },
+  {
+    "frame_id": 364,
+    "timestamp": "00:00:12.133",
+    "seconds": 12.133,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2656,
+    "bbox_xyxy": [
+      181.81,
+      200.761,
+      200.307,
+      230.7
+    ]
+  },
+  {
+    "frame_id": 365,
+    "timestamp": "00:00:12.167",
+    "seconds": 12.167,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2608,
+    "bbox_xyxy": [
+      181.741,
+      200.257,
+      200.534,
+      230.808
+    ]
+  },
+  {
+    "frame_id": 368,
+    "timestamp": "00:00:12.267",
+    "seconds": 12.267,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2634,
+    "bbox_xyxy": [
+      181.762,
+      197.817,
+      201.736,
+      230.685
+    ]
+  },
+  {
+    "frame_id": 369,
+    "timestamp": "00:00:12.300",
+    "seconds": 12.3,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3127,
+    "bbox_xyxy": [
+      182.611,
+      197.368,
+      202.788,
+      230.797
+    ]
+  },
+  {
+    "frame_id": 371,
+    "timestamp": "00:00:12.367",
+    "seconds": 12.367,
+    "class_id": 67,
+    "class_name": "cell phone",
+    "confidence": 0.293,
+    "bbox_xyxy": [
+      183.749,
+      197.131,
+      203.817,
+      230.602
+    ]
+  },
+  {
+    "frame_id": 372,
+    "timestamp": "00:00:12.400",
+    "seconds": 12.4,
+    "class_id": 67,
+    "class_name": "cell phone",
+    "confidence": 0.2689,
+    "bbox_xyxy": [
+      183.66,
+      196.927,
+      203.689,
+      230.577
+    ]
+  },
+  {
+    "frame_id": 374,
+    "timestamp": "00:00:12.467",
+    "seconds": 12.467,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.254,
+    "bbox_xyxy": [
+      184.763,
+      196.794,
+      204.799,
+      230.889
+    ]
+  },
+  {
+    "frame_id": 375,
+    "timestamp": "00:00:12.500",
+    "seconds": 12.5,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.3246,
+    "bbox_xyxy": [
+      185.333,
+      196.588,
+      205.113,
+      230.809
+    ]
+  },
+  {
+    "frame_id": 376,
+    "timestamp": "00:00:12.533",
+    "seconds": 12.533,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2817,
+    "bbox_xyxy": [
+      185.998,
+      196.23,
+      205.377,
+      230.406
+    ]
+  },
+  {
+    "frame_id": 377,
+    "timestamp": "00:00:12.567",
+    "seconds": 12.567,
+    "class_id": 67,
+    "class_name": "cell phone",
+    "confidence": 0.3602,
+    "bbox_xyxy": [
+      184.897,
+      196.27,
+      204.4,
+      230.776
+    ]
+  },
+  {
+    "frame_id": 378,
+    "timestamp": "00:00:12.600",
+    "seconds": 12.6,
+    "class_id": 67,
+    "class_name": "cell phone",
+    "confidence": 0.406,
+    "bbox_xyxy": [
+      184.501,
+      196.252,
+      204.082,
+      231.022
+    ]
+  },
+  {
+    "frame_id": 379,
+    "timestamp": "00:00:12.633",
+    "seconds": 12.633,
+    "class_id": 67,
+    "class_name": "cell phone",
+    "confidence": 0.3347,
+    "bbox_xyxy": [
+      184.405,
+      196.28,
+      203.884,
+      231.016
+    ]
+  },
+  {
+    "frame_id": 380,
+    "timestamp": "00:00:12.667",
+    "seconds": 12.667,
+    "class_id": 41,
+    "class_name": "cup",
+    "confidence": 0.2775,
+    "bbox_xyxy": [
+      184.67,
+      196.269,
+      204.044,
+      231.054
+    ]
+  },
+  {
+    "frame_id": 381,
+    "timestamp": "00:00:12.700",
+    "seconds": 12.7,
+    "class_id": 67,
+    "class_name": "cell phone",
+    "confidence": 0.3544,
+    "bbox_xyxy": [
+      184.722,
+      196.139,
+      203.95,
+      230.855
+    ]
+  },
+  {
+    "frame_id": 382,
+    "timestamp": "00:00:12.733",
+    "seconds": 12.733,
+    "class_id": 67,
+    "class_name": "cell phone",
+    "confidence": 0.2724,
+    "bbox_xyxy": [
+      184.856,
+      195.912,
+      204.042,
+      230.723
+    ]
+  },
+  {
+    "frame_id": 383,
+    "timestamp": "00:00:12.767",
+    "seconds": 12.767,
+    "class_id": 67,
+    "class_name": "cell phone",
+    "confidence": 0.2533,
+    "bbox_xyxy": [
+      185.21,
+      195.837,
+      204.045,
+      230.085
+    ]
+  },
+  {
+    "frame_id": 384,
+    "timestamp": "00:00:12.800",
+    "seconds": 12.8,
+    "class_id": 67,
+    "class_name": "cell phone",
+    "confidence": 0.3336,
+    "bbox_xyxy": [
+      185.282,
+      195.53,
+      204.115,
+      229.877
+    ]
+  },
+  {
+    "frame_id": 385,
+    "timestamp": "00:00:12.833",
+    "seconds": 12.833,
+    "class_id": 67,
+    "class_name": "cell phone",
+    "confidence": 0.3532,
+    "bbox_xyxy": [
+      185.062,
+      194.909,
+      204.072,
+      229.729
+    ]
+  },
+  {
+    "frame_id": 386,
+    "timestamp": "00:00:12.867",
+    "seconds": 12.867,
+    "class_id": 67,
+    "class_name": "cell phone",
+    "confidence": 0.303,
+    "bbox_xyxy": [
+      185.075,
+      194.483,
+      204.3,
+      229.901
+    ]
+  },
+  {
+    "frame_id": 387,
+    "timestamp": "00:00:12.900",
+    "seconds": 12.9,
+    "class_id": 67,
+    "class_name": "cell phone",
+    "confidence": 0.3719,
+    "bbox_xyxy": [
+      185.186,
+      194.426,
+      204.384,
+      229.938
+    ]
+  },
+  {
+    "frame_id": 388,
+    "timestamp": "00:00:12.933",
+    "seconds": 12.933,
+    "class_id": 67,
+    "class_name": "cell phone",
+    "confidence": 0.3191,
+    "bbox_xyxy": [
+      185.318,
+      194.307,
+      204.491,
+      229.969
+    ]
+  },
+  {
+    "frame_id": 395,
+    "timestamp": "00:00:13.167",
+    "seconds": 13.167,
+    "class_id": 67,
+    "class_name": "cell phone",
+    "confidence": 0.256,
+    "bbox_xyxy": [
+      187.233,
+      194.182,
+      205.942,
+      229.879
+    ]
+  }
+]

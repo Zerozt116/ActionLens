@@ -1,0 +1,16 @@
+[
+  {
+    "frame_id": 628,
+    "timestamp": "00:00:20.933",
+    "seconds": 20.933,
+    "class_id": 39,
+    "class_name": "bottle",
+    "confidence": 0.448,
+    "bbox_xyxy": [
+      99.729,
+      1.428,
+      206.66,
+      315.446
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:07.633",
+    "end_time": "00:00:08.300",
+    "start_seconds": 7.633,
+    "end_seconds": 8.3,
+    "frame_count": 15,
+    "confidence": 0.7759,
+    "evidence": "cup close to head and wrist; head_dist=0.16, wrist_dist=0.04"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:14.067",
+    "end_time": "00:00:15.033",
+    "start_seconds": 14.067,
+    "end_seconds": 15.033,
+    "frame_count": 23,
+    "confidence": 0.7102,
+    "evidence": "cup close to head and wrist; head_dist=0.27, wrist_dist=0.06"
+  }
+]

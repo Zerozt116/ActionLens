@@ -1,0 +1,27 @@
+{
+  "overall_summary": "Person is using a laptop, seen from various angles, and closes it at the end.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "No cup or bottle visible, person is using a laptop.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "laptop",
+    "hand",
+    "tablecloth",
+    "bed",
+    "wooden pillar"
+  ],
+  "risk_notes": []
+}

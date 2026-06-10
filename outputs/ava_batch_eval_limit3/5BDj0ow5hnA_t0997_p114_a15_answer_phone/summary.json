@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/ava/clips/5BDj0ow5hnA_t0997_p114_a15_answer_phone.mp4",
+    "fps": 25.0,
+    "frame_count": 100,
+    "width": 1280,
+    "height": 720,
+    "duration_seconds": 4.0
+  },
+  "num_objects": 0,
+  "num_poses": 282,
+  "num_frame_scores": 0,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": "outputs/ava_batch_eval_limit3/5BDj0ow5hnA_t0997_p114_a15_answer_phone/stage2_annotated.mp4"
+}

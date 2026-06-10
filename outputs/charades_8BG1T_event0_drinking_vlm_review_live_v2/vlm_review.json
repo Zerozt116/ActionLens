@@ -1,0 +1,23 @@
+{
+  "overall_summary": "The person is holding a can and appears to be drinking from it, consistent with the 'drinking_water' action.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": true,
+      "confidence": 0.7,
+      "evidence": "Person is holding a can to their mouth and appears to be drinking from it. The can is visible in all frames.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "can"
+  ],
+  "risk_notes": []
+}

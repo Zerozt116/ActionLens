@@ -1,0 +1,97 @@
+{
+  "video_id": "YVH4J",
+  "summary": {
+    "video_id": "YVH4J",
+    "final_events": 0,
+    "semantic_candidates": 1,
+    "pending_events": 0,
+    "rejected_events": 0,
+    "fused_events": 1,
+    "event_center_reviews": 0
+  },
+  "final_events": [],
+  "semantic_candidates": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "watching_laptop",
+      "action_name": "看笔记本电脑",
+      "start_seconds": 0.0,
+      "end_seconds": 36.3,
+      "confidence": 0.9,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 0.9,
+        "evidence": "Person is lying on bed, looking in direction of laptop screen visible on table. No interaction with laptop.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c051"
+        ],
+        "action_names": [
+          "Watching a laptop or something on a laptop"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 36.3
+          }
+        ]
+      }
+    }
+  ],
+  "pending_events": [],
+  "rejected_events": [],
+  "fused_events": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "watching_laptop",
+      "action_name": "看笔记本电脑",
+      "start_seconds": 0.0,
+      "end_seconds": 36.3,
+      "confidence": 0.9,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 0.9,
+        "evidence": "Person is lying on bed, looking in direction of laptop screen visible on table. No interaction with laptop.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c051"
+        ],
+        "action_names": [
+          "Watching a laptop or something on a laptop"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 36.3
+          }
+        ]
+      }
+    }
+  ]
+}

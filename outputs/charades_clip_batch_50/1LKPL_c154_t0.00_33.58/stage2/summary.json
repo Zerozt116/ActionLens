@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/1LKPL_c154_t0.00_33.58.mp4",
+    "fps": 13.048,
+    "frame_count": 439,
+    "width": 270,
+    "height": 480,
+    "duration_seconds": 33.64500306560392
+  },
+  "num_objects": 65,
+  "num_poses": 791,
+  "num_frame_scores": 1,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": null
+}

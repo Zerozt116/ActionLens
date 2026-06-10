@@ -1,0 +1,21 @@
+{
+  "summary": {
+    "pending_events_found": 1,
+    "completed": 1,
+    "review_failed": 0,
+    "fused_ok": 1,
+    "vlm_present": 1
+  },
+  "records": [
+    {
+      "clip_id": "8BG1T_c106_t5.60_45.46",
+      "action": "drinking_water",
+      "stage2_event_index": 0,
+      "review_dir": "outputs/charades_clip_batch_20/8BG1T_c106_t5.60_45.46/event_reviews/event_000_drinking_water",
+      "status": "completed",
+      "present": true,
+      "fused_status": "ok",
+      "error": ""
+    }
+  ]
+}

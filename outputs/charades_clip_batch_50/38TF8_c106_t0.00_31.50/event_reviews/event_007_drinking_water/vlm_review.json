@@ -1,0 +1,26 @@
+{
+  "overall_summary": "The person in the background is not drinking water; they are interacting with a garment near a door. The foreground person is eating from a bowl, not drinking.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "The person in the background is handling a garment near a door, not drinking. The foreground person is eating from a bowl, not drinking water.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone"
+  ],
+  "risk_notes": [
+    "possible occlusion"
+  ]
+}

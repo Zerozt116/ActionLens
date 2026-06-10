@@ -1,0 +1,21 @@
+{
+  "overall_summary": "A person is sitting on stairs using a laptop, with visible interaction such as typing or using the trackpad.",
+  "actions": [
+    {
+      "action": "using_laptop",
+      "present": true,
+      "confidence": 1.0,
+      "evidence": "Person is sitting on stairs with a laptop on their lap, hands positioned over the keyboard/trackpad area, indicating active interaction.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [],
+  "risk_notes": []
+}

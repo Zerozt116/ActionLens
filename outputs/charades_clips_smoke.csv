@@ -1,0 +1,4 @@
+clip_id,video_id,action_id,action_name,start_seconds,end_seconds,clip_start_seconds,clip_end_seconds,clip_duration_seconds,source_video,clip_path,status,error
+8BG1T_c106_t5.60_45.46,8BG1T,c106,Drinking from a cup/glass/bottle,7.6,43.7,5.6,45.46,39.86,data/charades/videos_480p/8BG1T.mp4,data/charades/clips_480p_smoke/8BG1T_c106_t5.60_45.46.mp4,sliced,
+OINMN_c019_t0.00_45.25,OINMN,c019,Talking on a phone/camera,0.0,46.0,0.0,45.25,45.25,data/charades/videos_480p/OINMN.mp4,data/charades/clips_480p_smoke/OINMN_c019_t0.00_45.25.mp4,sliced,
+024PD_c015_t0.00_59.04,024PD,c015,Holding a phone/camera,0.0,60.0,0.0,59.04,59.04,data/charades/videos_480p/024PD.mp4,data/charades/clips_480p_smoke/024PD_c015_t0.00_59.04.mp4,sliced,

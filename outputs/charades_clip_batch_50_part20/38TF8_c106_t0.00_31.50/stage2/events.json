@@ -1,0 +1,110 @@
+[
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:11.555",
+    "end_time": "00:00:12.023",
+    "start_seconds": 11.555,
+    "end_seconds": 12.023,
+    "frame_count": 7,
+    "confidence": 0.6069,
+    "evidence": "cup close to head and wrist; head_dist=0.47, wrist_dist=0.06"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:14.717",
+    "end_time": "00:00:15.107",
+    "start_seconds": 14.717,
+    "end_seconds": 15.107,
+    "frame_count": 5,
+    "confidence": 0.6014,
+    "evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.06"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:16.512",
+    "end_time": "00:00:17.566",
+    "start_seconds": 16.512,
+    "end_seconds": 17.566,
+    "frame_count": 23,
+    "confidence": 0.556,
+    "evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.16"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:18.425",
+    "end_time": "00:00:19.011",
+    "start_seconds": 18.425,
+    "end_seconds": 19.011,
+    "frame_count": 16,
+    "confidence": 0.5724,
+    "evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.18"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:19.440",
+    "end_time": "00:00:19.870",
+    "start_seconds": 19.44,
+    "end_seconds": 19.87,
+    "frame_count": 8,
+    "confidence": 0.6241,
+    "evidence": "cup close to head and wrist; head_dist=0.47, wrist_dist=0.16"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:21.665",
+    "end_time": "00:00:22.134",
+    "start_seconds": 21.665,
+    "end_seconds": 22.134,
+    "frame_count": 7,
+    "confidence": 0.5332,
+    "evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.14"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:23.617",
+    "end_time": "00:00:24.007",
+    "start_seconds": 23.617,
+    "end_seconds": 24.007,
+    "frame_count": 8,
+    "confidence": 0.5165,
+    "evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.17"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:24.632",
+    "end_time": "00:00:25.764",
+    "start_seconds": 24.632,
+    "end_seconds": 25.764,
+    "frame_count": 18,
+    "confidence": 0.5531,
+    "evidence": "cup close to head and wrist; head_dist=0.45, wrist_dist=0.16"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:29.316",
+    "end_time": "00:00:31.346",
+    "start_seconds": 29.316,
+    "end_seconds": 31.346,
+    "frame_count": 38,
+    "confidence": 0.5281,
+    "evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.18"
+  }
+]

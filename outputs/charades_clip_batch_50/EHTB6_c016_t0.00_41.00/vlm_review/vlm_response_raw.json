@@ -1,0 +1,22 @@
+{
+  "id": "019ea642deb281ddaa27e71216c5b6ff",
+  "object": "chat.completion",
+  "created": 1780905861,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A person is consistently looking at and holding a phone across all sampled frames.\",\n  \"actions\": [\n    {\n      \"action\": \"looking_at_phone\",\n      \"present\": true,\n      \"confidence\": 1.0,\n      \"evidence\": \"Person is holding a phone and looking down at its screen in all frames.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1503,
+    "completion_tokens": 118,
+    "total_tokens": 1621
+  },
+  "system_fingerprint": ""
+}

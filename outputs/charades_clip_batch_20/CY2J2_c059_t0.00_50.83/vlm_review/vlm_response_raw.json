@@ -1,0 +1,22 @@
+{
+  "id": "019ea647dde7d55f31c87ed2deec7970",
+  "object": "chat.completion",
+  "created": 1780906188,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"Two people are in a living room; one is seated and appears to be interacting with a phone or tablet, while the other is standing and moving around. No clear drinking or phone use is visible.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"No cup or bottle is being held to the mouth or used for drinking. No liquid consumption is visible.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"phone\", \"cup\"],\n  \"risk_notes\": [\"possible occlusion\"]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 156,
+    "total_tokens": 1357
+  },
+  "system_fingerprint": ""
+}

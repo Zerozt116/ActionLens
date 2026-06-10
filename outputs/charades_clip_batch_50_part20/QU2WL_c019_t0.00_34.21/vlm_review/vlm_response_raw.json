@@ -1,0 +1,22 @@
+{
+  "id": "019eab40faa010b378b310543ba8625b",
+  "object": "chat.completion",
+  "created": 1780989623,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person is consistently holding a phone to their ear across multiple frames, indicating they are talking on the phone.\",\n  \"actions\": [\n    {\n      \"action\": \"talking_on_phone\",\n      \"present\": true,\n      \"confidence\": 0.95,\n      \"evidence\": \"The person is holding a phone to their ear in frames 0, 2, 3, 4, and 5, consistent with making a phone call.\",\n      \"supporting_frame_indices\": [0, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1223,
+    "completion_tokens": 143,
+    "total_tokens": 1366
+  },
+  "system_fingerprint": ""
+}

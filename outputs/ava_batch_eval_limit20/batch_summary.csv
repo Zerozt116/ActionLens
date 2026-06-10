@@ -1,0 +1,21 @@
+clip_path,stage2_output_dir,video_id,timestamp,ava_person_id,action_id,action,action_name,action_type,best_iou,matched,has_pose_for_best_person,object_count_in_window,event_count,status
+data/ava/clips/5BDj0ow5hnA_t0997_p114_a15_answer_phone.mp4,outputs/ava_batch_eval_limit20/5BDj0ow5hnA_t0997_p114_a15_answer_phone,5BDj0ow5hnA,997,114,15,answer_phone,answer phone,OBJECT_MANIPULATION,0.8739,True,True,0,0,ok
+data/ava/clips/5BDj0ow5hnA_t1000_p130_a15_answer_phone.mp4,outputs/ava_batch_eval_limit20/5BDj0ow5hnA_t1000_p130_a15_answer_phone,5BDj0ow5hnA,1000,130,15,answer_phone,answer phone,OBJECT_MANIPULATION,0.9409,True,True,0,0,ok
+,outputs/ava_batch_eval_limit20/9F2voT6QWvQ_t1456_p673_a15_answer_phone,9F2voT6QWvQ,1456,673,15,answer_phone,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/9F2voT6QWvQ_t1457_p673_a15_answer_phone,9F2voT6QWvQ,1457,673,15,answer_phone,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/CZ2NP8UsPuE_t1289_p128_a15_answer_phone,CZ2NP8UsPuE,1289,128,15,answer_phone,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/Di1MG6auDYo_t0934_p22_a15_answer_phone,Di1MG6auDYo,934,22,15,answer_phone,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/Di1MG6auDYo_t0935_p22_a15_answer_phone,Di1MG6auDYo,935,22,15,answer_phone,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/Ekwy7wzLfjc_t0902_p0_a15_answer_phone,Ekwy7wzLfjc,902,0,15,answer_phone,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/Ekwy7wzLfjc_t0903_p0_a15_answer_phone,Ekwy7wzLfjc,903,0,15,answer_phone,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/G4qq1MRXCiY_t0913_p5_a15_answer_phone,G4qq1MRXCiY,913,5,15,answer_phone,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/1j20qq1JyX4_t0902_p0_a17_carry_hold,1j20qq1JyX4,902,0,17,carry_hold,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/1j20qq1JyX4_t0903_p2_a17_carry_hold,1j20qq1JyX4,903,2,17,carry_hold,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/2PpxiG0WU18_t0906_p2_a17_carry_hold,2PpxiG0WU18,906,2,17,carry_hold,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/2PpxiG0WU18_t0907_p2_a17_carry_hold,2PpxiG0WU18,907,2,17,carry_hold,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/55Ihr6uVIDA_t0902_p0_a17_carry_hold,55Ihr6uVIDA,902,0,17,carry_hold,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/55Ihr6uVIDA_t0903_p0_a17_carry_hold,55Ihr6uVIDA,903,0,17,carry_hold,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/5BDj0ow5hnA_t0902_p0_a17_carry_hold,5BDj0ow5hnA,902,0,17,carry_hold,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/5BDj0ow5hnA_t0903_p0_a17_carry_hold,5BDj0ow5hnA,903,0,17,carry_hold,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/6d5u6FHvz7Q_t0995_p109_a17_carry_hold,6d5u6FHvz7Q,995,109,17,carry_hold,,,0.0,False,False,0,0,download_failed
+,outputs/ava_batch_eval_limit20/6d5u6FHvz7Q_t0995_p110_a17_carry_hold,6d5u6FHvz7Q,995,110,17,carry_hold,,,0.0,False,False,0,0,download_failed

@@ -1,0 +1,23 @@
+{
+  "overall_summary": "The person is consistently looking at and holding a phone in multiple frames, indicating the action 'looking_at_phone' is being performed.",
+  "actions": [
+    {
+      "action": "looking_at_phone",
+      "present": true,
+      "confidence": 1.0,
+      "evidence": "The person is holding a phone and looking down at its screen in frames 0-5.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "phone"
+  ],
+  "risk_notes": []
+}

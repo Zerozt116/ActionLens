@@ -1,0 +1,22 @@
+{
+  "id": "019ea64aa1e8a63b774bfb1b106b5866",
+  "object": "chat.completion",
+  "created": 1780906370,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"Person is using a laptop, seen from various angles, and closes it at the end.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"No cup or bottle visible, person is using a laptop.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"laptop\", \"hand\", \"tablecloth\", \"bed\", \"wooden pillar\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1197,
+    "completion_tokens": 134,
+    "total_tokens": 1331
+  },
+  "system_fingerprint": ""
+}

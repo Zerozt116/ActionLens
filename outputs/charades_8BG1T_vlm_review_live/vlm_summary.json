@@ -1,0 +1,97 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/videos_480p/8BG1T.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 6.5,
+      "frame_number": 195,
+      "path": "outputs/charades_8BG1T_vlm_review_live/frames/frame_00_6.500s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 13.0,
+      "frame_number": 390,
+      "path": "outputs/charades_8BG1T_vlm_review_live/frames/frame_01_13.000s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 19.5,
+      "frame_number": 585,
+      "path": "outputs/charades_8BG1T_vlm_review_live/frames/frame_02_19.500s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 26.0,
+      "frame_number": 780,
+      "path": "outputs/charades_8BG1T_vlm_review_live/frames/frame_03_26.000s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 32.5,
+      "frame_number": 975,
+      "path": "outputs/charades_8BG1T_vlm_review_live/frames/frame_04_32.500s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 39.0,
+      "frame_number": 1170,
+      "path": "outputs/charades_8BG1T_vlm_review_live/frames/frame_05_39.000s.jpg"
+    }
+  ],
+  "request_payload": "outputs/charades_8BG1T_vlm_review_live/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_8BG1T_vlm_review_live/vlm_response_raw.json",
+  "review": "outputs/charades_8BG1T_vlm_review_live/vlm_review.json",
+  "review_json": {
+    "overall_summary": "The person is seated and holding a phone, appearing to watch TV. No drinking or phone talking is observed.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "No cup or water bottle is visible in any frame.",
+        "supporting_frame_indices": []
+      },
+      {
+        "action": "talking_on_phone",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person is holding a phone but not to their ear; no visible mouth movement or phone call behavior.",
+        "supporting_frame_indices": []
+      },
+      {
+        "action": "holding_phone",
+        "present": true,
+        "confidence": 0.9,
+        "evidence": "In frame 1, the person is holding a phone in their lap while seated. The phone is visible in frames 1-5.",
+        "supporting_frame_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "action": "looking_at_phone",
+        "present": true,
+        "confidence": 0.8,
+        "evidence": "In frames 1-5, the person is holding the phone and looking down at it, consistent with viewing the screen.",
+        "supporting_frame_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "phone"
+    ],
+    "risk_notes": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/NDH24_c052_t0.00_36.38.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 5.2004,
+      "frame_number": 156,
+      "path": "outputs/charades_clip_batch_50_part30/NDH24_c052_t0.00_36.38/vlm_review/frames/frame_00_5.200s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 10.4009,
+      "frame_number": 312,
+      "path": "outputs/charades_clip_batch_50_part30/NDH24_c052_t0.00_36.38/vlm_review/frames/frame_01_10.401s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 15.6013,
+      "frame_number": 468,
+      "path": "outputs/charades_clip_batch_50_part30/NDH24_c052_t0.00_36.38/vlm_review/frames/frame_02_15.601s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 20.8017,
+      "frame_number": 623,
+      "path": "outputs/charades_clip_batch_50_part30/NDH24_c052_t0.00_36.38/vlm_review/frames/frame_03_20.802s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 26.0022,
+      "frame_number": 779,
+      "path": "outputs/charades_clip_batch_50_part30/NDH24_c052_t0.00_36.38/vlm_review/frames/frame_04_26.002s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 31.2026,
+      "frame_number": 935,
+      "path": "outputs/charades_clip_batch_50_part30/NDH24_c052_t0.00_36.38/vlm_review/frames/frame_05_31.203s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "using_laptop"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part30/NDH24_c052_t0.00_36.38/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part30/NDH24_c052_t0.00_36.38/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part30/NDH24_c052_t0.00_36.38/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A person is sitting on stairs using a laptop, with visible interaction such as typing or using the trackpad.",
+    "actions": [
+      {
+        "action": "using_laptop",
+        "present": true,
+        "confidence": 1.0,
+        "evidence": "Person is sitting on stairs with a laptop on their lap, hands positioned over the keyboard/trackpad area, indicating active interaction.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [],
+    "risk_notes": []
+  }
+}

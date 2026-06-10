@@ -1,0 +1,102 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/videos_480p/024PD.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 8.437,
+      "frame_number": 253,
+      "path": "outputs/charades_024PD_vlm_review_live/frames/frame_00_8.437s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 16.874,
+      "frame_number": 506,
+      "path": "outputs/charades_024PD_vlm_review_live/frames/frame_01_16.874s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 25.311,
+      "frame_number": 759,
+      "path": "outputs/charades_024PD_vlm_review_live/frames/frame_02_25.311s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 33.748,
+      "frame_number": 1011,
+      "path": "outputs/charades_024PD_vlm_review_live/frames/frame_03_33.748s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 42.185,
+      "frame_number": 1264,
+      "path": "outputs/charades_024PD_vlm_review_live/frames/frame_04_42.185s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 50.622,
+      "frame_number": 1517,
+      "path": "outputs/charades_024PD_vlm_review_live/frames/frame_05_50.622s.jpg"
+    }
+  ],
+  "request_payload": "outputs/charades_024PD_vlm_review_live/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_024PD_vlm_review_live/vlm_response_raw.json",
+  "review": "outputs/charades_024PD_vlm_review_live/vlm_review.json",
+  "review_json": {
+    "overall_summary": "Person is consistently holding and looking at a phone in multiple frames, with occasional movement but no clear talking_on_phone action.",
+    "actions": [
+      {
+        "action": "talking_on_phone",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is holding and looking at phone, but no mouth movement or phone to ear indicates talking.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "action": "holding_phone",
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "Person is holding a phone in hand in all frames, visible in multiple frames.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "action": "looking_at_phone",
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "Person is looking down at the phone in all frames, phone screen is visible.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "phone"
+    ],
+    "risk_notes": [
+      "phone partially occluded in some frames",
+      "low lighting may affect action clarity"
+    ]
+  }
+}

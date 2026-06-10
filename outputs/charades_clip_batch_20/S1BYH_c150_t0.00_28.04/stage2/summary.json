@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/S1BYH_c150_t0.00_28.04.mp4",
+    "fps": 25.0,
+    "frame_count": 702,
+    "width": 480,
+    "height": 360,
+    "duration_seconds": 28.08
+  },
+  "num_objects": 55,
+  "num_poses": 633,
+  "num_frame_scores": 0,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": null
+}

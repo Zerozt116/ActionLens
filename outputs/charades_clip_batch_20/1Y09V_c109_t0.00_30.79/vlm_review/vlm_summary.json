@@ -1,0 +1,78 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/1Y09V_c109_t0.00_30.79.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 4.4044,
+      "frame_number": 132,
+      "path": "outputs/charades_clip_batch_20/1Y09V_c109_t0.00_30.79/vlm_review/frames/frame_00_4.404s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 8.8088,
+      "frame_number": 264,
+      "path": "outputs/charades_clip_batch_20/1Y09V_c109_t0.00_30.79/vlm_review/frames/frame_01_8.809s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 13.2132,
+      "frame_number": 396,
+      "path": "outputs/charades_clip_batch_20/1Y09V_c109_t0.00_30.79/vlm_review/frames/frame_02_13.213s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 17.6176,
+      "frame_number": 528,
+      "path": "outputs/charades_clip_batch_20/1Y09V_c109_t0.00_30.79/vlm_review/frames/frame_03_17.618s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 22.022,
+      "frame_number": 660,
+      "path": "outputs/charades_clip_batch_20/1Y09V_c109_t0.00_30.79/vlm_review/frames/frame_04_22.022s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 26.4264,
+      "frame_number": 792,
+      "path": "outputs/charades_clip_batch_20/1Y09V_c109_t0.00_30.79/vlm_review/frames/frame_05_26.426s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "c109"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/1Y09V_c109_t0.00_30.79/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/1Y09V_c109_t0.00_30.79/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/1Y09V_c109_t0.00_30.79/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A person is seen holding and drinking from a cup while standing, then placing the cup on a chair.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "The person is holding a white cup and bringing it to their mouth in multiple frames, consistent with drinking.",
+        "supporting_frame_indices": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup"
+    ],
+    "risk_notes": []
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/3HUXR_c132_t0.00_41.62.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 5.9536,
+      "frame_number": 178,
+      "path": "outputs/charades_clip_batch_20/3HUXR_c132_t0.00_41.62/vlm_review/frames/frame_00_5.954s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 11.9071,
+      "frame_number": 357,
+      "path": "outputs/charades_clip_batch_20/3HUXR_c132_t0.00_41.62/vlm_review/frames/frame_01_11.907s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 17.8607,
+      "frame_number": 535,
+      "path": "outputs/charades_clip_batch_20/3HUXR_c132_t0.00_41.62/vlm_review/frames/frame_02_17.861s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 23.8143,
+      "frame_number": 714,
+      "path": "outputs/charades_clip_batch_20/3HUXR_c132_t0.00_41.62/vlm_review/frames/frame_03_23.814s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 29.7678,
+      "frame_number": 892,
+      "path": "outputs/charades_clip_batch_20/3HUXR_c132_t0.00_41.62/vlm_review/frames/frame_04_29.768s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 35.7214,
+      "frame_number": 1071,
+      "path": "outputs/charades_clip_batch_20/3HUXR_c132_t0.00_41.62/vlm_review/frames/frame_05_35.721s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "c132"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/3HUXR_c132_t0.00_41.62/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/3HUXR_c132_t0.00_41.62/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/3HUXR_c132_t0.00_41.62/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "Person is lying in bed watching TV, holding a small object that appears to be a phone or remote.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "No cup or bottle visible; person is holding a small object that appears to be a phone or remote.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "phone"
+    ],
+    "risk_notes": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/SPG5Q_c150_t9.20_33.42.mp4",
+    "fps": 29.97002997002997,
+    "frame_count": 752,
+    "width": 480,
+    "height": 270,
+    "duration_seconds": 25.091733333333334
+  },
+  "num_objects": 752,
+  "num_poses": 750,
+  "num_frame_scores": 0,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": null
+}

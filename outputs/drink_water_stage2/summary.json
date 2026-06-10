@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/drink_water.mp4",
+    "fps": 24.0,
+    "frame_count": 123,
+    "width": 1280,
+    "height": 720,
+    "duration_seconds": 5.125
+  },
+  "num_objects": 61,
+  "num_poses": 123,
+  "num_frame_scores": 3,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": "outputs/drink_water_stage2/stage2_annotated.mp4"
+}

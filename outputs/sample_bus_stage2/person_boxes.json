@@ -1,0 +1,542 @@
+{
+  "0": [
+    {
+      "frame_id": 0,
+      "timestamp": "00:00:00.000",
+      "seconds": 0.0,
+      "person_id": 1,
+      "bbox_xyxy": [
+        670.654,
+        394.962,
+        809.788,
+        878.449
+      ],
+      "confidence": 0.8863
+    },
+    {
+      "frame_id": 0,
+      "timestamp": "00:00:00.000",
+      "seconds": 0.0,
+      "person_id": 2,
+      "bbox_xyxy": [
+        46.609,
+        400.122,
+        238.403,
+        903.994
+      ],
+      "confidence": 0.8798
+    },
+    {
+      "frame_id": 0,
+      "timestamp": "00:00:00.000",
+      "seconds": 0.0,
+      "person_id": 3,
+      "bbox_xyxy": [
+        223.351,
+        408.695,
+        344.574,
+        860.196
+      ],
+      "confidence": 0.8595
+    },
+    {
+      "frame_id": 0,
+      "timestamp": "00:00:00.000",
+      "seconds": 0.0,
+      "person_id": 4,
+      "bbox_xyxy": [
+        0.019,
+        557.343,
+        69.412,
+        872.459
+      ],
+      "confidence": 0.585
+    }
+  ],
+  "1": [
+    {
+      "frame_id": 1,
+      "timestamp": "00:00:00.200",
+      "seconds": 0.2,
+      "person_id": 1,
+      "bbox_xyxy": [
+        670.809,
+        395.387,
+        809.889,
+        878.702
+      ],
+      "confidence": 0.8884
+    },
+    {
+      "frame_id": 1,
+      "timestamp": "00:00:00.200",
+      "seconds": 0.2,
+      "person_id": 2,
+      "bbox_xyxy": [
+        47.476,
+        399.77,
+        239.399,
+        903.986
+      ],
+      "confidence": 0.8818
+    },
+    {
+      "frame_id": 1,
+      "timestamp": "00:00:00.200",
+      "seconds": 0.2,
+      "person_id": 3,
+      "bbox_xyxy": [
+        223.328,
+        408.598,
+        344.618,
+        860.342
+      ],
+      "confidence": 0.858
+    },
+    {
+      "frame_id": 1,
+      "timestamp": "00:00:00.200",
+      "seconds": 0.2,
+      "person_id": 4,
+      "bbox_xyxy": [
+        0.0,
+        556.749,
+        69.253,
+        872.741
+      ],
+      "confidence": 0.6285
+    }
+  ],
+  "2": [
+    {
+      "frame_id": 2,
+      "timestamp": "00:00:00.400",
+      "seconds": 0.4,
+      "person_id": 1,
+      "bbox_xyxy": [
+        670.844,
+        395.422,
+        809.901,
+        878.676
+      ],
+      "confidence": 0.8886
+    },
+    {
+      "frame_id": 2,
+      "timestamp": "00:00:00.400",
+      "seconds": 0.4,
+      "person_id": 2,
+      "bbox_xyxy": [
+        47.706,
+        399.704,
+        239.661,
+        903.998
+      ],
+      "confidence": 0.8822
+    },
+    {
+      "frame_id": 2,
+      "timestamp": "00:00:00.400",
+      "seconds": 0.4,
+      "person_id": 3,
+      "bbox_xyxy": [
+        223.299,
+        408.558,
+        344.612,
+        860.372
+      ],
+      "confidence": 0.858
+    },
+    {
+      "frame_id": 2,
+      "timestamp": "00:00:00.400",
+      "seconds": 0.4,
+      "person_id": 4,
+      "bbox_xyxy": [
+        0.0,
+        556.573,
+        69.222,
+        872.793
+      ],
+      "confidence": 0.6273
+    }
+  ],
+  "3": [
+    {
+      "frame_id": 3,
+      "timestamp": "00:00:00.600",
+      "seconds": 0.6,
+      "person_id": 1,
+      "bbox_xyxy": [
+        670.855,
+        395.425,
+        809.901,
+        878.668
+      ],
+      "confidence": 0.8885
+    },
+    {
+      "frame_id": 3,
+      "timestamp": "00:00:00.600",
+      "seconds": 0.6,
+      "person_id": 2,
+      "bbox_xyxy": [
+        47.759,
+        399.689,
+        239.726,
+        904.004
+      ],
+      "confidence": 0.8823
+    },
+    {
+      "frame_id": 3,
+      "timestamp": "00:00:00.600",
+      "seconds": 0.6,
+      "person_id": 3,
+      "bbox_xyxy": [
+        223.29,
+        408.543,
+        344.612,
+        860.376
+      ],
+      "confidence": 0.858
+    },
+    {
+      "frame_id": 3,
+      "timestamp": "00:00:00.600",
+      "seconds": 0.6,
+      "person_id": 4,
+      "bbox_xyxy": [
+        0.0,
+        556.533,
+        69.186,
+        872.801
+      ],
+      "confidence": 0.6273
+    }
+  ],
+  "4": [
+    {
+      "frame_id": 4,
+      "timestamp": "00:00:00.800",
+      "seconds": 0.8,
+      "person_id": 1,
+      "bbox_xyxy": [
+        670.86,
+        395.423,
+        809.897,
+        878.664
+      ],
+      "confidence": 0.8885
+    },
+    {
+      "frame_id": 4,
+      "timestamp": "00:00:00.800",
+      "seconds": 0.8,
+      "person_id": 2,
+      "bbox_xyxy": [
+        47.763,
+        399.69,
+        239.734,
+        904.006
+      ],
+      "confidence": 0.8823
+    },
+    {
+      "frame_id": 4,
+      "timestamp": "00:00:00.800",
+      "seconds": 0.8,
+      "person_id": 3,
+      "bbox_xyxy": [
+        223.286,
+        408.54,
+        344.614,
+        860.376
+      ],
+      "confidence": 0.858
+    },
+    {
+      "frame_id": 4,
+      "timestamp": "00:00:00.800",
+      "seconds": 0.8,
+      "person_id": 4,
+      "bbox_xyxy": [
+        0.0,
+        556.529,
+        69.163,
+        872.8
+      ],
+      "confidence": 0.6273
+    }
+  ],
+  "5": [
+    {
+      "frame_id": 5,
+      "timestamp": "00:00:01.000",
+      "seconds": 1.0,
+      "person_id": 1,
+      "bbox_xyxy": [
+        670.863,
+        395.42,
+        809.892,
+        878.662
+      ],
+      "confidence": 0.8885
+    },
+    {
+      "frame_id": 5,
+      "timestamp": "00:00:01.000",
+      "seconds": 1.0,
+      "person_id": 2,
+      "bbox_xyxy": [
+        47.755,
+        399.693,
+        239.729,
+        904.007
+      ],
+      "confidence": 0.8823
+    },
+    {
+      "frame_id": 5,
+      "timestamp": "00:00:01.000",
+      "seconds": 1.0,
+      "person_id": 3,
+      "bbox_xyxy": [
+        223.283,
+        408.54,
+        344.616,
+        860.375
+      ],
+      "confidence": 0.858
+    },
+    {
+      "frame_id": 5,
+      "timestamp": "00:00:01.000",
+      "seconds": 1.0,
+      "person_id": 4,
+      "bbox_xyxy": [
+        0.0,
+        556.533,
+        69.142,
+        872.798
+      ],
+      "confidence": 0.6273
+    }
+  ],
+  "6": [
+    {
+      "frame_id": 6,
+      "timestamp": "00:00:01.200",
+      "seconds": 1.2,
+      "person_id": 1,
+      "bbox_xyxy": [
+        670.867,
+        395.418,
+        809.886,
+        878.661
+      ],
+      "confidence": 0.8885
+    },
+    {
+      "frame_id": 6,
+      "timestamp": "00:00:01.200",
+      "seconds": 1.2,
+      "person_id": 2,
+      "bbox_xyxy": [
+        47.745,
+        399.696,
+        239.722,
+        904.007
+      ],
+      "confidence": 0.8823
+    },
+    {
+      "frame_id": 6,
+      "timestamp": "00:00:01.200",
+      "seconds": 1.2,
+      "person_id": 3,
+      "bbox_xyxy": [
+        223.28,
+        408.541,
+        344.619,
+        860.373
+      ],
+      "confidence": 0.858
+    },
+    {
+      "frame_id": 6,
+      "timestamp": "00:00:01.200",
+      "seconds": 1.2,
+      "person_id": 4,
+      "bbox_xyxy": [
+        0.0,
+        556.539,
+        69.122,
+        872.796
+      ],
+      "confidence": 0.6273
+    }
+  ],
+  "7": [
+    {
+      "frame_id": 7,
+      "timestamp": "00:00:01.400",
+      "seconds": 1.4,
+      "person_id": 1,
+      "bbox_xyxy": [
+        670.871,
+        395.416,
+        809.88,
+        878.661
+      ],
+      "confidence": 0.8885
+    },
+    {
+      "frame_id": 7,
+      "timestamp": "00:00:01.400",
+      "seconds": 1.4,
+      "person_id": 2,
+      "bbox_xyxy": [
+        47.736,
+        399.698,
+        239.717,
+        904.007
+      ],
+      "confidence": 0.8823
+    },
+    {
+      "frame_id": 7,
+      "timestamp": "00:00:01.400",
+      "seconds": 1.4,
+      "person_id": 3,
+      "bbox_xyxy": [
+        223.277,
+        408.542,
+        344.622,
+        860.372
+      ],
+      "confidence": 0.858
+    },
+    {
+      "frame_id": 7,
+      "timestamp": "00:00:01.400",
+      "seconds": 1.4,
+      "person_id": 4,
+      "bbox_xyxy": [
+        0.0,
+        556.544,
+        69.1,
+        872.794
+      ],
+      "confidence": 0.6273
+    }
+  ],
+  "8": [
+    {
+      "frame_id": 8,
+      "timestamp": "00:00:01.600",
+      "seconds": 1.6,
+      "person_id": 1,
+      "bbox_xyxy": [
+        670.875,
+        395.414,
+        809.875,
+        878.66
+      ],
+      "confidence": 0.8885
+    },
+    {
+      "frame_id": 8,
+      "timestamp": "00:00:01.600",
+      "seconds": 1.6,
+      "person_id": 2,
+      "bbox_xyxy": [
+        47.729,
+        399.7,
+        239.713,
+        904.006
+      ],
+      "confidence": 0.8823
+    },
+    {
+      "frame_id": 8,
+      "timestamp": "00:00:01.600",
+      "seconds": 1.6,
+      "person_id": 3,
+      "bbox_xyxy": [
+        223.275,
+        408.543,
+        344.625,
+        860.372
+      ],
+      "confidence": 0.858
+    },
+    {
+      "frame_id": 8,
+      "timestamp": "00:00:01.600",
+      "seconds": 1.6,
+      "person_id": 4,
+      "bbox_xyxy": [
+        0.0,
+        556.548,
+        69.078,
+        872.793
+      ],
+      "confidence": 0.6273
+    }
+  ],
+  "9": [
+    {
+      "frame_id": 9,
+      "timestamp": "00:00:01.800",
+      "seconds": 1.8,
+      "person_id": 1,
+      "bbox_xyxy": [
+        670.88,
+        395.413,
+        809.869,
+        878.66
+      ],
+      "confidence": 0.8885
+    },
+    {
+      "frame_id": 9,
+      "timestamp": "00:00:01.800",
+      "seconds": 1.8,
+      "person_id": 2,
+      "bbox_xyxy": [
+        47.722,
+        399.702,
+        239.71,
+        904.006
+      ],
+      "confidence": 0.8823
+    },
+    {
+      "frame_id": 9,
+      "timestamp": "00:00:01.800",
+      "seconds": 1.8,
+      "person_id": 3,
+      "bbox_xyxy": [
+        223.272,
+        408.543,
+        344.628,
+        860.371
+      ],
+      "confidence": 0.858
+    },
+    {
+      "frame_id": 9,
+      "timestamp": "00:00:01.800",
+      "seconds": 1.8,
+      "person_id": 4,
+      "bbox_xyxy": [
+        0.0,
+        556.551,
+        69.057,
+        872.792
+      ],
+      "confidence": 0.6273
+    }
+  ]
+}

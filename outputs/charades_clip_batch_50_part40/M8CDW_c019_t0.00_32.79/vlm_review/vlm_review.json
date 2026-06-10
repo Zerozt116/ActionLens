@@ -1,0 +1,23 @@
+{
+  "overall_summary": "A person wearing a mask is consistently holding a phone to their ear across all sampled frames, indicating they are talking on the phone.",
+  "actions": [
+    {
+      "action": "talking_on_phone",
+      "present": true,
+      "confidence": 1.0,
+      "evidence": "A person wearing a mask is holding a phone to their ear in all sampled frames, consistent with the action definition.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "phone"
+  ],
+  "risk_notes": []
+}

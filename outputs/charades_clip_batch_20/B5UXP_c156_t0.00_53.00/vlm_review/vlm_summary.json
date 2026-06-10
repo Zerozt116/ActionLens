@@ -1,0 +1,78 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/B5UXP_c156_t0.00_53.00.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 7.5742,
+      "frame_number": 227,
+      "path": "outputs/charades_clip_batch_20/B5UXP_c156_t0.00_53.00/vlm_review/frames/frame_00_7.574s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 15.1485,
+      "frame_number": 454,
+      "path": "outputs/charades_clip_batch_20/B5UXP_c156_t0.00_53.00/vlm_review/frames/frame_01_15.148s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 22.7227,
+      "frame_number": 681,
+      "path": "outputs/charades_clip_batch_20/B5UXP_c156_t0.00_53.00/vlm_review/frames/frame_02_22.723s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 30.2969,
+      "frame_number": 908,
+      "path": "outputs/charades_clip_batch_20/B5UXP_c156_t0.00_53.00/vlm_review/frames/frame_03_30.297s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 37.8712,
+      "frame_number": 1135,
+      "path": "outputs/charades_clip_batch_20/B5UXP_c156_t0.00_53.00/vlm_review/frames/frame_04_37.871s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 45.4454,
+      "frame_number": 1362,
+      "path": "outputs/charades_clip_batch_20/B5UXP_c156_t0.00_53.00/vlm_review/frames/frame_05_45.445s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "c156"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/B5UXP_c156_t0.00_53.00/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/B5UXP_c156_t0.00_53.00/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/B5UXP_c156_t0.00_53.00/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "Person is standing in a pantry holding a box of cereal and appears to be drinking from a cup at one point.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": true,
+        "confidence": 0.8,
+        "evidence": "In frame 4, the person raises a cup to their mouth, consistent with drinking.",
+        "supporting_frame_indices": [
+          4
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup",
+      "phone"
+    ],
+    "risk_notes": [
+      "phone not visible"
+    ]
+  }
+}

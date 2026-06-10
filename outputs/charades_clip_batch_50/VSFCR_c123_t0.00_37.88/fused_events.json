@@ -1,0 +1,724 @@
+{
+  "video_id": "VSFCR",
+  "summary": {
+    "video_id": "VSFCR",
+    "final_events": 5,
+    "semantic_candidates": 1,
+    "pending_events": 0,
+    "rejected_events": 0,
+    "fused_events": 6,
+    "event_center_reviews": 5
+  },
+  "final_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 0.958,
+      "end_seconds": 1.708,
+      "start_time": "00:00:00.958",
+      "end_time": "00:00:01.708",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.21, wrist_dist=0.10",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 29.1
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.8353,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.8206,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.85,
+        "evidence": "Person holds a purple cup to mouth, head tilted back, consistent with drinking motion. Cup is clearly visible and close to mouth across frames 0-5.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 0.0,
+          "end_seconds": 2.708,
+          "source": "event:0"
+        },
+        "visible_objects": [
+          "cup"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 4.667,
+      "end_seconds": 7.167,
+      "start_time": "00:00:04.667",
+      "end_time": "00:00:07.167",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.17",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 29.1
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.7142,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.5783,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.85,
+        "evidence": "Person is holding a purple cup close to mouth, head is tilted down, consistent with drinking motion. Cup is clearly visible.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 3.667,
+          "end_seconds": 8.167,
+          "source": "event:1"
+        },
+        "visible_objects": [
+          "cup"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 2,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 8.0,
+      "end_seconds": 10.458,
+      "start_time": "00:00:08.000",
+      "end_time": "00:00:10.458",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.39, wrist_dist=0.10",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 29.1
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.873,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.7961,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "Person holding a purple cup, bringing it to mouth and drinking; cup is clearly visible in all frames.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 7.0,
+          "end_seconds": 11.458,
+          "source": "event:2"
+        },
+        "visible_objects": [
+          "cup"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 3,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 15.083,
+      "end_seconds": 16.042,
+      "start_time": "00:00:15.083",
+      "end_time": "00:00:16.042",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.36, wrist_dist=0.03",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 29.1
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.7355,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.7355,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.7355,
+        "evidence": "Person is holding a purple cup close to their mouth and head; cup is visible in all frames. Head is tilted slightly downward, consistent with drinking.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 14.083,
+          "end_seconds": 17.042,
+          "source": "event:3"
+        },
+        "visible_objects": [
+          "cup"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 4,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 20.5,
+      "end_seconds": 23.25,
+      "start_time": "00:00:20.500",
+      "end_time": "00:00:23.250",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.07, wrist_dist=0.21",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 29.1
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.8662,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.7825,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "Person is holding a purple cup to their mouth, tilting head back to drink. Cup is clearly visible and in use.",
+        "supporting_frame_indices": [
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 19.5,
+          "end_seconds": 24.25,
+          "source": "event:4"
+        },
+        "visible_objects": [
+          "cup"
+        ],
+        "risk_notes": []
+      }
+    }
+  ],
+  "semantic_candidates": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "sitting_on_sofa",
+      "action_name": "坐在沙发上",
+      "start_seconds": 0.0,
+      "end_seconds": 39.0,
+      "confidence": 1.0,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 1.0,
+        "evidence": "The person is seated on a dark-colored sofa in all frames.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c123"
+        ],
+        "action_names": [
+          "Sitting on sofa/couch"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 39.0
+          }
+        ]
+      }
+    }
+  ],
+  "pending_events": [],
+  "rejected_events": [],
+  "fused_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 0.958,
+      "end_seconds": 1.708,
+      "start_time": "00:00:00.958",
+      "end_time": "00:00:01.708",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.21, wrist_dist=0.10",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 29.1
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.8353,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.8206,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.85,
+        "evidence": "Person holds a purple cup to mouth, head tilted back, consistent with drinking motion. Cup is clearly visible and close to mouth across frames 0-5.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 0.0,
+          "end_seconds": 2.708,
+          "source": "event:0"
+        },
+        "visible_objects": [
+          "cup"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 4.667,
+      "end_seconds": 7.167,
+      "start_time": "00:00:04.667",
+      "end_time": "00:00:07.167",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.46, wrist_dist=0.17",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 29.1
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.7142,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.5783,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.85,
+        "evidence": "Person is holding a purple cup close to mouth, head is tilted down, consistent with drinking motion. Cup is clearly visible.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 3.667,
+          "end_seconds": 8.167,
+          "source": "event:1"
+        },
+        "visible_objects": [
+          "cup"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 2,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 8.0,
+      "end_seconds": 10.458,
+      "start_time": "00:00:08.000",
+      "end_time": "00:00:10.458",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.39, wrist_dist=0.10",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 29.1
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.873,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.7961,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "Person holding a purple cup, bringing it to mouth and drinking; cup is clearly visible in all frames.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 7.0,
+          "end_seconds": 11.458,
+          "source": "event:2"
+        },
+        "visible_objects": [
+          "cup"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 3,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 15.083,
+      "end_seconds": 16.042,
+      "start_time": "00:00:15.083",
+      "end_time": "00:00:16.042",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.36, wrist_dist=0.03",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 29.1
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.7355,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.7355,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.7355,
+        "evidence": "Person is holding a purple cup close to their mouth and head; cup is visible in all frames. Head is tilted slightly downward, consistent with drinking.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 14.083,
+          "end_seconds": 17.042,
+          "source": "event:3"
+        },
+        "visible_objects": [
+          "cup"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 4,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 20.5,
+      "end_seconds": 23.25,
+      "start_time": "00:00:20.500",
+      "end_time": "00:00:23.250",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.07, wrist_dist=0.21",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 29.1
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.8662,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "event_vlm"
+      ],
+      "fusion_reason": "Stage2 event confirmed by event-centered VLM review.",
+      "stage2_confidence": 0.7825,
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "Person is holding a purple cup to their mouth, tilting head back to drink. Cup is clearly visible and in use.",
+        "supporting_frame_indices": [
+          4,
+          5
+        ],
+        "review_window": {
+          "start_seconds": 19.5,
+          "end_seconds": 24.25,
+          "source": "event:4"
+        },
+        "visible_objects": [
+          "cup"
+        ],
+        "risk_notes": []
+      }
+    },
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "sitting_on_sofa",
+      "action_name": "坐在沙发上",
+      "start_seconds": 0.0,
+      "end_seconds": 39.0,
+      "confidence": 1.0,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 1.0,
+        "evidence": "The person is seated on a dark-colored sofa in all frames.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c123"
+        ],
+        "action_names": [
+          "Sitting on sofa/couch"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 39.0
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "overall_summary": "Person is consistently holding and looking at a phone in multiple frames, with occasional movement but no clear talking_on_phone action.",
+  "actions": [
+    {
+      "action": "talking_on_phone",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "Person is holding and looking at phone, but no mouth movement or phone to ear indicates talking.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "action": "holding_phone",
+      "present": true,
+      "confidence": 0.95,
+      "evidence": "Person is holding a phone in hand in all frames, visible in multiple frames.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "action": "looking_at_phone",
+      "present": true,
+      "confidence": 0.95,
+      "evidence": "Person is looking down at the phone in all frames, phone screen is visible.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "phone"
+  ],
+  "risk_notes": [
+    "phone partially occluded in some frames",
+    "low lighting may affect action clarity"
+  ]
+}

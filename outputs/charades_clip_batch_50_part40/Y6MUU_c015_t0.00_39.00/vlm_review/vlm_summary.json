@@ -1,0 +1,79 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/Y6MUU_c015_t0.00_39.00.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 5.577,
+      "frame_number": 167,
+      "path": "outputs/charades_clip_batch_50_part40/Y6MUU_c015_t0.00_39.00/vlm_review/frames/frame_00_5.577s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 11.154,
+      "frame_number": 334,
+      "path": "outputs/charades_clip_batch_50_part40/Y6MUU_c015_t0.00_39.00/vlm_review/frames/frame_01_11.154s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 16.731,
+      "frame_number": 501,
+      "path": "outputs/charades_clip_batch_50_part40/Y6MUU_c015_t0.00_39.00/vlm_review/frames/frame_02_16.731s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 22.308,
+      "frame_number": 669,
+      "path": "outputs/charades_clip_batch_50_part40/Y6MUU_c015_t0.00_39.00/vlm_review/frames/frame_03_22.308s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 27.885,
+      "frame_number": 836,
+      "path": "outputs/charades_clip_batch_50_part40/Y6MUU_c015_t0.00_39.00/vlm_review/frames/frame_04_27.885s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 33.462,
+      "frame_number": 1003,
+      "path": "outputs/charades_clip_batch_50_part40/Y6MUU_c015_t0.00_39.00/vlm_review/frames/frame_05_33.462s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "holding_phone"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part40/Y6MUU_c015_t0.00_39.00/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part40/Y6MUU_c015_t0.00_39.00/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part40/Y6MUU_c015_t0.00_39.00/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A man is holding and interacting with a phone in multiple frames, consistent with the 'holding_phone' action.",
+    "actions": [
+      {
+        "action": "holding_phone",
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "The man is visibly holding a phone in his hands in frames 0, 1, 2, 3, and 4. In frame 0, he holds it with both hands; in frames 1-3, he holds it with one hand while looking at it; in frame 4, he holds it with both hands again. The phone is clearly visible in all these frames.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "visible_objects": [
+      "phone"
+    ],
+    "risk_notes": []
+  }
+}

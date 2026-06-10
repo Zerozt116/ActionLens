@@ -1,0 +1,75 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/L57L2_c125_t22.10_123.70.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 14.7139,
+      "frame_number": 353,
+      "path": "outputs/charades_clip_batch_20/L57L2_c125_t22.10_123.70/vlm_review/frames/frame_00_14.714s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 29.4279,
+      "frame_number": 707,
+      "path": "outputs/charades_clip_batch_20/L57L2_c125_t22.10_123.70/vlm_review/frames/frame_01_29.428s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 44.1418,
+      "frame_number": 1060,
+      "path": "outputs/charades_clip_batch_20/L57L2_c125_t22.10_123.70/vlm_review/frames/frame_02_44.142s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 58.8557,
+      "frame_number": 1414,
+      "path": "outputs/charades_clip_batch_20/L57L2_c125_t22.10_123.70/vlm_review/frames/frame_03_58.856s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 73.5696,
+      "frame_number": 1767,
+      "path": "outputs/charades_clip_batch_20/L57L2_c125_t22.10_123.70/vlm_review/frames/frame_04_73.570s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 88.2836,
+      "frame_number": 2121,
+      "path": "outputs/charades_clip_batch_20/L57L2_c125_t22.10_123.70/vlm_review/frames/frame_05_88.284s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "c125"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/L57L2_c125_t22.10_123.70/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/L57L2_c125_t22.10_123.70/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/L57L2_c125_t22.10_123.70/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A person is interacting with a small red object, possibly a phone or remote, while standing or kneeling near a box. No drinking or phone use is evident.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "No cup or bottle is visible, and the person is not drinking.",
+        "supporting_frame_indices": [
+          0
+        ]
+      }
+    ],
+    "visible_objects": [
+      "phone"
+    ],
+    "risk_notes": []
+  }
+}

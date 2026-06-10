@@ -1,0 +1,91 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/VSFCR_c123_t0.00_37.88.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 0.3869,
+      "frame_number": 9,
+      "path": "outputs/charades_clip_batch_50/VSFCR_c123_t0.00_37.88/event_reviews/event_000_drinking_water/frames/frame_00_0.387s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 0.7737,
+      "frame_number": 19,
+      "path": "outputs/charades_clip_batch_50/VSFCR_c123_t0.00_37.88/event_reviews/event_000_drinking_water/frames/frame_01_0.774s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 1.1606,
+      "frame_number": 28,
+      "path": "outputs/charades_clip_batch_50/VSFCR_c123_t0.00_37.88/event_reviews/event_000_drinking_water/frames/frame_02_1.161s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 1.5474,
+      "frame_number": 37,
+      "path": "outputs/charades_clip_batch_50/VSFCR_c123_t0.00_37.88/event_reviews/event_000_drinking_water/frames/frame_03_1.547s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 1.9343,
+      "frame_number": 46,
+      "path": "outputs/charades_clip_batch_50/VSFCR_c123_t0.00_37.88/event_reviews/event_000_drinking_water/frames/frame_04_1.934s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 2.3211,
+      "frame_number": 56,
+      "path": "outputs/charades_clip_batch_50/VSFCR_c123_t0.00_37.88/event_reviews/event_000_drinking_water/frames/frame_05_2.321s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": 0.0,
+    "end_seconds": 2.708,
+    "source": "event:0",
+    "event": {
+      "person_id": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_time": "00:00:00.958",
+      "end_time": "00:00:01.708",
+      "start_seconds": 0.958,
+      "end_seconds": 1.708,
+      "frame_count": 14,
+      "confidence": 0.8206,
+      "evidence": "cup close to head and wrist; head_dist=0.21, wrist_dist=0.10"
+    }
+  },
+  "actions": [
+    "drinking_water"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50/VSFCR_c123_t0.00_37.88/event_reviews/event_000_drinking_water/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50/VSFCR_c123_t0.00_37.88/event_reviews/event_000_drinking_water/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50/VSFCR_c123_t0.00_37.88/event_reviews/event_000_drinking_water/vlm_review.json",
+  "review_json": {
+    "overall_summary": "Person is drinking from a purple cup while seated on a couch, with a dog nearby.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": true,
+        "confidence": 0.85,
+        "evidence": "Person holds a purple cup to mouth, head tilted back, consistent with drinking motion. Cup is clearly visible and close to mouth across frames 0-5.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup"
+    ],
+    "risk_notes": []
+  }
+}

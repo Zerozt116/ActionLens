@@ -1,0 +1,16 @@
+{
+  "overall_summary": "A person is seen holding a plate and bringing food to their mouth, consistent with eating.",
+  "actions": [
+    {
+      "action": "eating",
+      "present": true,
+      "confidence": 0.95,
+      "evidence": "Person is holding a plate with food and bringing it to their mouth in frame 5.",
+      "supporting_frame_indices": [
+        5
+      ]
+    }
+  ],
+  "visible_objects": [],
+  "risk_notes": []
+}

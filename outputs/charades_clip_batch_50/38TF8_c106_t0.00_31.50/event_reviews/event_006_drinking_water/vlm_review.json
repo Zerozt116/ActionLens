@@ -1,0 +1,24 @@
+{
+  "overall_summary": "The sampled frames show a boy sitting on the floor with a metal bowl, not drinking from a cup or container. A man is in the background interacting with a refrigerator. The action 'drinking_water' is not occurring.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "The boy is sitting with a metal bowl, not a cup or bottle, and is not drinking. The man in the background is opening a refrigerator and not drinking.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone"
+  ],
+  "risk_notes": []
+}

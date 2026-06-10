@@ -1,0 +1,22 @@
+{
+  "id": "019eab57e205cc9f0215d90680bf20c9",
+  "object": "chat.completion",
+  "created": 1780991124,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person is standing and moving around the kitchen, not transitioning from sitting or crouching to standing.\",\n  \"actions\": [],\n  \"visible_objects\": [],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1215,
+    "completion_tokens": 46,
+    "total_tokens": 1261
+  },
+  "system_fingerprint": ""
+}

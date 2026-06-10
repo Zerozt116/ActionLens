@@ -1,0 +1,93 @@
+{
+  "video_id": "GY9MZ",
+  "summary": {
+    "video_id": "GY9MZ",
+    "final_events": 0,
+    "semantic_candidates": 1,
+    "pending_events": 0,
+    "rejected_events": 0,
+    "fused_events": 1,
+    "event_center_reviews": 0
+  },
+  "final_events": [],
+  "semantic_candidates": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "start_seconds": 0.0,
+      "end_seconds": 36.0,
+      "confidence": 0.95,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 0.95,
+        "evidence": "The man is holding a small cup in his hand in frames 1 and 3, and the cup is clearly visible.",
+        "supporting_frame_indices": [
+          1,
+          3
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c107"
+        ],
+        "action_names": [
+          "Holding a cup/glass/bottle of something"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 36.0
+          }
+        ]
+      }
+    }
+  ],
+  "pending_events": [],
+  "rejected_events": [],
+  "fused_events": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "start_seconds": 0.0,
+      "end_seconds": 36.0,
+      "confidence": 0.95,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 0.95,
+        "evidence": "The man is holding a small cup in his hand in frames 1 and 3, and the cup is clearly visible.",
+        "supporting_frame_indices": [
+          1,
+          3
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c107"
+        ],
+        "action_names": [
+          "Holding a cup/glass/bottle of something"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 36.0
+          }
+        ]
+      }
+    }
+  ]
+}

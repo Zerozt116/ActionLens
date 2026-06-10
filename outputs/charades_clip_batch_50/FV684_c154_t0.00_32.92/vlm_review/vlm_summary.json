@@ -1,0 +1,81 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/FV684_c154_t0.00_32.92.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 4.7047,
+      "frame_number": 141,
+      "path": "outputs/charades_clip_batch_50_part40/FV684_c154_t0.00_32.92/vlm_review/frames/frame_00_4.705s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 9.4094,
+      "frame_number": 282,
+      "path": "outputs/charades_clip_batch_50_part40/FV684_c154_t0.00_32.92/vlm_review/frames/frame_01_9.409s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 14.1141,
+      "frame_number": 423,
+      "path": "outputs/charades_clip_batch_50_part40/FV684_c154_t0.00_32.92/vlm_review/frames/frame_02_14.114s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 18.8188,
+      "frame_number": 564,
+      "path": "outputs/charades_clip_batch_50_part40/FV684_c154_t0.00_32.92/vlm_review/frames/frame_03_18.819s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 23.5235,
+      "frame_number": 705,
+      "path": "outputs/charades_clip_batch_50_part40/FV684_c154_t0.00_32.92/vlm_review/frames/frame_04_23.524s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 28.2282,
+      "frame_number": 846,
+      "path": "outputs/charades_clip_batch_50_part40/FV684_c154_t0.00_32.92/vlm_review/frames/frame_05_28.228s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "standing_up"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part40/FV684_c154_t0.00_32.92/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part40/FV684_c154_t0.00_32.92/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part40/FV684_c154_t0.00_32.92/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "The person is standing in front of a bathroom sink and later picks up a vacuum cleaner, but there is no clear evidence of transitioning from sitting or crouching to standing.",
+    "actions": [
+      {
+        "action": "standing_up",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person is already standing in all visible frames, no transition from sitting or crouching is observed.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup",
+      "phone"
+    ],
+    "risk_notes": []
+  }
+}

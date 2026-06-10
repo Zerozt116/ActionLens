@@ -1,0 +1,22 @@
+{
+  "id": "019ea6461d527c4209717a9bec8e3f5d",
+  "object": "chat.completion",
+  "created": 1780906074,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A man is seen interacting with a kitchen cabinet, retrieving items, and then eating from a bowl.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"The man is eating from a bowl, not drinking water.\",\n      \"supporting_frame_indices\": [5]\n    }\n  ],\n  \"visible_objects\": [\"cup\", \"phone\"],\n  \"risk_notes\": [\"phone not visible\", \"cup not clearly visible\"]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1463,
+    "completion_tokens": 118,
+    "total_tokens": 1581
+  },
+  "system_fingerprint": ""
+}

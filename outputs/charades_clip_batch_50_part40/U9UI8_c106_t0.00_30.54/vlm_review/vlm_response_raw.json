@@ -1,0 +1,22 @@
+{
+  "id": "019eab3e1c155b853e68098154ad4c76",
+  "object": "chat.completion",
+  "created": 1780989436,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A person is seen drinking from a container in frame 2, which matches the 'drinking_water' action definition.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": true,\n      \"confidence\": 0.95,\n      \"evidence\": \"Person on left is holding a white container to their mouth and drinking from it in frame 2.\",\n      \"supporting_frame_indices\": [2]\n    }\n  ],\n  \"visible_objects\": [\"cup\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1499,
+    "completion_tokens": 118,
+    "total_tokens": 1617
+  },
+  "system_fingerprint": ""
+}

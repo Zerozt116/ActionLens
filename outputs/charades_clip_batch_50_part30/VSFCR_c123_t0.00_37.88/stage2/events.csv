@@ -1,0 +1,6 @@
+person_id,action,action_name,start_time,end_time,start_seconds,end_seconds,frame_count,confidence,evidence
+1,drinking_water,喝水,00:00:00.958,00:00:01.708,0.958,1.708,14,0.8206,"cup close to head and wrist; head_dist=0.21, wrist_dist=0.10"
+1,drinking_water,喝水,00:00:04.667,00:00:07.167,4.667,7.167,39,0.5783,"cup close to head and wrist; head_dist=0.46, wrist_dist=0.17"
+1,drinking_water,喝水,00:00:08.000,00:00:10.458,8.0,10.458,57,0.7961,"cup close to head and wrist; head_dist=0.39, wrist_dist=0.10"
+1,drinking_water,喝水,00:00:15.083,00:00:16.042,15.083,16.042,19,0.7355,"cup close to head and wrist; head_dist=0.36, wrist_dist=0.03"
+1,drinking_water,喝水,00:00:20.500,00:00:23.250,20.5,23.25,55,0.7825,"cup close to head and wrist; head_dist=0.07, wrist_dist=0.21"

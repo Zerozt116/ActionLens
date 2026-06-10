@@ -1,0 +1,101 @@
+{
+  "video_id": "NDH24",
+  "summary": {
+    "video_id": "NDH24",
+    "final_events": 0,
+    "semantic_candidates": 1,
+    "pending_events": 0,
+    "rejected_events": 0,
+    "fused_events": 1,
+    "event_center_reviews": 0
+  },
+  "final_events": [],
+  "semantic_candidates": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "using_laptop",
+      "action_name": "使用笔记本电脑",
+      "start_seconds": 0.0,
+      "end_seconds": 37.0,
+      "confidence": 1.0,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 1.0,
+        "evidence": "Person is sitting on stairs with a laptop on their lap, hands positioned over the keyboard/trackpad area, indicating active interaction.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c052"
+        ],
+        "action_names": [
+          "Working/Playing on a laptop"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 37.0
+          }
+        ]
+      }
+    }
+  ],
+  "pending_events": [],
+  "rejected_events": [],
+  "fused_events": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "using_laptop",
+      "action_name": "使用笔记本电脑",
+      "start_seconds": 0.0,
+      "end_seconds": 37.0,
+      "confidence": 1.0,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 1.0,
+        "evidence": "Person is sitting on stairs with a laptop on their lap, hands positioned over the keyboard/trackpad area, indicating active interaction.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c052"
+        ],
+        "action_names": [
+          "Working/Playing on a laptop"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 37.0
+          }
+        ]
+      }
+    }
+  ]
+}

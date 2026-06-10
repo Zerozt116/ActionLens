@@ -1,0 +1,23 @@
+{
+  "overall_summary": "The person is holding a phone to their ear and appears to be talking on the phone, not drinking water.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "Person is holding a phone to their ear, not a bottle or cup. No drinking action observed.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "phone"
+  ],
+  "risk_notes": []
+}

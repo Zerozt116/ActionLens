@@ -1,0 +1,22 @@
+{
+  "id": "019ea641b3bd4cfa18c627e4fcc77c8d",
+  "object": "chat.completion",
+  "created": 1780905785,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"Person is holding a phone in multiple frames, visible in their hands while standing in a room.\",\n  \"actions\": [\n    {\n      \"action\": \"holding_phone\",\n      \"present\": true,\n      \"confidence\": 0.95,\n      \"evidence\": \"Person is visibly holding a phone in their hands in frames 0, 1, 5.\",\n      \"supporting_frame_indices\": [0, 1, 5]\n    }\n  ],\n  \"visible_objects\": [\"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1232,
+    "completion_tokens": 118,
+    "total_tokens": 1350
+  },
+  "system_fingerprint": ""
+}

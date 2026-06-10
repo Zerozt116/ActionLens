@@ -1,0 +1,10 @@
+person_id,action,action_name,start_time,end_time,start_seconds,end_seconds,frame_count,confidence,evidence
+1,talking_on_phone,打电话,00:00:02.836,00:00:03.971,2.836,3.971,35,0.71,cell phone close to head; head_dist=0.33
+1,talking_on_phone,打电话,00:00:07.140,00:00:07.741,7.14,7.741,16,0.6792,cell phone close to head; head_dist=0.34
+1,talking_on_phone,打电话,00:00:09.543,00:00:11.411,9.543,11.411,55,0.6667,cell phone close to head; head_dist=0.34
+1,talking_on_phone,打电话,00:00:11.945,00:00:18.018,11.945,18.018,183,0.6603,cell phone close to head; head_dist=0.33
+1,talking_on_phone,打电话,00:00:18.652,00:00:19.620,18.652,19.62,30,0.6841,cell phone close to head; head_dist=0.34
+1,talking_on_phone,打电话,00:00:20.320,00:00:22.322,20.32,22.322,58,0.7266,cell phone close to head; head_dist=0.33
+1,talking_on_phone,打电话,00:00:24.057,00:00:26.994,24.057,26.994,89,0.6929,cell phone close to head; head_dist=0.33
+1,talking_on_phone,打电话,00:00:27.361,00:00:28.428,27.361,28.428,33,0.7301,cell phone close to head; head_dist=0.33
+1,talking_on_phone,打电话,00:00:37.137,00:00:40.507,37.137,40.507,102,0.6855,cell phone close to head; head_dist=0.32

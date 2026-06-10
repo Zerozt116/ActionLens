@@ -1,0 +1,22 @@
+{
+  "id": "019ea60e0bbeee752e82a4a59f22524a",
+  "object": "chat.completion",
+  "created": 1780902400,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person is holding a can and appears to be drinking from it, consistent with the 'drinking_water' action.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": true,\n      \"confidence\": 0.7,\n      \"evidence\": \"Person is holding a can to their mouth and appears to be drinking from it. The can is visible in all frames.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"can\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1506,
+    "completion_tokens": 136,
+    "total_tokens": 1642
+  },
+  "system_fingerprint": ""
+}

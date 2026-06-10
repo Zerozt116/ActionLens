@@ -1,0 +1,78 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/K8AUX_c110_t0.00_29.54.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 4.2258,
+      "frame_number": 127,
+      "path": "outputs/charades_clip_batch_50_part30/K8AUX_c110_t0.00_29.54/vlm_review/frames/frame_00_4.226s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 8.4515,
+      "frame_number": 254,
+      "path": "outputs/charades_clip_batch_50_part30/K8AUX_c110_t0.00_29.54/vlm_review/frames/frame_01_8.452s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 12.6773,
+      "frame_number": 381,
+      "path": "outputs/charades_clip_batch_50_part30/K8AUX_c110_t0.00_29.54/vlm_review/frames/frame_02_12.677s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 16.903,
+      "frame_number": 507,
+      "path": "outputs/charades_clip_batch_50_part30/K8AUX_c110_t0.00_29.54/vlm_review/frames/frame_03_16.903s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 21.1288,
+      "frame_number": 634,
+      "path": "outputs/charades_clip_batch_50_part30/K8AUX_c110_t0.00_29.54/vlm_review/frames/frame_04_21.129s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 25.3545,
+      "frame_number": 761,
+      "path": "outputs/charades_clip_batch_50_part30/K8AUX_c110_t0.00_29.54/vlm_review/frames/frame_05_25.355s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "taking_drink_container"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part30/K8AUX_c110_t0.00_29.54/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part30/K8AUX_c110_t0.00_29.54/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part30/K8AUX_c110_t0.00_29.54/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A person is seen drinking from a blue cup and then placing it down, consistent with the action of taking a drink container.",
+    "actions": [
+      {
+        "action": "taking_drink_container",
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "The person is holding and drinking from a blue cup in frames 0-2, then places it down in frame 3. The cup is clearly visible throughout.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup"
+    ],
+    "risk_notes": []
+  }
+}

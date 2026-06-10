@@ -1,0 +1,22 @@
+{
+  "id": "019eab5f25e96fe4ab4c900353023c40",
+  "object": "chat.completion",
+  "created": 1780991600,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person is consistently seated on a chair throughout the sampled frames, performing the action 'sitting_on_chair'.\",\n  \"actions\": [\n    {\n      \"action\": \"sitting_on_chair\",\n      \"present\": true,\n      \"confidence\": 1.0,\n      \"evidence\": \"The person is visibly seated on a chair in all frames, maintaining a seated posture.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1215,
+    "completion_tokens": 129,
+    "total_tokens": 1344
+  },
+  "system_fingerprint": ""
+}

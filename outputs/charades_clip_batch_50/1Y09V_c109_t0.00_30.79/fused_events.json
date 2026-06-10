@@ -1,0 +1,479 @@
+{
+  "video_id": "1Y09V",
+  "summary": {
+    "video_id": "1Y09V",
+    "final_events": 5,
+    "semantic_candidates": 0,
+    "pending_events": 0,
+    "rejected_events": 0,
+    "fused_events": 5,
+    "event_center_reviews": 0
+  },
+  "final_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 0.0,
+      "end_seconds": 1.602,
+      "start_time": "00:00:00.000",
+      "end_time": "00:00:01.602",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.32, wrist_dist=0.22",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 3.2,
+            "end_seconds": 23.6
+          },
+          {
+            "start_seconds": 4.5,
+            "end_seconds": 10.3
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.8658,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 and full-video VLM both support the action.",
+      "stage2_confidence": 0.7815,
+      "comparison_status": "confirmed_event"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 3.003,
+      "end_seconds": 3.604,
+      "start_time": "00:00:03.003",
+      "end_time": "00:00:03.604",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.28, wrist_dist=0.11",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 3.2,
+            "end_seconds": 23.6
+          },
+          {
+            "start_seconds": 4.5,
+            "end_seconds": 10.3
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.8243,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 and full-video VLM both support the action.",
+      "stage2_confidence": 0.6987,
+      "comparison_status": "confirmed_event"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 2,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 12.346,
+      "end_seconds": 13.747,
+      "start_time": "00:00:12.346",
+      "end_time": "00:00:13.747",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.13, wrist_dist=0.14",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 3.2,
+            "end_seconds": 23.6
+          },
+          {
+            "start_seconds": 4.5,
+            "end_seconds": 10.3
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.874,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 and full-video VLM both support the action.",
+      "stage2_confidence": 0.798,
+      "comparison_status": "confirmed_event"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 3,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 20.587,
+      "end_seconds": 22.022,
+      "start_time": "00:00:20.587",
+      "end_time": "00:00:22.022",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.29, wrist_dist=0.08",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 3.2,
+            "end_seconds": 23.6
+          },
+          {
+            "start_seconds": 4.5,
+            "end_seconds": 10.3
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.8463,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 and full-video VLM both support the action.",
+      "stage2_confidence": 0.7426,
+      "comparison_status": "confirmed_event"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 4,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 22.689,
+      "end_seconds": 23.557,
+      "start_time": "00:00:22.689",
+      "end_time": "00:00:23.557",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.37, wrist_dist=0.08",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 3.2,
+            "end_seconds": 23.6
+          },
+          {
+            "start_seconds": 4.5,
+            "end_seconds": 10.3
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.8108,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 and full-video VLM both support the action.",
+      "stage2_confidence": 0.6716,
+      "comparison_status": "confirmed_event"
+    }
+  ],
+  "semantic_candidates": [],
+  "pending_events": [],
+  "rejected_events": [],
+  "fused_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 0.0,
+      "end_seconds": 1.602,
+      "start_time": "00:00:00.000",
+      "end_time": "00:00:01.602",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.32, wrist_dist=0.22",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 3.2,
+            "end_seconds": 23.6
+          },
+          {
+            "start_seconds": 4.5,
+            "end_seconds": 10.3
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.8658,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 and full-video VLM both support the action.",
+      "stage2_confidence": 0.7815,
+      "comparison_status": "confirmed_event"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 3.003,
+      "end_seconds": 3.604,
+      "start_time": "00:00:03.003",
+      "end_time": "00:00:03.604",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.28, wrist_dist=0.11",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 3.2,
+            "end_seconds": 23.6
+          },
+          {
+            "start_seconds": 4.5,
+            "end_seconds": 10.3
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.8243,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 and full-video VLM both support the action.",
+      "stage2_confidence": 0.6987,
+      "comparison_status": "confirmed_event"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 2,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 12.346,
+      "end_seconds": 13.747,
+      "start_time": "00:00:12.346",
+      "end_time": "00:00:13.747",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.13, wrist_dist=0.14",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 3.2,
+            "end_seconds": 23.6
+          },
+          {
+            "start_seconds": 4.5,
+            "end_seconds": 10.3
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.874,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 and full-video VLM both support the action.",
+      "stage2_confidence": 0.798,
+      "comparison_status": "confirmed_event"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 3,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 20.587,
+      "end_seconds": 22.022,
+      "start_time": "00:00:20.587",
+      "end_time": "00:00:22.022",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.29, wrist_dist=0.08",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 3.2,
+            "end_seconds": 23.6
+          },
+          {
+            "start_seconds": 4.5,
+            "end_seconds": 10.3
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.8463,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 and full-video VLM both support the action.",
+      "stage2_confidence": 0.7426,
+      "comparison_status": "confirmed_event"
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 4,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 22.689,
+      "end_seconds": 23.557,
+      "start_time": "00:00:22.689",
+      "end_time": "00:00:23.557",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.37, wrist_dist=0.08",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 3.2,
+            "end_seconds": 23.6
+          },
+          {
+            "start_seconds": 4.5,
+            "end_seconds": 10.3
+          }
+        ]
+      },
+      "decision": "confirmed_event",
+      "confidence": 0.8108,
+      "evidence_sources": [
+        "stage2",
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 and full-video VLM both support the action.",
+      "stage2_confidence": 0.6716,
+      "comparison_status": "confirmed_event"
+    }
+  ]
+}

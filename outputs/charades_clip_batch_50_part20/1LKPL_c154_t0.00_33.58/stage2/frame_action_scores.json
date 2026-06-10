@@ -1,0 +1,12 @@
+[
+  {
+    "frame_id": 411,
+    "timestamp": "00:00:31.499",
+    "seconds": 31.499,
+    "person_id": 63,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "confidence": 0.7468,
+    "evidence": "cup close to head and wrist; head_dist=0.20, wrist_dist=0.06"
+  }
+]

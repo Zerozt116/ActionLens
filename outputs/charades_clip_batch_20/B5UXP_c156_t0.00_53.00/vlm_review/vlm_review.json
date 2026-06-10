@@ -1,0 +1,21 @@
+{
+  "overall_summary": "Person is standing in a pantry holding a box of cereal and appears to be drinking from a cup at one point.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": true,
+      "confidence": 0.8,
+      "evidence": "In frame 4, the person raises a cup to their mouth, consistent with drinking.",
+      "supporting_frame_indices": [
+        4
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone"
+  ],
+  "risk_notes": [
+    "phone not visible"
+  ]
+}

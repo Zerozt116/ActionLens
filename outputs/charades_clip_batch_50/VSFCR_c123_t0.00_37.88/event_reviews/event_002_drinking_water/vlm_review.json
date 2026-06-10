@@ -1,0 +1,23 @@
+{
+  "overall_summary": "The person is seen holding a purple cup and bringing it to their mouth, consistent with drinking water.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": true,
+      "confidence": 0.95,
+      "evidence": "Person holding a purple cup, bringing it to mouth and drinking; cup is clearly visible in all frames.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup"
+  ],
+  "risk_notes": []
+}

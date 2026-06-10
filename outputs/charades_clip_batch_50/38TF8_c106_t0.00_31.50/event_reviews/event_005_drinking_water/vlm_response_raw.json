@@ -1,0 +1,22 @@
+{
+  "id": "019eab69de1b62a729346ebfb96de5ab",
+  "object": "chat.completion",
+  "created": 1780992302,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person is not drinking water; they are eating from a bowl while sitting on the floor. The event 'drinking_water' is not supported by the sampled frames.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"Person is sitting on floor eating from a metal bowl with a spoon, not drinking from a cup or similar container.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"cup\", \"phone\"],\n  \"risk_notes\": [\"no cup or phone visible\", \"possible occlusion\"]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1372,
+    "completion_tokens": 159,
+    "total_tokens": 1531
+  },
+  "system_fingerprint": ""
+}

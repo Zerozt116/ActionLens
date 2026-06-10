@@ -1,0 +1,22 @@
+{
+  "id": "019ea60d6a201dcdbb872374c7b9baf0",
+  "object": "chat.completion",
+  "created": 1780902357,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person is holding a can and appears to be watching TV, not drinking water.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"Person is holding a can, not a cup, and is not bringing it to mouth or showing drinking motion.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"can\", \"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1468,
+    "completion_tokens": 130,
+    "total_tokens": 1598
+  },
+  "system_fingerprint": ""
+}

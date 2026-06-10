@@ -1,0 +1,88 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/videos_480p/OINMN.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 6.4684,
+      "frame_number": 194,
+      "path": "outputs/charades_OINMN_vlm_review_live/frames/frame_00_6.468s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 12.9367,
+      "frame_number": 388,
+      "path": "outputs/charades_OINMN_vlm_review_live/frames/frame_01_12.937s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 19.4051,
+      "frame_number": 582,
+      "path": "outputs/charades_OINMN_vlm_review_live/frames/frame_02_19.405s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 25.8735,
+      "frame_number": 775,
+      "path": "outputs/charades_OINMN_vlm_review_live/frames/frame_03_25.873s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 32.3418,
+      "frame_number": 969,
+      "path": "outputs/charades_OINMN_vlm_review_live/frames/frame_04_32.342s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 38.8102,
+      "frame_number": 1163,
+      "path": "outputs/charades_OINMN_vlm_review_live/frames/frame_05_38.810s.jpg"
+    }
+  ],
+  "request_payload": "outputs/charades_OINMN_vlm_review_live/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_OINMN_vlm_review_live/vlm_response_raw.json",
+  "review": "outputs/charades_OINMN_vlm_review_live/vlm_review.json",
+  "review_json": {
+    "overall_summary": "Person is seen holding and looking at a phone in the later frames, and appears to be talking on it in frame 5.",
+    "actions": [
+      {
+        "action": "talking_on_phone",
+        "present": true,
+        "confidence": 0.9,
+        "evidence": "In frame 5, person is holding a phone to their ear with visible mouth movement consistent with talking.",
+        "supporting_frame_indices": [
+          5
+        ]
+      },
+      {
+        "action": "holding_phone",
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "In frame 5, person is holding a phone to their ear. In frame 2, person is holding a phone to their ear. In frame 3, person is holding a phone to their ear.",
+        "supporting_frame_indices": [
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "action": "looking_at_phone",
+        "present": true,
+        "confidence": 0.9,
+        "evidence": "In frame 5, person is holding phone to ear and looking at it. In frame 2, person is holding phone to ear and looking at it. In frame 3, person is holding phone to ear and looking at it.",
+        "supporting_frame_indices": [
+          2,
+          3,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "phone"
+    ],
+    "risk_notes": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "019ea656b7614fc1ca5ab067045e5e55",
+  "object": "chat.completion",
+  "created": 1780907161,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A person is interacting with a small red object, possibly a phone or remote, while standing or kneeling near a box. No drinking or phone use is evident.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"No cup or bottle is visible, and the person is not drinking.\",\n      \"supporting_frame_indices\": [0]\n    }\n  ],\n  \"visible_objects\": [\"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1207,
+    "completion_tokens": 119,
+    "total_tokens": 1326
+  },
+  "system_fingerprint": ""
+}

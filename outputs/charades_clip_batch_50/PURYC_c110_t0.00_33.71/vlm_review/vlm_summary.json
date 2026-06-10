@@ -1,0 +1,85 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/PURYC_c110_t0.00_33.71.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 4.8191,
+      "frame_number": 144,
+      "path": "outputs/charades_clip_batch_20/PURYC_c110_t0.00_33.71/vlm_review/frames/frame_00_4.819s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 9.6382,
+      "frame_number": 289,
+      "path": "outputs/charades_clip_batch_20/PURYC_c110_t0.00_33.71/vlm_review/frames/frame_01_9.638s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 14.4573,
+      "frame_number": 433,
+      "path": "outputs/charades_clip_batch_20/PURYC_c110_t0.00_33.71/vlm_review/frames/frame_02_14.457s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 19.2764,
+      "frame_number": 578,
+      "path": "outputs/charades_clip_batch_20/PURYC_c110_t0.00_33.71/vlm_review/frames/frame_03_19.276s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 24.0955,
+      "frame_number": 722,
+      "path": "outputs/charades_clip_batch_20/PURYC_c110_t0.00_33.71/vlm_review/frames/frame_04_24.095s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 28.9146,
+      "frame_number": 867,
+      "path": "outputs/charades_clip_batch_20/PURYC_c110_t0.00_33.71/vlm_review/frames/frame_05_28.915s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "c110"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/PURYC_c110_t0.00_33.71/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/PURYC_c110_t0.00_33.71/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/PURYC_c110_t0.00_33.71/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "Person is pouring liquid from a large jug into a bottle while standing in front of an open refrigerator.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is pouring liquid from a jug into a bottle, not drinking directly from a cup or bottle.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "jug",
+      "bottle",
+      "refrigerator"
+    ],
+    "risk_notes": [
+      "low visibility due to bright refrigerator light",
+      "person's face is obscured by beanie and angle"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/STAZI_c097_t0.00_19.10.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 2.7572,
+      "frame_number": 39,
+      "path": "outputs/charades_clip_batch_50_part20/STAZI_c097_t0.00_19.10/vlm_review/frames/frame_00_2.757s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 5.5145,
+      "frame_number": 77,
+      "path": "outputs/charades_clip_batch_50_part20/STAZI_c097_t0.00_19.10/vlm_review/frames/frame_01_5.514s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 8.2717,
+      "frame_number": 116,
+      "path": "outputs/charades_clip_batch_50_part20/STAZI_c097_t0.00_19.10/vlm_review/frames/frame_02_8.272s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 11.0289,
+      "frame_number": 155,
+      "path": "outputs/charades_clip_batch_50_part20/STAZI_c097_t0.00_19.10/vlm_review/frames/frame_03_11.029s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 13.7862,
+      "frame_number": 194,
+      "path": "outputs/charades_clip_batch_50_part20/STAZI_c097_t0.00_19.10/vlm_review/frames/frame_04_13.786s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 16.5434,
+      "frame_number": 232,
+      "path": "outputs/charades_clip_batch_50_part20/STAZI_c097_t0.00_19.10/vlm_review/frames/frame_05_16.543s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "walking_through_doorway"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part20/STAZI_c097_t0.00_19.10/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part20/STAZI_c097_t0.00_19.10/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part20/STAZI_c097_t0.00_19.10/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A man and a girl are standing in a doorway area, interacting with a book or magazine. The man moves toward a counter and bends down, while the girl stands beside him. No one is walking through the doorway.",
+    "actions": [
+      {
+        "action": "walking_through_doorway",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The man and girl are standing in the doorway area, not walking through it. The man moves toward a counter and bends down, and the girl remains beside him.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [],
+    "risk_notes": []
+  }
+}

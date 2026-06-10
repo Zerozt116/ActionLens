@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/1BUFQ_c132_t0.00_40.25.mp4",
+    "fps": 15.0,
+    "frame_count": 605,
+    "width": 480,
+    "height": 360,
+    "duration_seconds": 40.333333333333336
+  },
+  "num_objects": 0,
+  "num_poses": 820,
+  "num_frame_scores": 0,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": null
+}

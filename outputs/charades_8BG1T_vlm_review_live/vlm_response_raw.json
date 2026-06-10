@@ -1,0 +1,22 @@
+{
+  "id": "019ea606537c818b19803557b1a576bb",
+  "object": "chat.completion",
+  "created": 1780901893,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person is seated and holding a phone, appearing to watch TV. No drinking or phone talking is observed.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"No cup or water bottle is visible in any frame.\",\n      \"supporting_frame_indices\": []\n    },\n    {\n      \"action\": \"talking_on_phone\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"The person is holding a phone but not to their ear; no visible mouth movement or phone call behavior.\",\n      \"supporting_frame_indices\": []\n    },\n    {\n      \"action\": \"holding_phone\",\n      \"present\": true,\n      \"confidence\": 0.9,\n      \"evidence\": \"In frame 1, the person is holding a phone in their lap while seated. The phone is visible in frames 1-5.\",\n      \"supporting_frame_indices\": [1, 2, 3, 4, 5]\n    },\n    {\n      \"action\": \"looking_at_phone\",\n      \"present\": true,\n      \"confidence\": 0.8,\n      \"evidence\": \"In frames 1-5, the person is holding the phone and looking down at it, consistent with viewing the screen.\",\n      \"supporting_frame_indices\": [1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1292,
+    "completion_tokens": 332,
+    "total_tokens": 1624
+  },
+  "system_fingerprint": ""
+}

@@ -1,0 +1,47 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/videos_480p/OINMN.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 6.4684,
+      "frame_number": 194,
+      "path": "outputs/charades_OINMN_vlm_review/frames/frame_00_6.468s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 12.9367,
+      "frame_number": 388,
+      "path": "outputs/charades_OINMN_vlm_review/frames/frame_01_12.937s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 19.4051,
+      "frame_number": 582,
+      "path": "outputs/charades_OINMN_vlm_review/frames/frame_02_19.405s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 25.8735,
+      "frame_number": 775,
+      "path": "outputs/charades_OINMN_vlm_review/frames/frame_03_25.873s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 32.3418,
+      "frame_number": 969,
+      "path": "outputs/charades_OINMN_vlm_review/frames/frame_04_32.342s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 38.8102,
+      "frame_number": 1163,
+      "path": "outputs/charades_OINMN_vlm_review/frames/frame_05_38.810s.jpg"
+    }
+  ],
+  "request_payload": "outputs/charades_OINMN_vlm_review/vlm_request_payload.json",
+  "dry_run": true,
+  "status": "dry_run",
+  "message": "Set SILICONFLOW_API_KEY to call the VLM API."
+}

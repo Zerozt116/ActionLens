@@ -1,0 +1,23 @@
+{
+  "overall_summary": "Person is drinking from a purple cup while seated on a couch, with a dog nearby.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": true,
+      "confidence": 0.85,
+      "evidence": "Person holds a purple cup to mouth, head tilted back, consistent with drinking motion. Cup is clearly visible and close to mouth across frames 0-5.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup"
+  ],
+  "risk_notes": []
+}

@@ -1,0 +1,80 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/ENJ7V_c015_t0.00_39.79.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 5.6918,
+      "frame_number": 169,
+      "path": "outputs/charades_clip_batch_50_part20/ENJ7V_c015_t0.00_39.79/vlm_review/frames/frame_00_5.692s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 11.3836,
+      "frame_number": 339,
+      "path": "outputs/charades_clip_batch_50_part20/ENJ7V_c015_t0.00_39.79/vlm_review/frames/frame_01_11.384s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 17.0754,
+      "frame_number": 508,
+      "path": "outputs/charades_clip_batch_50_part20/ENJ7V_c015_t0.00_39.79/vlm_review/frames/frame_02_17.075s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 22.7672,
+      "frame_number": 677,
+      "path": "outputs/charades_clip_batch_50_part20/ENJ7V_c015_t0.00_39.79/vlm_review/frames/frame_03_22.767s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 28.459,
+      "frame_number": 846,
+      "path": "outputs/charades_clip_batch_50_part20/ENJ7V_c015_t0.00_39.79/vlm_review/frames/frame_04_28.459s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 34.1508,
+      "frame_number": 1016,
+      "path": "outputs/charades_clip_batch_50_part20/ENJ7V_c015_t0.00_39.79/vlm_review/frames/frame_05_34.151s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "holding_phone"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part20/ENJ7V_c015_t0.00_39.79/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part20/ENJ7V_c015_t0.00_39.79/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part20/ENJ7V_c015_t0.00_39.79/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A person is consistently holding a phone-like device in various positions while standing near a door.",
+    "actions": [
+      {
+        "action": "holding_phone",
+        "present": true,
+        "confidence": 1.0,
+        "evidence": "The person is visibly holding a phone-like device in all sampled frames, with varying angles and positions.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "phone"
+    ],
+    "risk_notes": []
+  }
+}

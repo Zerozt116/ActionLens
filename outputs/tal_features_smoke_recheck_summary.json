@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "total": 1,
+    "status_counts": {
+      "exists": 1
+    },
+    "feature_dims": [
+      2304
+    ],
+    "total_feature_frames": 91,
+    "backend": "cv2-smoke"
+  },
+  "records": [
+    {
+      "clip_id": "8BG1T_c106_t5.60_45.46",
+      "video_id": "8BG1T",
+      "action_id": "c106",
+      "clip_path": "data/charades/clips_480p/8BG1T_c106_t5.60_45.46.mp4",
+      "feature_path": "data/charades/features_smoke/8BG1T_c106_t5.60_45.46.npz",
+      "status": "exists",
+      "backend": "cv2-smoke",
+      "num_frames": 91,
+      "source_fps": 30.0,
+      "duration_seconds": 45.5,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        91,
+        2304
+      ],
+      "error": ""
+    }
+  ]
+}

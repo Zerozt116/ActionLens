@@ -1,0 +1,98 @@
+[
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:00.000",
+    "end_time": "00:00:00.667",
+    "start_seconds": 0.0,
+    "end_seconds": 0.667,
+    "frame_count": 18,
+    "confidence": 0.698,
+    "evidence": "bottle close to head and wrist; head_dist=0.09, wrist_dist=0.20"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:01.201",
+    "end_time": "00:00:01.568",
+    "start_seconds": 1.201,
+    "end_seconds": 1.568,
+    "frame_count": 10,
+    "confidence": 0.6907,
+    "evidence": "bottle close to head and wrist; head_dist=0.09, wrist_dist=0.19"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:03.737",
+    "end_time": "00:00:04.905",
+    "start_seconds": 3.737,
+    "end_seconds": 4.905,
+    "frame_count": 34,
+    "confidence": 0.6518,
+    "evidence": "bottle close to head and wrist; head_dist=0.14, wrist_dist=0.26"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:05.706",
+    "end_time": "00:00:11.712",
+    "start_seconds": 5.706,
+    "end_seconds": 11.712,
+    "frame_count": 158,
+    "confidence": 0.6694,
+    "evidence": "bottle close to head and wrist; head_dist=0.13, wrist_dist=0.25"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:12.012",
+    "end_time": "00:00:13.780",
+    "start_seconds": 12.012,
+    "end_seconds": 13.78,
+    "frame_count": 43,
+    "confidence": 0.642,
+    "evidence": "bottle close to head and wrist; head_dist=0.15, wrist_dist=0.26"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:14.114",
+    "end_time": "00:00:20.754",
+    "start_seconds": 14.114,
+    "end_seconds": 20.754,
+    "frame_count": 187,
+    "confidence": 0.6724,
+    "evidence": "bottle close to head and wrist; head_dist=0.13, wrist_dist=0.25"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:21.622",
+    "end_time": "00:00:22.289",
+    "start_seconds": 21.622,
+    "end_seconds": 22.289,
+    "frame_count": 18,
+    "confidence": 0.6527,
+    "evidence": "bottle close to head and wrist; head_dist=0.13, wrist_dist=0.26"
+  },
+  {
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "start_time": "00:00:25.726",
+    "end_time": "00:00:32.799",
+    "start_seconds": 25.726,
+    "end_seconds": 32.799,
+    "frame_count": 198,
+    "confidence": 0.678,
+    "evidence": "bottle close to head and wrist; head_dist=0.10, wrist_dist=0.23"
+  }
+]

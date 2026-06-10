@@ -1,0 +1,3 @@
+person_id,action,action_name,start_time,end_time,start_seconds,end_seconds,frame_count,confidence,evidence
+1,talking_on_phone,打电话,00:00:01.435,00:00:01.869,1.435,1.869,9,0.7588,cell phone close to head; head_dist=0.05
+29,drinking_water,喝水,00:00:31.899,00:00:32.699,31.899,32.699,25,0.7972,"bottle close to head and wrist; head_dist=0.15, wrist_dist=0.11"

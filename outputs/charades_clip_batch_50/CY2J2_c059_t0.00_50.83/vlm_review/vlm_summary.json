@@ -1,0 +1,83 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/CY2J2_c059_t0.00_50.83.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 7.2644,
+      "frame_number": 218,
+      "path": "outputs/charades_clip_batch_20/CY2J2_c059_t0.00_50.83/vlm_review/frames/frame_00_7.264s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 14.5288,
+      "frame_number": 435,
+      "path": "outputs/charades_clip_batch_20/CY2J2_c059_t0.00_50.83/vlm_review/frames/frame_01_14.529s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 21.7932,
+      "frame_number": 653,
+      "path": "outputs/charades_clip_batch_20/CY2J2_c059_t0.00_50.83/vlm_review/frames/frame_02_21.793s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 29.0576,
+      "frame_number": 871,
+      "path": "outputs/charades_clip_batch_20/CY2J2_c059_t0.00_50.83/vlm_review/frames/frame_03_29.058s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 36.322,
+      "frame_number": 1089,
+      "path": "outputs/charades_clip_batch_20/CY2J2_c059_t0.00_50.83/vlm_review/frames/frame_04_36.322s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 43.5864,
+      "frame_number": 1306,
+      "path": "outputs/charades_clip_batch_20/CY2J2_c059_t0.00_50.83/vlm_review/frames/frame_05_43.586s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "c059"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/CY2J2_c059_t0.00_50.83/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/CY2J2_c059_t0.00_50.83/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/CY2J2_c059_t0.00_50.83/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "Two people are in a living room; one is seated and appears to be interacting with a phone or tablet, while the other is standing and moving around. No clear drinking or phone use is visible.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "No cup or bottle is being held to the mouth or used for drinking. No liquid consumption is visible.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "phone",
+      "cup"
+    ],
+    "risk_notes": [
+      "possible occlusion"
+    ]
+  }
+}

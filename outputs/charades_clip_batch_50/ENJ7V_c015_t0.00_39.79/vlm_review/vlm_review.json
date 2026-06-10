@@ -1,0 +1,23 @@
+{
+  "overall_summary": "A person is consistently holding a phone-like device in various positions while standing near a door.",
+  "actions": [
+    {
+      "action": "holding_phone",
+      "present": true,
+      "confidence": 1.0,
+      "evidence": "The person is visibly holding a phone-like device in all sampled frames, with varying angles and positions.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "phone"
+  ],
+  "risk_notes": []
+}

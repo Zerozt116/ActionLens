@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/BPZE3_c147_t0.00_35.12.mp4",
+    "fps": 29.97002997002997,
+    "frame_count": 1054,
+    "width": 480,
+    "height": 270,
+    "duration_seconds": 35.16846666666667
+  },
+  "num_objects": 6,
+  "num_poses": 1054,
+  "num_frame_scores": 6,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": null
+}

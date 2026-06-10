@@ -1,0 +1,22 @@
+{
+  "id": "019eab3e4e6ca8a5106e14fd138fc5bb",
+  "object": "chat.completion",
+  "created": 1780989447,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A person is sitting on stairs using a laptop, with visible interaction such as typing or using the trackpad.\",\n  \"actions\": [\n    {\n      \"action\": \"using_laptop\",\n      \"present\": true,\n      \"confidence\": 1.0,\n      \"evidence\": \"Person is sitting on stairs with a laptop on their lap, hands positioned over the keyboard/trackpad area, indicating active interaction.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1241,
+    "completion_tokens": 134,
+    "total_tokens": 1375
+  },
+  "system_fingerprint": ""
+}

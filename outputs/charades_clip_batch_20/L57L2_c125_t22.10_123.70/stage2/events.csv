@@ -1,0 +1,2 @@
+person_id,action,action_name,start_time,end_time,start_seconds,end_seconds,frame_count,confidence,evidence
+1,drinking_water,喝水,00:01:11.482,00:01:13.522,71.482,73.522,43,0.6982,"cup close to head and wrist; head_dist=0.34, wrist_dist=0.06"

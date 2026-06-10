@@ -1,0 +1,81 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/6TNP4_c107_t0.90_44.58.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 6.3762,
+      "frame_number": 191,
+      "path": "outputs/charades_clip_batch_20/6TNP4_c107_t0.90_44.58/vlm_review/frames/frame_00_6.376s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 12.7524,
+      "frame_number": 383,
+      "path": "outputs/charades_clip_batch_20/6TNP4_c107_t0.90_44.58/vlm_review/frames/frame_01_12.752s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 19.1286,
+      "frame_number": 574,
+      "path": "outputs/charades_clip_batch_20/6TNP4_c107_t0.90_44.58/vlm_review/frames/frame_02_19.129s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 25.5048,
+      "frame_number": 765,
+      "path": "outputs/charades_clip_batch_20/6TNP4_c107_t0.90_44.58/vlm_review/frames/frame_03_25.505s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 31.881,
+      "frame_number": 956,
+      "path": "outputs/charades_clip_batch_20/6TNP4_c107_t0.90_44.58/vlm_review/frames/frame_04_31.881s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 38.2571,
+      "frame_number": 1148,
+      "path": "outputs/charades_clip_batch_20/6TNP4_c107_t0.90_44.58/vlm_review/frames/frame_05_38.257s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "holding_drink_container"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/6TNP4_c107_t0.90_44.58/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/6TNP4_c107_t0.90_44.58/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/6TNP4_c107_t0.90_44.58/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "The person in the foreground is not holding or interacting with a drink container; they are focused on tying shoes. The person in the background is holding a green container but appears to be pouring or handling it, not drinking from it.",
+    "actions": [
+      {
+        "action": "holding_drink_container",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person in the foreground is not holding any drink container. The person in the background is holding a green container but is not drinking from it; they appear to be pouring or handling it.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup",
+      "phone"
+    ],
+    "risk_notes": []
+  }
+}

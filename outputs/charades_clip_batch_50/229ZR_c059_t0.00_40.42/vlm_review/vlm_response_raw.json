@@ -1,0 +1,22 @@
+{
+  "id": "019eab5d98d562ecbec12932e2075b3c",
+  "object": "chat.completion",
+  "created": 1780991498,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A woman is seated on a white plastic chair throughout the sampled frames, while a man interacts with her and the environment nearby.\",\n  \"actions\": [\n    {\n      \"action\": \"sitting_on_chair\",\n      \"present\": true,\n      \"confidence\": 1.0,\n      \"evidence\": \"A woman is visibly seated on a white plastic chair in all sampled frames, maintaining a seated posture.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1218,
+    "completion_tokens": 133,
+    "total_tokens": 1351
+  },
+  "system_fingerprint": ""
+}

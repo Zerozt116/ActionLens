@@ -1,0 +1,22 @@
+{
+  "id": "019ea63f8b01da3ca15b91423e5913c5",
+  "object": "chat.completion",
+  "created": 1780905642,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person is sitting on a bench and holding a small container, but there is no clear evidence of drinking from it.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"The person is holding a small container, but no drinking motion or liquid intake is visible.\",\n      \"supporting_frame_indices\": [1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"cup\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1400,
+    "completion_tokens": 127,
+    "total_tokens": 1527
+  },
+  "system_fingerprint": ""
+}

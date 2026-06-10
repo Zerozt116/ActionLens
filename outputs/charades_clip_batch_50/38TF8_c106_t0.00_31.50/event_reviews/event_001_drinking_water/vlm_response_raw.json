@@ -1,0 +1,22 @@
+{
+  "id": "019eab696f9a3e91c06afdd49dd71bff",
+  "object": "chat.completion",
+  "created": 1780992275,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person in the foreground is eating from a bowl, not drinking from a container. The person in the background is holding a phone or similar object, not drinking.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"The person in the foreground is eating from a bowl. The person in the background is holding a phone or similar object, not drinking from a container.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"cup\", \"phone\"],\n  \"risk_notes\": [\"possible occlusion\"]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1372,
+    "completion_tokens": 158,
+    "total_tokens": 1530
+  },
+  "system_fingerprint": ""
+}

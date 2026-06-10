@@ -1,0 +1,14 @@
+{
+  "total": 3,
+  "status_counts": {
+    "sliced": 3
+  },
+  "unique_videos": 3,
+  "unique_actions": 3,
+  "average_clip_duration_seconds": 48.05,
+  "clip_ids": [
+    "8BG1T_c106_t5.60_45.46",
+    "OINMN_c019_t0.00_45.25",
+    "024PD_c015_t0.00_59.04"
+  ]
+}

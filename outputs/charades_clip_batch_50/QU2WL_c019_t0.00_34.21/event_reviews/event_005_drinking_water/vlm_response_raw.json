@@ -1,0 +1,22 @@
+{
+  "id": "019eab6a265e6f449e279c3d3c363bd0",
+  "object": "chat.completion",
+  "created": 1780992322,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person is holding a phone to their ear and appears to be talking on the phone, not drinking water. A green bottle is visible on the table but is not being used for drinking.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"Person is holding a phone to their ear, not a drinking container. A green bottle is visible on the table but not being used for drinking.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"phone\", \"cup\", \"bottle\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1371,
+    "completion_tokens": 162,
+    "total_tokens": 1533
+  },
+  "system_fingerprint": ""
+}

@@ -1,0 +1,22 @@
+{
+  "id": "019eab48028867d30cd39af3e15fca8f",
+  "object": "chat.completion",
+  "created": 1780990083,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A person is consistently seen cooking in a kitchen, stirring a pot on the stove across multiple frames.\",\n  \"actions\": [\n    {\n      \"action\": \"cooking\",\n      \"present\": true,\n      \"confidence\": 1.0,\n      \"evidence\": \"Person is standing at a stove, actively stirring food in a pot, with steam rising, indicating cooking activity.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1228,
+    "completion_tokens": 127,
+    "total_tokens": 1355
+  },
+  "system_fingerprint": ""
+}

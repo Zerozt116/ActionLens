@@ -1,0 +1,22 @@
+{
+  "id": "019ea64fac5d4ec7e1dca364b08bfae1",
+  "object": "chat.completion",
+  "created": 1780906701,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"Person is pouring liquid from a large jug into a bottle while standing in front of an open refrigerator.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"Person is pouring liquid from a jug into a bottle, not drinking directly from a cup or bottle.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"jug\", \"bottle\", \"refrigerator\"],\n  \"risk_notes\": [\"low visibility due to bright refrigerator light\", \"person's face is obscured by beanie and angle\"]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1194,
+    "completion_tokens": 157,
+    "total_tokens": 1351
+  },
+  "system_fingerprint": ""
+}

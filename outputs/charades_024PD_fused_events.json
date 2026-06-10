@@ -1,0 +1,165 @@
+{
+  "video_id": "024PD",
+  "summary": {
+    "video_id": "024PD",
+    "final_events": 0,
+    "semantic_candidates": 2,
+    "pending_events": 0,
+    "rejected_events": 0,
+    "fused_events": 2,
+    "event_center_reviews": 0
+  },
+  "final_events": [],
+  "semantic_candidates": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "holding_phone",
+      "action_name": "拿手机",
+      "start_seconds": 0.0,
+      "end_seconds": 60.0,
+      "confidence": 0.95,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 0.95,
+        "evidence": "Person is holding a phone in hand in all frames, visible in multiple frames.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c015"
+        ],
+        "action_names": [
+          "Holding a phone/camera"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 60.0
+          }
+        ]
+      }
+    },
+    {
+      "source": "vlm_candidate_event",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "looking_at_phone",
+      "action_name": "看手机",
+      "start_seconds": null,
+      "end_seconds": null,
+      "confidence": 0.95,
+      "evidence_sources": [
+        "full_video_vlm",
+        "unlabeled_candidate"
+      ],
+      "fusion_reason": "Full-video VLM found an unlabeled high-confidence action candidate.",
+      "vlm": {
+        "confidence": 0.95,
+        "evidence": "Person is looking down at the phone in all frames, phone screen is visible.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      }
+    }
+  ],
+  "pending_events": [],
+  "rejected_events": [],
+  "fused_events": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "holding_phone",
+      "action_name": "拿手机",
+      "start_seconds": 0.0,
+      "end_seconds": 60.0,
+      "confidence": 0.95,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 0.95,
+        "evidence": "Person is holding a phone in hand in all frames, visible in multiple frames.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c015"
+        ],
+        "action_names": [
+          "Holding a phone/camera"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 60.0
+          }
+        ]
+      }
+    },
+    {
+      "source": "vlm_candidate_event",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "looking_at_phone",
+      "action_name": "看手机",
+      "start_seconds": null,
+      "end_seconds": null,
+      "confidence": 0.95,
+      "evidence_sources": [
+        "full_video_vlm",
+        "unlabeled_candidate"
+      ],
+      "fusion_reason": "Full-video VLM found an unlabeled high-confidence action candidate.",
+      "vlm": {
+        "confidence": 0.95,
+        "evidence": "Person is looking down at the phone in all frames, phone screen is visible.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      }
+    }
+  ]
+}

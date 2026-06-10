@@ -1,0 +1,22 @@
+{
+  "id": "019eab4224100bad75d103d2db52cc27",
+  "object": "chat.completion",
+  "created": 1780989700,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"Person is lying on bed, looking toward a laptop on a table nearby, but not interacting with it.\",\n  \"actions\": [\n    {\n      \"action\": \"watching_laptop\",\n      \"present\": true,\n      \"confidence\": 0.9,\n      \"evidence\": \"Person is lying on bed, looking in direction of laptop screen visible on table. No interaction with laptop.\",\n      \"supporting_frame_indices\": [0, 1, 2, 5]\n    }\n  ],\n  \"visible_objects\": [\"laptop\", \"bed\", \"table\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 132,
+    "total_tokens": 1352
+  },
+  "system_fingerprint": ""
+}

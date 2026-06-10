@@ -1,0 +1,16 @@
+{
+  "status": "failed",
+  "requested_device": "cpu",
+  "clip_frames": 32,
+  "alpha": 4,
+  "crop_size": 256,
+  "python": "3.11.15",
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "torch": "2.12.0",
+  "torch_cuda": null,
+  "cuda_available": false,
+  "cuda_device_count": 0,
+  "cuda_device_name": "",
+  "pytorchvideo_error": "No module named 'pytorchvideo'",
+  "error": "slowfast-r50 backend requires pytorchvideo. Install it on the GPU machine with: pip install pytorchvideo"
+}

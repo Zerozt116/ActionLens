@@ -1,0 +1,65 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/FV684_c154_t0.00_32.92.mp4",
+    "fps": 29.97002997002997,
+    "frame_count": 987,
+    "width": 270,
+    "height": 480,
+    "duration_seconds": 32.932900000000004
+  },
+  "num_objects": 469,
+  "num_poses": 1312,
+  "num_frame_scores": 51,
+  "num_events": 4,
+  "events": [
+    {
+      "person_id": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_time": "00:00:04.638",
+      "end_time": "00:00:04.972",
+      "start_seconds": 4.638,
+      "end_seconds": 4.972,
+      "frame_count": 8,
+      "confidence": 0.5094,
+      "evidence": "cup close to head and wrist; head_dist=0.43, wrist_dist=0.27"
+    },
+    {
+      "person_id": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_time": "00:00:08.108",
+      "end_time": "00:00:08.575",
+      "start_seconds": 8.108,
+      "end_seconds": 8.575,
+      "frame_count": 15,
+      "confidence": 0.6025,
+      "evidence": "bottle close to head and wrist; head_dist=0.44, wrist_dist=0.10"
+    },
+    {
+      "person_id": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_time": "00:00:15.516",
+      "end_time": "00:00:15.916",
+      "start_seconds": 15.515,
+      "end_seconds": 15.916,
+      "frame_count": 10,
+      "confidence": 0.6611,
+      "evidence": "bottle close to head and wrist; head_dist=0.26, wrist_dist=0.12"
+    },
+    {
+      "person_id": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_time": "00:00:16.416",
+      "end_time": "00:00:16.750",
+      "start_seconds": 16.416,
+      "end_seconds": 16.75,
+      "frame_count": 9,
+      "confidence": 0.6455,
+      "evidence": "bottle close to head and wrist; head_dist=0.37, wrist_dist=0.12"
+    }
+  ],
+  "annotated_video": null
+}

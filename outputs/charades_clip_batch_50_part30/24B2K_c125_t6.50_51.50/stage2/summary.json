@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/24B2K_c125_t6.50_51.50.mp4",
+    "fps": 29.97002997002997,
+    "frame_count": 1408,
+    "width": 480,
+    "height": 360,
+    "duration_seconds": 46.980266666666665
+  },
+  "num_objects": 0,
+  "num_poses": 1267,
+  "num_frame_scores": 0,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": null
+}

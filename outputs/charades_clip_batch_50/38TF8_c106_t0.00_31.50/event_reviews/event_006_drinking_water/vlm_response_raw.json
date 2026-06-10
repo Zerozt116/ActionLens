@@ -1,0 +1,22 @@
+{
+  "id": "019eab69f9ab3deff50c81e1ffb9eb39",
+  "object": "chat.completion",
+  "created": 1780992309,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The sampled frames show a boy sitting on the floor with a metal bowl, not drinking from a cup or container. A man is in the background interacting with a refrigerator. The action 'drinking_water' is not occurring.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"The boy is sitting with a metal bowl, not a cup or bottle, and is not drinking. The man in the background is opening a refrigerator and not drinking.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"cup\", \"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1372,
+    "completion_tokens": 169,
+    "total_tokens": 1541
+  },
+  "system_fingerprint": ""
+}

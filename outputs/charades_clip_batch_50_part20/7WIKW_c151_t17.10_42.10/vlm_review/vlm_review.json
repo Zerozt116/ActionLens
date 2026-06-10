@@ -1,0 +1,18 @@
+{
+  "overall_summary": "A person transitions from standing to sitting while holding a dog, completing the 'sitting_down' action.",
+  "actions": [
+    {
+      "action": "sitting_down",
+      "present": true,
+      "confidence": 0.95,
+      "evidence": "Person is standing at frame 0, then begins lowering themselves onto a box at frame 2, and is fully seated by frame 3, holding a dog.",
+      "supporting_frame_indices": [
+        0,
+        2,
+        3
+      ]
+    }
+  ],
+  "visible_objects": [],
+  "risk_notes": []
+}

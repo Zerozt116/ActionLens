@@ -1,0 +1,21 @@
+{
+  "overall_summary": "A man is moving around a cluttered garage, carrying a cardboard box and interacting with objects. No drinking or phone use is visible.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "No cup or bottle is visible, and no drinking action is observed.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [],
+  "risk_notes": []
+}

@@ -1,0 +1,22 @@
+{
+  "overall_summary": "The person is consistently holding a phone to their ear across multiple frames, indicating they are talking on the phone.",
+  "actions": [
+    {
+      "action": "talking_on_phone",
+      "present": true,
+      "confidence": 0.95,
+      "evidence": "The person is holding a phone to their ear in frames 0, 2, 3, 4, and 5, consistent with making a phone call.",
+      "supporting_frame_indices": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "phone"
+  ],
+  "risk_notes": []
+}

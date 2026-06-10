@@ -1,0 +1,78 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/P0DXX_c151_t6.20_33.40.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 4.781,
+      "frame_number": 143,
+      "path": "outputs/charades_clip_batch_20/P0DXX_c151_t6.20_33.40/vlm_review/frames/frame_00_4.781s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 9.5619,
+      "frame_number": 287,
+      "path": "outputs/charades_clip_batch_20/P0DXX_c151_t6.20_33.40/vlm_review/frames/frame_01_9.562s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 14.3429,
+      "frame_number": 430,
+      "path": "outputs/charades_clip_batch_20/P0DXX_c151_t6.20_33.40/vlm_review/frames/frame_02_14.343s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 19.1239,
+      "frame_number": 573,
+      "path": "outputs/charades_clip_batch_20/P0DXX_c151_t6.20_33.40/vlm_review/frames/frame_03_19.124s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 23.9048,
+      "frame_number": 716,
+      "path": "outputs/charades_clip_batch_20/P0DXX_c151_t6.20_33.40/vlm_review/frames/frame_04_23.905s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 28.6858,
+      "frame_number": 860,
+      "path": "outputs/charades_clip_batch_20/P0DXX_c151_t6.20_33.40/vlm_review/frames/frame_05_28.686s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "c151"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/P0DXX_c151_t6.20_33.40/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/P0DXX_c151_t6.20_33.40/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/P0DXX_c151_t6.20_33.40/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A man is seen in a garage, initially standing and then crouching near a cardboard box, appearing to sort or unpack items. No drinking or phone use is observed.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "No cup or bottle is visible, and the person is not seen drinking.",
+        "supporting_frame_indices": [
+          0
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup",
+      "phone"
+    ],
+    "risk_notes": [
+      "possible occlusion"
+    ]
+  }
+}

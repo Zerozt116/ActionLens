@@ -1,0 +1,78 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/XFHYX_c151_t0.00_18.90.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 2.7143,
+      "frame_number": 65,
+      "path": "outputs/charades_clip_batch_50_part40/XFHYX_c151_t0.00_18.90/vlm_review/frames/frame_00_2.714s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 5.4286,
+      "frame_number": 130,
+      "path": "outputs/charades_clip_batch_50_part40/XFHYX_c151_t0.00_18.90/vlm_review/frames/frame_01_5.429s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 8.1429,
+      "frame_number": 195,
+      "path": "outputs/charades_clip_batch_50_part40/XFHYX_c151_t0.00_18.90/vlm_review/frames/frame_02_8.143s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 10.8571,
+      "frame_number": 261,
+      "path": "outputs/charades_clip_batch_50_part40/XFHYX_c151_t0.00_18.90/vlm_review/frames/frame_03_10.857s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 13.5714,
+      "frame_number": 326,
+      "path": "outputs/charades_clip_batch_50_part40/XFHYX_c151_t0.00_18.90/vlm_review/frames/frame_04_13.571s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 16.2857,
+      "frame_number": 391,
+      "path": "outputs/charades_clip_batch_50_part40/XFHYX_c151_t0.00_18.90/vlm_review/frames/frame_05_16.286s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "sitting_down"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part40/XFHYX_c151_t0.00_18.90/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part40/XFHYX_c151_t0.00_18.90/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part40/XFHYX_c151_t0.00_18.90/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "Person is cleaning a cabinet, transitioning from standing to squatting and back to standing, not sitting down.",
+    "actions": [
+      {
+        "action": "sitting_down",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person transitions from standing to squatting and back to standing, never sitting on a surface.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [],
+    "risk_notes": []
+  }
+}

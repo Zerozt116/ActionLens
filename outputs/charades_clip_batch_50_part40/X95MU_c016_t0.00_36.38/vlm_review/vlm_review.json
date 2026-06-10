@@ -1,0 +1,23 @@
+{
+  "overall_summary": "The person is holding and operating a camera, not a phone, throughout the sampled frames.",
+  "actions": [
+    {
+      "action": "looking_at_phone",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "The person is holding and using a camera, not a phone.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "camera"
+  ],
+  "risk_notes": []
+}

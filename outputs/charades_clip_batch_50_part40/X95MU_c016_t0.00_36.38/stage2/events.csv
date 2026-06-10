@@ -1,0 +1,4 @@
+person_id,action,action_name,start_time,end_time,start_seconds,end_seconds,frame_count,confidence,evidence
+1,talking_on_phone,打电话,00:00:16.233,00:00:16.700,16.233,16.7,13,0.7218,cell phone close to head; head_dist=0.17
+1,talking_on_phone,打电话,00:00:17.033,00:00:17.400,17.033,17.4,12,0.6903,cell phone close to head; head_dist=0.16
+1,talking_on_phone,打电话,00:00:20.333,00:00:21.333,20.333,21.333,31,0.9101,cell phone close to head; head_dist=0.02

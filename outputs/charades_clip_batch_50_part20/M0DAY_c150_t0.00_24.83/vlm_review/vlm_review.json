@@ -1,0 +1,23 @@
+{
+  "overall_summary": "The person is standing in a closet, holding a small object, possibly a phone or remote, and appears to be interacting with it. No running or rapid movement is observed.",
+  "actions": [
+    {
+      "action": "running",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "The person is standing still in a closet, holding an object and looking at it. No running gait or rapid movement is visible.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "phone"
+  ],
+  "risk_notes": []
+}

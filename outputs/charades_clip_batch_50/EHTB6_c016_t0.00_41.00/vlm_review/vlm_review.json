@@ -1,0 +1,23 @@
+{
+  "overall_summary": "A person is consistently looking at and holding a phone across all sampled frames.",
+  "actions": [
+    {
+      "action": "looking_at_phone",
+      "present": true,
+      "confidence": 1.0,
+      "evidence": "Person is holding a phone and looking down at its screen in all frames.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "phone"
+  ],
+  "risk_notes": []
+}

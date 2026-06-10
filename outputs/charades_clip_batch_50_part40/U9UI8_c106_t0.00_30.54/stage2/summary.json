@@ -1,0 +1,41 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/U9UI8_c106_t0.00_30.54.mp4",
+    "fps": 30.0,
+    "frame_count": 917,
+    "width": 480,
+    "height": 360,
+    "duration_seconds": 30.566666666666666
+  },
+  "num_objects": 57,
+  "num_poses": 1781,
+  "num_frame_scores": 55,
+  "num_events": 2,
+  "events": [
+    {
+      "person_id": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_time": "00:00:07.633",
+      "end_time": "00:00:08.300",
+      "start_seconds": 7.633,
+      "end_seconds": 8.3,
+      "frame_count": 15,
+      "confidence": 0.7759,
+      "evidence": "cup close to head and wrist; head_dist=0.16, wrist_dist=0.04"
+    },
+    {
+      "person_id": 1,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_time": "00:00:14.067",
+      "end_time": "00:00:15.033",
+      "start_seconds": 14.067,
+      "end_seconds": 15.033,
+      "frame_count": 23,
+      "confidence": 0.7102,
+      "evidence": "cup close to head and wrist; head_dist=0.27, wrist_dist=0.06"
+    }
+  ],
+  "annotated_video": null
+}

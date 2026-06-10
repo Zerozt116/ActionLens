@@ -1,0 +1,95 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/videos_480p/8BG1T.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 11.767,
+      "frame_number": 353,
+      "path": "outputs/charades_8BG1T_event1_phone_vlm_review_live/frames/frame_00_11.767s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 12.167,
+      "frame_number": 365,
+      "path": "outputs/charades_8BG1T_event1_phone_vlm_review_live/frames/frame_01_12.167s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 12.567,
+      "frame_number": 377,
+      "path": "outputs/charades_8BG1T_event1_phone_vlm_review_live/frames/frame_02_12.567s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 12.967,
+      "frame_number": 389,
+      "path": "outputs/charades_8BG1T_event1_phone_vlm_review_live/frames/frame_03_12.967s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 13.367,
+      "frame_number": 401,
+      "path": "outputs/charades_8BG1T_event1_phone_vlm_review_live/frames/frame_04_13.367s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 13.767,
+      "frame_number": 413,
+      "path": "outputs/charades_8BG1T_event1_phone_vlm_review_live/frames/frame_05_13.767s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": 11.367,
+    "end_seconds": 14.167,
+    "source": "event:1",
+    "event": {
+      "person_id": 1,
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "start_time": "00:00:12.367",
+      "end_time": "00:00:13.167",
+      "start_seconds": 12.367,
+      "end_seconds": 13.167,
+      "frame_count": 14,
+      "confidence": 0.6436,
+      "evidence": "cell phone close to head; head_dist=0.21"
+    }
+  },
+  "actions": [
+    "talking_on_phone"
+  ],
+  "request_payload": "outputs/charades_8BG1T_event1_phone_vlm_review_live/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_8BG1T_event1_phone_vlm_review_live/vlm_response_raw.json",
+  "review": "outputs/charades_8BG1T_event1_phone_vlm_review_live/vlm_review.json",
+  "review_json": {
+    "overall_summary": "The person is holding a can and appears to be drinking from it, not talking on a phone.",
+    "actions": [
+      {
+        "action": "talking_on_phone",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is holding a can, not a phone; phone not visible.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup",
+      "phone"
+    ],
+    "risk_notes": [
+      "phone not visible",
+      "possible occlusion"
+    ]
+  }
+}

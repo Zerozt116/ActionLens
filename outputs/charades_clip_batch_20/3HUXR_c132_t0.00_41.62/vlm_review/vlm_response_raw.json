@@ -1,0 +1,22 @@
+{
+  "id": "019ea6580b83caf255481e49607ce40f",
+  "object": "chat.completion",
+  "created": 1780907248,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"Person is lying in bed watching TV, holding a small object that appears to be a phone or remote.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"No cup or bottle visible; person is holding a small object that appears to be a phone or remote.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1210,
+    "completion_tokens": 130,
+    "total_tokens": 1340
+  },
+  "system_fingerprint": ""
+}

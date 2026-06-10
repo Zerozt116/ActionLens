@@ -1,0 +1,23 @@
+{
+  "overall_summary": "A person is seated, using a laptop, and intermittently bringing a small object to their mouth, possibly eating.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "No cup or bottle is visible. The person is bringing a small object to their mouth, which appears to be food, not a drink.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "laptop"
+  ],
+  "risk_notes": []
+}

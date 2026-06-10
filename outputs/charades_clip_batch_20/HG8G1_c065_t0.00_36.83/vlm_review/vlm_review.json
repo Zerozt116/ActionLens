@@ -1,0 +1,27 @@
+{
+  "overall_summary": "A person is lying on the floor, holding a plate or bowl, appearing to eat or interact with food. No drinking or phone use is visible.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "No cup or bottle visible; person is holding a plate or bowl, not a drink.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone"
+  ],
+  "risk_notes": [
+    "phone not visible",
+    "cup not visible"
+  ]
+}

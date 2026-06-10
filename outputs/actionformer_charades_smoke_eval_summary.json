@@ -1,0 +1,79 @@
+{
+  "mode": "eval",
+  "device": "cpu",
+  "dataset_length": 50,
+  "index": 0,
+  "video_id": "8BG1T_c106_t5.60_45.46",
+  "feats_shape_cxt": [
+    2304,
+    91
+  ],
+  "segments_shape": [
+    5,
+    2
+  ],
+  "labels_shape": [
+    5
+  ],
+  "labels": [
+    21,
+    9,
+    13,
+    13,
+    10
+  ],
+  "fps": 30.0,
+  "duration": 45.5,
+  "feat_stride": 15,
+  "feat_num_frames": 1,
+  "elapsed_ms": 39.78,
+  "model_params": 2295328,
+  "prediction_shapes": {
+    "segments": [
+      103,
+      2
+    ],
+    "scores": [
+      103
+    ],
+    "labels": [
+      103
+    ]
+  },
+  "top_scores": [
+    0.030302,
+    0.024092,
+    0.023038,
+    0.022031,
+    0.021028
+  ],
+  "top_labels": [
+    21,
+    21,
+    22,
+    22,
+    7
+  ],
+  "top_segments_seconds": [
+    [
+      15.5286,
+      16.0167
+    ],
+    [
+      43.6397,
+      44.0167
+    ],
+    [
+      29.4253,
+      33.1599
+    ],
+    [
+      43.0156,
+      44.0167
+    ],
+    [
+      15.5286,
+      16.0167
+    ]
+  ]
+}

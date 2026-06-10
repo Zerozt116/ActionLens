@@ -1,0 +1,23 @@
+{
+  "overall_summary": "Person is lying on bed, looking toward a laptop on a table nearby, but not interacting with it.",
+  "actions": [
+    {
+      "action": "watching_laptop",
+      "present": true,
+      "confidence": 0.9,
+      "evidence": "Person is lying on bed, looking in direction of laptop screen visible on table. No interaction with laptop.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "laptop",
+    "bed",
+    "table"
+  ],
+  "risk_notes": []
+}

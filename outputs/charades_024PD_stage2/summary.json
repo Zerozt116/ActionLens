@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/charades/videos_480p/024PD.mp4",
+    "fps": 29.97002997002997,
+    "frame_count": 1770,
+    "width": 480,
+    "height": 270,
+    "duration_seconds": 59.059000000000005
+  },
+  "num_objects": 209,
+  "num_poses": 1763,
+  "num_frame_scores": 0,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": "outputs/charades_024PD_stage2/stage2_annotated.mp4"
+}

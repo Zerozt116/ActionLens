@@ -1,0 +1,22 @@
+[
+  {
+    "frame_id": 190,
+    "timestamp": "00:00:06.333",
+    "seconds": 6.333,
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "confidence": 0.5954,
+    "evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.16"
+  },
+  {
+    "frame_id": 191,
+    "timestamp": "00:00:06.367",
+    "seconds": 6.367,
+    "person_id": 1,
+    "action": "drinking_water",
+    "action_name": "喝水",
+    "confidence": 0.5666,
+    "evidence": "cup close to head and wrist; head_dist=0.49, wrist_dist=0.17"
+  }
+]

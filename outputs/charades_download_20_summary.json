@@ -1,0 +1,162 @@
+[
+  {
+    "video_id": "8BG1T",
+    "member_name": "Charades_v1_480/8BG1T.mp4",
+    "output_path": "data/charades/videos_480p/8BG1T.mp4",
+    "bytes_written": 1960542,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "OINMN",
+    "member_name": "Charades_v1_480/OINMN.mp4",
+    "output_path": "data/charades/videos_480p/OINMN.mp4",
+    "bytes_written": 1807269,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "024PD",
+    "member_name": "Charades_v1_480/024PD.mp4",
+    "output_path": "data/charades/videos_480p/024PD.mp4",
+    "bytes_written": 2256986,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "EHTB6",
+    "member_name": "Charades_v1_480/EHTB6.mp4",
+    "output_path": "data/charades/videos_480p/EHTB6.mp4",
+    "bytes_written": 1589125,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "B5UXP",
+    "member_name": "Charades_v1_480/B5UXP.mp4",
+    "output_path": "data/charades/videos_480p/B5UXP.mp4",
+    "bytes_written": 2428586,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "P0DXX",
+    "member_name": "Charades_v1_480/P0DXX.mp4",
+    "output_path": "data/charades/videos_480p/P0DXX.mp4",
+    "bytes_written": 2411043,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "FVPMC",
+    "member_name": "Charades_v1_480/FVPMC.mp4",
+    "output_path": "data/charades/videos_480p/FVPMC.mp4",
+    "bytes_written": 0,
+    "status": "failed",
+    "error": "IncompleteRead(486837 bytes read, 1902501 more expected)"
+  },
+  {
+    "video_id": "CY2J2",
+    "member_name": "Charades_v1_480/CY2J2.mp4",
+    "output_path": "data/charades/videos_480p/CY2J2.mp4",
+    "bytes_written": 2304995,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "BGX4T",
+    "member_name": "Charades_v1_480/BGX4T.mp4",
+    "output_path": "data/charades/videos_480p/BGX4T.mp4",
+    "bytes_written": 1502090,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "S1BYH",
+    "member_name": "Charades_v1_480/S1BYH.mp4",
+    "output_path": "data/charades/videos_480p/S1BYH.mp4",
+    "bytes_written": 3058034,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "4FXUI",
+    "member_name": "Charades_v1_480/4FXUI.mp4",
+    "output_path": "data/charades/videos_480p/4FXUI.mp4",
+    "bytes_written": 3679013,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "ZCH1J",
+    "member_name": "Charades_v1_480/ZCH1J.mp4",
+    "output_path": "data/charades/videos_480p/ZCH1J.mp4",
+    "bytes_written": 1482318,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "JUF24",
+    "member_name": "Charades_v1_480/JUF24.mp4",
+    "output_path": "data/charades/videos_480p/JUF24.mp4",
+    "bytes_written": 1311539,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "6TNP4",
+    "member_name": "Charades_v1_480/6TNP4.mp4",
+    "output_path": "data/charades/videos_480p/6TNP4.mp4",
+    "bytes_written": 2849357,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "PURYC",
+    "member_name": "Charades_v1_480/PURYC.mp4",
+    "output_path": "data/charades/videos_480p/PURYC.mp4",
+    "bytes_written": 1462032,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "1Y09V",
+    "member_name": "Charades_v1_480/1Y09V.mp4",
+    "output_path": "data/charades/videos_480p/1Y09V.mp4",
+    "bytes_written": 1826383,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "HG8G1",
+    "member_name": "Charades_v1_480/HG8G1.mp4",
+    "output_path": "data/charades/videos_480p/HG8G1.mp4",
+    "bytes_written": 1174796,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "ZP5TG",
+    "member_name": "Charades_v1_480/ZP5TG.mp4",
+    "output_path": "data/charades/videos_480p/ZP5TG.mp4",
+    "bytes_written": 2541934,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "L57L2",
+    "member_name": "Charades_v1_480/L57L2.mp4",
+    "output_path": "data/charades/videos_480p/L57L2.mp4",
+    "bytes_written": 5060443,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "3HUXR",
+    "member_name": "Charades_v1_480/3HUXR.mp4",
+    "output_path": "data/charades/videos_480p/3HUXR.mp4",
+    "bytes_written": 1513405,
+    "status": "downloaded",
+    "error": ""
+  }
+]

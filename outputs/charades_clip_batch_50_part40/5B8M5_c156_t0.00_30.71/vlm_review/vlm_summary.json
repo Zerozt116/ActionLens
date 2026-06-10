@@ -1,0 +1,78 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/5B8M5_c156_t0.00_30.71.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 4.3932,
+      "frame_number": 131,
+      "path": "outputs/charades_clip_batch_50_part40/5B8M5_c156_t0.00_30.71/vlm_review/frames/frame_00_4.393s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 8.7864,
+      "frame_number": 263,
+      "path": "outputs/charades_clip_batch_50_part40/5B8M5_c156_t0.00_30.71/vlm_review/frames/frame_01_8.786s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 13.1795,
+      "frame_number": 394,
+      "path": "outputs/charades_clip_batch_50_part40/5B8M5_c156_t0.00_30.71/vlm_review/frames/frame_02_13.180s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 17.5727,
+      "frame_number": 525,
+      "path": "outputs/charades_clip_batch_50_part40/5B8M5_c156_t0.00_30.71/vlm_review/frames/frame_03_17.573s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 21.9659,
+      "frame_number": 656,
+      "path": "outputs/charades_clip_batch_50_part40/5B8M5_c156_t0.00_30.71/vlm_review/frames/frame_04_21.966s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 26.3591,
+      "frame_number": 788,
+      "path": "outputs/charades_clip_batch_50_part40/5B8M5_c156_t0.00_30.71/vlm_review/frames/frame_05_26.359s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "eating"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part40/5B8M5_c156_t0.00_30.71/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part40/5B8M5_c156_t0.00_30.71/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part40/5B8M5_c156_t0.00_30.71/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "The person is seen bringing food to their mouth in multiple frames, consistent with eating.",
+    "actions": [
+      {
+        "action": "eating",
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "In frames 0, 1, 4, and 5, the person is seen bringing food to their mouth while holding a plate. This matches the definition of eating.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "plate"
+    ],
+    "risk_notes": []
+  }
+}

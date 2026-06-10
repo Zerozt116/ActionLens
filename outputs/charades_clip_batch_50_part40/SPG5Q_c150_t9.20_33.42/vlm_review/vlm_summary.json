@@ -1,0 +1,66 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/SPG5Q_c150_t9.20_33.42.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 3.5845,
+      "frame_number": 107,
+      "path": "outputs/charades_clip_batch_50_part40/SPG5Q_c150_t9.20_33.42/vlm_review/frames/frame_00_3.585s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 7.1691,
+      "frame_number": 215,
+      "path": "outputs/charades_clip_batch_50_part40/SPG5Q_c150_t9.20_33.42/vlm_review/frames/frame_01_7.169s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 10.7536,
+      "frame_number": 322,
+      "path": "outputs/charades_clip_batch_50_part40/SPG5Q_c150_t9.20_33.42/vlm_review/frames/frame_02_10.754s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 14.3381,
+      "frame_number": 430,
+      "path": "outputs/charades_clip_batch_50_part40/SPG5Q_c150_t9.20_33.42/vlm_review/frames/frame_03_14.338s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 17.9227,
+      "frame_number": 537,
+      "path": "outputs/charades_clip_batch_50_part40/SPG5Q_c150_t9.20_33.42/vlm_review/frames/frame_04_17.923s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 21.5072,
+      "frame_number": 645,
+      "path": "outputs/charades_clip_batch_50_part40/SPG5Q_c150_t9.20_33.42/vlm_review/frames/frame_05_21.507s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "running"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part40/SPG5Q_c150_t9.20_33.42/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part40/SPG5Q_c150_t9.20_33.42/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part40/SPG5Q_c150_t9.20_33.42/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "The person is seen in a bathroom, adjusting clothing and touching their head, not running.",
+    "actions": [],
+    "visible_objects": [
+      "cup",
+      "phone"
+    ],
+    "risk_notes": []
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/ZP5TG_c123_t0.00_42.46.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 6.0714,
+      "frame_number": 182,
+      "path": "outputs/charades_clip_batch_20/ZP5TG_c123_t0.00_42.46/vlm_review/frames/frame_00_6.071s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 12.1429,
+      "frame_number": 364,
+      "path": "outputs/charades_clip_batch_20/ZP5TG_c123_t0.00_42.46/vlm_review/frames/frame_01_12.143s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 18.2143,
+      "frame_number": 546,
+      "path": "outputs/charades_clip_batch_20/ZP5TG_c123_t0.00_42.46/vlm_review/frames/frame_02_18.214s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 24.2857,
+      "frame_number": 729,
+      "path": "outputs/charades_clip_batch_20/ZP5TG_c123_t0.00_42.46/vlm_review/frames/frame_03_24.286s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 30.3571,
+      "frame_number": 911,
+      "path": "outputs/charades_clip_batch_20/ZP5TG_c123_t0.00_42.46/vlm_review/frames/frame_04_30.357s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 36.4286,
+      "frame_number": 1093,
+      "path": "outputs/charades_clip_batch_20/ZP5TG_c123_t0.00_42.46/vlm_review/frames/frame_05_36.429s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "c123"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/ZP5TG_c123_t0.00_42.46/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/ZP5TG_c123_t0.00_42.46/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/ZP5TG_c123_t0.00_42.46/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A boy in a pink shirt is eating from a plate while sitting on a couch. An adult male in a yellow shirt is seated in a chair nearby, looking at a computer monitor. No drinking or phone use is visible.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "No water or drinking action is visible. The boy is eating from a plate.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup",
+      "phone"
+    ],
+    "risk_notes": [
+      "phone not clearly visible",
+      "no drinking activity"
+    ]
+  }
+}

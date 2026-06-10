@@ -1,0 +1,22 @@
+{
+  "overall_summary": "A man is seen interacting with a kitchen cabinet, retrieving items, and then eating from a bowl.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "The man is eating from a bowl, not drinking water.",
+      "supporting_frame_indices": [
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone"
+  ],
+  "risk_notes": [
+    "phone not visible",
+    "cup not clearly visible"
+  ]
+}

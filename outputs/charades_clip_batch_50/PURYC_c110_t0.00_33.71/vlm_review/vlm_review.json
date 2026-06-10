@@ -1,0 +1,28 @@
+{
+  "overall_summary": "Person is pouring liquid from a large jug into a bottle while standing in front of an open refrigerator.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "Person is pouring liquid from a jug into a bottle, not drinking directly from a cup or bottle.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "jug",
+    "bottle",
+    "refrigerator"
+  ],
+  "risk_notes": [
+    "low visibility due to bright refrigerator light",
+    "person's face is obscured by beanie and angle"
+  ]
+}

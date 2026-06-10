@@ -1,0 +1,172 @@
+{
+  "video_id": "024PD",
+  "summary": {
+    "video_id": "024PD",
+    "num_actions": 5,
+    "status_counts": {
+      "not_present": 3,
+      "vlm_recovered_label": 1,
+      "vlm_candidate_event": 1
+    },
+    "stage2_hits": 0,
+    "vlm_hits": 2,
+    "charades_labels": 1
+  },
+  "comparisons": [
+    {
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "holding_phone",
+      "action_name": "拿手机",
+      "charades_present": true,
+      "charades": {
+        "action_ids": [
+          "c015"
+        ],
+        "action_names": [
+          "Holding a phone/camera"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 60.0
+          }
+        ]
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": true,
+      "vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "Person is holding a phone in hand in all frames, visible in multiple frames.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "fused_status": "vlm_recovered_label",
+      "recommendation": "Stage2 漏检但 VLM 与 Charades 一致，可生成语义候选事件。"
+    },
+    {
+      "action": "looking_at_phone",
+      "action_name": "看手机",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": true,
+      "vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "Person is looking down at the phone in all frames, phone screen is visible.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "fused_status": "vlm_candidate_event",
+      "recommendation": "VLM 高置信命中但无 Charades/Stage2 支持，建议作为候选事件。"
+    },
+    {
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is holding and looking at phone, but no mouth movement or phone to ear indicates talking.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    }
+  ]
+}

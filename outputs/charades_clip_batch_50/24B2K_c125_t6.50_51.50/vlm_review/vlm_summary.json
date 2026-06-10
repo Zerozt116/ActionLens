@@ -1,0 +1,83 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/24B2K_c125_t6.50_51.50.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 6.7115,
+      "frame_number": 201,
+      "path": "outputs/charades_clip_batch_50_part30/24B2K_c125_t6.50_51.50/vlm_review/frames/frame_00_6.711s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 13.4229,
+      "frame_number": 402,
+      "path": "outputs/charades_clip_batch_50_part30/24B2K_c125_t6.50_51.50/vlm_review/frames/frame_01_13.423s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 20.1344,
+      "frame_number": 603,
+      "path": "outputs/charades_clip_batch_50_part30/24B2K_c125_t6.50_51.50/vlm_review/frames/frame_02_20.134s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 26.8459,
+      "frame_number": 805,
+      "path": "outputs/charades_clip_batch_50_part30/24B2K_c125_t6.50_51.50/vlm_review/frames/frame_03_26.846s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 33.5573,
+      "frame_number": 1006,
+      "path": "outputs/charades_clip_batch_50_part30/24B2K_c125_t6.50_51.50/vlm_review/frames/frame_04_33.557s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 40.2688,
+      "frame_number": 1207,
+      "path": "outputs/charades_clip_batch_50_part30/24B2K_c125_t6.50_51.50/vlm_review/frames/frame_05_40.269s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "sitting_on_floor"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part30/24B2K_c125_t6.50_51.50/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part30/24B2K_c125_t6.50_51.50/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part30/24B2K_c125_t6.50_51.50/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "The person is not sitting on the floor in any of the sampled frames. They are standing or leaning against a wall, holding various objects.",
+    "actions": [
+      {
+        "action": "sitting_on_floor",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person is standing or leaning against a wall in all frames, not seated on the floor.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup",
+      "phone",
+      "box",
+      "clothing"
+    ],
+    "risk_notes": []
+  }
+}

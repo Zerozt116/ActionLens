@@ -1,0 +1,75 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/U9UI8_c106_t0.00_30.54.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 4.3667,
+      "frame_number": 131,
+      "path": "outputs/charades_clip_batch_50_part40/U9UI8_c106_t0.00_30.54/vlm_review/frames/frame_00_4.367s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 8.7333,
+      "frame_number": 262,
+      "path": "outputs/charades_clip_batch_50_part40/U9UI8_c106_t0.00_30.54/vlm_review/frames/frame_01_8.733s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 13.1,
+      "frame_number": 393,
+      "path": "outputs/charades_clip_batch_50_part40/U9UI8_c106_t0.00_30.54/vlm_review/frames/frame_02_13.100s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 17.4667,
+      "frame_number": 524,
+      "path": "outputs/charades_clip_batch_50_part40/U9UI8_c106_t0.00_30.54/vlm_review/frames/frame_03_17.467s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 21.8333,
+      "frame_number": 655,
+      "path": "outputs/charades_clip_batch_50_part40/U9UI8_c106_t0.00_30.54/vlm_review/frames/frame_04_21.833s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 26.2,
+      "frame_number": 786,
+      "path": "outputs/charades_clip_batch_50_part40/U9UI8_c106_t0.00_30.54/vlm_review/frames/frame_05_26.200s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "drinking_water"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part40/U9UI8_c106_t0.00_30.54/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part40/U9UI8_c106_t0.00_30.54/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part40/U9UI8_c106_t0.00_30.54/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A person is seen drinking from a container in frame 2, which matches the 'drinking_water' action definition.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "Person on left is holding a white container to their mouth and drinking from it in frame 2.",
+        "supporting_frame_indices": [
+          2
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup"
+    ],
+    "risk_notes": []
+  }
+}

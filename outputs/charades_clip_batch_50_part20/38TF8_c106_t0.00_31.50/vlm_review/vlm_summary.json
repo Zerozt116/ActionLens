@@ -1,0 +1,81 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/38TF8_c106_t0.00_31.50.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 4.5059,
+      "frame_number": 115,
+      "path": "outputs/charades_clip_batch_50_part20/38TF8_c106_t0.00_31.50/vlm_review/frames/frame_00_4.506s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 9.0119,
+      "frame_number": 231,
+      "path": "outputs/charades_clip_batch_50_part20/38TF8_c106_t0.00_31.50/vlm_review/frames/frame_01_9.012s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 13.5178,
+      "frame_number": 346,
+      "path": "outputs/charades_clip_batch_50_part20/38TF8_c106_t0.00_31.50/vlm_review/frames/frame_02_13.518s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 18.0237,
+      "frame_number": 462,
+      "path": "outputs/charades_clip_batch_50_part20/38TF8_c106_t0.00_31.50/vlm_review/frames/frame_03_18.024s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 22.5297,
+      "frame_number": 577,
+      "path": "outputs/charades_clip_batch_50_part20/38TF8_c106_t0.00_31.50/vlm_review/frames/frame_04_22.530s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 27.0356,
+      "frame_number": 693,
+      "path": "outputs/charades_clip_batch_50_part20/38TF8_c106_t0.00_31.50/vlm_review/frames/frame_05_27.036s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "drinking_water"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part20/38TF8_c106_t0.00_31.50/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part20/38TF8_c106_t0.00_31.50/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part20/38TF8_c106_t0.00_31.50/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "The visible person is not drinking water or any beverage from a container. The boy is eating food from a bowl, and the man in the background is not performing the action.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The boy is eating food from a bowl. The man in the background is not drinking from any container.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup",
+      "phone"
+    ],
+    "risk_notes": []
+  }
+}

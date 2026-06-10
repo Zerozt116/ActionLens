@@ -1,0 +1,22 @@
+{
+  "id": "019eab6a482258eb30db6e92103eced4",
+  "object": "chat.completion",
+  "created": 1780992330,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person is holding a phone to their ear and leaning over a table, not drinking from a container.\",\n  \"actions\": [\n    {\n      \"action\": \"drinking_water\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"Person is holding a phone to their ear and leaning over a table; no cup or container is being used for drinking.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1370,
+    "completion_tokens": 133,
+    "total_tokens": 1503
+  },
+  "system_fingerprint": ""
+}

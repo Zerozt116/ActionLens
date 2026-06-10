@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/JUF24_c147_t0.00_37.08.mp4",
+    "fps": 30.0,
+    "frame_count": 1113,
+    "width": 480,
+    "height": 270,
+    "duration_seconds": 37.1
+  },
+  "num_objects": 20,
+  "num_poses": 1113,
+  "num_frame_scores": 0,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": null
+}

@@ -1,0 +1,80 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/ZCH1J_c051_t0.00_44.58.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 6.3714,
+      "frame_number": 191,
+      "path": "outputs/charades_clip_batch_20/ZCH1J_c051_t0.00_44.58/vlm_review/frames/frame_00_6.371s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 12.7429,
+      "frame_number": 382,
+      "path": "outputs/charades_clip_batch_20/ZCH1J_c051_t0.00_44.58/vlm_review/frames/frame_01_12.743s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 19.1143,
+      "frame_number": 573,
+      "path": "outputs/charades_clip_batch_20/ZCH1J_c051_t0.00_44.58/vlm_review/frames/frame_02_19.114s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 25.4857,
+      "frame_number": 765,
+      "path": "outputs/charades_clip_batch_20/ZCH1J_c051_t0.00_44.58/vlm_review/frames/frame_03_25.486s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 31.8571,
+      "frame_number": 956,
+      "path": "outputs/charades_clip_batch_20/ZCH1J_c051_t0.00_44.58/vlm_review/frames/frame_04_31.857s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 38.2286,
+      "frame_number": 1147,
+      "path": "outputs/charades_clip_batch_20/ZCH1J_c051_t0.00_44.58/vlm_review/frames/frame_05_38.229s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "c051"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/ZCH1J_c051_t0.00_44.58/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/ZCH1J_c051_t0.00_44.58/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/ZCH1J_c051_t0.00_44.58/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A person is seated, using a laptop, and intermittently bringing a small object to their mouth, possibly eating.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "No cup or bottle is visible. The person is bringing a small object to their mouth, which appears to be food, not a drink.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "laptop"
+    ],
+    "risk_notes": []
+  }
+}

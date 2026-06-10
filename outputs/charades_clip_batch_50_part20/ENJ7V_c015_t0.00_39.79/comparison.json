@@ -1,0 +1,715 @@
+{
+  "video_id": "ENJ7V",
+  "summary": {
+    "video_id": "ENJ7V",
+    "num_actions": 19,
+    "status_counts": {
+      "not_present": 15,
+      "possible_false_positive": 2,
+      "vlm_recovered_label": 1,
+      "missed_label": 1
+    },
+    "stage2_hits": 2,
+    "vlm_hits": 1,
+    "charades_labels": 2
+  },
+  "comparisons": [
+    {
+      "action": "cooking",
+      "action_name": "做饭",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": true,
+      "stage2": {
+        "present": true,
+        "events": [
+          {
+            "person_id": 1,
+            "action": "drinking_water",
+            "action_name": "喝水",
+            "start_time": "00:00:02.925",
+            "end_time": "00:00:03.429",
+            "start_seconds": 2.925,
+            "end_seconds": 3.429,
+            "frame_count": 10,
+            "confidence": 0.7437,
+            "evidence": "cup close to head and wrist; head_dist=0.21, wrist_dist=0.03",
+            "stage2_event_index": 1
+          },
+          {
+            "person_id": 1,
+            "action": "drinking_water",
+            "action_name": "喝水",
+            "start_time": "00:00:13.180",
+            "end_time": "00:00:13.886",
+            "start_seconds": 13.18,
+            "end_seconds": 13.886,
+            "frame_count": 18,
+            "confidence": 0.8024,
+            "evidence": "cup close to head and wrist; head_dist=0.18, wrist_dist=0.02",
+            "stage2_event_index": 8
+          },
+          {
+            "person_id": 1,
+            "action": "drinking_water",
+            "action_name": "喝水",
+            "start_time": "00:00:14.592",
+            "end_time": "00:00:15.029",
+            "start_seconds": 14.592,
+            "end_seconds": 15.029,
+            "frame_count": 10,
+            "confidence": 0.766,
+            "evidence": "cup close to head and wrist; head_dist=0.23, wrist_dist=0.03",
+            "stage2_event_index": 10
+          }
+        ],
+        "max_confidence": 0.8024
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "possible_false_positive",
+      "recommendation": "Stage2 命中但 VLM 否定，建议降置信或进入人工复核。"
+    },
+    {
+      "action": "eating",
+      "action_name": "吃东西",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "holding_phone",
+      "action_name": "拿手机",
+      "charades_present": true,
+      "charades": {
+        "action_ids": [
+          "c015"
+        ],
+        "action_names": [
+          "Holding a phone/camera"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 41.0
+          }
+        ]
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": true,
+      "vlm": {
+        "present": true,
+        "confidence": 1.0,
+        "evidence": "The person is visibly holding a phone-like device in all sampled frames, with varying angles and positions.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "fused_status": "vlm_recovered_label",
+      "recommendation": "Stage2 漏检但 VLM 与 Charades 一致，可生成语义候选事件。"
+    },
+    {
+      "action": "looking_at_phone",
+      "action_name": "看手机",
+      "charades_present": true,
+      "charades": {
+        "action_ids": [
+          "c016"
+        ],
+        "action_names": [
+          "Playing with a phone/camera"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 41.0
+          }
+        ]
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "missed_label",
+      "recommendation": "Charades 有标注，但 Stage2 和 VLM 均未确认，建议改进抽帧或检测模型。"
+    },
+    {
+      "action": "putting_drink_container",
+      "action_name": "放下杯/瓶",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "running",
+      "action_name": "跑步",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "sitting_down",
+      "action_name": "坐下",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "sitting_on_floor",
+      "action_name": "坐在地上",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "sitting_on_sofa",
+      "action_name": "坐在沙发上",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "standing_up",
+      "action_name": "站起",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "taking_drink_container",
+      "action_name": "拿起杯/瓶",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": true,
+      "stage2": {
+        "present": true,
+        "events": [
+          {
+            "person_id": 1,
+            "action": "talking_on_phone",
+            "action_name": "打电话",
+            "start_time": "00:00:01.479",
+            "end_time": "00:00:01.849",
+            "start_seconds": 1.479,
+            "end_seconds": 1.849,
+            "frame_count": 5,
+            "confidence": 0.7082,
+            "evidence": "cell phone close to head; head_dist=0.17",
+            "stage2_event_index": 0
+          },
+          {
+            "person_id": 1,
+            "action": "talking_on_phone",
+            "action_name": "打电话",
+            "start_time": "00:00:03.463",
+            "end_time": "00:00:05.548",
+            "start_seconds": 3.463,
+            "end_seconds": 5.548,
+            "frame_count": 55,
+            "confidence": 0.7102,
+            "evidence": "cell phone close to head; head_dist=0.20",
+            "stage2_event_index": 2
+          },
+          {
+            "person_id": 1,
+            "action": "talking_on_phone",
+            "action_name": "打电话",
+            "start_time": "00:00:05.817",
+            "end_time": "00:00:06.489",
+            "start_seconds": 5.817,
+            "end_seconds": 6.489,
+            "frame_count": 16,
+            "confidence": 0.7316,
+            "evidence": "cell phone close to head; head_dist=0.18",
+            "stage2_event_index": 3
+          },
+          {
+            "person_id": 1,
+            "action": "talking_on_phone",
+            "action_name": "打电话",
+            "start_time": "00:00:06.758",
+            "end_time": "00:00:09.414",
+            "start_seconds": 6.758,
+            "end_seconds": 9.414,
+            "frame_count": 78,
+            "confidence": 0.7764,
+            "evidence": "cell phone close to head; head_dist=0.19",
+            "stage2_event_index": 4
+          },
+          {
+            "person_id": 1,
+            "action": "talking_on_phone",
+            "action_name": "打电话",
+            "start_time": "00:00:09.851",
+            "end_time": "00:00:10.423",
+            "start_seconds": 9.851,
+            "end_seconds": 10.423,
+            "frame_count": 18,
+            "confidence": 0.7012,
+            "evidence": "cell phone close to head; head_dist=0.22",
+            "stage2_event_index": 5
+          },
+          {
+            "person_id": 1,
+            "action": "talking_on_phone",
+            "action_name": "打电话",
+            "start_time": "00:00:10.793",
+            "end_time": "00:00:11.533",
+            "start_seconds": 10.793,
+            "end_seconds": 11.533,
+            "frame_count": 23,
+            "confidence": 0.6987,
+            "evidence": "cell phone close to head; head_dist=0.18",
+            "stage2_event_index": 6
+          },
+          {
+            "person_id": 1,
+            "action": "talking_on_phone",
+            "action_name": "打电话",
+            "start_time": "00:00:11.801",
+            "end_time": "00:00:13.281",
+            "start_seconds": 11.801,
+            "end_seconds": 13.281,
+            "frame_count": 39,
+            "confidence": 0.7849,
+            "evidence": "cell phone close to head; head_dist=0.19",
+            "stage2_event_index": 7
+          },
+          {
+            "person_id": 1,
+            "action": "talking_on_phone",
+            "action_name": "打电话",
+            "start_time": "00:00:13.920",
+            "end_time": "00:00:17.013",
+            "start_seconds": 13.92,
+            "end_seconds": 17.013,
+            "frame_count": 79,
+            "confidence": 0.7009,
+            "evidence": "cell phone close to head; head_dist=0.18",
+            "stage2_event_index": 9
+          },
+          {
+            "person_id": 1,
+            "action": "talking_on_phone",
+            "action_name": "打电话",
+            "start_time": "00:00:17.854",
+            "end_time": "00:00:19.972",
+            "start_seconds": 17.854,
+            "end_seconds": 19.972,
+            "frame_count": 60,
+            "confidence": 0.7334,
+            "evidence": "cell phone close to head; head_dist=0.23",
+            "stage2_event_index": 11
+          },
+          {
+            "person_id": 1,
+            "action": "talking_on_phone",
+            "action_name": "打电话",
+            "start_time": "00:00:20.375",
+            "end_time": "00:00:21.149",
+            "start_seconds": 20.375,
+            "end_seconds": 21.149,
+            "frame_count": 20,
+            "confidence": 0.5909,
+            "evidence": "cell phone close to head; head_dist=0.27",
+            "stage2_event_index": 12
+          },
+          {
+            "person_id": 1,
+            "action": "talking_on_phone",
+            "action_name": "打电话",
+            "start_time": "00:00:26.495",
+            "end_time": "00:00:27.402",
+            "start_seconds": 26.495,
+            "end_seconds": 27.402,
+            "frame_count": 21,
+            "confidence": 0.655,
+            "evidence": "cell phone close to head; head_dist=0.25",
+            "stage2_event_index": 13
+          },
+          {
+            "person_id": 1,
+            "action": "talking_on_phone",
+            "action_name": "打电话",
+            "start_time": "00:00:35.539",
+            "end_time": "00:00:35.875",
+            "start_seconds": 35.539,
+            "end_seconds": 35.875,
+            "frame_count": 11,
+            "confidence": 0.7731,
+            "evidence": "cell phone close to head; head_dist=0.16",
+            "stage2_event_index": 14
+          }
+        ],
+        "max_confidence": 0.7849
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "possible_false_positive",
+      "recommendation": "Stage2 命中但 VLM 否定，建议降置信或进入人工复核。"
+    },
+    {
+      "action": "using_laptop",
+      "action_name": "使用笔记本电脑",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "walking_through_doorway",
+      "action_name": "穿过门口",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "watching_laptop",
+      "action_name": "看笔记本电脑",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    },
+    {
+      "action": "watching_tv",
+      "action_name": "看电视",
+      "charades_present": false,
+      "charades": {
+        "action_ids": [],
+        "action_names": [],
+        "intervals": []
+      },
+      "stage2_present": false,
+      "stage2": {
+        "present": false,
+        "events": [],
+        "max_confidence": 0.0
+      },
+      "vlm_present": false,
+      "vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "supporting_frame_indices": []
+      },
+      "fused_status": "not_present",
+      "recommendation": "三方均未支持该动作。"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "019eab5a0b40a945abbafd2f354c9a95",
+  "object": "chat.completion",
+  "created": 1780991266,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person is standing in front of a bathroom sink and later picks up a vacuum cleaner, but there is no clear evidence of transitioning from sitting or crouching to standing.\",\n  \"actions\": [\n    {\n      \"action\": \"standing_up\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"The person is already standing in all visible frames, no transition from sitting or crouching is observed.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"cup\", \"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 146,
+    "total_tokens": 1376
+  },
+  "system_fingerprint": ""
+}

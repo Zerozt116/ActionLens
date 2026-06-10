@@ -1,0 +1,78 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/ARCUY_c059_t0.60_43.83.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 6.2672,
+      "frame_number": 150,
+      "path": "outputs/charades_clip_batch_50_part40/ARCUY_c059_t0.60_43.83/vlm_review/frames/frame_00_6.267s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 12.5345,
+      "frame_number": 300,
+      "path": "outputs/charades_clip_batch_50_part40/ARCUY_c059_t0.60_43.83/vlm_review/frames/frame_01_12.534s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 18.8017,
+      "frame_number": 450,
+      "path": "outputs/charades_clip_batch_50_part40/ARCUY_c059_t0.60_43.83/vlm_review/frames/frame_02_18.802s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 25.0689,
+      "frame_number": 600,
+      "path": "outputs/charades_clip_batch_50_part40/ARCUY_c059_t0.60_43.83/vlm_review/frames/frame_03_25.069s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 31.3362,
+      "frame_number": 750,
+      "path": "outputs/charades_clip_batch_50_part40/ARCUY_c059_t0.60_43.83/vlm_review/frames/frame_04_31.336s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 37.6034,
+      "frame_number": 900,
+      "path": "outputs/charades_clip_batch_50_part40/ARCUY_c059_t0.60_43.83/vlm_review/frames/frame_05_37.603s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "sitting_on_chair"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part40/ARCUY_c059_t0.60_43.83/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part40/ARCUY_c059_t0.60_43.83/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part40/ARCUY_c059_t0.60_43.83/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "The person is consistently seated on a chair throughout the sampled frames, performing the action 'sitting_on_chair'.",
+    "actions": [
+      {
+        "action": "sitting_on_chair",
+        "present": true,
+        "confidence": 1.0,
+        "evidence": "The person is visibly seated on a chair in all frames, maintaining a seated posture.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [],
+    "risk_notes": []
+  }
+}

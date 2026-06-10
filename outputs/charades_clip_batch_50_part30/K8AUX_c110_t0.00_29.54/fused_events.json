@@ -1,0 +1,180 @@
+{
+  "video_id": "K8AUX",
+  "summary": {
+    "video_id": "K8AUX",
+    "final_events": 0,
+    "semantic_candidates": 1,
+    "pending_events": 1,
+    "rejected_events": 0,
+    "fused_events": 2,
+    "event_center_reviews": 0
+  },
+  "final_events": [],
+  "semantic_candidates": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "taking_drink_container",
+      "action_name": "拿起杯/瓶",
+      "start_seconds": 0.0,
+      "end_seconds": 31.0,
+      "confidence": 0.95,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 0.95,
+        "evidence": "The person is holding and drinking from a blue cup in frames 0-2, then places it down in frame 3. The cup is clearly visible throughout.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c110"
+        ],
+        "action_names": [
+          "Taking a cup/glass/bottle from somewhere"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 31.0
+          }
+        ]
+      }
+    }
+  ],
+  "pending_events": [
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 10.626,
+      "end_seconds": 11.126,
+      "start_time": "00:00:10.626",
+      "end_time": "00:00:11.126",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.38, wrist_dist=0.09",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 10.6
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.6108,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.6108,
+      "comparison_status": "needs_temporal_review"
+    }
+  ],
+  "rejected_events": [],
+  "fused_events": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "taking_drink_container",
+      "action_name": "拿起杯/瓶",
+      "start_seconds": 0.0,
+      "end_seconds": 31.0,
+      "confidence": 0.95,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 0.95,
+        "evidence": "The person is holding and drinking from a blue cup in frames 0-2, then places it down in frame 3. The cup is clearly visible throughout.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c110"
+        ],
+        "action_names": [
+          "Taking a cup/glass/bottle from somewhere"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 31.0
+          }
+        ]
+      }
+    },
+    {
+      "source": "stage2_event",
+      "stage2_event_index": 0,
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "person_id": 1,
+      "start_seconds": 10.626,
+      "end_seconds": 11.126,
+      "start_time": "00:00:10.626",
+      "end_time": "00:00:11.126",
+      "clip_start_seconds": null,
+      "clip_end_seconds": null,
+      "clip_start_time": null,
+      "clip_end_time": null,
+      "time_offset_seconds": null,
+      "time_coordinate": "video",
+      "stage2_evidence": "cup close to head and wrist; head_dist=0.38, wrist_dist=0.09",
+      "charades": {
+        "action_ids": [
+          "c106"
+        ],
+        "action_names": [
+          "Drinking from a cup/glass/bottle"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 0.0,
+            "end_seconds": 10.6
+          }
+        ]
+      },
+      "decision": "pending_event",
+      "confidence": 0.6108,
+      "evidence_sources": [
+        "stage2",
+        "charades"
+      ],
+      "fusion_reason": "Stage2 event needs event-centered VLM review before final confirmation.",
+      "stage2_confidence": 0.6108,
+      "comparison_status": "needs_temporal_review"
+    }
+  ]
+}

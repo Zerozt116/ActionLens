@@ -1,0 +1,27 @@
+{
+  "overall_summary": "A boy in a pink shirt is eating from a plate while sitting on a couch. An adult male in a yellow shirt is seated in a chair nearby, looking at a computer monitor. No drinking or phone use is visible.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "No water or drinking action is visible. The boy is eating from a plate.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "cup",
+    "phone"
+  ],
+  "risk_notes": [
+    "phone not clearly visible",
+    "no drinking activity"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "path": "data/sample_bus.mp4",
+  "fps": 5.0,
+  "frame_count": 10,
+  "width": 810,
+  "height": 1080,
+  "duration_seconds": 2.0
+}

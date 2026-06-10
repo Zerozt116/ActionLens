@@ -1,0 +1,22 @@
+{
+  "id": "019ea64e95166d0d5603392b3d294e4e",
+  "object": "chat.completion",
+  "created": 1780906629,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person in the foreground is not holding or interacting with a drink container; they are focused on tying shoes. The person in the background is holding a green container but appears to be pouring or handling it, not drinking from it.\",\n  \"actions\": [\n    {\n      \"action\": \"holding_drink_container\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"The person in the foreground is not holding any drink container. The person in the background is holding a green container but is not drinking from it; they appear to be pouring or handling it.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"cup\", \"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1197,
+    "completion_tokens": 176,
+    "total_tokens": 1373
+  },
+  "system_fingerprint": ""
+}

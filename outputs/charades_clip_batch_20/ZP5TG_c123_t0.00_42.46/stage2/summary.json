@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/ZP5TG_c123_t0.00_42.46.mp4",
+    "fps": 30.0,
+    "frame_count": 1275,
+    "width": 480,
+    "height": 270,
+    "duration_seconds": 42.5
+  },
+  "num_objects": 168,
+  "num_poses": 2550,
+  "num_frame_scores": 9,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": null
+}

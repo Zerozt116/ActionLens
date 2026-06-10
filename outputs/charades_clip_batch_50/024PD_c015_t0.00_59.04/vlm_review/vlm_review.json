@@ -1,0 +1,20 @@
+{
+  "overall_summary": "Person is holding a phone in multiple frames, visible in their hands while standing in a room.",
+  "actions": [
+    {
+      "action": "holding_phone",
+      "present": true,
+      "confidence": 0.95,
+      "evidence": "Person is visibly holding a phone in their hands in frames 0, 1, 5.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "phone"
+  ],
+  "risk_notes": []
+}

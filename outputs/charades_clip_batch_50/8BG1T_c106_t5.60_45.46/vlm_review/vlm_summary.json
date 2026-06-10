@@ -1,0 +1,79 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/8BG1T_c106_t5.60_45.46.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 6.5,
+      "frame_number": 195,
+      "path": "outputs/charades_clip_batch_20/8BG1T_c106_t5.60_45.46/vlm_review/frames/frame_00_6.500s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 13.0,
+      "frame_number": 390,
+      "path": "outputs/charades_clip_batch_20/8BG1T_c106_t5.60_45.46/vlm_review/frames/frame_01_13.000s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 19.5,
+      "frame_number": 585,
+      "path": "outputs/charades_clip_batch_20/8BG1T_c106_t5.60_45.46/vlm_review/frames/frame_02_19.500s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 26.0,
+      "frame_number": 780,
+      "path": "outputs/charades_clip_batch_20/8BG1T_c106_t5.60_45.46/vlm_review/frames/frame_03_26.000s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 32.5,
+      "frame_number": 975,
+      "path": "outputs/charades_clip_batch_20/8BG1T_c106_t5.60_45.46/vlm_review/frames/frame_04_32.500s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 39.0,
+      "frame_number": 1170,
+      "path": "outputs/charades_clip_batch_20/8BG1T_c106_t5.60_45.46/vlm_review/frames/frame_05_39.000s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "drinking_water"
+  ],
+  "request_payload": "outputs/charades_clip_batch_20/8BG1T_c106_t5.60_45.46/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_20/8BG1T_c106_t5.60_45.46/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_20/8BG1T_c106_t5.60_45.46/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "The person is sitting on a bench and holding a small container, but there is no clear evidence of drinking from it.",
+    "actions": [
+      {
+        "action": "drinking_water",
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person is holding a small container, but no drinking motion or liquid intake is visible.",
+        "supporting_frame_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup"
+    ],
+    "risk_notes": []
+  }
+}

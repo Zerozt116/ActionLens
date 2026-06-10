@@ -1,0 +1,68 @@
+{
+  "summary": {
+    "total": 3,
+    "ok": 2,
+    "download_failed": 1,
+    "stage2_failed": 0,
+    "alignment_failed": 0,
+    "matched": 2,
+    "match_rate": 1.0,
+    "average_best_iou": 0.9074,
+    "pose_on_matched_rate": 1.0,
+    "object_detected_rate": 0.0,
+    "event_detected_rate": 0.0
+  },
+  "records": [
+    {
+      "clip_path": "data/ava/clips/5BDj0ow5hnA_t0997_p114_a15_answer_phone.mp4",
+      "stage2_output_dir": "outputs/ava_batch_eval_limit3/5BDj0ow5hnA_t0997_p114_a15_answer_phone",
+      "video_id": "5BDj0ow5hnA",
+      "timestamp": 997,
+      "ava_person_id": 114,
+      "action_id": 15,
+      "action": "answer_phone",
+      "action_name": "answer phone",
+      "action_type": "OBJECT_MANIPULATION",
+      "best_iou": 0.8739,
+      "matched": true,
+      "has_pose_for_best_person": true,
+      "object_count_in_window": 0,
+      "event_count": 0,
+      "status": "ok"
+    },
+    {
+      "clip_path": "data/ava/clips/5BDj0ow5hnA_t1000_p130_a15_answer_phone.mp4",
+      "stage2_output_dir": "outputs/ava_batch_eval_limit3/5BDj0ow5hnA_t1000_p130_a15_answer_phone",
+      "video_id": "5BDj0ow5hnA",
+      "timestamp": 1000,
+      "ava_person_id": 130,
+      "action_id": 15,
+      "action": "answer_phone",
+      "action_name": "answer phone",
+      "action_type": "OBJECT_MANIPULATION",
+      "best_iou": 0.9409,
+      "matched": true,
+      "has_pose_for_best_person": true,
+      "object_count_in_window": 0,
+      "event_count": 0,
+      "status": "ok"
+    },
+    {
+      "clip_path": "",
+      "stage2_output_dir": "outputs/ava_batch_eval_limit3/9F2voT6QWvQ_t1456_p673_a15_answer_phone",
+      "video_id": "9F2voT6QWvQ",
+      "timestamp": 1456,
+      "ava_person_id": 673,
+      "action_id": 15,
+      "action": "answer_phone",
+      "action_name": "",
+      "action_type": "",
+      "best_iou": 0.0,
+      "matched": false,
+      "has_pose_for_best_person": false,
+      "object_count_in_window": 0,
+      "event_count": 0,
+      "status": "download_failed"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "019ea5ffe10983e9d751a235bd2e997e",
+  "object": "chat.completion",
+  "created": 1780901470,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"Person is seen holding and looking at a phone in the later frames, and appears to be talking on it in frame 5.\",\n  \"actions\": [\n    {\n      \"action\": \"talking_on_phone\",\n      \"present\": true,\n      \"confidence\": 0.9,\n      \"evidence\": \"In frame 5, person is holding a phone to their ear with visible mouth movement consistent with talking.\",\n      \"supporting_frame_indices\": [5]\n    },\n    {\n      \"action\": \"holding_phone\",\n      \"present\": true,\n      \"confidence\": 0.95,\n      \"evidence\": \"In frame 5, person is holding a phone to their ear. In frame 2, person is holding a phone to their ear. In frame 3, person is holding a phone to their ear.\",\n      \"supporting_frame_indices\": [2, 3, 5]\n    },\n    {\n      \"action\": \"looking_at_phone\",\n      \"present\": true,\n      \"confidence\": 0.9,\n      \"evidence\": \"In frame 5, person is holding phone to ear and looking at it. In frame 2, person is holding phone to ear and looking at it. In frame 3, person is holding phone to ear and looking at it.\",\n      \"supporting_frame_indices\": [2, 3, 5]\n    }\n  ],\n  \"visible_objects\": [\"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1131,
+    "completion_tokens": 311,
+    "total_tokens": 1442
+  },
+  "system_fingerprint": ""
+}

@@ -1,0 +1,22 @@
+{
+  "id": "019eab651e444d656145f22a65497789",
+  "object": "chat.completion",
+  "created": 1780991991,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person is seen in a bathroom, adjusting clothing and touching their head, not running.\",\n  \"actions\": [],\n  \"visible_objects\": [\"cup\", \"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 48,
+    "total_tokens": 1273
+  },
+  "system_fingerprint": ""
+}

@@ -1,0 +1,22 @@
+{
+  "id": "019eab55d264008ebddbc71654024f03",
+  "object": "chat.completion",
+  "created": 1780990990,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A person transitions from standing to sitting while holding a dog, completing the 'sitting_down' action.\",\n  \"actions\": [\n    {\n      \"action\": \"sitting_down\",\n      \"present\": true,\n      \"confidence\": 0.95,\n      \"evidence\": \"Person is standing at frame 0, then begins lowering themselves onto a box at frame 2, and is fully seated by frame 3, holding a dog.\",\n      \"supporting_frame_indices\": [0, 2, 3]\n    }\n  ],\n  \"visible_objects\": [],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1496,
+    "completion_tokens": 132,
+    "total_tokens": 1628
+  },
+  "system_fingerprint": ""
+}

@@ -1,0 +1,81 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/VSFCR_c123_t0.00_37.88.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 5.4167,
+      "frame_number": 130,
+      "path": "outputs/charades_clip_batch_50_part30/VSFCR_c123_t0.00_37.88/vlm_review/frames/frame_00_5.417s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 10.8333,
+      "frame_number": 260,
+      "path": "outputs/charades_clip_batch_50_part30/VSFCR_c123_t0.00_37.88/vlm_review/frames/frame_01_10.833s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 16.25,
+      "frame_number": 390,
+      "path": "outputs/charades_clip_batch_50_part30/VSFCR_c123_t0.00_37.88/vlm_review/frames/frame_02_16.250s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 21.6667,
+      "frame_number": 520,
+      "path": "outputs/charades_clip_batch_50_part30/VSFCR_c123_t0.00_37.88/vlm_review/frames/frame_03_21.667s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 27.0833,
+      "frame_number": 650,
+      "path": "outputs/charades_clip_batch_50_part30/VSFCR_c123_t0.00_37.88/vlm_review/frames/frame_04_27.083s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 32.5,
+      "frame_number": 780,
+      "path": "outputs/charades_clip_batch_50_part30/VSFCR_c123_t0.00_37.88/vlm_review/frames/frame_05_32.500s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "sitting_on_sofa"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part30/VSFCR_c123_t0.00_37.88/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part30/VSFCR_c123_t0.00_37.88/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part30/VSFCR_c123_t0.00_37.88/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A person is sitting on a sofa throughout the sampled frames, occasionally holding and drinking from a purple cup.",
+    "actions": [
+      {
+        "action": "sitting_on_sofa",
+        "present": true,
+        "confidence": 1.0,
+        "evidence": "The person is seated on a dark-colored sofa in all frames.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup",
+      "phone"
+    ],
+    "risk_notes": []
+  }
+}

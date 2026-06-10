@@ -1,0 +1,101 @@
+{
+  "video_id": "ARCUY",
+  "summary": {
+    "video_id": "ARCUY",
+    "final_events": 0,
+    "semantic_candidates": 1,
+    "pending_events": 0,
+    "rejected_events": 0,
+    "fused_events": 1,
+    "event_center_reviews": 0
+  },
+  "final_events": [],
+  "semantic_candidates": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "start_seconds": 2.6,
+      "end_seconds": 42.2,
+      "confidence": 1.0,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 1.0,
+        "evidence": "The person is visibly seated on a chair in all frames, maintaining a seated posture.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c059"
+        ],
+        "action_names": [
+          "Sitting in a chair"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 2.6,
+            "end_seconds": 42.2
+          }
+        ]
+      }
+    }
+  ],
+  "pending_events": [],
+  "rejected_events": [],
+  "fused_events": [
+    {
+      "source": "vlm_recovered_label",
+      "candidate_index": 0,
+      "decision": "semantic_candidate",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "start_seconds": 2.6,
+      "end_seconds": 42.2,
+      "confidence": 1.0,
+      "evidence_sources": [
+        "charades",
+        "full_video_vlm"
+      ],
+      "fusion_reason": "Stage2 missed the action, but Charades and full-video VLM agree.",
+      "vlm": {
+        "confidence": 1.0,
+        "evidence": "The person is visibly seated on a chair in all frames, maintaining a seated posture.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "charades": {
+        "action_ids": [
+          "c059"
+        ],
+        "action_names": [
+          "Sitting in a chair"
+        ],
+        "intervals": [
+          {
+            "start_seconds": 2.6,
+            "end_seconds": 42.2
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,597 @@
+{
+  "summary": {
+    "total_clips_processed": 50,
+    "total_fused_events": 115,
+    "unique_videos": 50,
+    "unique_actions": 19,
+    "unique_actions_with_outputs": 16,
+    "overall_bucket_counts": {
+      "final_events": 20,
+      "semantic_candidates": 24,
+      "pending_events": 0,
+      "rejected_events": 71
+    }
+  },
+  "per_action": [
+    {
+      "canonical_action": "cooking",
+      "clips_total": 2,
+      "charades_groundtruth": 4,
+      "final": 0,
+      "semantic": 1,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=1 P=0 R=0 supported_events=1, gt_clips=4"
+    },
+    {
+      "canonical_action": "drinking_water",
+      "clips_total": 3,
+      "charades_groundtruth": 11,
+      "final": 15,
+      "semantic": 1,
+      "pending": 0,
+      "rejected": 44,
+      "stage2_hits": 59,
+      "vlm_present": 8,
+      "status_summary": "F=15 S=1 P=0 R=44 supported_events=16, gt_clips=11"
+    },
+    {
+      "canonical_action": "eating",
+      "clips_total": 5,
+      "charades_groundtruth": 13,
+      "final": 0,
+      "semantic": 4,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=4 P=0 R=0 supported_events=4, gt_clips=13"
+    },
+    {
+      "canonical_action": "holding_drink_container",
+      "clips_total": 2,
+      "charades_groundtruth": 12,
+      "final": 0,
+      "semantic": 1,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=1 P=0 R=0 supported_events=1, gt_clips=12"
+    },
+    {
+      "canonical_action": "holding_phone",
+      "clips_total": 3,
+      "charades_groundtruth": 11,
+      "final": 0,
+      "semantic": 3,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=3 P=0 R=0 supported_events=3, gt_clips=11"
+    },
+    {
+      "canonical_action": "looking_at_phone",
+      "clips_total": 3,
+      "charades_groundtruth": 7,
+      "final": 0,
+      "semantic": 2,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=2 P=0 R=0 supported_events=2, gt_clips=7"
+    },
+    {
+      "canonical_action": "putting_drink_container",
+      "clips_total": 2,
+      "charades_groundtruth": 7,
+      "final": 0,
+      "semantic": 1,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=1 P=0 R=0 supported_events=1, gt_clips=7"
+    },
+    {
+      "canonical_action": "running",
+      "clips_total": 3,
+      "charades_groundtruth": 4,
+      "final": 0,
+      "semantic": 0,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=0 P=0 R=0 supported_events=0, gt_clips=4"
+    },
+    {
+      "canonical_action": "sitting_down",
+      "clips_total": 3,
+      "charades_groundtruth": 12,
+      "final": 0,
+      "semantic": 1,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=1 P=0 R=0 supported_events=1, gt_clips=12"
+    },
+    {
+      "canonical_action": "sitting_on_chair",
+      "clips_total": 3,
+      "charades_groundtruth": 10,
+      "final": 0,
+      "semantic": 2,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=2 P=0 R=0 supported_events=2, gt_clips=10"
+    },
+    {
+      "canonical_action": "sitting_on_floor",
+      "clips_total": 2,
+      "charades_groundtruth": 7,
+      "final": 0,
+      "semantic": 0,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=0 P=0 R=0 supported_events=0, gt_clips=7"
+    },
+    {
+      "canonical_action": "sitting_on_sofa",
+      "clips_total": 2,
+      "charades_groundtruth": 3,
+      "final": 0,
+      "semantic": 1,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=1 P=0 R=0 supported_events=1, gt_clips=3"
+    },
+    {
+      "canonical_action": "standing_up",
+      "clips_total": 3,
+      "charades_groundtruth": 14,
+      "final": 0,
+      "semantic": 0,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=0 P=0 R=0 supported_events=0, gt_clips=14"
+    },
+    {
+      "canonical_action": "taking_drink_container",
+      "clips_total": 2,
+      "charades_groundtruth": 7,
+      "final": 0,
+      "semantic": 1,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=1 P=0 R=0 supported_events=1, gt_clips=7"
+    },
+    {
+      "canonical_action": "talking_on_phone",
+      "clips_total": 3,
+      "charades_groundtruth": 3,
+      "final": 5,
+      "semantic": 2,
+      "pending": 0,
+      "rejected": 27,
+      "stage2_hits": 32,
+      "vlm_present": 0,
+      "status_summary": "F=5 S=2 P=0 R=27 supported_events=7, gt_clips=3"
+    },
+    {
+      "canonical_action": "using_laptop",
+      "clips_total": 2,
+      "charades_groundtruth": 2,
+      "final": 0,
+      "semantic": 1,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=1 P=0 R=0 supported_events=1, gt_clips=2"
+    },
+    {
+      "canonical_action": "walking_through_doorway",
+      "clips_total": 3,
+      "charades_groundtruth": 6,
+      "final": 0,
+      "semantic": 1,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=1 P=0 R=0 supported_events=1, gt_clips=6"
+    },
+    {
+      "canonical_action": "watching_laptop",
+      "clips_total": 2,
+      "charades_groundtruth": 3,
+      "final": 0,
+      "semantic": 1,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=1 P=0 R=0 supported_events=1, gt_clips=3"
+    },
+    {
+      "canonical_action": "watching_tv",
+      "clips_total": 2,
+      "charades_groundtruth": 3,
+      "final": 0,
+      "semantic": 1,
+      "pending": 0,
+      "rejected": 0,
+      "stage2_hits": 0,
+      "vlm_present": 0,
+      "status_summary": "F=0 S=1 P=0 R=0 supported_events=1, gt_clips=3"
+    }
+  ],
+  "per_video": [
+    {
+      "video_id": "024PD",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "1BUFQ",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "1LKPL",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "1Y09V",
+      "final_events": 5,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "229ZR",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "24B2K",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "38TF8",
+      "final_events": 1,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 8
+    },
+    {
+      "video_id": "3HUXR",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "406LH",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "4FXUI",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 1
+    },
+    {
+      "video_id": "5B8M5",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "6TNP4",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "75HWR",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "7JTEK",
+      "final_events": 0,
+      "semantic_candidates": 2,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "7WIKW",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "8BG1T",
+      "final_events": 1,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 1
+    },
+    {
+      "video_id": "ARCUY",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "B5UXP",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "BGX4T",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 2
+    },
+    {
+      "video_id": "BPZE3",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "CY2J2",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 1
+    },
+    {
+      "video_id": "EHTB6",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 9
+    },
+    {
+      "video_id": "ENJ7V",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 15
+    },
+    {
+      "video_id": "FV684",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 4
+    },
+    {
+      "video_id": "FVPMC",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 4
+    },
+    {
+      "video_id": "GY9MZ",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "HG8G1",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "JUF24",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "K8AUX",
+      "final_events": 1,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "L57L2",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 1
+    },
+    {
+      "video_id": "M0DAY",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "M8CDW",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 8
+    },
+    {
+      "video_id": "NDH24",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "OINMN",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "P0DXX",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "PCXYE",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "PURYC",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 2
+    },
+    {
+      "video_id": "QU2WL",
+      "final_events": 5,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 7
+    },
+    {
+      "video_id": "R28EY",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "S1BYH",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "SPG5Q",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "STAZI",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "U9UI8",
+      "final_events": 2,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "VSFCR",
+      "final_events": 5,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "X95MU",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 3
+    },
+    {
+      "video_id": "XFHYX",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "Y6MUU",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 5
+    },
+    {
+      "video_id": "YVH4J",
+      "final_events": 0,
+      "semantic_candidates": 1,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "ZCH1J",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "video_id": "ZP5TG",
+      "final_events": 0,
+      "semantic_candidates": 0,
+      "pending_events": 0,
+      "rejected_events": 0
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/BPZE3_c147_t0.00_35.12.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 5.0241,
+      "frame_number": 151,
+      "path": "outputs/charades_clip_batch_50_part30/BPZE3_c147_t0.00_35.12/vlm_review/frames/frame_00_5.024s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 10.0481,
+      "frame_number": 301,
+      "path": "outputs/charades_clip_batch_50_part30/BPZE3_c147_t0.00_35.12/vlm_review/frames/frame_01_10.048s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 15.0722,
+      "frame_number": 452,
+      "path": "outputs/charades_clip_batch_50_part30/BPZE3_c147_t0.00_35.12/vlm_review/frames/frame_02_15.072s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 20.0963,
+      "frame_number": 602,
+      "path": "outputs/charades_clip_batch_50_part30/BPZE3_c147_t0.00_35.12/vlm_review/frames/frame_03_20.096s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 25.1203,
+      "frame_number": 753,
+      "path": "outputs/charades_clip_batch_50_part30/BPZE3_c147_t0.00_35.12/vlm_review/frames/frame_04_25.120s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 30.1444,
+      "frame_number": 903,
+      "path": "outputs/charades_clip_batch_50_part30/BPZE3_c147_t0.00_35.12/vlm_review/frames/frame_05_30.144s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "cooking"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part30/BPZE3_c147_t0.00_35.12/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part30/BPZE3_c147_t0.00_35.12/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part30/BPZE3_c147_t0.00_35.12/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A person is consistently seen cooking in a kitchen, stirring a pot on the stove across multiple frames.",
+    "actions": [
+      {
+        "action": "cooking",
+        "present": true,
+        "confidence": 1.0,
+        "evidence": "Person is standing at a stove, actively stirring food in a pot, with steam rising, indicating cooking activity.",
+        "supporting_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "visible_objects": [],
+    "risk_notes": []
+  }
+}

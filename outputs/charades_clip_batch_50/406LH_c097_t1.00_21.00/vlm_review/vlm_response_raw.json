@@ -1,0 +1,22 @@
+{
+  "id": "019eab621d0d7f88524901635805aebd",
+  "object": "chat.completion",
+  "created": 1780991795,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"A person is seen walking through a doorway, transitioning from one room to another.\",\n  \"actions\": [\n    {\n      \"action\": \"walking_through_doorway\",\n      \"present\": true,\n      \"confidence\": 0.95,\n      \"evidence\": \"Person is seen stepping through an open doorway from frame 1 to frame 5, moving from one room to another.\",\n      \"supporting_frame_indices\": [1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1215,
+    "completion_tokens": 125,
+    "total_tokens": 1340
+  },
+  "system_fingerprint": ""
+}

@@ -1,0 +1,22 @@
+{
+  "id": "019ea6065753fdc106915da0bc70e9cb",
+  "object": "chat.completion",
+  "created": 1780901894,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"Person is consistently holding and looking at a phone in multiple frames, with occasional movement but no clear talking_on_phone action.\",\n  \"actions\": [\n    {\n      \"action\": \"talking_on_phone\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"Person is holding and looking at phone, but no mouth movement or phone to ear indicates talking.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    },\n    {\n      \"action\": \"holding_phone\",\n      \"present\": true,\n      \"confidence\": 0.95,\n      \"evidence\": \"Person is holding a phone in hand in all frames, visible in multiple frames.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    },\n    {\n      \"action\": \"looking_at_phone\",\n      \"present\": true,\n      \"confidence\": 0.95,\n      \"evidence\": \"Person is looking down at the phone in all frames, phone screen is visible.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"phone\"],\n  \"risk_notes\": [\"phone partially occluded in some frames\", \"low lighting may affect action clarity\"]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 299,
+    "total_tokens": 1437
+  },
+  "system_fingerprint": ""
+}

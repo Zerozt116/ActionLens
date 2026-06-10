@@ -1,0 +1,22 @@
+{
+  "id": "019eab626caf81c885b145b434d09510",
+  "object": "chat.completion",
+  "created": 1780991815,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"overall_summary\": \"The person is standing in a closet, holding a small object, possibly a phone or remote, and appears to be interacting with it. No running or rapid movement is observed.\",\n  \"actions\": [\n    {\n      \"action\": \"running\",\n      \"present\": false,\n      \"confidence\": 0.0,\n      \"evidence\": \"The person is standing still in a closet, holding an object and looking at it. No running gait or rapid movement is visible.\",\n      \"supporting_frame_indices\": [0, 1, 2, 3, 4, 5]\n    }\n  ],\n  \"visible_objects\": [\"phone\"],\n  \"risk_notes\": []\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1477,
+    "completion_tokens": 148,
+    "total_tokens": 1625
+  },
+  "system_fingerprint": ""
+}

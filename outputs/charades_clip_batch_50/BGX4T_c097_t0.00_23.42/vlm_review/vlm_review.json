@@ -1,0 +1,26 @@
+{
+  "overall_summary": "Person is holding and moving a yellow steam cleaner in a laundry room.",
+  "actions": [
+    {
+      "action": "drinking_water",
+      "present": false,
+      "confidence": 0.0,
+      "evidence": "No cup or bottle visible; person is holding a steam cleaner.",
+      "supporting_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "visible_objects": [
+    "steam_cleaner",
+    "washing_machine",
+    "ladder",
+    "door"
+  ],
+  "risk_notes": []
+}

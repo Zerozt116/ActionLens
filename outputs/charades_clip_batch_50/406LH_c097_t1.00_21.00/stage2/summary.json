@@ -1,0 +1,16 @@
+{
+  "video": {
+    "path": "data/charades/clips_480p/406LH_c097_t1.00_21.00.mp4",
+    "fps": 30.0,
+    "frame_count": 632,
+    "width": 480,
+    "height": 270,
+    "duration_seconds": 21.066666666666666
+  },
+  "num_objects": 0,
+  "num_poses": 560,
+  "num_frame_scores": 0,
+  "num_events": 0,
+  "events": [],
+  "annotated_video": null
+}

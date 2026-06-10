@@ -1,0 +1,77 @@
+{
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "video": "data/charades/clips_480p/PCXYE_c109_t0.00_28.40.mp4",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 4.0667,
+      "frame_number": 122,
+      "path": "outputs/charades_clip_batch_50_part30/PCXYE_c109_t0.00_28.40/vlm_review/frames/frame_00_4.067s.jpg"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 8.1333,
+      "frame_number": 244,
+      "path": "outputs/charades_clip_batch_50_part30/PCXYE_c109_t0.00_28.40/vlm_review/frames/frame_01_8.133s.jpg"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 12.2,
+      "frame_number": 366,
+      "path": "outputs/charades_clip_batch_50_part30/PCXYE_c109_t0.00_28.40/vlm_review/frames/frame_02_12.200s.jpg"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 16.2667,
+      "frame_number": 488,
+      "path": "outputs/charades_clip_batch_50_part30/PCXYE_c109_t0.00_28.40/vlm_review/frames/frame_03_16.267s.jpg"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 20.3333,
+      "frame_number": 610,
+      "path": "outputs/charades_clip_batch_50_part30/PCXYE_c109_t0.00_28.40/vlm_review/frames/frame_04_20.333s.jpg"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 24.4,
+      "frame_number": 732,
+      "path": "outputs/charades_clip_batch_50_part30/PCXYE_c109_t0.00_28.40/vlm_review/frames/frame_05_24.400s.jpg"
+    }
+  ],
+  "review_window": {
+    "start_seconds": null,
+    "end_seconds": null,
+    "source": "explicit_or_full_video",
+    "event": null
+  },
+  "actions": [
+    "putting_drink_container"
+  ],
+  "request_payload": "outputs/charades_clip_batch_50_part30/PCXYE_c109_t0.00_28.40/vlm_review/vlm_request_payload.json",
+  "dry_run": false,
+  "status": "completed",
+  "raw_response": "outputs/charades_clip_batch_50_part30/PCXYE_c109_t0.00_28.40/vlm_review/vlm_response_raw.json",
+  "review": "outputs/charades_clip_batch_50_part30/PCXYE_c109_t0.00_28.40/vlm_review/vlm_review.json",
+  "review_json": {
+    "overall_summary": "A person is seen drinking from a container while seated on a motorcycle, then walks away and places the container on a shelf.",
+    "actions": [
+      {
+        "action": "putting_drink_container",
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "In frame 5, the person is seen placing a white container on a shelf after walking away from the motorcycle.",
+        "supporting_frame_indices": [
+          5
+        ]
+      }
+    ],
+    "visible_objects": [
+      "cup",
+      "motorcycle",
+      "bicycle"
+    ],
+    "risk_notes": []
+  }
+}
