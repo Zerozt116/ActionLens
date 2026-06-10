@@ -1,0 +1,33 @@
+{
+  "mode": "train-loss",
+  "device": "cuda",
+  "dataset_length": 32,
+  "index": 0,
+  "video_id": "EHTB6_c016_t0.00_41.00",
+  "feats_shape_cxt": [
+    2304,
+    79
+  ],
+  "segments_shape": [
+    2,
+    2
+  ],
+  "labels_shape": [
+    2
+  ],
+  "labels": [
+    3,
+    22
+  ],
+  "fps": 30.0,
+  "duration": 41.041,
+  "feat_stride": 15,
+  "feat_num_frames": 32,
+  "elapsed_ms": 316.76,
+  "model_params": 8337440,
+  "losses": {
+    "cls_loss": 0.041973,
+    "reg_loss": 0.022459,
+    "final_loss": 0.064432
+  }
+}
