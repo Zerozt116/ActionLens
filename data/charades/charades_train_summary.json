@@ -1,0 +1,339 @@
+{
+  "actions": 49809,
+  "videos": 7811,
+  "classes": 157,
+  "scenes": 16,
+  "average_action_duration_seconds": 12.9193,
+  "top_actions": [
+    {
+      "id": "c097",
+      "name": "Walking through a doorway",
+      "count": 1444
+    },
+    {
+      "id": "c154",
+      "name": "Someone is standing up from somewhere",
+      "count": 1341
+    },
+    {
+      "id": "c059",
+      "name": "Sitting in a chair",
+      "count": 1260
+    },
+    {
+      "id": "c106",
+      "name": "Drinking from a cup/glass/bottle",
+      "count": 1134
+    },
+    {
+      "id": "c061",
+      "name": "Holding some food",
+      "count": 1075
+    },
+    {
+      "id": "c015",
+      "name": "Holding a phone/camera",
+      "count": 1055
+    },
+    {
+      "id": "c152",
+      "name": "Someone is smiling",
+      "count": 1029
+    },
+    {
+      "id": "c107",
+      "name": "Holding a cup/glass/bottle of something",
+      "count": 1014
+    },
+    {
+      "id": "c151",
+      "name": "Someone is going from standing to sitting",
+      "count": 964
+    },
+    {
+      "id": "c156",
+      "name": "Someone is eating something",
+      "count": 936
+    },
+    {
+      "id": "c009",
+      "name": "Putting something on a table",
+      "count": 879
+    },
+    {
+      "id": "c008",
+      "name": "Opening a door",
+      "count": 784
+    },
+    {
+      "id": "c118",
+      "name": "Holding a dish",
+      "count": 763
+    },
+    {
+      "id": "c011",
+      "name": "Sitting at a table",
+      "count": 728
+    },
+    {
+      "id": "c063",
+      "name": "Taking food from somewhere",
+      "count": 683
+    },
+    {
+      "id": "c020",
+      "name": "Holding a bag",
+      "count": 678
+    },
+    {
+      "id": "c016",
+      "name": "Playing with a phone/camera",
+      "count": 673
+    },
+    {
+      "id": "c153",
+      "name": "Someone is sneezing",
+      "count": 643
+    },
+    {
+      "id": "c001",
+      "name": "Putting clothes somewhere",
+      "count": 640
+    },
+    {
+      "id": "c000",
+      "name": "Holding some clothes",
+      "count": 635
+    }
+  ],
+  "top_scenes": [
+    [
+      "Living room",
+      7956
+    ],
+    [
+      "Bedroom",
+      7870
+    ],
+    [
+      "Kitchen",
+      7716
+    ],
+    [
+      "Home Office / Study (A room in a house used for work)",
+      3061
+    ],
+    [
+      "Bathroom",
+      2992
+    ],
+    [
+      "Dining room",
+      2806
+    ],
+    [
+      "Entryway (A hall that is generally located at the entrance of a house)",
+      2563
+    ],
+    [
+      "Laundry room",
+      2365
+    ],
+    [
+      "Hallway",
+      2171
+    ],
+    [
+      "Stairs",
+      2038
+    ],
+    [
+      "Closet / Walk-in closet / Spear closet",
+      1932
+    ],
+    [
+      "Recreation room / Man cave",
+      1848
+    ],
+    [
+      "Pantry",
+      1467
+    ],
+    [
+      "Garage",
+      1465
+    ],
+    [
+      "Basement (A room below the ground floor)",
+      1015
+    ],
+    [
+      "Other",
+      544
+    ]
+  ],
+  "top_verbs": [
+    [
+      "hold",
+      9871
+    ],
+    [
+      "put",
+      6009
+    ],
+    [
+      "take",
+      4723
+    ],
+    [
+      "sit",
+      4192
+    ],
+    [
+      "open",
+      2632
+    ],
+    [
+      "watch",
+      2135
+    ],
+    [
+      "tidy",
+      1893
+    ],
+    [
+      "close",
+      1656
+    ],
+    [
+      "eat",
+      1557
+    ],
+    [
+      "walk",
+      1444
+    ],
+    [
+      "stand",
+      1387
+    ],
+    [
+      "throw",
+      1335
+    ],
+    [
+      "smile",
+      1232
+    ],
+    [
+      "drink",
+      1134
+    ],
+    [
+      "play",
+      1014
+    ],
+    [
+      "wash",
+      673
+    ],
+    [
+      "laugh",
+      662
+    ],
+    [
+      "sneeze",
+      643
+    ],
+    [
+      "undress",
+      591
+    ],
+    [
+      "lie",
+      585
+    ]
+  ],
+  "top_objects": [
+    [
+      "None",
+      5167
+    ],
+    [
+      "food",
+      3579
+    ],
+    [
+      "cup/glass/bottle",
+      3490
+    ],
+    [
+      "clothes",
+      3131
+    ],
+    [
+      "phone/camera",
+      2693
+    ],
+    [
+      "book",
+      2220
+    ],
+    [
+      "table",
+      2138
+    ],
+    [
+      "dish",
+      1702
+    ],
+    [
+      "bag",
+      1681
+    ],
+    [
+      "towel",
+      1648
+    ],
+    [
+      "doorway",
+      1444
+    ],
+    [
+      "door",
+      1429
+    ],
+    [
+      "blanket",
+      1415
+    ],
+    [
+      "floor",
+      1349
+    ],
+    [
+      "laptop",
+      1319
+    ],
+    [
+      "chair",
+      1306
+    ],
+    [
+      "closet/cabinet",
+      1223
+    ],
+    [
+      "sandwich",
+      1203
+    ],
+    [
+      "box",
+      1177
+    ],
+    [
+      "pillow",
+      1010
+    ]
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "selected_videos": 50,
+  "selected_rows": 50,
+  "actions": 20,
+  "scenes": 16,
+  "average_clip_duration_seconds": 36.8912,
+  "by_action": [
+    {
+      "action_id": "c015",
+      "action_name": "Holding a phone/camera",
+      "count": 3
+    },
+    {
+      "action_id": "c016",
+      "action_name": "Playing with a phone/camera",
+      "count": 3
+    },
+    {
+      "action_id": "c019",
+      "action_name": "Talking on a phone/camera",
+      "count": 3
+    },
+    {
+      "action_id": "c051",
+      "action_name": "Watching a laptop or something on a laptop",
+      "count": 2
+    },
+    {
+      "action_id": "c052",
+      "action_name": "Working/Playing on a laptop",
+      "count": 2
+    },
+    {
+      "action_id": "c059",
+      "action_name": "Sitting in a chair",
+      "count": 3
+    },
+    {
+      "action_id": "c065",
+      "action_name": "Eating a sandwich",
+      "count": 2
+    },
+    {
+      "action_id": "c097",
+      "action_name": "Walking through a doorway",
+      "count": 3
+    },
+    {
+      "action_id": "c106",
+      "action_name": "Drinking from a cup/glass/bottle",
+      "count": 3
+    },
+    {
+      "action_id": "c107",
+      "action_name": "Holding a cup/glass/bottle of something",
+      "count": 2
+    },
+    {
+      "action_id": "c109",
+      "action_name": "Putting a cup/glass/bottle somewhere",
+      "count": 2
+    },
+    {
+      "action_id": "c110",
+      "action_name": "Taking a cup/glass/bottle from somewhere",
+      "count": 2
+    },
+    {
+      "action_id": "c123",
+      "action_name": "Sitting on sofa/couch",
+      "count": 2
+    },
+    {
+      "action_id": "c125",
+      "action_name": "Sitting on the floor",
+      "count": 2
+    },
+    {
+      "action_id": "c132",
+      "action_name": "Watching television",
+      "count": 2
+    },
+    {
+      "action_id": "c147",
+      "action_name": "Someone is cooking something",
+      "count": 2
+    },
+    {
+      "action_id": "c150",
+      "action_name": "Someone is running somewhere",
+      "count": 3
+    },
+    {
+      "action_id": "c151",
+      "action_name": "Someone is going from standing to sitting",
+      "count": 3
+    },
+    {
+      "action_id": "c154",
+      "action_name": "Someone is standing up from somewhere",
+      "count": 3
+    },
+    {
+      "action_id": "c156",
+      "action_name": "Someone is eating something",
+      "count": 3
+    }
+  ],
+  "by_scene": {
+    "Kitchen": 8,
+    "Living room": 6,
+    "Pantry": 5,
+    "Dining room": 4,
+    "Laundry room": 4,
+    "Recreation room / Man cave": 3,
+    "Garage": 3,
+    "Other": 3,
+    "Entryway (A hall that is generally located at the entrance of a house)": 3,
+    "Closet / Walk-in closet / Spear closet": 2,
+    "Bathroom": 2,
+    "Home Office / Study (A room in a house used for work)": 2,
+    "Bedroom": 2,
+    "Stairs": 1,
+    "Basement (A room below the ground floor)": 1,
+    "Hallway": 1
+  },
+  "video_ids": [
+    "8BG1T",
+    "OINMN",
+    "024PD",
+    "EHTB6",
+    "B5UXP",
+    "P0DXX",
+    "FVPMC",
+    "CY2J2",
+    "BGX4T",
+    "S1BYH",
+    "4FXUI",
+    "ZCH1J",
+    "JUF24",
+    "6TNP4",
+    "PURYC",
+    "1Y09V",
+    "HG8G1",
+    "ZP5TG",
+    "L57L2",
+    "3HUXR",
+    "38TF8",
+    "QU2WL",
+    "ENJ7V",
+    "75HWR",
+    "7JTEK",
+    "7WIKW",
+    "1LKPL",
+    "229ZR",
+    "STAZI",
+    "M0DAY",
+    "NDH24",
+    "YVH4J",
+    "BPZE3",
+    "GY9MZ",
+    "K8AUX",
+    "PCXYE",
+    "R28EY",
+    "VSFCR",
+    "24B2K",
+    "1BUFQ",
+    "U9UI8",
+    "M8CDW",
+    "Y6MUU",
+    "X95MU",
+    "5B8M5",
+    "XFHYX",
+    "FV684",
+    "ARCUY",
+    "406LH",
+    "SPG5Q"
+  ]
+}

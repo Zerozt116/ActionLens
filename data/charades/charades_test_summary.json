@@ -1,0 +1,339 @@
+{
+  "actions": 16691,
+  "videos": 1814,
+  "classes": 157,
+  "scenes": 16,
+  "average_action_duration_seconds": 12.2774,
+  "top_actions": [
+    {
+      "id": "c097",
+      "name": "Walking through a doorway",
+      "count": 439
+    },
+    {
+      "id": "c152",
+      "name": "Someone is smiling",
+      "count": 393
+    },
+    {
+      "id": "c154",
+      "name": "Someone is standing up from somewhere",
+      "count": 381
+    },
+    {
+      "id": "c107",
+      "name": "Holding a cup/glass/bottle of something",
+      "count": 380
+    },
+    {
+      "id": "c059",
+      "name": "Sitting in a chair",
+      "count": 368
+    },
+    {
+      "id": "c061",
+      "name": "Holding some food",
+      "count": 367
+    },
+    {
+      "id": "c106",
+      "name": "Drinking from a cup/glass/bottle",
+      "count": 300
+    },
+    {
+      "id": "c009",
+      "name": "Putting something on a table",
+      "count": 285
+    },
+    {
+      "id": "c151",
+      "name": "Someone is going from standing to sitting",
+      "count": 279
+    },
+    {
+      "id": "c156",
+      "name": "Someone is eating something",
+      "count": 273
+    },
+    {
+      "id": "c008",
+      "name": "Opening a door",
+      "count": 273
+    },
+    {
+      "id": "c118",
+      "name": "Holding a dish",
+      "count": 267
+    },
+    {
+      "id": "c015",
+      "name": "Holding a phone/camera",
+      "count": 265
+    },
+    {
+      "id": "c063",
+      "name": "Taking food from somewhere",
+      "count": 245
+    },
+    {
+      "id": "c110",
+      "name": "Taking a cup/glass/bottle from somewhere",
+      "count": 240
+    },
+    {
+      "id": "c141",
+      "name": "Grasping onto a doorknob",
+      "count": 238
+    },
+    {
+      "id": "c000",
+      "name": "Holding some clothes",
+      "count": 227
+    },
+    {
+      "id": "c149",
+      "name": "Someone is laughing",
+      "count": 211
+    },
+    {
+      "id": "c026",
+      "name": "Holding a book",
+      "count": 211
+    },
+    {
+      "id": "c062",
+      "name": "Putting some food somewhere",
+      "count": 211
+    }
+  ],
+  "top_scenes": [
+    [
+      "Bedroom",
+      2714
+    ],
+    [
+      "Living room",
+      2620
+    ],
+    [
+      "Kitchen",
+      2464
+    ],
+    [
+      "Closet / Walk-in closet / Spear closet",
+      1179
+    ],
+    [
+      "Dining room",
+      1108
+    ],
+    [
+      "Home Office / Study (A room in a house used for work)",
+      1068
+    ],
+    [
+      "Entryway (A hall that is generally located at the entrance of a house)",
+      930
+    ],
+    [
+      "Bathroom",
+      910
+    ],
+    [
+      "Stairs",
+      850
+    ],
+    [
+      "Hallway",
+      656
+    ],
+    [
+      "Recreation room / Man cave",
+      597
+    ],
+    [
+      "Pantry",
+      569
+    ],
+    [
+      "Laundry room",
+      435
+    ],
+    [
+      "Basement (A room below the ground floor)",
+      248
+    ],
+    [
+      "Garage",
+      234
+    ],
+    [
+      "Other",
+      109
+    ]
+  ],
+  "top_verbs": [
+    [
+      "hold",
+      3300
+    ],
+    [
+      "put",
+      2170
+    ],
+    [
+      "take",
+      1810
+    ],
+    [
+      "sit",
+      1334
+    ],
+    [
+      "open",
+      832
+    ],
+    [
+      "watch",
+      689
+    ],
+    [
+      "tidy",
+      673
+    ],
+    [
+      "close",
+      539
+    ],
+    [
+      "throw",
+      512
+    ],
+    [
+      "smile",
+      489
+    ],
+    [
+      "walk",
+      439
+    ],
+    [
+      "eat",
+      421
+    ],
+    [
+      "stand",
+      388
+    ],
+    [
+      "drink",
+      300
+    ],
+    [
+      "play",
+      282
+    ],
+    [
+      "laugh",
+      239
+    ],
+    [
+      "grasp",
+      238
+    ],
+    [
+      "wash",
+      213
+    ],
+    [
+      "undress",
+      197
+    ],
+    [
+      "lie",
+      188
+    ]
+  ],
+  "top_objects": [
+    [
+      "None",
+      1636
+    ],
+    [
+      "cup/glass/bottle",
+      1207
+    ],
+    [
+      "food",
+      1194
+    ],
+    [
+      "clothes",
+      1101
+    ],
+    [
+      "book",
+      781
+    ],
+    [
+      "phone/camera",
+      751
+    ],
+    [
+      "table",
+      680
+    ],
+    [
+      "towel",
+      641
+    ],
+    [
+      "dish",
+      588
+    ],
+    [
+      "blanket",
+      579
+    ],
+    [
+      "door",
+      505
+    ],
+    [
+      "laptop",
+      479
+    ],
+    [
+      "floor",
+      477
+    ],
+    [
+      "bag",
+      448
+    ],
+    [
+      "box",
+      442
+    ],
+    [
+      "doorway",
+      439
+    ],
+    [
+      "closet/cabinet",
+      416
+    ],
+    [
+      "chair",
+      375
+    ],
+    [
+      "shoe",
+      357
+    ],
+    [
+      "sandwich",
+      347
+    ]
+  ]
+}

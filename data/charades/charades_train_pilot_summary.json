@@ -1,0 +1,283 @@
+{
+  "actions": 12086,
+  "videos": 4717,
+  "classes": 24,
+  "scenes": 16,
+  "average_action_duration_seconds": 13.8995,
+  "top_actions": [
+    {
+      "id": "c097",
+      "name": "Walking through a doorway",
+      "count": 1149
+    },
+    {
+      "id": "c154",
+      "name": "Someone is standing up from somewhere",
+      "count": 1040
+    },
+    {
+      "id": "c059",
+      "name": "Sitting in a chair",
+      "count": 982
+    },
+    {
+      "id": "c106",
+      "name": "Drinking from a cup/glass/bottle",
+      "count": 923
+    },
+    {
+      "id": "c015",
+      "name": "Holding a phone/camera",
+      "count": 855
+    },
+    {
+      "id": "c107",
+      "name": "Holding a cup/glass/bottle of something",
+      "count": 813
+    },
+    {
+      "id": "c156",
+      "name": "Someone is eating something",
+      "count": 754
+    },
+    {
+      "id": "c151",
+      "name": "Someone is going from standing to sitting",
+      "count": 740
+    },
+    {
+      "id": "c016",
+      "name": "Playing with a phone/camera",
+      "count": 548
+    },
+    {
+      "id": "c110",
+      "name": "Taking a cup/glass/bottle from somewhere",
+      "count": 446
+    },
+    {
+      "id": "c109",
+      "name": "Putting a cup/glass/bottle somewhere",
+      "count": 382
+    },
+    {
+      "id": "c123",
+      "name": "Sitting on sofa/couch",
+      "count": 378
+    },
+    {
+      "id": "c065",
+      "name": "Eating a sandwich",
+      "count": 374
+    },
+    {
+      "id": "c125",
+      "name": "Sitting on the floor",
+      "count": 323
+    },
+    {
+      "id": "c150",
+      "name": "Someone is running somewhere",
+      "count": 296
+    },
+    {
+      "id": "c147",
+      "name": "Someone is cooking something",
+      "count": 291
+    },
+    {
+      "id": "c052",
+      "name": "Working/Playing on a laptop",
+      "count": 280
+    },
+    {
+      "id": "c132",
+      "name": "Watching television",
+      "count": 276
+    },
+    {
+      "id": "c051",
+      "name": "Watching a laptop or something on a laptop",
+      "count": 274
+    },
+    {
+      "id": "c018",
+      "name": "Taking a phone/camera from somewhere",
+      "count": 246
+    }
+  ],
+  "top_scenes": [
+    [
+      "Living room",
+      2299
+    ],
+    [
+      "Kitchen",
+      1895
+    ],
+    [
+      "Bedroom",
+      1676
+    ],
+    [
+      "Home Office / Study (A room in a house used for work)",
+      855
+    ],
+    [
+      "Dining room",
+      794
+    ],
+    [
+      "Bathroom",
+      704
+    ],
+    [
+      "Entryway (A hall that is generally located at the entrance of a house)",
+      570
+    ],
+    [
+      "Hallway",
+      536
+    ],
+    [
+      "Recreation room / Man cave",
+      527
+    ],
+    [
+      "Stairs",
+      485
+    ],
+    [
+      "Laundry room",
+      458
+    ],
+    [
+      "Garage",
+      349
+    ],
+    [
+      "Closet / Walk-in closet / Spear closet",
+      297
+    ],
+    [
+      "Basement (A room below the ground floor)",
+      258
+    ],
+    [
+      "Pantry",
+      248
+    ],
+    [
+      "Other",
+      135
+    ]
+  ],
+  "top_verbs": [
+    [
+      "sit",
+      2423
+    ],
+    [
+      "hold",
+      1668
+    ],
+    [
+      "eat",
+      1261
+    ],
+    [
+      "walk",
+      1149
+    ],
+    [
+      "stand",
+      1040
+    ],
+    [
+      "drink",
+      923
+    ],
+    [
+      "play",
+      828
+    ],
+    [
+      "take",
+      692
+    ],
+    [
+      "put",
+      554
+    ],
+    [
+      "watch",
+      550
+    ],
+    [
+      "run",
+      296
+    ],
+    [
+      "cook",
+      291
+    ],
+    [
+      "pour",
+      231
+    ],
+    [
+      "talk",
+      180
+    ]
+  ],
+  "top_objects": [
+    [
+      "cup/glass/bottle",
+      2795
+    ],
+    [
+      "None",
+      2076
+    ],
+    [
+      "phone/camera",
+      2001
+    ],
+    [
+      "doorway",
+      1149
+    ],
+    [
+      "food",
+      1045
+    ],
+    [
+      "chair",
+      982
+    ],
+    [
+      "laptop",
+      554
+    ],
+    [
+      "sofa/couch",
+      378
+    ],
+    [
+      "sandwich",
+      374
+    ],
+    [
+      "floor",
+      323
+    ],
+    [
+      "television",
+      276
+    ],
+    [
+      "medicine",
+      133
+    ]
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "video_id": "8BG1T",
+    "member_name": "Charades_v1_480/8BG1T.mp4",
+    "output_path": "data/charades/videos_480p/8BG1T.mp4",
+    "bytes_written": 1960542,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "OINMN",
+    "member_name": "Charades_v1_480/OINMN.mp4",
+    "output_path": "data/charades/videos_480p/OINMN.mp4",
+    "bytes_written": 1807269,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "024PD",
+    "member_name": "Charades_v1_480/024PD.mp4",
+    "output_path": "data/charades/videos_480p/024PD.mp4",
+    "bytes_written": 2256986,
+    "status": "downloaded",
+    "error": ""
+  }
+]
