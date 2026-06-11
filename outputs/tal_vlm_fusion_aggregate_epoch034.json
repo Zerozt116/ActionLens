@@ -1,0 +1,361 @@
+{
+  "summary": {
+    "evaluated_clip_count": 7,
+    "gt_action_instances": 27,
+    "baseline_stage2_vlm_gt_hits": 6,
+    "tal_vlm_confirmed_events": 2,
+    "tal_vlm_confirmed_gt_hits": 2,
+    "tal_vlm_added_gt_hits": 2,
+    "tal_vlm_rejected_events": 3,
+    "combined_gt_hits": 8,
+    "baseline_recall_proxy": 0.2222,
+    "combined_recall_proxy": 0.2963,
+    "absolute_recall_gain": 0.0741,
+    "relative_hit_gain": 0.3333
+  },
+  "per_action": [
+    {
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "gt_instances": 3,
+      "baseline_hits": 3,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "eating",
+      "action_name": "吃东西",
+      "gt_instances": 2,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "gt_instances": 3,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 2,
+      "added_gt_hits": 2,
+      "confirmed_events": 2,
+      "rejected_events": 0
+    },
+    {
+      "action": "holding_phone",
+      "action_name": "拿手机",
+      "gt_instances": 1,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "putting_drink_container",
+      "action_name": "放下杯/瓶",
+      "gt_instances": 3,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "running",
+      "action_name": "跑步",
+      "gt_instances": 1,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "sitting_down",
+      "action_name": "坐下",
+      "gt_instances": 3,
+      "baseline_hits": 1,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "gt_instances": 1,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 1
+    },
+    {
+      "action": "sitting_on_floor",
+      "action_name": "坐在地上",
+      "gt_instances": 3,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "standing_up",
+      "action_name": "站起",
+      "gt_instances": 1,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 1
+    },
+    {
+      "action": "taking_drink_container",
+      "action_name": "拿起杯/瓶",
+      "gt_instances": 2,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "gt_instances": 1,
+      "baseline_hits": 1,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "walking_through_doorway",
+      "action_name": "穿过门口",
+      "gt_instances": 1,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 1
+    },
+    {
+      "action": "watching_laptop",
+      "action_name": "看笔记本电脑",
+      "gt_instances": 1,
+      "baseline_hits": 1,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "watching_tv",
+      "action_name": "看电视",
+      "gt_instances": 1,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    }
+  ],
+  "added_gt_hits": [
+    {
+      "clip_id": "1Y09V_c109_t0.00_30.79",
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "baseline_outcome": "gt_hit_by_tal_only",
+      "tal_score": 0.04444901,
+      "vlm_confidence": 0.95,
+      "start_seconds": 0.0,
+      "end_seconds": 19.8436,
+      "evidence": "The person is holding a white cup on a saucer in multiple frames, including frame 0, 1, 2, 3, 4, and 5."
+    },
+    {
+      "clip_id": "38TF8_c106_t0.00_31.50",
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "baseline_outcome": "gt_hit_by_tal_only",
+      "tal_score": 0.04364914,
+      "vlm_confidence": 0.95,
+      "start_seconds": 0.0,
+      "end_seconds": 4.3653,
+      "evidence": "The man in the background is holding a white cup in his hand across multiple frames (0-5)."
+    }
+  ],
+  "confirmed_events": [
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "1Y09V_c109_t0.00_30.79",
+      "video_id": "1Y09V",
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "start_seconds": 0.0,
+      "end_seconds": 19.8436,
+      "confidence": 0.6972,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.04444901,
+        "same_label_iou": 0.67059,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "The person is holding a white cup on a saucer in multiple frames, including frame 0, 1, 2, 3, 4, and 5.",
+        "review_dir": "outputs/tal_vlm_review_epoch034/1Y09V_c109_t0.00_30.79/holding_drink_container_0.00_19.84"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "38TF8_c106_t0.00_31.50",
+      "video_id": "38TF8",
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "start_seconds": 0.0,
+      "end_seconds": 4.3653,
+      "confidence": 0.6932,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.04364914,
+        "same_label_iou": 0.341326,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "The man in the background is holding a white cup in his hand across multiple frames (0-5).",
+        "review_dir": "outputs/tal_vlm_review_epoch034/38TF8_c106_t0.00_31.50/holding_drink_container_0.00_4.37"
+      }
+    }
+  ],
+  "rejected_events": [
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "7WIKW_c151_t17.10_42.10",
+      "video_id": "7WIKW",
+      "action": "walking_through_doorway",
+      "action_name": "穿过门口",
+      "start_seconds": 1.2304,
+      "end_seconds": 25.4639,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.03465433,
+        "same_label_iou": 0.03794,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is sitting on a box near the doorway, not walking through it.",
+        "review_dir": "outputs/tal_vlm_review_epoch034/7WIKW_c151_t17.10_42.10/walking_through_doorway_1.23_25.46"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "QU2WL_c019_t0.00_34.21",
+      "video_id": "QU2WL",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "start_seconds": 3.7256,
+      "end_seconds": 7.1951,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.05017596,
+        "same_label_iou": 0.0,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person is standing throughout the sampled frames, holding a phone to their ear.",
+        "review_dir": "outputs/tal_vlm_review_epoch034/QU2WL_c019_t0.00_34.21/sitting_on_chair_3.73_7.20"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "7WIKW_c151_t17.10_42.10",
+      "video_id": "7WIKW",
+      "action": "standing_up",
+      "action_name": "站起",
+      "start_seconds": 1.1749,
+      "end_seconds": 4.8956,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.03403676,
+        "same_label_iou": 0.0,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is already standing on a box, holding a pillow, no transition from sitting or crouching visible.",
+        "review_dir": "outputs/tal_vlm_review_epoch034/7WIKW_c151_t17.10_42.10/standing_up_1.17_4.90"
+      }
+    }
+  ],
+  "rejected_non_gt": [],
+  "rejected_gt": [
+    {
+      "clip_id": "7WIKW_c151_t17.10_42.10",
+      "action": "walking_through_doorway",
+      "action_name": "穿过门口",
+      "charades_present": true,
+      "baseline_outcome": "gt_hit_by_tal_only",
+      "tal_score": 0.03465433,
+      "evidence": "Person is sitting on a box near the doorway, not walking through it."
+    },
+    {
+      "clip_id": "QU2WL_c019_t0.00_34.21",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "charades_present": true,
+      "baseline_outcome": "gt_hit_by_tal_only",
+      "tal_score": 0.05017596,
+      "evidence": "The person is standing throughout the sampled frames, holding a phone to their ear."
+    },
+    {
+      "clip_id": "7WIKW_c151_t17.10_42.10",
+      "action": "standing_up",
+      "action_name": "站起",
+      "charades_present": true,
+      "baseline_outcome": "gt_hit_by_tal_only",
+      "tal_score": 0.03403676,
+      "evidence": "Person is already standing on a box, holding a pillow, no transition from sitting or crouching visible."
+    }
+  ]
+}
