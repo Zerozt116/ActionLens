@@ -86,8 +86,13 @@ def main(args):
     det_eval, output_file = None, None
     if not args.saveonly:
         val_db_vars = val_dataset.get_attributes()
+        eval_json_file = (
+            val_dataset.get_eval_json_file()
+            if hasattr(val_dataset, "get_eval_json_file")
+            else val_dataset.json_file
+        )
         det_eval = ANETdetection(
-            val_dataset.json_file,
+            eval_json_file,
             val_dataset.split[0],
             tiou_thresholds = val_db_vars['tiou_thresholds']
         )

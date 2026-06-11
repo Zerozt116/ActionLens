@@ -119,6 +119,52 @@ class ActionFormerCharadesDatasetTests(unittest.TestCase):
         self.assertEqual(len(dataset), 1)
         self.assertEqual(item["video_id"], "VID_c106_t5.00_10.00")
 
+    def test_get_eval_json_file_exports_clip_level_ground_truth(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            feature_path = tmp_path / "features" / "VID_c106_t5.00_10.00.npz"
+            feature_path.parent.mkdir()
+            np.savez_compressed(feature_path, feats=np.ones((10, 4), dtype=np.float32))
+
+            clips_manifest = tmp_path / "clips.csv"
+            write_clips_manifest(clips_manifest)
+            annotations_path = tmp_path / "annotations.json"
+            write_annotations(annotations_path)
+            feature_manifest = tmp_path / "features.json"
+            write_feature_manifest(feature_manifest, feature_path)
+
+            dataset = make_dataset(
+                "charades",
+                False,
+                ["val"],
+                feat_folder=str(feature_path.parent),
+                json_file=str(annotations_path),
+                clips_manifest=str(clips_manifest),
+                feature_manifest=str(feature_manifest),
+                split_folder=None,
+                feat_stride=15,
+                num_frames=1,
+                default_fps=30,
+                downsample_rate=1,
+                max_seq_len=16,
+                trunc_thresh=0.5,
+                crop_ratio=None,
+                input_dim=4,
+                num_classes=3,
+                file_prefix=None,
+                file_ext=".npz",
+                force_upsampling=False,
+            )
+            eval_json = Path(dataset.get_eval_json_file())
+            payload = json.loads(eval_json.read_text(encoding="utf-8"))
+
+        self.assertTrue(eval_json.name.endswith("charades_clip_eval_val.json"))
+        self.assertIn("VID_c106_t5.00_10.00", payload["database"])
+        item = payload["database"]["VID_c106_t5.00_10.00"]
+        self.assertEqual(item["subset"], "val")
+        self.assertEqual(item["annotations"][0]["label_id"], 2)
+        self.assertEqual(item["annotations"][0]["segment"], [2.0, 4.0])
+
 
 def write_clips_manifest(path: Path) -> None:
     fieldnames = [

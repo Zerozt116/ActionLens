@@ -72,6 +72,7 @@ class CharadesClipDataset(Dataset):
         self.split_folder = split_folder
 
         self.data_list, self.label_dict = self._load_db()
+        self.eval_json_file = None
         if len(self.label_dict) > num_classes:
             raise ValueError(
                 f"Charades label_dict has {len(self.label_dict)} classes, "
@@ -89,6 +90,61 @@ class CharadesClipDataset(Dataset):
 
     def get_attributes(self):
         return self.db_attributes
+
+    def get_eval_json_file(self):
+        """Write clip-level GT JSON for ActionFormer/ActivityNet evaluation.
+
+        The dataset returns clip IDs as prediction video IDs. The source
+        annotation JSON is keyed by full Charades video IDs, so evaluation needs
+        a derived ground-truth file keyed by the same clip IDs that inference
+        emits.
+        """
+        if self.eval_json_file is not None and os.path.exists(self.eval_json_file):
+            return self.eval_json_file
+
+        split_name = "_".join(str(value).lower() for value in self.split) or "all"
+        output_dir = Path(self.clips_manifest).parent
+        output_dir.mkdir(parents=True, exist_ok=True)
+        output_path = output_dir / f"charades_clip_eval_{split_name}.json"
+        id_to_label = {int(value): key for key, value in self.label_dict.items()}
+        database = {}
+        for item in self.data_list:
+            annotations = []
+            for segment, label_id in zip(item["segments"], item["labels"]):
+                label_id = int(label_id)
+                annotations.append(
+                    {
+                        "segment": [
+                            round(float(segment[0]), 4),
+                            round(float(segment[1]), 4),
+                        ],
+                        "label_id": label_id,
+                        "label": id_to_label.get(label_id, str(label_id)),
+                    }
+                )
+            database[item["id"]] = {
+                "subset": split_name,
+                "duration": round(float(item["duration"]), 4),
+                "fps": round(float(item["fps"]), 4),
+                "annotations": annotations,
+            }
+
+        output_path.write_text(
+            json.dumps(
+                {
+                    "version": "1.0",
+                    "source_json_file": self.json_file,
+                    "source_clips_manifest": self.clips_manifest,
+                    "label_dict": self.label_dict,
+                    "database": database,
+                },
+                ensure_ascii=False,
+                indent=2,
+            ),
+            encoding="utf-8",
+        )
+        self.eval_json_file = str(output_path)
+        return self.eval_json_file
 
     def _load_db(self):
         with open(self.json_file, "r", encoding="utf-8") as file:
