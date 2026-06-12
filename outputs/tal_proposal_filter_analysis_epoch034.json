@@ -1,0 +1,5179 @@
+{
+  "summary": {
+    "reviewed_total": 15,
+    "confirmed_total": 3,
+    "rejected_total": 12,
+    "strategies_evaluated": 72,
+    "best_no_confirmed_loss": {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.04,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 7,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333
+    },
+    "balanced_recommendation": {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.04,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 7,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333
+    }
+  },
+  "best_strategies": [
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.04,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 7,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.04,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 7,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.04,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 7,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.04,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 7,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.04,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 7,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.04,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 7,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.04,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 7,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.04,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 7,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.04,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 7,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.0,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 10,
+      "kept_confirmed": 3,
+      "kept_rejected": 7,
+      "precision_on_reviewed": 0.3,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.4167,
+      "vlm_call_reduction": 0.3333
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.03,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 10,
+      "kept_confirmed": 3,
+      "kept_rejected": 7,
+      "precision_on_reviewed": 0.3,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.4167,
+      "vlm_call_reduction": 0.3333
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.035,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 10,
+      "kept_confirmed": 3,
+      "kept_rejected": 7,
+      "precision_on_reviewed": 0.3,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.4167,
+      "vlm_call_reduction": 0.3333
+    }
+  ],
+  "strategies": [
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.0,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 11,
+      "filtered_reviewed_proposals": 4,
+      "kept_confirmed": 3,
+      "kept_rejected": 8,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 4,
+      "precision_on_reviewed": 0.2727,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.3333,
+      "vlm_call_reduction": 0.2667,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "walking_through_doorway",
+          "decision": "vlm_rejected",
+          "score": 0.03465433
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.0,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 11,
+      "filtered_reviewed_proposals": 4,
+      "kept_confirmed": 3,
+      "kept_rejected": 8,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 4,
+      "precision_on_reviewed": 0.2727,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.3333,
+      "vlm_call_reduction": 0.2667,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "walking_through_doorway",
+          "decision": "vlm_rejected",
+          "score": 0.03465433
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.0,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 10,
+      "filtered_reviewed_proposals": 5,
+      "kept_confirmed": 3,
+      "kept_rejected": 7,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 5,
+      "precision_on_reviewed": 0.3,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.4167,
+      "vlm_call_reduction": 0.3333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.0,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 9,
+      "filtered_reviewed_proposals": 6,
+      "kept_confirmed": 2,
+      "kept_rejected": 7,
+      "filtered_confirmed": 1,
+      "filtered_rejected": 5,
+      "precision_on_reviewed": 0.2222,
+      "confirmed_retention": 0.6667,
+      "rejected_filter_rate": 0.4167,
+      "vlm_call_reduction": 0.4,
+      "kept_records": [
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.03,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 11,
+      "filtered_reviewed_proposals": 4,
+      "kept_confirmed": 3,
+      "kept_rejected": 8,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 4,
+      "precision_on_reviewed": 0.2727,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.3333,
+      "vlm_call_reduction": 0.2667,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "walking_through_doorway",
+          "decision": "vlm_rejected",
+          "score": 0.03465433
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.03,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 11,
+      "filtered_reviewed_proposals": 4,
+      "kept_confirmed": 3,
+      "kept_rejected": 8,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 4,
+      "precision_on_reviewed": 0.2727,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.3333,
+      "vlm_call_reduction": 0.2667,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "walking_through_doorway",
+          "decision": "vlm_rejected",
+          "score": 0.03465433
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.03,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 10,
+      "filtered_reviewed_proposals": 5,
+      "kept_confirmed": 3,
+      "kept_rejected": 7,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 5,
+      "precision_on_reviewed": 0.3,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.4167,
+      "vlm_call_reduction": 0.3333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.03,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 9,
+      "filtered_reviewed_proposals": 6,
+      "kept_confirmed": 2,
+      "kept_rejected": 7,
+      "filtered_confirmed": 1,
+      "filtered_rejected": 5,
+      "precision_on_reviewed": 0.2222,
+      "confirmed_retention": 0.6667,
+      "rejected_filter_rate": 0.4167,
+      "vlm_call_reduction": 0.4,
+      "kept_records": [
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.035,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 10,
+      "filtered_reviewed_proposals": 5,
+      "kept_confirmed": 3,
+      "kept_rejected": 7,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 5,
+      "precision_on_reviewed": 0.3,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.4167,
+      "vlm_call_reduction": 0.3333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.035,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 10,
+      "filtered_reviewed_proposals": 5,
+      "kept_confirmed": 3,
+      "kept_rejected": 7,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 5,
+      "precision_on_reviewed": 0.3,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.4167,
+      "vlm_call_reduction": 0.3333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.035,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 10,
+      "filtered_reviewed_proposals": 5,
+      "kept_confirmed": 3,
+      "kept_rejected": 7,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 5,
+      "precision_on_reviewed": 0.3,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.4167,
+      "vlm_call_reduction": 0.3333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.035,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 9,
+      "filtered_reviewed_proposals": 6,
+      "kept_confirmed": 2,
+      "kept_rejected": 7,
+      "filtered_confirmed": 1,
+      "filtered_rejected": 5,
+      "precision_on_reviewed": 0.2222,
+      "confirmed_retention": 0.6667,
+      "rejected_filter_rate": 0.4167,
+      "vlm_call_reduction": 0.4,
+      "kept_records": [
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.04,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 7,
+      "filtered_reviewed_proposals": 8,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 8,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.04,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 7,
+      "filtered_reviewed_proposals": 8,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 8,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.04,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 7,
+      "filtered_reviewed_proposals": 8,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 8,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.04,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 6,
+      "filtered_reviewed_proposals": 9,
+      "kept_confirmed": 2,
+      "kept_rejected": 4,
+      "filtered_confirmed": 1,
+      "filtered_rejected": 8,
+      "precision_on_reviewed": 0.3333,
+      "confirmed_retention": 0.6667,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.6,
+      "kept_records": [
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.045,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 3,
+      "filtered_reviewed_proposals": 12,
+      "kept_confirmed": 1,
+      "kept_rejected": 2,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 10,
+      "precision_on_reviewed": 0.3333,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.8333,
+      "vlm_call_reduction": 0.8,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.045,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 3,
+      "filtered_reviewed_proposals": 12,
+      "kept_confirmed": 1,
+      "kept_rejected": 2,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 10,
+      "precision_on_reviewed": 0.3333,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.8333,
+      "vlm_call_reduction": 0.8,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.045,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 3,
+      "filtered_reviewed_proposals": 12,
+      "kept_confirmed": 1,
+      "kept_rejected": 2,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 10,
+      "precision_on_reviewed": 0.3333,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.8333,
+      "vlm_call_reduction": 0.8,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.045,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 3,
+      "filtered_reviewed_proposals": 12,
+      "kept_confirmed": 1,
+      "kept_rejected": 2,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 10,
+      "precision_on_reviewed": 0.3333,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.8333,
+      "vlm_call_reduction": 0.8,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.05,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 2,
+      "filtered_reviewed_proposals": 13,
+      "kept_confirmed": 1,
+      "kept_rejected": 1,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 11,
+      "precision_on_reviewed": 0.5,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.9167,
+      "vlm_call_reduction": 0.8667,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.05,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 2,
+      "filtered_reviewed_proposals": 13,
+      "kept_confirmed": 1,
+      "kept_rejected": 1,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 11,
+      "precision_on_reviewed": 0.5,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.9167,
+      "vlm_call_reduction": 0.8667,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.05,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 2,
+      "filtered_reviewed_proposals": 13,
+      "kept_confirmed": 1,
+      "kept_rejected": 1,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 11,
+      "precision_on_reviewed": 0.5,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.9167,
+      "vlm_call_reduction": 0.8667,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 3,
+      "score_threshold": 0.05,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 2,
+      "filtered_reviewed_proposals": 13,
+      "kept_confirmed": 1,
+      "kept_rejected": 1,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 11,
+      "precision_on_reviewed": 0.5,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.9167,
+      "vlm_call_reduction": 0.8667,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.0,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 13,
+      "filtered_reviewed_proposals": 2,
+      "kept_confirmed": 3,
+      "kept_rejected": 10,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 2,
+      "precision_on_reviewed": 0.2308,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.1667,
+      "vlm_call_reduction": 0.1333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "walking_through_doorway",
+          "decision": "vlm_rejected",
+          "score": 0.03465433
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.0,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 13,
+      "filtered_reviewed_proposals": 2,
+      "kept_confirmed": 3,
+      "kept_rejected": 10,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 2,
+      "precision_on_reviewed": 0.2308,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.1667,
+      "vlm_call_reduction": 0.1333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "walking_through_doorway",
+          "decision": "vlm_rejected",
+          "score": 0.03465433
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.0,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 12,
+      "filtered_reviewed_proposals": 3,
+      "kept_confirmed": 3,
+      "kept_rejected": 9,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 3,
+      "precision_on_reviewed": 0.25,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.25,
+      "vlm_call_reduction": 0.2,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.0,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 11,
+      "filtered_reviewed_proposals": 4,
+      "kept_confirmed": 2,
+      "kept_rejected": 9,
+      "filtered_confirmed": 1,
+      "filtered_rejected": 3,
+      "precision_on_reviewed": 0.1818,
+      "confirmed_retention": 0.6667,
+      "rejected_filter_rate": 0.25,
+      "vlm_call_reduction": 0.2667,
+      "kept_records": [
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.03,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 13,
+      "filtered_reviewed_proposals": 2,
+      "kept_confirmed": 3,
+      "kept_rejected": 10,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 2,
+      "precision_on_reviewed": 0.2308,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.1667,
+      "vlm_call_reduction": 0.1333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "walking_through_doorway",
+          "decision": "vlm_rejected",
+          "score": 0.03465433
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.03,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 13,
+      "filtered_reviewed_proposals": 2,
+      "kept_confirmed": 3,
+      "kept_rejected": 10,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 2,
+      "precision_on_reviewed": 0.2308,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.1667,
+      "vlm_call_reduction": 0.1333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "walking_through_doorway",
+          "decision": "vlm_rejected",
+          "score": 0.03465433
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.03,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 12,
+      "filtered_reviewed_proposals": 3,
+      "kept_confirmed": 3,
+      "kept_rejected": 9,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 3,
+      "precision_on_reviewed": 0.25,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.25,
+      "vlm_call_reduction": 0.2,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.03,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 11,
+      "filtered_reviewed_proposals": 4,
+      "kept_confirmed": 2,
+      "kept_rejected": 9,
+      "filtered_confirmed": 1,
+      "filtered_rejected": 3,
+      "precision_on_reviewed": 0.1818,
+      "confirmed_retention": 0.6667,
+      "rejected_filter_rate": 0.25,
+      "vlm_call_reduction": 0.2667,
+      "kept_records": [
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.035,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 11,
+      "filtered_reviewed_proposals": 4,
+      "kept_confirmed": 3,
+      "kept_rejected": 8,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 4,
+      "precision_on_reviewed": 0.2727,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.3333,
+      "vlm_call_reduction": 0.2667,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.035,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 11,
+      "filtered_reviewed_proposals": 4,
+      "kept_confirmed": 3,
+      "kept_rejected": 8,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 4,
+      "precision_on_reviewed": 0.2727,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.3333,
+      "vlm_call_reduction": 0.2667,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.035,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 11,
+      "filtered_reviewed_proposals": 4,
+      "kept_confirmed": 3,
+      "kept_rejected": 8,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 4,
+      "precision_on_reviewed": 0.2727,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.3333,
+      "vlm_call_reduction": 0.2667,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.035,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 10,
+      "filtered_reviewed_proposals": 5,
+      "kept_confirmed": 2,
+      "kept_rejected": 8,
+      "filtered_confirmed": 1,
+      "filtered_rejected": 4,
+      "precision_on_reviewed": 0.2,
+      "confirmed_retention": 0.6667,
+      "rejected_filter_rate": 0.3333,
+      "vlm_call_reduction": 0.3333,
+      "kept_records": [
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.04,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 7,
+      "filtered_reviewed_proposals": 8,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 8,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.04,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 7,
+      "filtered_reviewed_proposals": 8,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 8,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.04,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 7,
+      "filtered_reviewed_proposals": 8,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 8,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.04,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 6,
+      "filtered_reviewed_proposals": 9,
+      "kept_confirmed": 2,
+      "kept_rejected": 4,
+      "filtered_confirmed": 1,
+      "filtered_rejected": 8,
+      "precision_on_reviewed": 0.3333,
+      "confirmed_retention": 0.6667,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.6,
+      "kept_records": [
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.045,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 3,
+      "filtered_reviewed_proposals": 12,
+      "kept_confirmed": 1,
+      "kept_rejected": 2,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 10,
+      "precision_on_reviewed": 0.3333,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.8333,
+      "vlm_call_reduction": 0.8,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.045,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 3,
+      "filtered_reviewed_proposals": 12,
+      "kept_confirmed": 1,
+      "kept_rejected": 2,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 10,
+      "precision_on_reviewed": 0.3333,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.8333,
+      "vlm_call_reduction": 0.8,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.045,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 3,
+      "filtered_reviewed_proposals": 12,
+      "kept_confirmed": 1,
+      "kept_rejected": 2,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 10,
+      "precision_on_reviewed": 0.3333,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.8333,
+      "vlm_call_reduction": 0.8,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.045,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 3,
+      "filtered_reviewed_proposals": 12,
+      "kept_confirmed": 1,
+      "kept_rejected": 2,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 10,
+      "precision_on_reviewed": 0.3333,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.8333,
+      "vlm_call_reduction": 0.8,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.05,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 2,
+      "filtered_reviewed_proposals": 13,
+      "kept_confirmed": 1,
+      "kept_rejected": 1,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 11,
+      "precision_on_reviewed": 0.5,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.9167,
+      "vlm_call_reduction": 0.8667,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.05,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 2,
+      "filtered_reviewed_proposals": 13,
+      "kept_confirmed": 1,
+      "kept_rejected": 1,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 11,
+      "precision_on_reviewed": 0.5,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.9167,
+      "vlm_call_reduction": 0.8667,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.05,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 2,
+      "filtered_reviewed_proposals": 13,
+      "kept_confirmed": 1,
+      "kept_rejected": 1,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 11,
+      "precision_on_reviewed": 0.5,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.9167,
+      "vlm_call_reduction": 0.8667,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 5,
+      "score_threshold": 0.05,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 2,
+      "filtered_reviewed_proposals": 13,
+      "kept_confirmed": 1,
+      "kept_rejected": 1,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 11,
+      "precision_on_reviewed": 0.5,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.9167,
+      "vlm_call_reduction": 0.8667,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.0,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 15,
+      "filtered_reviewed_proposals": 0,
+      "kept_confirmed": 3,
+      "kept_rejected": 12,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 0,
+      "precision_on_reviewed": 0.2,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.0,
+      "vlm_call_reduction": 0.0,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "walking_through_doorway",
+          "decision": "vlm_rejected",
+          "score": 0.03465433
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "putting_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03788855
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03686681
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.0,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 15,
+      "filtered_reviewed_proposals": 0,
+      "kept_confirmed": 3,
+      "kept_rejected": 12,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 0,
+      "precision_on_reviewed": 0.2,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.0,
+      "vlm_call_reduction": 0.0,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "walking_through_doorway",
+          "decision": "vlm_rejected",
+          "score": 0.03465433
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "putting_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03788855
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03686681
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.0,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 13,
+      "filtered_reviewed_proposals": 2,
+      "kept_confirmed": 3,
+      "kept_rejected": 10,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 2,
+      "precision_on_reviewed": 0.2308,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.1667,
+      "vlm_call_reduction": 0.1333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "putting_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03788855
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.0,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 12,
+      "filtered_reviewed_proposals": 3,
+      "kept_confirmed": 2,
+      "kept_rejected": 10,
+      "filtered_confirmed": 1,
+      "filtered_rejected": 2,
+      "precision_on_reviewed": 0.1667,
+      "confirmed_retention": 0.6667,
+      "rejected_filter_rate": 0.1667,
+      "vlm_call_reduction": 0.2,
+      "kept_records": [
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "putting_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03788855
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.03,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 15,
+      "filtered_reviewed_proposals": 0,
+      "kept_confirmed": 3,
+      "kept_rejected": 12,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 0,
+      "precision_on_reviewed": 0.2,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.0,
+      "vlm_call_reduction": 0.0,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "walking_through_doorway",
+          "decision": "vlm_rejected",
+          "score": 0.03465433
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "putting_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03788855
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03686681
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.03,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 15,
+      "filtered_reviewed_proposals": 0,
+      "kept_confirmed": 3,
+      "kept_rejected": 12,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 0,
+      "precision_on_reviewed": 0.2,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.0,
+      "vlm_call_reduction": 0.0,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "walking_through_doorway",
+          "decision": "vlm_rejected",
+          "score": 0.03465433
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "putting_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03788855
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03686681
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.03,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 13,
+      "filtered_reviewed_proposals": 2,
+      "kept_confirmed": 3,
+      "kept_rejected": 10,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 2,
+      "precision_on_reviewed": 0.2308,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.1667,
+      "vlm_call_reduction": 0.1333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "putting_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03788855
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.03,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 12,
+      "filtered_reviewed_proposals": 3,
+      "kept_confirmed": 2,
+      "kept_rejected": 10,
+      "filtered_confirmed": 1,
+      "filtered_rejected": 2,
+      "precision_on_reviewed": 0.1667,
+      "confirmed_retention": 0.6667,
+      "rejected_filter_rate": 0.1667,
+      "vlm_call_reduction": 0.2,
+      "kept_records": [
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03403676
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "putting_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03788855
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.035,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 13,
+      "filtered_reviewed_proposals": 2,
+      "kept_confirmed": 3,
+      "kept_rejected": 10,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 2,
+      "precision_on_reviewed": 0.2308,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.1667,
+      "vlm_call_reduction": 0.1333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "putting_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03788855
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03686681
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.035,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 13,
+      "filtered_reviewed_proposals": 2,
+      "kept_confirmed": 3,
+      "kept_rejected": 10,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 2,
+      "precision_on_reviewed": 0.2308,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.1667,
+      "vlm_call_reduction": 0.1333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "putting_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03788855
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.03686681
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.035,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 12,
+      "filtered_reviewed_proposals": 3,
+      "kept_confirmed": 3,
+      "kept_rejected": 9,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 3,
+      "precision_on_reviewed": 0.25,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.25,
+      "vlm_call_reduction": 0.2,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "putting_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03788855
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.035,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 11,
+      "filtered_reviewed_proposals": 4,
+      "kept_confirmed": 2,
+      "kept_rejected": 9,
+      "filtered_confirmed": 1,
+      "filtered_rejected": 3,
+      "precision_on_reviewed": 0.1818,
+      "confirmed_retention": 0.6667,
+      "rejected_filter_rate": 0.25,
+      "vlm_call_reduction": 0.2667,
+      "kept_records": [
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03879368
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "putting_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03788855
+        },
+        {
+          "clip_id": "YVH4J_c051_t0.00_38.30",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.03724258
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "sitting_down",
+          "decision": "vlm_rejected",
+          "score": 0.03632328
+        },
+        {
+          "clip_id": "7WIKW_c151_t17.10_42.10",
+          "action": "pouring_drink_container",
+          "decision": "vlm_rejected",
+          "score": 0.03630439
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.04,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 7,
+      "filtered_reviewed_proposals": 8,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 8,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.04,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 7,
+      "filtered_reviewed_proposals": 8,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 8,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.04,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 7,
+      "filtered_reviewed_proposals": 8,
+      "kept_confirmed": 3,
+      "kept_rejected": 4,
+      "filtered_confirmed": 0,
+      "filtered_rejected": 8,
+      "precision_on_reviewed": 0.4286,
+      "confirmed_retention": 1.0,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.5333,
+      "kept_records": [
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04444901
+        },
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.04,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 6,
+      "filtered_reviewed_proposals": 9,
+      "kept_confirmed": 2,
+      "kept_rejected": 4,
+      "filtered_confirmed": 1,
+      "filtered_rejected": 8,
+      "precision_on_reviewed": 0.3333,
+      "confirmed_retention": 0.6667,
+      "rejected_filter_rate": 0.6667,
+      "vlm_call_reduction": 0.6,
+      "kept_records": [
+        {
+          "clip_id": "38TF8_c106_t0.00_31.50",
+          "action": "holding_drink_container",
+          "decision": "vlm_confirmed",
+          "score": 0.04364914
+        },
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04480673
+        },
+        {
+          "clip_id": "1Y09V_c109_t0.00_30.79",
+          "action": "standing_up",
+          "decision": "vlm_rejected",
+          "score": 0.04221553
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.045,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 3,
+      "filtered_reviewed_proposals": 12,
+      "kept_confirmed": 1,
+      "kept_rejected": 2,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 10,
+      "precision_on_reviewed": 0.3333,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.8333,
+      "vlm_call_reduction": 0.8,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.045,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 3,
+      "filtered_reviewed_proposals": 12,
+      "kept_confirmed": 1,
+      "kept_rejected": 2,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 10,
+      "precision_on_reviewed": 0.3333,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.8333,
+      "vlm_call_reduction": 0.8,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.045,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 3,
+      "filtered_reviewed_proposals": 12,
+      "kept_confirmed": 1,
+      "kept_rejected": 2,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 10,
+      "precision_on_reviewed": 0.3333,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.8333,
+      "vlm_call_reduction": 0.8,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.045,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 3,
+      "filtered_reviewed_proposals": 12,
+      "kept_confirmed": 1,
+      "kept_rejected": 2,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 10,
+      "precision_on_reviewed": 0.3333,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.8333,
+      "vlm_call_reduction": 0.8,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        },
+        {
+          "clip_id": "SPG5Q_c150_t9.20_33.42",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.04831846
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.05,
+      "min_duration": 0.0,
+      "max_duration": 999.0,
+      "kept_reviewed_proposals": 2,
+      "filtered_reviewed_proposals": 13,
+      "kept_confirmed": 1,
+      "kept_rejected": 1,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 11,
+      "precision_on_reviewed": 0.5,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.9167,
+      "vlm_call_reduction": 0.8667,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.05,
+      "min_duration": 0.5,
+      "max_duration": 30.0,
+      "kept_reviewed_proposals": 2,
+      "filtered_reviewed_proposals": 13,
+      "kept_confirmed": 1,
+      "kept_rejected": 1,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 11,
+      "precision_on_reviewed": 0.5,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.9167,
+      "vlm_call_reduction": 0.8667,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.05,
+      "min_duration": 1.0,
+      "max_duration": 20.0,
+      "kept_reviewed_proposals": 2,
+      "filtered_reviewed_proposals": 13,
+      "kept_confirmed": 1,
+      "kept_rejected": 1,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 11,
+      "precision_on_reviewed": 0.5,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.9167,
+      "vlm_call_reduction": 0.8667,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        }
+      ]
+    },
+    {
+      "top_k_per_clip": 10,
+      "score_threshold": 0.05,
+      "min_duration": 2.0,
+      "max_duration": 15.0,
+      "kept_reviewed_proposals": 2,
+      "filtered_reviewed_proposals": 13,
+      "kept_confirmed": 1,
+      "kept_rejected": 1,
+      "filtered_confirmed": 2,
+      "filtered_rejected": 11,
+      "precision_on_reviewed": 0.5,
+      "confirmed_retention": 0.3333,
+      "rejected_filter_rate": 0.9167,
+      "vlm_call_reduction": 0.8667,
+      "kept_records": [
+        {
+          "clip_id": "QU2WL_c019_t0.00_34.21",
+          "action": "sitting_on_chair",
+          "decision": "vlm_rejected",
+          "score": 0.05017596
+        },
+        {
+          "clip_id": "L57L2_c125_t22.10_123.70",
+          "action": "standing_up",
+          "decision": "vlm_confirmed",
+          "score": 0.05210885
+        }
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "clip_id": "1Y09V_c109_t0.00_30.79",
+      "video_id": "1Y09V",
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "outcome": "gt_hit_by_tal_only",
+      "tal_score": 0.04444901,
+      "tal_iou": 0.67059,
+      "start_seconds": 0.0,
+      "end_seconds": 19.8436,
+      "review_dir": "outputs/tal_vlm_review_epoch034/1Y09V_c109_t0.00_30.79/holding_drink_container_0.00_19.84",
+      "status": "completed",
+      "present": true,
+      "confidence": 0.95,
+      "decision": "vlm_confirmed",
+      "evidence": "The person is holding a white cup on a saucer in multiple frames, including frame 0, 1, 2, 3, 4, and 5.",
+      "error": "",
+      "review_group": "gt_hit_by_tal_only",
+      "rank_in_clip": 1,
+      "duration": 19.8436
+    },
+    {
+      "clip_id": "38TF8_c106_t0.00_31.50",
+      "video_id": "38TF8",
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "outcome": "gt_hit_by_tal_only",
+      "tal_score": 0.04364914,
+      "tal_iou": 0.341326,
+      "start_seconds": 0.0,
+      "end_seconds": 4.3653,
+      "review_dir": "outputs/tal_vlm_review_epoch034/38TF8_c106_t0.00_31.50/holding_drink_container_0.00_4.37",
+      "status": "completed",
+      "present": true,
+      "confidence": 0.95,
+      "decision": "vlm_confirmed",
+      "evidence": "The man in the background is holding a white cup in his hand across multiple frames (0-5).",
+      "error": "",
+      "review_group": "gt_hit_by_tal_only",
+      "rank_in_clip": 1,
+      "duration": 4.3653
+    },
+    {
+      "clip_id": "7WIKW_c151_t17.10_42.10",
+      "video_id": "7WIKW",
+      "action": "walking_through_doorway",
+      "action_name": "穿过门口",
+      "outcome": "gt_hit_by_tal_only",
+      "tal_score": 0.03465433,
+      "tal_iou": 0.03794,
+      "start_seconds": 1.2304,
+      "end_seconds": 25.4639,
+      "review_dir": "outputs/tal_vlm_review_epoch034/7WIKW_c151_t17.10_42.10/walking_through_doorway_1.23_25.46",
+      "status": "completed",
+      "present": false,
+      "confidence": 0.0,
+      "decision": "vlm_rejected",
+      "evidence": "Person is sitting on a box near the doorway, not walking through it.",
+      "error": "",
+      "review_group": "gt_hit_by_tal_only",
+      "rank_in_clip": 2,
+      "duration": 24.2335
+    },
+    {
+      "clip_id": "QU2WL_c019_t0.00_34.21",
+      "video_id": "QU2WL",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "outcome": "gt_hit_by_tal_only",
+      "tal_score": 0.05017596,
+      "tal_iou": 0.0,
+      "start_seconds": 3.7256,
+      "end_seconds": 7.1951,
+      "review_dir": "outputs/tal_vlm_review_epoch034/QU2WL_c019_t0.00_34.21/sitting_on_chair_3.73_7.20",
+      "status": "completed",
+      "present": false,
+      "confidence": 0.0,
+      "decision": "vlm_rejected",
+      "evidence": "The person is standing throughout the sampled frames, holding a phone to their ear.",
+      "error": "",
+      "review_group": "gt_hit_by_tal_only",
+      "rank_in_clip": 1,
+      "duration": 3.4695
+    },
+    {
+      "clip_id": "7WIKW_c151_t17.10_42.10",
+      "video_id": "7WIKW",
+      "action": "standing_up",
+      "action_name": "站起",
+      "outcome": "gt_hit_by_tal_only",
+      "tal_score": 0.03403676,
+      "tal_iou": 0.0,
+      "start_seconds": 1.1749,
+      "end_seconds": 4.8956,
+      "review_dir": "outputs/tal_vlm_review_epoch034/7WIKW_c151_t17.10_42.10/standing_up_1.17_4.90",
+      "status": "completed",
+      "present": false,
+      "confidence": 0.0,
+      "decision": "vlm_rejected",
+      "evidence": "Person is already standing on a box, holding a pillow, no transition from sitting or crouching visible.",
+      "error": "",
+      "review_group": "gt_hit_by_tal_only",
+      "rank_in_clip": 4,
+      "duration": 3.7207
+    },
+    {
+      "clip_id": "L57L2_c125_t22.10_123.70",
+      "video_id": "L57L2",
+      "action": "standing_up",
+      "action_name": "站起",
+      "outcome": "tal_only_non_gt",
+      "tal_score": 0.05210885,
+      "tal_iou": 0.0,
+      "start_seconds": 99.1826,
+      "end_seconds": 102.6,
+      "review_dir": "outputs/tal_vlm_review_epoch034_non_gt/L57L2_c125_t22.10_123.70/standing_up_99.18_102.60",
+      "status": "completed",
+      "present": true,
+      "confidence": 0.95,
+      "decision": "vlm_confirmed",
+      "evidence": "Person is seen transitioning from a crouched/sitting position on a box to standing upright across frames 0 to 5.",
+      "error": "",
+      "review_group": "tal_only_non_gt",
+      "rank_in_clip": 1,
+      "duration": 3.4174
+    },
+    {
+      "clip_id": "SPG5Q_c150_t9.20_33.42",
+      "video_id": "SPG5Q",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "outcome": "tal_only_non_gt",
+      "tal_score": 0.04831846,
+      "tal_iou": 0.0,
+      "start_seconds": 0.0,
+      "end_seconds": 5.9672,
+      "review_dir": "outputs/tal_vlm_review_epoch034_non_gt/SPG5Q_c150_t9.20_33.42/sitting_on_chair_0.00_5.97",
+      "status": "completed",
+      "present": false,
+      "confidence": 0.0,
+      "decision": "vlm_rejected",
+      "evidence": "The person is standing and bending over, not seated on a chair.",
+      "error": "",
+      "review_group": "tal_only_non_gt",
+      "rank_in_clip": 1,
+      "duration": 5.9672
+    },
+    {
+      "clip_id": "SPG5Q_c150_t9.20_33.42",
+      "video_id": "SPG5Q",
+      "action": "standing_up",
+      "action_name": "站起",
+      "outcome": "tal_only_non_gt",
+      "tal_score": 0.04480673,
+      "tal_iou": 0.0,
+      "start_seconds": 9.3433,
+      "end_seconds": 23.7812,
+      "review_dir": "outputs/tal_vlm_review_epoch034_non_gt/SPG5Q_c150_t9.20_33.42/standing_up_9.34_23.78",
+      "status": "completed",
+      "present": false,
+      "confidence": 0.0,
+      "decision": "vlm_rejected",
+      "evidence": "Person is already standing and adjusting clothing, no evidence of transitioning from sitting or crouching.",
+      "error": "",
+      "review_group": "tal_only_non_gt",
+      "rank_in_clip": 2,
+      "duration": 14.4379
+    },
+    {
+      "clip_id": "1Y09V_c109_t0.00_30.79",
+      "video_id": "1Y09V",
+      "action": "standing_up",
+      "action_name": "站起",
+      "outcome": "tal_only_non_gt",
+      "tal_score": 0.04221553,
+      "tal_iou": 0.0,
+      "start_seconds": 1.8788,
+      "end_seconds": 5.0312,
+      "review_dir": "outputs/tal_vlm_review_epoch034_non_gt/1Y09V_c109_t0.00_30.79/standing_up_1.88_5.03",
+      "status": "completed",
+      "present": false,
+      "confidence": 0.0,
+      "decision": "vlm_rejected",
+      "evidence": "Person is already standing and holding a cup, no transition from sitting or crouching is visible.",
+      "error": "",
+      "review_group": "tal_only_non_gt",
+      "rank_in_clip": 2,
+      "duration": 3.1524
+    },
+    {
+      "clip_id": "YVH4J_c051_t0.00_38.30",
+      "video_id": "YVH4J",
+      "action": "sitting_down",
+      "action_name": "坐下",
+      "outcome": "tal_only_non_gt",
+      "tal_score": 0.03879368,
+      "tal_iou": 0.0,
+      "start_seconds": 37.2376,
+      "end_seconds": 39.3,
+      "review_dir": "outputs/tal_vlm_review_epoch034_non_gt/YVH4J_c051_t0.00_38.30/sitting_down_37.24_39.30",
+      "status": "completed",
+      "present": false,
+      "confidence": 0.0,
+      "decision": "vlm_rejected",
+      "evidence": "The person is already seated on the bed and appears to be reading a book throughout the frames.",
+      "error": "",
+      "review_group": "tal_only_non_gt",
+      "rank_in_clip": 1,
+      "duration": 2.0624
+    },
+    {
+      "clip_id": "SPG5Q_c150_t9.20_33.42",
+      "video_id": "SPG5Q",
+      "action": "putting_drink_container",
+      "action_name": "放下杯/瓶",
+      "outcome": "tal_only_non_gt",
+      "tal_score": 0.03788855,
+      "tal_iou": 0.0,
+      "start_seconds": 9.8763,
+      "end_seconds": 15.2405,
+      "review_dir": "outputs/tal_vlm_review_epoch034_non_gt/SPG5Q_c150_t9.20_33.42/putting_drink_container_9.88_15.24",
+      "status": "completed",
+      "present": false,
+      "confidence": 0.0,
+      "decision": "vlm_rejected",
+      "evidence": "No drink container is visible being placed down by the person. An orange bottle is visible on a shelf in the background but not being interacted with.",
+      "error": "",
+      "review_group": "tal_only_non_gt",
+      "rank_in_clip": 8,
+      "duration": 5.3642
+    },
+    {
+      "clip_id": "YVH4J_c051_t0.00_38.30",
+      "video_id": "YVH4J",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "outcome": "tal_only_non_gt",
+      "tal_score": 0.03724258,
+      "tal_iou": 0.0,
+      "start_seconds": 12.5074,
+      "end_seconds": 15.9021,
+      "review_dir": "outputs/tal_vlm_review_epoch034_non_gt/YVH4J_c051_t0.00_38.30/sitting_on_chair_12.51_15.90",
+      "status": "completed",
+      "present": false,
+      "confidence": 0.0,
+      "decision": "vlm_rejected",
+      "evidence": "Person is lying on stomach on a bed, not seated on a chair.",
+      "error": "",
+      "review_group": "tal_only_non_gt",
+      "rank_in_clip": 3,
+      "duration": 3.3947
+    },
+    {
+      "clip_id": "QU2WL_c019_t0.00_34.21",
+      "video_id": "QU2WL",
+      "action": "standing_up",
+      "action_name": "站起",
+      "outcome": "tal_only_non_gt",
+      "tal_score": 0.03686681,
+      "tal_iou": 0.0,
+      "start_seconds": 2.6079,
+      "end_seconds": 29.5219,
+      "review_dir": "outputs/tal_vlm_review_epoch034_non_gt/QU2WL_c019_t0.00_34.21/standing_up_2.61_29.52",
+      "status": "completed",
+      "present": false,
+      "confidence": 0.0,
+      "decision": "vlm_rejected",
+      "evidence": "The person is standing in frames 0-4 and then sits down in frame 5, which is a sitting action, not standing up.",
+      "error": "",
+      "review_group": "tal_only_non_gt",
+      "rank_in_clip": 8,
+      "duration": 26.914
+    },
+    {
+      "clip_id": "1Y09V_c109_t0.00_30.79",
+      "video_id": "1Y09V",
+      "action": "sitting_down",
+      "action_name": "坐下",
+      "outcome": "tal_only_non_gt",
+      "tal_score": 0.03632328,
+      "tal_iou": 0.0,
+      "start_seconds": 28.4466,
+      "end_seconds": 31.79,
+      "review_dir": "outputs/tal_vlm_review_epoch034_non_gt/1Y09V_c109_t0.00_30.79/sitting_down_28.45_31.79",
+      "status": "completed",
+      "present": false,
+      "confidence": 0.0,
+      "decision": "vlm_rejected",
+      "evidence": "",
+      "error": "",
+      "review_group": "tal_only_non_gt",
+      "rank_in_clip": 4,
+      "duration": 3.3434
+    },
+    {
+      "clip_id": "7WIKW_c151_t17.10_42.10",
+      "video_id": "7WIKW",
+      "action": "pouring_drink_container",
+      "action_name": "倒水/倒入杯瓶",
+      "outcome": "tal_only_non_gt",
+      "tal_score": 0.03630439,
+      "tal_iou": 0.0,
+      "start_seconds": 5.9006,
+      "end_seconds": 11.5346,
+      "review_dir": "outputs/tal_vlm_review_epoch034_non_gt/7WIKW_c151_t17.10_42.10/pouring_drink_container_5.90_11.53",
+      "status": "completed",
+      "present": false,
+      "confidence": 0.0,
+      "decision": "vlm_rejected",
+      "evidence": "",
+      "error": "",
+      "review_group": "tal_only_non_gt",
+      "rank_in_clip": 1,
+      "duration": 5.634
+    }
+  ]
+}
