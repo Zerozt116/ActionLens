@@ -1,0 +1,376 @@
+{
+  "summary": {
+    "evaluated_clip_count": 11,
+    "gt_action_instances": 28,
+    "baseline_stage2_vlm_gt_hits": 8,
+    "tal_vlm_confirmed_events": 0,
+    "tal_vlm_confirmed_gt_hits": 0,
+    "tal_vlm_added_gt_hits": 0,
+    "tal_vlm_rejected_events": 5,
+    "combined_gt_hits": 8,
+    "baseline_recall_proxy": 0.2857,
+    "combined_recall_proxy": 0.2857,
+    "absolute_recall_gain": 0.0,
+    "relative_hit_gain": 0.0
+  },
+  "per_action": [
+    {
+      "action": "cooking",
+      "action_name": "做饭",
+      "gt_instances": 1,
+      "baseline_hits": 1,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "gt_instances": 2,
+      "baseline_hits": 2,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "eating",
+      "action_name": "吃东西",
+      "gt_instances": 3,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "gt_instances": 1,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "holding_phone",
+      "action_name": "拿手机",
+      "gt_instances": 4,
+      "baseline_hits": 1,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "looking_at_phone",
+      "action_name": "看手机",
+      "gt_instances": 2,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "pouring_drink_container",
+      "action_name": "倒水/倒入杯瓶",
+      "gt_instances": 0,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 1
+    },
+    {
+      "action": "putting_drink_container",
+      "action_name": "放下杯/瓶",
+      "gt_instances": 0,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 1
+    },
+    {
+      "action": "sitting_down",
+      "action_name": "坐下",
+      "gt_instances": 2,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "gt_instances": 2,
+      "baseline_hits": 1,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 1
+    },
+    {
+      "action": "sitting_on_sofa",
+      "action_name": "坐在沙发上",
+      "gt_instances": 2,
+      "baseline_hits": 1,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "standing_up",
+      "action_name": "站起",
+      "gt_instances": 4,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 2
+    },
+    {
+      "action": "talking_on_phone",
+      "action_name": "打电话",
+      "gt_instances": 1,
+      "baseline_hits": 1,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "using_laptop",
+      "action_name": "使用笔记本电脑",
+      "gt_instances": 1,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "walking_through_doorway",
+      "action_name": "穿过门口",
+      "gt_instances": 1,
+      "baseline_hits": 1,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "watching_laptop",
+      "action_name": "看笔记本电脑",
+      "gt_instances": 1,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    },
+    {
+      "action": "watching_tv",
+      "action_name": "看电视",
+      "gt_instances": 1,
+      "baseline_hits": 0,
+      "tal_vlm_gt_hits": 0,
+      "added_gt_hits": 0,
+      "confirmed_events": 0,
+      "rejected_events": 0
+    }
+  ],
+  "added_gt_hits": [],
+  "confirmed_events": [],
+  "rejected_events": [
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "ARCUY_c059_t0.60_43.83",
+      "video_id": "ARCUY",
+      "action": "standing_up",
+      "action_name": "站起",
+      "start_seconds": 28.9732,
+      "end_seconds": 40.9551,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.0419717,
+        "same_label_iou": 0.24987,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person remains seated in a chair throughout the sampled frames, interacting with a large dark object. No transition to standing is visible.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_test_filtered/ARCUY_c059_t0.60_43.83/standing_up_28.97_40.96"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "VSFCR_c123_t0.00_37.88",
+      "video_id": "VSFCR",
+      "action": "standing_up",
+      "action_name": "站起",
+      "start_seconds": 17.2571,
+      "end_seconds": 20.8889,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.05132375,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person remains seated on the couch throughout the frames, holding a purple cup.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_test_filtered/VSFCR_c123_t0.00_37.88/standing_up_17.26_20.89"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "1LKPL_c154_t0.00_33.58",
+      "video_id": "1LKPL",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "start_seconds": 22.2651,
+      "end_seconds": 30.1107,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.05039242,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person is standing while drinking from a cup.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_test_filtered/1LKPL_c154_t0.00_33.58/sitting_on_chair_22.27_30.11"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "024PD_c015_t0.00_59.04",
+      "video_id": "024PD",
+      "action": "putting_drink_container",
+      "action_name": "放下杯/瓶",
+      "start_seconds": 35.689,
+      "end_seconds": 41.2397,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.04152446,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is holding an object in hands, but it is not clearly identifiable as a drink container, and no clear action of placing it down is visible.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_test_filtered/024PD_c015_t0.00_59.04/putting_drink_container_35.69_41.24"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "024PD_c015_t0.00_59.04",
+      "video_id": "024PD",
+      "action": "pouring_drink_container",
+      "action_name": "倒水/倒入杯瓶",
+      "start_seconds": 1.8668,
+      "end_seconds": 7.1684,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.04129711,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is holding a tablet, not a drink container, and no pouring action is visible.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_test_filtered/024PD_c015_t0.00_59.04/pouring_drink_container_1.87_7.17"
+      }
+    }
+  ],
+  "rejected_non_gt": [
+    {
+      "clip_id": "VSFCR_c123_t0.00_37.88",
+      "action": "standing_up",
+      "action_name": "站起",
+      "charades_present": false,
+      "baseline_outcome": "tal_only_non_gt",
+      "tal_score": 0.05132375,
+      "evidence": "Person remains seated on the couch throughout the frames, holding a purple cup."
+    },
+    {
+      "clip_id": "1LKPL_c154_t0.00_33.58",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "charades_present": false,
+      "baseline_outcome": "tal_only_non_gt",
+      "tal_score": 0.05039242,
+      "evidence": "The person is standing while drinking from a cup."
+    },
+    {
+      "clip_id": "024PD_c015_t0.00_59.04",
+      "action": "putting_drink_container",
+      "action_name": "放下杯/瓶",
+      "charades_present": false,
+      "baseline_outcome": "tal_only_non_gt",
+      "tal_score": 0.04152446,
+      "evidence": "Person is holding an object in hands, but it is not clearly identifiable as a drink container, and no clear action of placing it down is visible."
+    },
+    {
+      "clip_id": "024PD_c015_t0.00_59.04",
+      "action": "pouring_drink_container",
+      "action_name": "倒水/倒入杯瓶",
+      "charades_present": false,
+      "baseline_outcome": "tal_only_non_gt",
+      "tal_score": 0.04129711,
+      "evidence": "Person is holding a tablet, not a drink container, and no pouring action is visible."
+    }
+  ],
+  "rejected_gt": [
+    {
+      "clip_id": "ARCUY_c059_t0.60_43.83",
+      "action": "standing_up",
+      "action_name": "站起",
+      "charades_present": true,
+      "baseline_outcome": "gt_hit_by_tal_only",
+      "tal_score": 0.0419717,
+      "evidence": "The person remains seated in a chair throughout the sampled frames, interacting with a large dark object. No transition to standing is visible."
+    }
+  ]
+}
