@@ -28,6 +28,12 @@ def main() -> None:
         default=None,
         help="Optional clips CSV. When provided, split only videos present in this manifest.",
     )
+    parser.add_argument(
+        "--video-manifest",
+        type=Path,
+        default=None,
+        help="Optional CSV with a video_id column. Useful before clips have been sliced.",
+    )
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--train-ratio", type=float, default=0.7)
     parser.add_argument("--val-ratio", type=float, default=0.15)
@@ -45,8 +51,12 @@ def main() -> None:
     args = parser.parse_args()
 
     payload = json.loads(args.annotations.read_text(encoding="utf-8"))
+    if args.clips_manifest is not None and args.video_manifest is not None:
+        raise SystemExit("Use only one of --clips-manifest or --video-manifest.")
     if args.clips_manifest is not None:
         video_ids = read_video_ids_from_clips(args.clips_manifest)
+    elif args.video_manifest is not None:
+        video_ids = read_video_ids_from_manifest(args.video_manifest)
     else:
         video_ids = sorted(payload.get("database", {}).keys())
     splits = build_splits(
@@ -72,6 +82,19 @@ def read_video_ids_from_clips(path: Path) -> list[str]:
         for row in reader:
             if row.get("status") not in {"sliced", "exists"}:
                 continue
+            video_id = row.get("video_id", "").strip()
+            if video_id:
+                video_ids.add(video_id)
+    return sorted(video_ids)
+
+
+def read_video_ids_from_manifest(path: Path) -> list[str]:
+    video_ids = set()
+    with path.open("r", encoding="utf-8", newline="") as file:
+        reader = csv.DictReader(file)
+        if "video_id" not in (reader.fieldnames or []):
+            raise ValueError(f"{path} must contain a video_id column")
+        for row in reader:
             video_id = row.get("video_id", "").strip()
             if video_id:
                 video_ids.add(video_id)
