@@ -1,0 +1,2808 @@
+{
+  "version": "1.0",
+  "feature_key": "feats",
+  "feature_layout": "T x C",
+  "note": "SlowFast R50 pooled features for ActionFormer training/inference.",
+  "database": {
+    "8BG1T_c106_t5.60_45.46": {
+      "video_id": "8BG1T",
+      "action_id": "c106",
+      "clip_path": "data/charades/clips_480p_200/8BG1T_c106_t5.60_45.46.mp4",
+      "feature_path": "data/charades/features_200/8BG1T_c106_t5.60_45.46.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 45.5,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        91,
+        2304
+      ]
+    },
+    "OINMN_c019_t0.00_45.25": {
+      "video_id": "OINMN",
+      "action_id": "c019",
+      "clip_path": "data/charades/clips_480p_200/OINMN_c019_t0.00_45.25.mp4",
+      "feature_path": "data/charades/features_200/OINMN_c019_t0.00_45.25.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 45.2786,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        91,
+        2304
+      ]
+    },
+    "024PD_c015_t0.00_59.04": {
+      "video_id": "024PD",
+      "action_id": "c015",
+      "clip_path": "data/charades/clips_480p_200/024PD_c015_t0.00_59.04.mp4",
+      "feature_path": "data/charades/features_200/024PD_c015_t0.00_59.04.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 59.059,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        118,
+        2304
+      ]
+    },
+    "EHTB6_c016_t0.00_41.00": {
+      "video_id": "EHTB6",
+      "action_id": "c016",
+      "clip_path": "data/charades/clips_480p_200/EHTB6_c016_t0.00_41.00.mp4",
+      "feature_path": "data/charades/features_200/EHTB6_c016_t0.00_41.00.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 41.041,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        82,
+        2304
+      ]
+    },
+    "B5UXP_c156_t0.00_53.00": {
+      "video_id": "B5UXP",
+      "action_id": "c156",
+      "clip_path": "data/charades/clips_480p_200/B5UXP_c156_t0.00_53.00.mp4",
+      "feature_path": "data/charades/features_200/B5UXP_c156_t0.00_53.00.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 53.0196,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        106,
+        2304
+      ]
+    },
+    "P0DXX_c151_t6.20_33.40": {
+      "video_id": "P0DXX",
+      "action_id": "c151",
+      "clip_path": "data/charades/clips_480p_200/P0DXX_c151_t6.20_33.40.mp4",
+      "feature_path": "data/charades/features_200/P0DXX_c151_t6.20_33.40.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 33.4668,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        67,
+        2304
+      ]
+    },
+    "FVPMC_c154_t0.00_35.25": {
+      "video_id": "FVPMC",
+      "action_id": "c154",
+      "clip_path": "data/charades/clips_480p_200/FVPMC_c154_t0.00_35.25.mp4",
+      "feature_path": "data/charades/features_200/FVPMC_c154_t0.00_35.25.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 35.2667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        71,
+        2304
+      ]
+    },
+    "CY2J2_c059_t0.00_50.83": {
+      "video_id": "CY2J2",
+      "action_id": "c059",
+      "clip_path": "data/charades/clips_480p_200/CY2J2_c059_t0.00_50.83.mp4",
+      "feature_path": "data/charades/features_200/CY2J2_c059_t0.00_50.83.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 50.8508,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        102,
+        2304
+      ]
+    },
+    "BGX4T_c097_t0.00_23.42": {
+      "video_id": "BGX4T",
+      "action_id": "c097",
+      "clip_path": "data/charades/clips_480p_200/BGX4T_c097_t0.00_23.42.mp4",
+      "feature_path": "data/charades/features_200/BGX4T_c097_t0.00_23.42.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.0,
+      "duration_seconds": 23.4583,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        47,
+        2304
+      ]
+    },
+    "S1BYH_c150_t0.00_28.04": {
+      "video_id": "S1BYH",
+      "action_id": "c150",
+      "clip_path": "data/charades/clips_480p_200/S1BYH_c150_t0.00_28.04.mp4",
+      "feature_path": "data/charades/features_200/S1BYH_c150_t0.00_28.04.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 28.08,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        59,
+        2304
+      ]
+    },
+    "4FXUI_c052_t0.00_43.20": {
+      "video_id": "4FXUI",
+      "action_id": "c052",
+      "clip_path": "data/charades/clips_480p_200/4FXUI_c052_t0.00_43.20.mp4",
+      "feature_path": "data/charades/features_200/4FXUI_c052_t0.00_43.20.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.364,
+      "duration_seconds": 43.2843,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        85,
+        2304
+      ]
+    },
+    "ZCH1J_c051_t0.00_44.58": {
+      "video_id": "ZCH1J",
+      "action_id": "c051",
+      "clip_path": "data/charades/clips_480p_200/ZCH1J_c051_t0.00_44.58.mp4",
+      "feature_path": "data/charades/features_200/ZCH1J_c051_t0.00_44.58.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 44.6,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        90,
+        2304
+      ]
+    },
+    "JUF24_c147_t0.00_37.08": {
+      "video_id": "JUF24",
+      "action_id": "c147",
+      "clip_path": "data/charades/clips_480p_200/JUF24_c147_t0.00_37.08.mp4",
+      "feature_path": "data/charades/features_200/JUF24_c147_t0.00_37.08.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 37.1,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        75,
+        2304
+      ]
+    },
+    "6TNP4_c107_t0.90_44.58": {
+      "video_id": "6TNP4",
+      "action_id": "c107",
+      "clip_path": "data/charades/clips_480p_200/6TNP4_c107_t0.90_44.58.mp4",
+      "feature_path": "data/charades/features_200/6TNP4_c107_t0.90_44.58.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 44.6333,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        90,
+        2304
+      ]
+    },
+    "PURYC_c110_t0.00_33.71": {
+      "video_id": "PURYC",
+      "action_id": "c110",
+      "clip_path": "data/charades/clips_480p_200/PURYC_c110_t0.00_33.71.mp4",
+      "feature_path": "data/charades/features_200/PURYC_c110_t0.00_33.71.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 33.7337,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        68,
+        2304
+      ]
+    },
+    "1Y09V_c109_t0.00_30.79": {
+      "video_id": "1Y09V",
+      "action_id": "c109",
+      "clip_path": "data/charades/clips_480p_200/1Y09V_c109_t0.00_30.79.mp4",
+      "feature_path": "data/charades/features_200/1Y09V_c109_t0.00_30.79.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 30.8308,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "HG8G1_c065_t0.00_36.83": {
+      "video_id": "HG8G1",
+      "action_id": "c065",
+      "clip_path": "data/charades/clips_480p_200/HG8G1_c065_t0.00_36.83.mp4",
+      "feature_path": "data/charades/features_200/HG8G1_c065_t0.00_36.83.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 36.8702,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        74,
+        2304
+      ]
+    },
+    "ZP5TG_c123_t0.00_42.46": {
+      "video_id": "ZP5TG",
+      "action_id": "c123",
+      "clip_path": "data/charades/clips_480p_200/ZP5TG_c123_t0.00_42.46.mp4",
+      "feature_path": "data/charades/features_200/ZP5TG_c123_t0.00_42.46.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 42.5,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        85,
+        2304
+      ]
+    },
+    "L57L2_c125_t22.10_123.70": {
+      "video_id": "L57L2",
+      "action_id": "c125",
+      "clip_path": "data/charades/clips_480p_200/L57L2_c125_t22.10_123.70.mp4",
+      "feature_path": "data/charades/features_200/L57L2_c125_t22.10_123.70.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.02,
+      "duration_seconds": 102.9975,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        207,
+        2304
+      ]
+    },
+    "3HUXR_c132_t0.00_41.62": {
+      "video_id": "3HUXR",
+      "action_id": "c132",
+      "clip_path": "data/charades/clips_480p_200/3HUXR_c132_t0.00_41.62.mp4",
+      "feature_path": "data/charades/features_200/3HUXR_c132_t0.00_41.62.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 41.675,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        84,
+        2304
+      ]
+    },
+    "38TF8_c106_t0.00_31.50": {
+      "video_id": "38TF8",
+      "action_id": "c106",
+      "clip_path": "data/charades/clips_480p_200/38TF8_c106_t0.00_31.50.mp4",
+      "feature_path": "data/charades/features_200/38TF8_c106_t0.00_31.50.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.617,
+      "duration_seconds": 31.5416,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        63,
+        2304
+      ]
+    },
+    "QU2WL_c019_t0.00_34.21": {
+      "video_id": "QU2WL",
+      "action_id": "c019",
+      "clip_path": "data/charades/clips_480p_200/QU2WL_c019_t0.00_34.21.mp4",
+      "feature_path": "data/charades/features_200/QU2WL_c019_t0.00_34.21.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 34.2333,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        69,
+        2304
+      ]
+    },
+    "ENJ7V_c015_t0.00_39.79": {
+      "video_id": "ENJ7V",
+      "action_id": "c015",
+      "clip_path": "data/charades/clips_480p_200/ENJ7V_c015_t0.00_39.79.mp4",
+      "feature_path": "data/charades/features_200/ENJ7V_c015_t0.00_39.79.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.742,
+      "duration_seconds": 39.8426,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        79,
+        2304
+      ]
+    },
+    "75HWR_c016_t0.00_37.00": {
+      "video_id": "75HWR",
+      "action_id": "c016",
+      "clip_path": "data/charades/clips_480p_200/75HWR_c016_t0.00_37.00.mp4",
+      "feature_path": "data/charades/features_200/75HWR_c016_t0.00_37.00.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.0,
+      "duration_seconds": 37.0345,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        77,
+        2304
+      ]
+    },
+    "7JTEK_c156_t0.00_35.29": {
+      "video_id": "7JTEK",
+      "action_id": "c156",
+      "clip_path": "data/charades/clips_480p_200/7JTEK_c156_t0.00_35.29.mp4",
+      "feature_path": "data/charades/features_200/7JTEK_c156_t0.00_35.29.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 35.3353,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        71,
+        2304
+      ]
+    },
+    "7WIKW_c151_t17.10_42.10": {
+      "video_id": "7WIKW",
+      "action_id": "c151",
+      "clip_path": "data/charades/clips_480p_200/7WIKW_c151_t17.10_42.10.mp4",
+      "feature_path": "data/charades/features_200/7WIKW_c151_t17.10_42.10.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 25.4921,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        51,
+        2304
+      ]
+    },
+    "1LKPL_c154_t0.00_33.58": {
+      "video_id": "1LKPL",
+      "action_id": "c154",
+      "clip_path": "data/charades/clips_480p_200/1LKPL_c154_t0.00_33.58.mp4",
+      "feature_path": "data/charades/features_200/1LKPL_c154_t0.00_33.58.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 13.048,
+      "duration_seconds": 33.645,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        63,
+        2304
+      ]
+    },
+    "229ZR_c059_t0.00_40.42": {
+      "video_id": "229ZR",
+      "action_id": "c059",
+      "clip_path": "data/charades/clips_480p_200/229ZR_c059_t0.00_40.42.mp4",
+      "feature_path": "data/charades/features_200/229ZR_c059_t0.00_40.42.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.3333,
+      "duration_seconds": 40.5,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        80,
+        2304
+      ]
+    },
+    "STAZI_c097_t0.00_19.10": {
+      "video_id": "STAZI",
+      "action_id": "c097",
+      "clip_path": "data/charades/clips_480p_200/STAZI_c097_t0.00_19.10.mp4",
+      "feature_path": "data/charades/features_200/STAZI_c097_t0.00_19.10.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 14.041,
+      "duration_seconds": 19.3006,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        39,
+        2304
+      ]
+    },
+    "M0DAY_c150_t0.00_24.83": {
+      "video_id": "M0DAY",
+      "action_id": "c150",
+      "clip_path": "data/charades/clips_480p_200/M0DAY_c150_t0.00_24.83.mp4",
+      "feature_path": "data/charades/features_200/M0DAY_c150_t0.00_24.83.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.058,
+      "duration_seconds": 24.8566,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        50,
+        2304
+      ]
+    },
+    "NDH24_c052_t0.00_36.38": {
+      "video_id": "NDH24",
+      "action_id": "c052",
+      "clip_path": "data/charades/clips_480p_200/NDH24_c052_t0.00_36.38.mp4",
+      "feature_path": "data/charades/features_200/NDH24_c052_t0.00_36.38.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 36.403,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        73,
+        2304
+      ]
+    },
+    "YVH4J_c051_t0.00_38.30": {
+      "video_id": "YVH4J",
+      "action_id": "c051",
+      "clip_path": "data/charades/clips_480p_200/YVH4J_c051_t0.00_38.30.mp4",
+      "feature_path": "data/charades/features_200/YVH4J_c051_t0.00_38.30.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.0,
+      "duration_seconds": 38.3793,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        80,
+        2304
+      ]
+    },
+    "BPZE3_c147_t0.00_35.12": {
+      "video_id": "BPZE3",
+      "action_id": "c147",
+      "clip_path": "data/charades/clips_480p_200/BPZE3_c147_t0.00_35.12.mp4",
+      "feature_path": "data/charades/features_200/BPZE3_c147_t0.00_35.12.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 35.1685,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        71,
+        2304
+      ]
+    },
+    "GY9MZ_c107_t0.00_35.17": {
+      "video_id": "GY9MZ",
+      "action_id": "c107",
+      "clip_path": "data/charades/clips_480p_200/GY9MZ_c107_t0.00_35.17.mp4",
+      "feature_path": "data/charades/features_200/GY9MZ_c107_t0.00_35.17.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 35.2,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        71,
+        2304
+      ]
+    },
+    "A1NKP_c110_t0.00_30.75": {
+      "video_id": "A1NKP",
+      "action_id": "c110",
+      "clip_path": "data/charades/clips_480p_200/A1NKP_c110_t0.00_30.75.mp4",
+      "feature_path": "data/charades/features_200/A1NKP_c110_t0.00_30.75.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 30.8,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "PCXYE_c109_t0.00_28.40": {
+      "video_id": "PCXYE",
+      "action_id": "c109",
+      "clip_path": "data/charades/clips_480p_200/PCXYE_c109_t0.00_28.40.mp4",
+      "feature_path": "data/charades/features_200/PCXYE_c109_t0.00_28.40.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 28.4667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        57,
+        2304
+      ]
+    },
+    "R28EY_c065_t0.00_30.67": {
+      "video_id": "R28EY",
+      "action_id": "c065",
+      "clip_path": "data/charades/clips_480p_200/R28EY_c065_t0.00_30.67.mp4",
+      "feature_path": "data/charades/features_200/R28EY_c065_t0.00_30.67.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 30.7,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "VSFCR_c123_t0.00_37.88": {
+      "video_id": "VSFCR",
+      "action_id": "c123",
+      "clip_path": "data/charades/clips_480p_200/VSFCR_c123_t0.00_37.88.mp4",
+      "feature_path": "data/charades/features_200/VSFCR_c123_t0.00_37.88.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.0,
+      "duration_seconds": 37.9167,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        76,
+        2304
+      ]
+    },
+    "24B2K_c125_t6.50_51.50": {
+      "video_id": "24B2K",
+      "action_id": "c125",
+      "clip_path": "data/charades/clips_480p_200/24B2K_c125_t6.50_51.50.mp4",
+      "feature_path": "data/charades/features_200/24B2K_c125_t6.50_51.50.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 46.9803,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        94,
+        2304
+      ]
+    },
+    "1BUFQ_c132_t0.00_40.25": {
+      "video_id": "1BUFQ",
+      "action_id": "c132",
+      "clip_path": "data/charades/clips_480p_200/1BUFQ_c132_t0.00_40.25.mp4",
+      "feature_path": "data/charades/features_200/1BUFQ_c132_t0.00_40.25.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 15.0,
+      "duration_seconds": 40.3333,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        76,
+        2304
+      ]
+    },
+    "U9UI8_c106_t0.00_30.54": {
+      "video_id": "U9UI8",
+      "action_id": "c106",
+      "clip_path": "data/charades/clips_480p_200/U9UI8_c106_t0.00_30.54.mp4",
+      "feature_path": "data/charades/features_200/U9UI8_c106_t0.00_30.54.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 30.5667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "M8CDW_c019_t0.00_32.79": {
+      "video_id": "M8CDW",
+      "action_id": "c019",
+      "clip_path": "data/charades/clips_480p_200/M8CDW_c019_t0.00_32.79.mp4",
+      "feature_path": "data/charades/features_200/M8CDW_c019_t0.00_32.79.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 32.8328,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        66,
+        2304
+      ]
+    },
+    "Y6MUU_c015_t0.00_39.00": {
+      "video_id": "Y6MUU",
+      "action_id": "c015",
+      "clip_path": "data/charades/clips_480p_200/Y6MUU_c015_t0.00_39.00.mp4",
+      "feature_path": "data/charades/features_200/Y6MUU_c015_t0.00_39.00.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 39.039,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        78,
+        2304
+      ]
+    },
+    "X95MU_c016_t0.00_36.38": {
+      "video_id": "X95MU",
+      "action_id": "c016",
+      "clip_path": "data/charades/clips_480p_200/X95MU_c016_t0.00_36.38.mp4",
+      "feature_path": "data/charades/features_200/X95MU_c016_t0.00_36.38.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 36.4,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        73,
+        2304
+      ]
+    },
+    "L4DUU_c156_t0.00_31.58": {
+      "video_id": "L4DUU",
+      "action_id": "c156",
+      "clip_path": "data/charades/clips_480p_200/L4DUU_c156_t0.00_31.58.mp4",
+      "feature_path": "data/charades/features_200/L4DUU_c156_t0.00_31.58.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.887,
+      "duration_seconds": 31.6191,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        63,
+        2304
+      ]
+    },
+    "XFHYX_c151_t0.00_18.90": {
+      "video_id": "XFHYX",
+      "action_id": "c151",
+      "clip_path": "data/charades/clips_480p_200/XFHYX_c151_t0.00_18.90.mp4",
+      "feature_path": "data/charades/features_200/XFHYX_c151_t0.00_18.90.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.0,
+      "duration_seconds": 19.0,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        38,
+        2304
+      ]
+    },
+    "FV684_c154_t0.00_32.92": {
+      "video_id": "FV684",
+      "action_id": "c154",
+      "clip_path": "data/charades/clips_480p_200/FV684_c154_t0.00_32.92.mp4",
+      "feature_path": "data/charades/features_200/FV684_c154_t0.00_32.92.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 32.9329,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        66,
+        2304
+      ]
+    },
+    "ARCUY_c059_t0.60_43.83": {
+      "video_id": "ARCUY",
+      "action_id": "c059",
+      "clip_path": "data/charades/clips_480p_200/ARCUY_c059_t0.60_43.83.mp4",
+      "feature_path": "data/charades/features_200/ARCUY_c059_t0.60_43.83.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 23.934,
+      "duration_seconds": 43.8706,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        88,
+        2304
+      ]
+    },
+    "406LH_c097_t1.00_21.00": {
+      "video_id": "406LH",
+      "action_id": "c097",
+      "clip_path": "data/charades/clips_480p_200/406LH_c097_t1.00_21.00.mp4",
+      "feature_path": "data/charades/features_200/406LH_c097_t1.00_21.00.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 21.0667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        43,
+        2304
+      ]
+    },
+    "SPG5Q_c150_t9.20_33.42": {
+      "video_id": "SPG5Q",
+      "action_id": "c150",
+      "clip_path": "data/charades/clips_480p_200/SPG5Q_c150_t9.20_33.42.mp4",
+      "feature_path": "data/charades/features_200/SPG5Q_c150_t9.20_33.42.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 25.0917,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        51,
+        2304
+      ]
+    },
+    "YDTH0_c052_t0.00_34.50": {
+      "video_id": "YDTH0",
+      "action_id": "c052",
+      "clip_path": "data/charades/clips_480p_200/YDTH0_c052_t0.00_34.50.mp4",
+      "feature_path": "data/charades/features_200/YDTH0_c052_t0.00_34.50.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 34.56,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        72,
+        2304
+      ]
+    },
+    "7GIOE_c051_t0.00_33.79": {
+      "video_id": "7GIOE",
+      "action_id": "c051",
+      "clip_path": "data/charades/clips_480p_200/7GIOE_c051_t0.00_33.79.mp4",
+      "feature_path": "data/charades/features_200/7GIOE_c051_t0.00_33.79.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 33.84,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        71,
+        2304
+      ]
+    },
+    "8PSXZ_c147_t0.00_32.33": {
+      "video_id": "8PSXZ",
+      "action_id": "c147",
+      "clip_path": "data/charades/clips_480p_200/8PSXZ_c147_t0.00_32.33.mp4",
+      "feature_path": "data/charades/features_200/8PSXZ_c147_t0.00_32.33.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.0,
+      "duration_seconds": 32.375,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        65,
+        2304
+      ]
+    },
+    "ZWE6N_c107_t0.20_37.71": {
+      "video_id": "ZWE6N",
+      "action_id": "c107",
+      "clip_path": "data/charades/clips_480p_200/ZWE6N_c107_t0.20_37.71.mp4",
+      "feature_path": "data/charades/features_200/ZWE6N_c107_t0.20_37.71.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.0201,
+      "duration_seconds": 37.76,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        76,
+        2304
+      ]
+    },
+    "K8AUX_c110_t0.00_29.54": {
+      "video_id": "K8AUX",
+      "action_id": "c110",
+      "clip_path": "data/charades/clips_480p_200/K8AUX_c110_t0.00_29.54.mp4",
+      "feature_path": "data/charades/features_200/K8AUX_c110_t0.00_29.54.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.02,
+      "duration_seconds": 29.5803,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        60,
+        2304
+      ]
+    },
+    "B2X4D_c109_t9.20_30.71": {
+      "video_id": "B2X4D",
+      "action_id": "c109",
+      "clip_path": "data/charades/clips_480p_200/B2X4D_c109_t9.20_30.71.mp4",
+      "feature_path": "data/charades/features_200/B2X4D_c109_t9.20_30.71.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 22.389,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        45,
+        2304
+      ]
+    },
+    "7XLMZ_c065_t0.00_28.75": {
+      "video_id": "7XLMZ",
+      "action_id": "c065",
+      "clip_path": "data/charades/clips_480p_200/7XLMZ_c065_t0.00_28.75.mp4",
+      "feature_path": "data/charades/features_200/7XLMZ_c065_t0.00_28.75.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 28.8,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        60,
+        2304
+      ]
+    },
+    "M40WF_c123_t0.00_36.04": {
+      "video_id": "M40WF",
+      "action_id": "c123",
+      "clip_path": "data/charades/clips_480p_200/M40WF_c123_t0.00_36.04.mp4",
+      "feature_path": "data/charades/features_200/M40WF_c123_t0.00_36.04.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 16.4167,
+      "duration_seconds": 36.1218,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        75,
+        2304
+      ]
+    },
+    "F0ZPW_c125_t0.00_39.29": {
+      "video_id": "F0ZPW",
+      "action_id": "c125",
+      "clip_path": "data/charades/clips_480p_200/F0ZPW_c125_t0.00_39.29.mp4",
+      "feature_path": "data/charades/features_200/F0ZPW_c125_t0.00_39.29.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.0468,
+      "duration_seconds": 39.34,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        79,
+        2304
+      ]
+    },
+    "GYAR9_c132_t0.00_37.96": {
+      "video_id": "GYAR9",
+      "action_id": "c132",
+      "clip_path": "data/charades/clips_480p_200/GYAR9_c132_t0.00_37.96.mp4",
+      "feature_path": "data/charades/features_200/GYAR9_c132_t0.00_37.96.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 37.9713,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        76,
+        2304
+      ]
+    },
+    "5JSFE_c106_t0.00_30.79": {
+      "video_id": "5JSFE",
+      "action_id": "c106",
+      "clip_path": "data/charades/clips_480p_200/5JSFE_c106_t0.00_30.79.mp4",
+      "feature_path": "data/charades/features_200/5JSFE_c106_t0.00_30.79.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 30.8308,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "FN71T_c019_t0.00_31.83": {
+      "video_id": "FN71T",
+      "action_id": "c019",
+      "clip_path": "data/charades/clips_480p_200/FN71T_c019_t0.00_31.83.mp4",
+      "feature_path": "data/charades/features_200/FN71T_c019_t0.00_31.83.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.262,
+      "duration_seconds": 31.8502,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        63,
+        2304
+      ]
+    },
+    "RV11J_c015_t0.00_40.29": {
+      "video_id": "RV11J",
+      "action_id": "c015",
+      "clip_path": "data/charades/clips_480p_200/RV11J_c015_t0.00_40.29.mp4",
+      "feature_path": "data/charades/features_200/RV11J_c015_t0.00_40.29.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 40.3069,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        81,
+        2304
+      ]
+    },
+    "NSDFA_c016_t0.00_35.08": {
+      "video_id": "NSDFA",
+      "action_id": "c016",
+      "clip_path": "data/charades/clips_480p_200/NSDFA_c016_t0.00_35.08.mp4",
+      "feature_path": "data/charades/features_200/NSDFA_c016_t0.00_35.08.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 35.1017,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        71,
+        2304
+      ]
+    },
+    "DDUXF_c156_t0.00_34.90": {
+      "video_id": "DDUXF",
+      "action_id": "c156",
+      "clip_path": "data/charades/clips_480p_200/DDUXF_c156_t0.00_34.90.mp4",
+      "feature_path": "data/charades/features_200/DDUXF_c156_t0.00_34.90.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 34.9667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        70,
+        2304
+      ]
+    },
+    "HB8QW_c151_t0.60_20.60": {
+      "video_id": "HB8QW",
+      "action_id": "c151",
+      "clip_path": "data/charades/clips_480p_200/HB8QW_c151_t0.60_20.60.mp4",
+      "feature_path": "data/charades/features_200/HB8QW_c151_t0.60_20.60.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 20.6873,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        42,
+        2304
+      ]
+    },
+    "OYG5H_c154_t0.00_30.83": {
+      "video_id": "OYG5H",
+      "action_id": "c154",
+      "clip_path": "data/charades/clips_480p_200/OYG5H_c154_t0.00_30.83.mp4",
+      "feature_path": "data/charades/features_200/OYG5H_c154_t0.00_30.83.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 30.8667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "IJN3M_c059_t1.00_41.42": {
+      "video_id": "IJN3M",
+      "action_id": "c059",
+      "clip_path": "data/charades/clips_480p_200/IJN3M_c059_t1.00_41.42.mp4",
+      "feature_path": "data/charades/features_200/IJN3M_c059_t1.00_41.42.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.362,
+      "duration_seconds": 41.4481,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        82,
+        2304
+      ]
+    },
+    "AST4H_c097_t6.00_23.90": {
+      "video_id": "AST4H",
+      "action_id": "c097",
+      "clip_path": "data/charades/clips_480p_200/AST4H_c097_t6.00_23.90.mp4",
+      "feature_path": "data/charades/features_200/AST4H_c097_t6.00_23.90.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 23.9667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        48,
+        2304
+      ]
+    },
+    "0R5GS_c150_t8.90_31.33": {
+      "video_id": "0R5GS",
+      "action_id": "c150",
+      "clip_path": "data/charades/clips_480p_200/0R5GS_c150_t8.90_31.33.mp4",
+      "feature_path": "data/charades/features_200/0R5GS_c150_t8.90_31.33.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 23.0333,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        47,
+        2304
+      ]
+    },
+    "V58VE_c052_t0.00_31.54": {
+      "video_id": "V58VE",
+      "action_id": "c052",
+      "clip_path": "data/charades/clips_480p_200/V58VE_c052_t0.00_31.54.mp4",
+      "feature_path": "data/charades/features_200/V58VE_c052_t0.00_31.54.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 31.5667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        64,
+        2304
+      ]
+    },
+    "H603E_c051_t0.00_32.33": {
+      "video_id": "H603E",
+      "action_id": "c051",
+      "clip_path": "data/charades/clips_480p_200/H603E_c051_t0.00_32.33.mp4",
+      "feature_path": "data/charades/features_200/H603E_c051_t0.00_32.33.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 32.3667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        65,
+        2304
+      ]
+    },
+    "1SKLG_c147_t0.00_30.42": {
+      "video_id": "1SKLG",
+      "action_id": "c147",
+      "clip_path": "data/charades/clips_480p_200/1SKLG_c147_t0.00_30.42.mp4",
+      "feature_path": "data/charades/features_200/1SKLG_c147_t0.00_30.42.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 30.4333,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        61,
+        2304
+      ]
+    },
+    "HY9LW_c107_t0.00_33.75": {
+      "video_id": "HY9LW",
+      "action_id": "c107",
+      "clip_path": "data/charades/clips_480p_200/HY9LW_c107_t0.00_33.75.mp4",
+      "feature_path": "data/charades/features_200/HY9LW_c107_t0.00_33.75.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 33.8004,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        68,
+        2304
+      ]
+    },
+    "0NCWX_c110_t0.30_31.50": {
+      "video_id": "0NCWX",
+      "action_id": "c110",
+      "clip_path": "data/charades/clips_480p_200/0NCWX_c110_t0.30_31.50.mp4",
+      "feature_path": "data/charades/features_200/0NCWX_c110_t0.30_31.50.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.828,
+      "duration_seconds": 31.514,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        63,
+        2304
+      ]
+    },
+    "8LWV7_c109_t10.80_30.04": {
+      "video_id": "8LWV7",
+      "action_id": "c109",
+      "clip_path": "data/charades/clips_480p_200/8LWV7_c109_t10.80_30.04.mp4",
+      "feature_path": "data/charades/features_200/8LWV7_c109_t10.80_30.04.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 21.7333,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        44,
+        2304
+      ]
+    },
+    "D4RH8_c065_t0.00_29.08": {
+      "video_id": "D4RH8",
+      "action_id": "c065",
+      "clip_path": "data/charades/clips_480p_200/D4RH8_c065_t0.00_29.08.mp4",
+      "feature_path": "data/charades/features_200/D4RH8_c065_t0.00_29.08.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 29.1,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        59,
+        2304
+      ]
+    },
+    "EASCD_c123_t0.00_37.00": {
+      "video_id": "EASCD",
+      "action_id": "c123",
+      "clip_path": "data/charades/clips_480p_200/EASCD_c123_t0.00_37.00.mp4",
+      "feature_path": "data/charades/features_200/EASCD_c123_t0.00_37.00.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.359,
+      "duration_seconds": 37.0925,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        73,
+        2304
+      ]
+    },
+    "C0207_c125_t0.00_36.42": {
+      "video_id": "C0207",
+      "action_id": "c125",
+      "clip_path": "data/charades/clips_480p_200/C0207_c125_t0.00_36.42.mp4",
+      "feature_path": "data/charades/features_200/C0207_c125_t0.00_36.42.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 36.4698,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        73,
+        2304
+      ]
+    },
+    "1DGSW_c132_t0.00_38.33": {
+      "video_id": "1DGSW",
+      "action_id": "c132",
+      "clip_path": "data/charades/clips_480p_200/1DGSW_c132_t0.00_38.33.mp4",
+      "feature_path": "data/charades/features_200/1DGSW_c132_t0.00_38.33.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 38.3717,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        77,
+        2304
+      ]
+    },
+    "U3OJV_c106_t0.00_27.67": {
+      "video_id": "U3OJV",
+      "action_id": "c106",
+      "clip_path": "data/charades/clips_480p_200/U3OJV_c106_t0.00_27.67.mp4",
+      "feature_path": "data/charades/features_200/U3OJV_c106_t0.00_27.67.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 27.72,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        58,
+        2304
+      ]
+    },
+    "V5XKZ_c019_t0.00_31.58": {
+      "video_id": "V5XKZ",
+      "action_id": "c019",
+      "clip_path": "data/charades/clips_480p_200/V5XKZ_c019_t0.00_31.58.mp4",
+      "feature_path": "data/charades/features_200/V5XKZ_c019_t0.00_31.58.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 31.6333,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        64,
+        2304
+      ]
+    },
+    "3FMAS_c015_t0.00_37.12": {
+      "video_id": "3FMAS",
+      "action_id": "c015",
+      "clip_path": "data/charades/clips_480p_200/3FMAS_c015_t0.00_37.12.mp4",
+      "feature_path": "data/charades/features_200/3FMAS_c015_t0.00_37.12.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 37.1705,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        75,
+        2304
+      ]
+    },
+    "B8BSY_c016_t0.00_31.79": {
+      "video_id": "B8BSY",
+      "action_id": "c016",
+      "clip_path": "data/charades/clips_480p_200/B8BSY_c016_t0.00_31.79.mp4",
+      "feature_path": "data/charades/features_200/B8BSY_c016_t0.00_31.79.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.0,
+      "duration_seconds": 31.8333,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        64,
+        2304
+      ]
+    },
+    "5B8M5_c156_t0.00_30.71": {
+      "video_id": "5B8M5",
+      "action_id": "c156",
+      "clip_path": "data/charades/clips_480p_200/5B8M5_c156_t0.00_30.71.mp4",
+      "feature_path": "data/charades/features_200/5B8M5_c156_t0.00_30.71.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.884,
+      "duration_seconds": 30.7522,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "CVPQR_c151_t14.50_30.58": {
+      "video_id": "CVPQR",
+      "action_id": "c151",
+      "clip_path": "data/charades/clips_480p_200/CVPQR_c151_t14.50_30.58.mp4",
+      "feature_path": "data/charades/features_200/CVPQR_c151_t14.50_30.58.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 22.2889,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        45,
+        2304
+      ]
+    },
+    "MV9N4_c154_t0.00_28.96": {
+      "video_id": "MV9N4",
+      "action_id": "c154",
+      "clip_path": "data/charades/clips_480p_200/MV9N4_c154_t0.00_28.96.mp4",
+      "feature_path": "data/charades/features_200/MV9N4_c154_t0.00_28.96.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.0,
+      "duration_seconds": 29.0,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        61,
+        2304
+      ]
+    },
+    "0YTSJ_c059_t0.00_37.08": {
+      "video_id": "0YTSJ",
+      "action_id": "c059",
+      "clip_path": "data/charades/clips_480p_200/0YTSJ_c059_t0.00_37.08.mp4",
+      "feature_path": "data/charades/features_200/0YTSJ_c059_t0.00_37.08.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 37.1,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        75,
+        2304
+      ]
+    },
+    "WOD0G_c097_t0.00_15.90": {
+      "video_id": "WOD0G",
+      "action_id": "c097",
+      "clip_path": "data/charades/clips_480p_200/WOD0G_c097_t0.00_15.90.mp4",
+      "feature_path": "data/charades/features_200/WOD0G_c097_t0.00_15.90.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.527,
+      "duration_seconds": 15.9854,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        32,
+        2304
+      ]
+    },
+    "UKOAU_c150_t7.90_25.90": {
+      "video_id": "UKOAU",
+      "action_id": "c150",
+      "clip_path": "data/charades/clips_480p_200/UKOAU_c150_t7.90_25.90.mp4",
+      "feature_path": "data/charades/features_200/UKOAU_c150_t7.90_25.90.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 19.2,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        40,
+        2304
+      ]
+    },
+    "V8GK6_c052_t0.00_31.92": {
+      "video_id": "V8GK6",
+      "action_id": "c052",
+      "clip_path": "data/charades/clips_480p_200/V8GK6_c052_t0.00_31.92.mp4",
+      "feature_path": "data/charades/features_200/V8GK6_c052_t0.00_31.92.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 31.9319,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        64,
+        2304
+      ]
+    },
+    "5NG8W_c051_t0.00_31.67": {
+      "video_id": "5NG8W",
+      "action_id": "c051",
+      "clip_path": "data/charades/clips_480p_200/5NG8W_c051_t0.00_31.67.mp4",
+      "feature_path": "data/charades/features_200/5NG8W_c051_t0.00_31.67.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 31.7,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        64,
+        2304
+      ]
+    },
+    "DUEEE_c147_t0.00_30.38": {
+      "video_id": "DUEEE",
+      "action_id": "c147",
+      "clip_path": "data/charades/clips_480p_200/DUEEE_c147_t0.00_30.38.mp4",
+      "feature_path": "data/charades/features_200/DUEEE_c147_t0.00_30.38.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 23.976,
+      "duration_seconds": 30.4054,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        61,
+        2304
+      ]
+    },
+    "K8DDR_c107_t0.00_32.54": {
+      "video_id": "K8DDR",
+      "action_id": "c107",
+      "clip_path": "data/charades/clips_480p_200/K8DDR_c107_t0.00_32.54.mp4",
+      "feature_path": "data/charades/features_200/K8DDR_c107_t0.00_32.54.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.4659,
+      "duration_seconds": 32.58,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        64,
+        2304
+      ]
+    },
+    "VTYXW_c110_t20.60_43.90": {
+      "video_id": "VTYXW",
+      "action_id": "c110",
+      "clip_path": "data/charades/clips_480p_200/VTYXW_c110_t20.60_43.90.mp4",
+      "feature_path": "data/charades/features_200/VTYXW_c110_t20.60_43.90.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 27.2939,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        55,
+        2304
+      ]
+    },
+    "0A8ZT_c109_t8.60_29.30": {
+      "video_id": "0A8ZT",
+      "action_id": "c109",
+      "clip_path": "data/charades/clips_480p_200/0A8ZT_c109_t8.60_29.30.mp4",
+      "feature_path": "data/charades/features_200/0A8ZT_c109_t8.60_29.30.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 15.0833,
+      "duration_seconds": 29.4365,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        56,
+        2304
+      ]
+    },
+    "SZTNV_c065_t0.00_28.71": {
+      "video_id": "SZTNV",
+      "action_id": "c065",
+      "clip_path": "data/charades/clips_480p_200/SZTNV_c065_t0.00_28.71.mp4",
+      "feature_path": "data/charades/features_200/SZTNV_c065_t0.00_28.71.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 28.76,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        60,
+        2304
+      ]
+    },
+    "0UFI4_c123_t10.80_46.96": {
+      "video_id": "0UFI4",
+      "action_id": "c123",
+      "clip_path": "data/charades/clips_480p_200/0UFI4_c123_t10.80_46.96.mp4",
+      "feature_path": "data/charades/features_200/0UFI4_c123_t10.80_46.96.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 38.6386,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        78,
+        2304
+      ]
+    },
+    "9W63D_c125_t0.00_33.75": {
+      "video_id": "9W63D",
+      "action_id": "c125",
+      "clip_path": "data/charades/clips_480p_200/9W63D_c125_t0.00_33.75.mp4",
+      "feature_path": "data/charades/features_200/9W63D_c125_t0.00_33.75.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 33.8,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        68,
+        2304
+      ]
+    },
+    "WZRLQ_c132_t0.00_34.88": {
+      "video_id": "WZRLQ",
+      "action_id": "c132",
+      "clip_path": "data/charades/clips_480p_200/WZRLQ_c132_t0.00_34.88.mp4",
+      "feature_path": "data/charades/features_200/WZRLQ_c132_t0.00_34.88.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 34.9,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        70,
+        2304
+      ]
+    },
+    "FET0V_c106_t2.30_35.10": {
+      "video_id": "FET0V",
+      "action_id": "c106",
+      "clip_path": "data/charades/clips_480p_200/FET0V_c106_t2.30_35.10.mp4",
+      "feature_path": "data/charades/features_200/FET0V_c106_t2.30_35.10.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.0,
+      "duration_seconds": 35.2083,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        71,
+        2304
+      ]
+    },
+    "DBN7R_c019_t0.00_30.71": {
+      "video_id": "DBN7R",
+      "action_id": "c019",
+      "clip_path": "data/charades/clips_480p_200/DBN7R_c019_t0.00_30.71.mp4",
+      "feature_path": "data/charades/features_200/DBN7R_c019_t0.00_30.71.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 16.631,
+      "duration_seconds": 30.7859,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        64,
+        2304
+      ]
+    },
+    "G8O8P_c015_t0.00_34.54": {
+      "video_id": "G8O8P",
+      "action_id": "c015",
+      "clip_path": "data/charades/clips_480p_200/G8O8P_c015_t0.00_34.54.mp4",
+      "feature_path": "data/charades/features_200/G8O8P_c015_t0.00_34.54.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.02,
+      "duration_seconds": 34.5962,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        70,
+        2304
+      ]
+    },
+    "XNR76_c016_t0.00_33.67": {
+      "video_id": "XNR76",
+      "action_id": "c016",
+      "clip_path": "data/charades/clips_480p_200/XNR76_c016_t0.00_33.67.mp4",
+      "feature_path": "data/charades/features_200/XNR76_c016_t0.00_33.67.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.0,
+      "duration_seconds": 33.7083,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        68,
+        2304
+      ]
+    },
+    "5MYL4_c156_t0.00_30.46": {
+      "video_id": "5MYL4",
+      "action_id": "c156",
+      "clip_path": "data/charades/clips_480p_200/5MYL4_c156_t0.00_30.46.mp4",
+      "feature_path": "data/charades/features_200/5MYL4_c156_t0.00_30.46.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 30.48,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        64,
+        2304
+      ]
+    },
+    "FPODN_c151_t8.80_28.20": {
+      "video_id": "FPODN",
+      "action_id": "c151",
+      "clip_path": "data/charades/clips_480p_200/FPODN_c151_t8.80_28.20.mp4",
+      "feature_path": "data/charades/features_200/FPODN_c151_t8.80_28.20.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 19.9533,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        40,
+        2304
+      ]
+    },
+    "QDRWK_c154_t0.00_29.50": {
+      "video_id": "QDRWK",
+      "action_id": "c154",
+      "clip_path": "data/charades/clips_480p_200/QDRWK_c154_t0.00_29.50.mp4",
+      "feature_path": "data/charades/features_200/QDRWK_c154_t0.00_29.50.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.873,
+      "duration_seconds": 29.5289,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        59,
+        2304
+      ]
+    },
+    "J26CF_c059_t0.00_37.25": {
+      "video_id": "J26CF",
+      "action_id": "c059",
+      "clip_path": "data/charades/clips_480p_200/J26CF_c059_t0.00_37.25.mp4",
+      "feature_path": "data/charades/features_200/J26CF_c059_t0.00_37.25.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 20.0,
+      "duration_seconds": 37.3,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        75,
+        2304
+      ]
+    },
+    "AHZWF_c097_t0.00_15.70": {
+      "video_id": "AHZWF",
+      "action_id": "c097",
+      "clip_path": "data/charades/clips_480p_200/AHZWF_c097_t0.00_15.70.mp4",
+      "feature_path": "data/charades/features_200/AHZWF_c097_t0.00_15.70.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 15.7824,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        32,
+        2304
+      ]
+    },
+    "WNW0S_c150_t0.00_13.70": {
+      "video_id": "WNW0S",
+      "action_id": "c150",
+      "clip_path": "data/charades/clips_480p_200/WNW0S_c150_t0.00_13.70.mp4",
+      "feature_path": "data/charades/features_200/WNW0S_c150_t0.00_13.70.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 13.7667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        28,
+        2304
+      ]
+    },
+    "WA7WD_c052_t0.00_31.46": {
+      "video_id": "WA7WD",
+      "action_id": "c052",
+      "clip_path": "data/charades/clips_480p_200/WA7WD_c052_t0.00_31.46.mp4",
+      "feature_path": "data/charades/features_200/WA7WD_c052_t0.00_31.46.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 31.5,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        63,
+        2304
+      ]
+    },
+    "C6B3T_c051_t0.00_31.21": {
+      "video_id": "C6B3T",
+      "action_id": "c051",
+      "clip_path": "data/charades/clips_480p_200/C6B3T_c051_t0.00_31.21.mp4",
+      "feature_path": "data/charades/features_200/C6B3T_c051_t0.00_31.21.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 23.976,
+      "duration_seconds": 31.2395,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        63,
+        2304
+      ]
+    },
+    "OOCOF_c147_t0.00_29.71": {
+      "video_id": "OOCOF",
+      "action_id": "c147",
+      "clip_path": "data/charades/clips_480p_200/OOCOF_c147_t0.00_29.71.mp4",
+      "feature_path": "data/charades/features_200/OOCOF_c147_t0.00_29.71.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.443,
+      "duration_seconds": 29.7524,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        59,
+        2304
+      ]
+    },
+    "ENCXV_c107_t0.00_32.25": {
+      "video_id": "ENCXV",
+      "action_id": "c107",
+      "clip_path": "data/charades/clips_480p_200/ENCXV_c107_t0.00_32.25.mp4",
+      "feature_path": "data/charades/features_200/ENCXV_c107_t0.00_32.25.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 32.2989,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        65,
+        2304
+      ]
+    },
+    "KZK6W_c110_t12.70_32.40": {
+      "video_id": "KZK6W",
+      "action_id": "c110",
+      "clip_path": "data/charades/clips_480p_200/KZK6W_c110_t12.70_32.40.mp4",
+      "feature_path": "data/charades/features_200/KZK6W_c110_t12.70_32.40.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.0,
+      "duration_seconds": 22.0833,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        45,
+        2304
+      ]
+    },
+    "KNN3G_c109_t0.00_14.90": {
+      "video_id": "KNN3G",
+      "action_id": "c109",
+      "clip_path": "data/charades/clips_480p_200/KNN3G_c109_t0.00_14.90.mp4",
+      "feature_path": "data/charades/features_200/KNN3G_c109_t0.00_14.90.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 15.0,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        32,
+        2304
+      ]
+    },
+    "YVFBN_c065_t0.00_29.42": {
+      "video_id": "YVFBN",
+      "action_id": "c065",
+      "clip_path": "data/charades/clips_480p_200/YVFBN_c065_t0.00_29.42.mp4",
+      "feature_path": "data/charades/features_200/YVFBN_c065_t0.00_29.42.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 59.9401,
+      "duration_seconds": 29.4628,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        59,
+        2304
+      ]
+    },
+    "AHL6X_c123_t0.00_33.08": {
+      "video_id": "AHL6X",
+      "action_id": "c123",
+      "clip_path": "data/charades/clips_480p_200/AHL6X_c123_t0.00_33.08.mp4",
+      "feature_path": "data/charades/features_200/AHL6X_c123_t0.00_33.08.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 33.0997,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        67,
+        2304
+      ]
+    },
+    "YXP9P_c125_t0.00_33.67": {
+      "video_id": "YXP9P",
+      "action_id": "c125",
+      "clip_path": "data/charades/clips_480p_200/YXP9P_c125_t0.00_33.67.mp4",
+      "feature_path": "data/charades/features_200/YXP9P_c125_t0.00_33.67.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 33.7,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        68,
+        2304
+      ]
+    },
+    "LOBSL_c132_t0.70_36.25": {
+      "video_id": "LOBSL",
+      "action_id": "c132",
+      "clip_path": "data/charades/clips_480p_200/LOBSL_c132_t0.70_36.25.mp4",
+      "feature_path": "data/charades/features_200/LOBSL_c132_t0.70_36.25.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 36.3,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        73,
+        2304
+      ]
+    },
+    "GNA1H_c106_t0.00_26.40": {
+      "video_id": "GNA1H",
+      "action_id": "c106",
+      "clip_path": "data/charades/clips_480p_200/GNA1H_c106_t0.00_26.40.mp4",
+      "feature_path": "data/charades/features_200/GNA1H_c106_t0.00_26.40.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 27.646,
+      "duration_seconds": 26.4776,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        53,
+        2304
+      ]
+    },
+    "QHU9R_c019_t0.00_30.17": {
+      "video_id": "QHU9R",
+      "action_id": "c019",
+      "clip_path": "data/charades/clips_480p_200/QHU9R_c019_t0.00_30.17.mp4",
+      "feature_path": "data/charades/features_200/QHU9R_c019_t0.00_30.17.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.0529,
+      "duration_seconds": 30.225,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        61,
+        2304
+      ]
+    },
+    "J1YJ6_c015_t0.00_34.88": {
+      "video_id": "J1YJ6",
+      "action_id": "c015",
+      "clip_path": "data/charades/clips_480p_200/J1YJ6_c015_t0.00_34.88.mp4",
+      "feature_path": "data/charades/features_200/J1YJ6_c015_t0.00_34.88.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 34.92,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        73,
+        2304
+      ]
+    },
+    "S1QOX_c016_t0.00_30.83": {
+      "video_id": "S1QOX",
+      "action_id": "c016",
+      "clip_path": "data/charades/clips_480p_200/S1QOX_c016_t0.00_30.83.mp4",
+      "feature_path": "data/charades/features_200/S1QOX_c016_t0.00_30.83.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 23.976,
+      "duration_seconds": 30.8642,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "M8PXK_c156_t0.00_30.08": {
+      "video_id": "M8PXK",
+      "action_id": "c156",
+      "clip_path": "data/charades/clips_480p_200/M8PXK_c156_t0.00_30.08.mp4",
+      "feature_path": "data/charades/features_200/M8PXK_c156_t0.00_30.08.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 30.1,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        61,
+        2304
+      ]
+    },
+    "VSO80_c151_t15.70_31.50": {
+      "video_id": "VSO80",
+      "action_id": "c151",
+      "clip_path": "data/charades/clips_480p_200/VSO80_c151_t15.70_31.50.mp4",
+      "feature_path": "data/charades/features_200/VSO80_c151_t15.70_31.50.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.015,
+      "duration_seconds": 23.1884,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        47,
+        2304
+      ]
+    },
+    "FW1L0_c154_t0.00_26.80": {
+      "video_id": "FW1L0",
+      "action_id": "c154",
+      "clip_path": "data/charades/clips_480p_200/FW1L0_c154_t0.00_26.80.mp4",
+      "feature_path": "data/charades/features_200/FW1L0_c154_t0.00_26.80.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 26.8667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        54,
+        2304
+      ]
+    },
+    "KAKC6_c059_t0.00_36.79": {
+      "video_id": "KAKC6",
+      "action_id": "c059",
+      "clip_path": "data/charades/clips_480p_200/KAKC6_c059_t0.00_36.79.mp4",
+      "feature_path": "data/charades/features_200/KAKC6_c059_t0.00_36.79.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 36.8368,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        74,
+        2304
+      ]
+    },
+    "DKTVI_c097_t13.60_30.30": {
+      "video_id": "DKTVI",
+      "action_id": "c097",
+      "clip_path": "data/charades/clips_480p_200/DKTVI_c097_t13.60_30.30.mp4",
+      "feature_path": "data/charades/features_200/DKTVI_c097_t13.60_30.30.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.913,
+      "duration_seconds": 22.0306,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        44,
+        2304
+      ]
+    },
+    "10J88_c150_t0.00_13.00": {
+      "video_id": "10J88",
+      "action_id": "c150",
+      "clip_path": "data/charades/clips_480p_200/10J88_c150_t0.00_13.00.mp4",
+      "feature_path": "data/charades/features_200/10J88_c150_t0.00_13.00.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 16.259,
+      "duration_seconds": 13.1619,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        27,
+        2304
+      ]
+    },
+    "7HV9Q_c052_t0.00_29.83": {
+      "video_id": "7HV9Q",
+      "action_id": "c052",
+      "clip_path": "data/charades/clips_480p_200/7HV9Q_c052_t0.00_29.83.mp4",
+      "feature_path": "data/charades/features_200/7HV9Q_c052_t0.00_29.83.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 29.8632,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        60,
+        2304
+      ]
+    },
+    "Q6XGG_c051_t0.00_30.96": {
+      "video_id": "Q6XGG",
+      "action_id": "c051",
+      "clip_path": "data/charades/clips_480p_200/Q6XGG_c051_t0.00_30.96.mp4",
+      "feature_path": "data/charades/features_200/Q6XGG_c051_t0.00_30.96.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 30.9976,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "8Q0EY_c147_t0.00_31.58": {
+      "video_id": "8Q0EY",
+      "action_id": "c147",
+      "clip_path": "data/charades/clips_480p_200/8Q0EY_c147_t0.00_31.58.mp4",
+      "feature_path": "data/charades/features_200/8Q0EY_c147_t0.00_31.58.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 31.6333,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        64,
+        2304
+      ]
+    },
+    "004QE_c107_t0.00_30.58": {
+      "video_id": "004QE",
+      "action_id": "c107",
+      "clip_path": "data/charades/clips_480p_200/004QE_c107_t0.00_30.58.mp4",
+      "feature_path": "data/charades/features_200/004QE_c107_t0.00_30.58.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 30.6,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "HIC67_c110_t6.20_23.10": {
+      "video_id": "HIC67",
+      "action_id": "c110",
+      "clip_path": "data/charades/clips_480p_200/HIC67_c110_t6.20_23.10.mp4",
+      "feature_path": "data/charades/features_200/HIC67_c110_t6.20_23.10.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 23.1667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        47,
+        2304
+      ]
+    },
+    "2WGSN_c109_t0.00_14.20": {
+      "video_id": "2WGSN",
+      "action_id": "c109",
+      "clip_path": "data/charades/clips_480p_200/2WGSN_c109_t0.00_14.20.mp4",
+      "feature_path": "data/charades/features_200/2WGSN_c109_t0.00_14.20.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 14.2809,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        29,
+        2304
+      ]
+    },
+    "857S9_c065_t5.90_34.50": {
+      "video_id": "857S9",
+      "action_id": "c065",
+      "clip_path": "data/charades/clips_480p_200/857S9_c065_t5.90_34.50.mp4",
+      "feature_path": "data/charades/features_200/857S9_c065_t5.90_34.50.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 34.56,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        72,
+        2304
+      ]
+    },
+    "MI4SN_c123_t0.00_35.20": {
+      "video_id": "MI4SN",
+      "action_id": "c123",
+      "clip_path": "data/charades/clips_480p_200/MI4SN_c123_t0.00_35.20.mp4",
+      "feature_path": "data/charades/features_200/MI4SN_c123_t0.00_35.20.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 35.2686,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        71,
+        2304
+      ]
+    },
+    "A80GG_c125_t0.00_32.71": {
+      "video_id": "A80GG",
+      "action_id": "c125",
+      "clip_path": "data/charades/clips_480p_200/A80GG_c125_t0.00_32.71.mp4",
+      "feature_path": "data/charades/features_200/A80GG_c125_t0.00_32.71.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 15.074,
+      "duration_seconds": 32.7717,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "5VUQE_c132_t0.00_30.92": {
+      "video_id": "5VUQE",
+      "action_id": "c132",
+      "clip_path": "data/charades/clips_480p_200/5VUQE_c132_t0.00_30.92.mp4",
+      "feature_path": "data/charades/features_200/5VUQE_c132_t0.00_30.92.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.373,
+      "duration_seconds": 30.9468,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        61,
+        2304
+      ]
+    },
+    "7WG7A_c106_t0.00_25.00": {
+      "video_id": "7WG7A",
+      "action_id": "c106",
+      "clip_path": "data/charades/clips_480p_200/7WG7A_c106_t0.00_25.00.mp4",
+      "feature_path": "data/charades/features_200/7WG7A_c106_t0.00_25.00.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 25.08,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        53,
+        2304
+      ]
+    },
+    "R2RBJ_c019_t0.00_29.38": {
+      "video_id": "R2RBJ",
+      "action_id": "c019",
+      "clip_path": "data/charades/clips_480p_200/R2RBJ_c019_t0.00_29.38.mp4",
+      "feature_path": "data/charades/features_200/R2RBJ_c019_t0.00_29.38.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 29.4,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        59,
+        2304
+      ]
+    },
+    "OE751_c015_t0.00_33.17": {
+      "video_id": "OE751",
+      "action_id": "c015",
+      "clip_path": "data/charades/clips_480p_200/OE751_c015_t0.00_33.17.mp4",
+      "feature_path": "data/charades/features_200/OE751_c015_t0.00_33.17.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 33.1998,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        67,
+        2304
+      ]
+    },
+    "UVMZ8_c016_t0.00_30.54": {
+      "video_id": "UVMZ8",
+      "action_id": "c016",
+      "clip_path": "data/charades/clips_480p_200/UVMZ8_c016_t0.00_30.54.mp4",
+      "feature_path": "data/charades/features_200/UVMZ8_c016_t0.00_30.54.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 30.5639,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "K7HQG_c156_t0.00_30.38": {
+      "video_id": "K7HQG",
+      "action_id": "c156",
+      "clip_path": "data/charades/clips_480p_200/K7HQG_c156_t0.00_30.38.mp4",
+      "feature_path": "data/charades/features_200/K7HQG_c156_t0.00_30.38.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 30.4,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        61,
+        2304
+      ]
+    },
+    "G4E4S_c151_t12.40_30.10": {
+      "video_id": "G4E4S",
+      "action_id": "c151",
+      "clip_path": "data/charades/clips_480p_200/G4E4S_c151_t12.40_30.10.mp4",
+      "feature_path": "data/charades/features_200/G4E4S_c151_t12.40_30.10.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 18.7521,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        38,
+        2304
+      ]
+    },
+    "XDT45_c154_t7.40_33.46": {
+      "video_id": "XDT45",
+      "action_id": "c154",
+      "clip_path": "data/charades/clips_480p_200/XDT45_c154_t7.40_33.46.mp4",
+      "feature_path": "data/charades/features_200/XDT45_c154_t7.40_33.46.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.928,
+      "duration_seconds": 33.4804,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        67,
+        2304
+      ]
+    },
+    "1ROX7_c059_t0.00_36.08": {
+      "video_id": "1ROX7",
+      "action_id": "c059",
+      "clip_path": "data/charades/clips_480p_200/1ROX7_c059_t0.00_36.08.mp4",
+      "feature_path": "data/charades/features_200/1ROX7_c059_t0.00_36.08.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 36.1695,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        73,
+        2304
+      ]
+    },
+    "WLA52_c097_t15.50_32.20": {
+      "video_id": "WLA52",
+      "action_id": "c097",
+      "clip_path": "data/charades/clips_480p_200/WLA52_c097_t15.50_32.20.mp4",
+      "feature_path": "data/charades/features_200/WLA52_c097_t15.50_32.20.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 23.9573,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        48,
+        2304
+      ]
+    },
+    "D3EY0_c150_t5.30_18.50": {
+      "video_id": "D3EY0",
+      "action_id": "c150",
+      "clip_path": "data/charades/clips_480p_200/D3EY0_c150_t5.30_18.50.mp4",
+      "feature_path": "data/charades/features_200/D3EY0_c150_t5.30_18.50.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 18.5519,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        38,
+        2304
+      ]
+    },
+    "CB42N_c052_t0.00_30.46": {
+      "video_id": "CB42N",
+      "action_id": "c052",
+      "clip_path": "data/charades/clips_480p_200/CB42N_c052_t0.00_30.46.mp4",
+      "feature_path": "data/charades/features_200/CB42N_c052_t0.00_30.46.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 30.4971,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        61,
+        2304
+      ]
+    },
+    "W86JJ_c051_t0.00_30.75": {
+      "video_id": "W86JJ",
+      "action_id": "c051",
+      "clip_path": "data/charades/clips_480p_200/W86JJ_c051_t0.00_30.75.mp4",
+      "feature_path": "data/charades/features_200/W86JJ_c051_t0.00_30.75.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 30.7667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "HSSOZ_c147_t0.00_31.60": {
+      "video_id": "HSSOZ",
+      "action_id": "c147",
+      "clip_path": "data/charades/clips_480p_200/HSSOZ_c147_t0.00_31.60.mp4",
+      "feature_path": "data/charades/features_200/HSSOZ_c147_t0.00_31.60.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.4167,
+      "duration_seconds": 31.6827,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        63,
+        2304
+      ]
+    },
+    "21E40_c107_t0.00_30.92": {
+      "video_id": "21E40",
+      "action_id": "c107",
+      "clip_path": "data/charades/clips_480p_200/21E40_c107_t0.00_30.92.mp4",
+      "feature_path": "data/charades/features_200/21E40_c107_t0.00_30.92.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 30.9643,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "SCHOY_c110_t2.10_18.30": {
+      "video_id": "SCHOY",
+      "action_id": "c110",
+      "clip_path": "data/charades/clips_480p_200/SCHOY_c110_t2.10_18.30.mp4",
+      "feature_path": "data/charades/features_200/SCHOY_c110_t2.10_18.30.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 18.385,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        37,
+        2304
+      ]
+    },
+    "3GNH7_c109_t0.00_12.10": {
+      "video_id": "3GNH7",
+      "action_id": "c109",
+      "clip_path": "data/charades/clips_480p_200/3GNH7_c109_t0.00_12.10.mp4",
+      "feature_path": "data/charades/features_200/3GNH7_c109_t0.00_12.10.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 27.3333,
+      "duration_seconds": 12.1829,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        24,
+        2304
+      ]
+    },
+    "8Y7P5_c065_t0.00_28.75": {
+      "video_id": "8Y7P5",
+      "action_id": "c065",
+      "clip_path": "data/charades/clips_480p_200/8Y7P5_c065_t0.00_28.75.mp4",
+      "feature_path": "data/charades/features_200/8Y7P5_c065_t0.00_28.75.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 28.8,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        60,
+        2304
+      ]
+    },
+    "X3KFE_c123_t0.00_31.83": {
+      "video_id": "X3KFE",
+      "action_id": "c123",
+      "clip_path": "data/charades/clips_480p_200/X3KFE_c123_t0.00_31.83.mp4",
+      "feature_path": "data/charades/features_200/X3KFE_c123_t0.00_31.83.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.37,
+      "duration_seconds": 31.8693,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        63,
+        2304
+      ]
+    },
+    "LVLVR_c125_t0.00_32.71": {
+      "video_id": "LVLVR",
+      "action_id": "c125",
+      "clip_path": "data/charades/clips_480p_200/LVLVR_c125_t0.00_32.71.mp4",
+      "feature_path": "data/charades/features_200/LVLVR_c125_t0.00_32.71.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 32.7327,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        66,
+        2304
+      ]
+    },
+    "PSPMA_c132_t0.00_31.25": {
+      "video_id": "PSPMA",
+      "action_id": "c132",
+      "clip_path": "data/charades/clips_480p_200/PSPMA_c132_t0.00_31.25.mp4",
+      "feature_path": "data/charades/features_200/PSPMA_c132_t0.00_31.25.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 16.553,
+      "duration_seconds": 31.2934,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        65,
+        2304
+      ]
+    },
+    "S9SRM_c106_t7.50_31.42": {
+      "video_id": "S9SRM",
+      "action_id": "c106",
+      "clip_path": "data/charades/clips_480p_200/S9SRM_c106_t7.50_31.42.mp4",
+      "feature_path": "data/charades/features_200/S9SRM_c106_t7.50_31.42.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.0,
+      "duration_seconds": 31.4583,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        63,
+        2304
+      ]
+    },
+    "BVS38_c019_t0.00_28.04": {
+      "video_id": "BVS38",
+      "action_id": "c019",
+      "clip_path": "data/charades/clips_480p_200/BVS38_c019_t0.00_28.04.mp4",
+      "feature_path": "data/charades/features_200/BVS38_c019_t0.00_28.04.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 28.08,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        59,
+        2304
+      ]
+    },
+    "ZVMAY_c015_t0.00_35.80": {
+      "video_id": "ZVMAY",
+      "action_id": "c015",
+      "clip_path": "data/charades/clips_480p_200/ZVMAY_c015_t0.00_35.80.mp4",
+      "feature_path": "data/charades/features_200/ZVMAY_c015_t0.00_35.80.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 35.8667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        72,
+        2304
+      ]
+    },
+    "95HQC_c016_t0.00_29.92": {
+      "video_id": "95HQC",
+      "action_id": "c016",
+      "clip_path": "data/charades/clips_480p_200/95HQC_c016_t0.00_29.92.mp4",
+      "feature_path": "data/charades/features_200/95HQC_c016_t0.00_29.92.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 29.9633,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        60,
+        2304
+      ]
+    },
+    "JW2HC_c156_t0.00_30.42": {
+      "video_id": "JW2HC",
+      "action_id": "c156",
+      "clip_path": "data/charades/clips_480p_200/JW2HC_c156_t0.00_30.42.mp4",
+      "feature_path": "data/charades/features_200/JW2HC_c156_t0.00_30.42.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.01,
+      "duration_seconds": 30.4565,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        61,
+        2304
+      ]
+    },
+    "RNCN8_c151_t15.90_29.38": {
+      "video_id": "RNCN8",
+      "action_id": "c151",
+      "clip_path": "data/charades/clips_480p_200/RNCN8_c151_t15.90_29.38.mp4",
+      "feature_path": "data/charades/features_200/RNCN8_c151_t15.90_29.38.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 21.0544,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        43,
+        2304
+      ]
+    },
+    "OSCS2_c154_t6.50_33.40": {
+      "video_id": "OSCS2",
+      "action_id": "c154",
+      "clip_path": "data/charades/clips_480p_200/OSCS2_c154_t6.50_33.40.mp4",
+      "feature_path": "data/charades/features_200/OSCS2_c154_t6.50_33.40.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 33.48,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        70,
+        2304
+      ]
+    },
+    "55DDW_c059_t1.40_38.75": {
+      "video_id": "55DDW",
+      "action_id": "c059",
+      "clip_path": "data/charades/clips_480p_200/55DDW_c059_t1.40_38.75.mp4",
+      "feature_path": "data/charades/features_200/55DDW_c059_t1.40_38.75.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.364,
+      "duration_seconds": 38.789,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        76,
+        2304
+      ]
+    },
+    "1Q4SL_c097_t18.10_30.88": {
+      "video_id": "1Q4SL",
+      "action_id": "c097",
+      "clip_path": "data/charades/clips_480p_200/1Q4SL_c097_t18.10_30.88.mp4",
+      "feature_path": "data/charades/features_200/1Q4SL_c097_t18.10_30.88.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 14.2476,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        29,
+        2304
+      ]
+    },
+    "VIKQG_c150_t7.50_19.08": {
+      "video_id": "VIKQG",
+      "action_id": "c150",
+      "clip_path": "data/charades/clips_480p_200/VIKQG_c150_t7.50_19.08.mp4",
+      "feature_path": "data/charades/features_200/VIKQG_c150_t7.50_19.08.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 19.1191,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        39,
+        2304
+      ]
+    },
+    "MCNRZ_c052_t0.00_30.04": {
+      "video_id": "MCNRZ",
+      "action_id": "c052",
+      "clip_path": "data/charades/clips_480p_200/MCNRZ_c052_t0.00_30.04.mp4",
+      "feature_path": "data/charades/features_200/MCNRZ_c052_t0.00_30.04.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 30.0634,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        61,
+        2304
+      ]
+    },
+    "372CC_c051_t0.00_30.50": {
+      "video_id": "372CC",
+      "action_id": "c051",
+      "clip_path": "data/charades/clips_480p_200/372CC_c051_t0.00_30.50.mp4",
+      "feature_path": "data/charades/features_200/372CC_c051_t0.00_30.50.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 30.52,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        64,
+        2304
+      ]
+    },
+    "L8Y8D_c147_t0.00_31.10": {
+      "video_id": "L8Y8D",
+      "action_id": "c147",
+      "clip_path": "data/charades/clips_480p_200/L8Y8D_c147_t0.00_31.10.mp4",
+      "feature_path": "data/charades/features_200/L8Y8D_c147_t0.00_31.10.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 31.1978,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        63,
+        2304
+      ]
+    },
+    "JG7BS_c107_t0.00_30.62": {
+      "video_id": "JG7BS",
+      "action_id": "c107",
+      "clip_path": "data/charades/clips_480p_200/JG7BS_c107_t0.00_30.62.mp4",
+      "feature_path": "data/charades/features_200/JG7BS_c107_t0.00_30.62.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 30.664,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "9X6DL_c110_t13.00_26.25": {
+      "video_id": "9X6DL",
+      "action_id": "c110",
+      "clip_path": "data/charades/clips_480p_200/9X6DL_c110_t13.00_26.25.mp4",
+      "feature_path": "data/charades/features_200/9X6DL_c110_t13.00_26.25.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 16.28,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        34,
+        2304
+      ]
+    },
+    "QNHM7_c109_t8.10_21.20": {
+      "video_id": "QNHM7",
+      "action_id": "c109",
+      "clip_path": "data/charades/clips_480p_200/QNHM7_c109_t8.10_21.20.mp4",
+      "feature_path": "data/charades/features_200/QNHM7_c109_t8.10_21.20.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.953,
+      "duration_seconds": 21.3,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        43,
+        2304
+      ]
+    },
+    "CN5G4_c065_t0.00_29.90": {
+      "video_id": "CN5G4",
+      "action_id": "c065",
+      "clip_path": "data/charades/clips_480p_200/CN5G4_c065_t0.00_29.90.mp4",
+      "feature_path": "data/charades/features_200/CN5G4_c065_t0.00_29.90.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 29.9966,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        60,
+        2304
+      ]
+    },
+    "IR31O_c123_t0.00_30.96": {
+      "video_id": "IR31O",
+      "action_id": "c123",
+      "clip_path": "data/charades/clips_480p_200/IR31O_c123_t0.00_30.96.mp4",
+      "feature_path": "data/charades/features_200/IR31O_c123_t0.00_30.96.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 24.0,
+      "duration_seconds": 31.0,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "WMBOO_c125_t0.00_33.29": {
+      "video_id": "WMBOO",
+      "action_id": "c125",
+      "clip_path": "data/charades/clips_480p_200/WMBOO_c125_t0.00_33.29.mp4",
+      "feature_path": "data/charades/features_200/WMBOO_c125_t0.00_33.29.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.902,
+      "duration_seconds": 33.3088,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        67,
+        2304
+      ]
+    },
+    "8AT69_c132_t0.00_30.46": {
+      "video_id": "8AT69",
+      "action_id": "c132",
+      "clip_path": "data/charades/clips_480p_200/8AT69_c132_t0.00_30.46.mp4",
+      "feature_path": "data/charades/features_200/8AT69_c132_t0.00_30.46.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 30.4971,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        61,
+        2304
+      ]
+    },
+    "V34GF_c106_t0.00_20.83": {
+      "video_id": "V34GF",
+      "action_id": "c106",
+      "clip_path": "data/charades/clips_480p_200/V34GF_c106_t0.00_20.83.mp4",
+      "feature_path": "data/charades/features_200/V34GF_c106_t0.00_20.83.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 25.0,
+      "duration_seconds": 20.88,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        44,
+        2304
+      ]
+    },
+    "B5R5B_c019_t2.40_31.38": {
+      "video_id": "B5R5B",
+      "action_id": "c019",
+      "clip_path": "data/charades/clips_480p_200/B5R5B_c019_t2.40_31.38.mp4",
+      "feature_path": "data/charades/features_200/B5R5B_c019_t2.40_31.38.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 31.4,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        63,
+        2304
+      ]
+    },
+    "5HJ2H_c015_t0.00_31.92": {
+      "video_id": "5HJ2H",
+      "action_id": "c015",
+      "clip_path": "data/charades/clips_480p_200/5HJ2H_c015_t0.00_31.92.mp4",
+      "feature_path": "data/charades/features_200/5HJ2H_c015_t0.00_31.92.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 31.9667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        64,
+        2304
+      ]
+    },
+    "FACX2_c016_t0.00_30.46": {
+      "video_id": "FACX2",
+      "action_id": "c016",
+      "clip_path": "data/charades/clips_480p_200/FACX2_c016_t0.00_30.46.mp4",
+      "feature_path": "data/charades/features_200/FACX2_c016_t0.00_30.46.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 30.4971,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        61,
+        2304
+      ]
+    },
+    "V2DAA_c156_t0.00_29.50": {
+      "video_id": "V2DAA",
+      "action_id": "c156",
+      "clip_path": "data/charades/clips_480p_200/V2DAA_c156_t0.00_29.50.mp4",
+      "feature_path": "data/charades/features_200/V2DAA_c156_t0.00_29.50.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 23.976,
+      "duration_seconds": 29.5295,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        59,
+        2304
+      ]
+    },
+    "DLQIT_c151_t3.10_18.60": {
+      "video_id": "DLQIT",
+      "action_id": "c151",
+      "clip_path": "data/charades/clips_480p_200/DLQIT_c151_t3.10_18.60.mp4",
+      "feature_path": "data/charades/features_200/DLQIT_c151_t3.10_18.60.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 15.0,
+      "duration_seconds": 18.7333,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        36,
+        2304
+      ]
+    },
+    "5VJ1X_c154_t0.00_22.90": {
+      "video_id": "5VJ1X",
+      "action_id": "c154",
+      "clip_path": "data/charades/clips_480p_200/5VJ1X_c154_t0.00_22.90.mp4",
+      "feature_path": "data/charades/features_200/5VJ1X_c154_t0.00_22.90.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 22.9896,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        46,
+        2304
+      ]
+    },
+    "491X2_c059_t0.00_35.29": {
+      "video_id": "491X2",
+      "action_id": "c059",
+      "clip_path": "data/charades/clips_480p_200/491X2_c059_t0.00_35.29.mp4",
+      "feature_path": "data/charades/features_200/491X2_c059_t0.00_35.29.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 35.3353,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        71,
+        2304
+      ]
+    },
+    "WPPAT_c097_t2.20_18.10": {
+      "video_id": "WPPAT",
+      "action_id": "c097",
+      "clip_path": "data/charades/clips_480p_200/WPPAT_c097_t2.20_18.10.mp4",
+      "feature_path": "data/charades/features_200/WPPAT_c097_t2.20_18.10.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 18.1848,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        37,
+        2304
+      ]
+    },
+    "AM3R2_c150_t0.00_12.40": {
+      "video_id": "AM3R2",
+      "action_id": "c150",
+      "clip_path": "data/charades/clips_480p_200/AM3R2_c150_t0.00_12.40.mp4",
+      "feature_path": "data/charades/features_200/AM3R2_c150_t0.00_12.40.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.704,
+      "duration_seconds": 12.4899,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        25,
+        2304
+      ]
+    },
+    "SU2UY_c052_t0.00_30.00": {
+      "video_id": "SU2UY",
+      "action_id": "c052",
+      "clip_path": "data/charades/clips_480p_200/SU2UY_c052_t0.00_30.00.mp4",
+      "feature_path": "data/charades/features_200/SU2UY_c052_t0.00_30.00.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 30.03,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        60,
+        2304
+      ]
+    },
+    "VXNGC_c051_t0.00_30.29": {
+      "video_id": "VXNGC",
+      "action_id": "c051",
+      "clip_path": "data/charades/clips_480p_200/VXNGC_c051_t0.00_30.29.mp4",
+      "feature_path": "data/charades/features_200/VXNGC_c051_t0.00_30.29.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 30.3303,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        61,
+        2304
+      ]
+    },
+    "622EX_c147_t0.00_28.10": {
+      "video_id": "622EX",
+      "action_id": "c147",
+      "clip_path": "data/charades/clips_480p_200/622EX_c147_t0.00_28.10.mp4",
+      "feature_path": "data/charades/features_200/622EX_c147_t0.00_28.10.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 28.1948,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        57,
+        2304
+      ]
+    },
+    "4O32W_c107_t0.00_30.33": {
+      "video_id": "4O32W",
+      "action_id": "c107",
+      "clip_path": "data/charades/clips_480p_200/4O32W_c107_t0.00_30.33.mp4",
+      "feature_path": "data/charades/features_200/4O32W_c107_t0.00_30.33.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 30.3637,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        61,
+        2304
+      ]
+    },
+    "TE5P7_c110_t3.80_17.12": {
+      "video_id": "TE5P7",
+      "action_id": "c110",
+      "clip_path": "data/charades/clips_480p_200/TE5P7_c110_t3.80_17.12.mp4",
+      "feature_path": "data/charades/features_200/TE5P7_c110_t3.80_17.12.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 17.1505,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        35,
+        2304
+      ]
+    },
+    "WSLMS_c109_t14.40_26.90": {
+      "video_id": "WSLMS",
+      "action_id": "c109",
+      "clip_path": "data/charades/clips_480p_200/WSLMS_c109_t14.40_26.90.mp4",
+      "feature_path": "data/charades/features_200/WSLMS_c109_t14.40_26.90.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 18.6333,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        38,
+        2304
+      ]
+    },
+    "XECIL_c065_t0.00_29.50": {
+      "video_id": "XECIL",
+      "action_id": "c065",
+      "clip_path": "data/charades/clips_480p_200/XECIL_c065_t0.00_29.50.mp4",
+      "feature_path": "data/charades/features_200/XECIL_c065_t0.00_29.50.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 29.5667,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        60,
+        2304
+      ]
+    },
+    "DNWCR_c123_t0.00_30.92": {
+      "video_id": "DNWCR",
+      "action_id": "c123",
+      "clip_path": "data/charades/clips_480p_200/DNWCR_c123_t0.00_30.92.mp4",
+      "feature_path": "data/charades/features_200/DNWCR_c123_t0.00_30.92.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 30.9976,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        62,
+        2304
+      ]
+    },
+    "8ENLP_c125_t0.00_31.21": {
+      "video_id": "8ENLP",
+      "action_id": "c125",
+      "clip_path": "data/charades/clips_480p_200/8ENLP_c125_t0.00_31.21.mp4",
+      "feature_path": "data/charades/features_200/8ENLP_c125_t0.00_31.21.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 30.0,
+      "duration_seconds": 31.2333,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        63,
+        2304
+      ]
+    },
+    "92NRK_c132_t0.00_30.42": {
+      "video_id": "92NRK",
+      "action_id": "c132",
+      "clip_path": "data/charades/clips_480p_200/92NRK_c132_t0.00_30.42.mp4",
+      "feature_path": "data/charades/features_200/92NRK_c132_t0.00_30.42.npz",
+      "backend": "slowfast-r50",
+      "source_fps": 29.97,
+      "duration_seconds": 30.4638,
+      "feature_fps": 2.0,
+      "feature_shape": [
+        61,
+        2304
+      ]
+    }
+  }
+}

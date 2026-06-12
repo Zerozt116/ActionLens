@@ -1,0 +1,1073 @@
+{
+  "version": "1.0",
+  "source_json_file": "data/charades/tal_annotations.json",
+  "source_clips_manifest": "outputs/charades_clips_200.csv",
+  "label_dict": {
+    "Someone is cooking something": 0,
+    "Taking a phone/camera from somewhere": 1,
+    "Someone is running somewhere": 2,
+    "Holding a phone/camera": 3,
+    "Holding a cup/glass/bottle of something": 4,
+    "Talking on a phone/camera": 5,
+    "Someone is eating something": 6,
+    "Sitting in a chair": 7,
+    "Putting a phone/camera somewhere": 8,
+    "Drinking from a cup/glass/bottle": 9,
+    "Someone is standing up from somewhere": 10,
+    "Watching television": 11,
+    "Taking a cup/glass/bottle from somewhere": 12,
+    "Someone is going from standing to sitting": 13,
+    "Putting a cup/glass/bottle somewhere": 14,
+    "Taking/consuming some medicine": 15,
+    "Walking through a doorway": 16,
+    "Working/Playing on a laptop": 17,
+    "Sitting on the floor": 18,
+    "Watching a laptop or something on a laptop": 19,
+    "Eating a sandwich": 20,
+    "Sitting on sofa/couch": 21,
+    "Playing with a phone/camera": 22,
+    "Pouring something into a cup/glass/bottle": 23
+  },
+  "database": {
+    "P0DXX_c151_t6.20_33.40": {
+      "subset": "val",
+      "duration": 33.4668,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            21.5,
+            26.5
+          ],
+          "label_id": 10,
+          "label": "Someone is standing up from somewhere",
+          "charades_action_id": "c154"
+        },
+        {
+          "segment": [
+            2.0,
+            25.2
+          ],
+          "label_id": 13,
+          "label": "Someone is going from standing to sitting",
+          "charades_action_id": "c151"
+        }
+      ]
+    },
+    "ENJ7V_c015_t0.00_39.79": {
+      "subset": "val",
+      "duration": 39.8426,
+      "fps": 29.742,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            39.79
+          ],
+          "label_id": 22,
+          "label": "Playing with a phone/camera",
+          "charades_action_id": "c016"
+        },
+        {
+          "segment": [
+            0.0,
+            39.79
+          ],
+          "label_id": 3,
+          "label": "Holding a phone/camera",
+          "charades_action_id": "c015"
+        }
+      ]
+    },
+    "7JTEK_c156_t0.00_35.29": {
+      "subset": "val",
+      "duration": 35.3353,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            18.7,
+            25.5
+          ],
+          "label_id": 14,
+          "label": "Putting a cup/glass/bottle somewhere",
+          "charades_action_id": "c109"
+        },
+        {
+          "segment": [
+            0.0,
+            35.29
+          ],
+          "label_id": 20,
+          "label": "Eating a sandwich",
+          "charades_action_id": "c065"
+        },
+        {
+          "segment": [
+            15.5,
+            24.4
+          ],
+          "label_id": 4,
+          "label": "Holding a cup/glass/bottle of something",
+          "charades_action_id": "c107"
+        },
+        {
+          "segment": [
+            0.0,
+            35.29
+          ],
+          "label_id": 6,
+          "label": "Someone is eating something",
+          "charades_action_id": "c156"
+        },
+        {
+          "segment": [
+            0.0,
+            35.29
+          ],
+          "label_id": 0,
+          "label": "Someone is cooking something",
+          "charades_action_id": "c147"
+        }
+      ]
+    },
+    "BPZE3_c147_t0.00_35.12": {
+      "subset": "val",
+      "duration": 35.1685,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            35.12
+          ],
+          "label_id": 3,
+          "label": "Holding a phone/camera",
+          "charades_action_id": "c015"
+        },
+        {
+          "segment": [
+            0.0,
+            35.12
+          ],
+          "label_id": 22,
+          "label": "Playing with a phone/camera",
+          "charades_action_id": "c016"
+        },
+        {
+          "segment": [
+            0.0,
+            35.12
+          ],
+          "label_id": 0,
+          "label": "Someone is cooking something",
+          "charades_action_id": "c147"
+        }
+      ]
+    },
+    "FV684_c154_t0.00_32.92": {
+      "subset": "val",
+      "duration": 32.9329,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            32.92
+          ],
+          "label_id": 10,
+          "label": "Someone is standing up from somewhere",
+          "charades_action_id": "c154"
+        }
+      ]
+    },
+    "F0ZPW_c125_t0.00_39.29": {
+      "subset": "val",
+      "duration": 39.34,
+      "fps": 24.0468,
+      "annotations": [
+        {
+          "segment": [
+            22.6,
+            33.1
+          ],
+          "label_id": 9,
+          "label": "Drinking from a cup/glass/bottle",
+          "charades_action_id": "c106"
+        },
+        {
+          "segment": [
+            20.2,
+            32.5
+          ],
+          "label_id": 4,
+          "label": "Holding a cup/glass/bottle of something",
+          "charades_action_id": "c107"
+        },
+        {
+          "segment": [
+            24.8,
+            33.5
+          ],
+          "label_id": 14,
+          "label": "Putting a cup/glass/bottle somewhere",
+          "charades_action_id": "c109"
+        },
+        {
+          "segment": [
+            19.4,
+            30.1
+          ],
+          "label_id": 12,
+          "label": "Taking a cup/glass/bottle from somewhere",
+          "charades_action_id": "c110"
+        },
+        {
+          "segment": [
+            2.7,
+            26.2
+          ],
+          "label_id": 6,
+          "label": "Someone is eating something",
+          "charades_action_id": "c156"
+        },
+        {
+          "segment": [
+            0.0,
+            39.29
+          ],
+          "label_id": 18,
+          "label": "Sitting on the floor",
+          "charades_action_id": "c125"
+        }
+      ]
+    },
+    "RV11J_c015_t0.00_40.29": {
+      "subset": "val",
+      "duration": 40.3069,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            39.1
+          ],
+          "label_id": 3,
+          "label": "Holding a phone/camera",
+          "charades_action_id": "c015"
+        },
+        {
+          "segment": [
+            33.1,
+            40.29
+          ],
+          "label_id": 8,
+          "label": "Putting a phone/camera somewhere",
+          "charades_action_id": "c017"
+        },
+        {
+          "segment": [
+            0.0,
+            34.9
+          ],
+          "label_id": 22,
+          "label": "Playing with a phone/camera",
+          "charades_action_id": "c016"
+        }
+      ]
+    },
+    "V58VE_c052_t0.00_31.54": {
+      "subset": "val",
+      "duration": 31.5667,
+      "fps": 30.0,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            31.54
+          ],
+          "label_id": 17,
+          "label": "Working/Playing on a laptop",
+          "charades_action_id": "c052"
+        }
+      ]
+    },
+    "3FMAS_c015_t0.00_37.12": {
+      "subset": "val",
+      "duration": 37.1705,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            1.7,
+            23.2
+          ],
+          "label_id": 10,
+          "label": "Someone is standing up from somewhere",
+          "charades_action_id": "c154"
+        },
+        {
+          "segment": [
+            0.0,
+            37.12
+          ],
+          "label_id": 3,
+          "label": "Holding a phone/camera",
+          "charades_action_id": "c015"
+        },
+        {
+          "segment": [
+            22.7,
+            37.12
+          ],
+          "label_id": 22,
+          "label": "Playing with a phone/camera",
+          "charades_action_id": "c016"
+        }
+      ]
+    },
+    "WOD0G_c097_t0.00_15.90": {
+      "subset": "val",
+      "duration": 15.9854,
+      "fps": 29.527,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            13.9
+          ],
+          "label_id": 16,
+          "label": "Walking through a doorway",
+          "charades_action_id": "c097"
+        }
+      ]
+    },
+    "0A8ZT_c109_t8.60_29.30": {
+      "subset": "val",
+      "duration": 29.4365,
+      "fps": 15.0833,
+      "annotations": [
+        {
+          "segment": [
+            17.0,
+            20.7
+          ],
+          "label_id": 3,
+          "label": "Holding a phone/camera",
+          "charades_action_id": "c015"
+        },
+        {
+          "segment": [
+            17.7,
+            20.7
+          ],
+          "label_id": 22,
+          "label": "Playing with a phone/camera",
+          "charades_action_id": "c016"
+        },
+        {
+          "segment": [
+            1.8,
+            10.8
+          ],
+          "label_id": 15,
+          "label": "Taking/consuming some medicine",
+          "charades_action_id": "c129"
+        },
+        {
+          "segment": [
+            2.0,
+            18.7
+          ],
+          "label_id": 14,
+          "label": "Putting a cup/glass/bottle somewhere",
+          "charades_action_id": "c109"
+        },
+        {
+          "segment": [
+            17.9,
+            20.7
+          ],
+          "label_id": 1,
+          "label": "Taking a phone/camera from somewhere",
+          "charades_action_id": "c018"
+        },
+        {
+          "segment": [
+            12.8,
+            19.4
+          ],
+          "label_id": 14,
+          "label": "Putting a cup/glass/bottle somewhere",
+          "charades_action_id": "c109"
+        },
+        {
+          "segment": [
+            16.4,
+            20.7
+          ],
+          "label_id": 1,
+          "label": "Taking a phone/camera from somewhere",
+          "charades_action_id": "c018"
+        },
+        {
+          "segment": [
+            2.1,
+            10.0
+          ],
+          "label_id": 9,
+          "label": "Drinking from a cup/glass/bottle",
+          "charades_action_id": "c106"
+        },
+        {
+          "segment": [
+            0.0,
+            4.4
+          ],
+          "label_id": 23,
+          "label": "Pouring something into a cup/glass/bottle",
+          "charades_action_id": "c108"
+        }
+      ]
+    },
+    "G8O8P_c015_t0.00_34.54": {
+      "subset": "val",
+      "duration": 34.5962,
+      "fps": 24.02,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            34.54
+          ],
+          "label_id": 3,
+          "label": "Holding a phone/camera",
+          "charades_action_id": "c015"
+        },
+        {
+          "segment": [
+            11.0,
+            32.4
+          ],
+          "label_id": 22,
+          "label": "Playing with a phone/camera",
+          "charades_action_id": "c016"
+        },
+        {
+          "segment": [
+            1.1,
+            7.0
+          ],
+          "label_id": 16,
+          "label": "Walking through a doorway",
+          "charades_action_id": "c097"
+        }
+      ]
+    },
+    "XNR76_c016_t0.00_33.67": {
+      "subset": "val",
+      "duration": 33.7083,
+      "fps": 24.0,
+      "annotations": [
+        {
+          "segment": [
+            27.2,
+            33.67
+          ],
+          "label_id": 10,
+          "label": "Someone is standing up from somewhere",
+          "charades_action_id": "c154"
+        },
+        {
+          "segment": [
+            0.0,
+            33.67
+          ],
+          "label_id": 3,
+          "label": "Holding a phone/camera",
+          "charades_action_id": "c015"
+        },
+        {
+          "segment": [
+            0.0,
+            32.5
+          ],
+          "label_id": 22,
+          "label": "Playing with a phone/camera",
+          "charades_action_id": "c016"
+        }
+      ]
+    },
+    "5MYL4_c156_t0.00_30.46": {
+      "subset": "val",
+      "duration": 30.48,
+      "fps": 25.0,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            30.46
+          ],
+          "label_id": 6,
+          "label": "Someone is eating something",
+          "charades_action_id": "c156"
+        },
+        {
+          "segment": [
+            0.0,
+            30.46
+          ],
+          "label_id": 11,
+          "label": "Watching television",
+          "charades_action_id": "c132"
+        }
+      ]
+    },
+    "FPODN_c151_t8.80_28.20": {
+      "subset": "val",
+      "duration": 19.9533,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            9.3
+          ],
+          "label_id": 21,
+          "label": "Sitting on sofa/couch",
+          "charades_action_id": "c123"
+        },
+        {
+          "segment": [
+            2.0,
+            17.4
+          ],
+          "label_id": 13,
+          "label": "Someone is going from standing to sitting",
+          "charades_action_id": "c151"
+        },
+        {
+          "segment": [
+            0.0,
+            1.0
+          ],
+          "label_id": 16,
+          "label": "Walking through a doorway",
+          "charades_action_id": "c097"
+        },
+        {
+          "segment": [
+            7.9,
+            16.9
+          ],
+          "label_id": 19,
+          "label": "Watching a laptop or something on a laptop",
+          "charades_action_id": "c051"
+        }
+      ]
+    },
+    "AHZWF_c097_t0.00_15.70": {
+      "subset": "val",
+      "duration": 15.7824,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            6.1,
+            12.7
+          ],
+          "label_id": 10,
+          "label": "Someone is standing up from somewhere",
+          "charades_action_id": "c154"
+        },
+        {
+          "segment": [
+            14.2,
+            15.7
+          ],
+          "label_id": 23,
+          "label": "Pouring something into a cup/glass/bottle",
+          "charades_action_id": "c108"
+        },
+        {
+          "segment": [
+            0.0,
+            10.4
+          ],
+          "label_id": 4,
+          "label": "Holding a cup/glass/bottle of something",
+          "charades_action_id": "c107"
+        },
+        {
+          "segment": [
+            0.0,
+            13.7
+          ],
+          "label_id": 16,
+          "label": "Walking through a doorway",
+          "charades_action_id": "c097"
+        }
+      ]
+    },
+    "KNN3G_c109_t0.00_14.90": {
+      "subset": "val",
+      "duration": 15.0,
+      "fps": 25.0,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            12.9
+          ],
+          "label_id": 14,
+          "label": "Putting a cup/glass/bottle somewhere",
+          "charades_action_id": "c109"
+        },
+        {
+          "segment": [
+            12.2,
+            14.9
+          ],
+          "label_id": 14,
+          "label": "Putting a cup/glass/bottle somewhere",
+          "charades_action_id": "c109"
+        },
+        {
+          "segment": [
+            10.7,
+            14.9
+          ],
+          "label_id": 23,
+          "label": "Pouring something into a cup/glass/bottle",
+          "charades_action_id": "c108"
+        },
+        {
+          "segment": [
+            13.6,
+            14.9
+          ],
+          "label_id": 4,
+          "label": "Holding a cup/glass/bottle of something",
+          "charades_action_id": "c107"
+        }
+      ]
+    },
+    "GNA1H_c106_t0.00_26.40": {
+      "subset": "val",
+      "duration": 26.4776,
+      "fps": 27.646,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            24.4
+          ],
+          "label_id": 9,
+          "label": "Drinking from a cup/glass/bottle",
+          "charades_action_id": "c106"
+        },
+        {
+          "segment": [
+            0.0,
+            26.4
+          ],
+          "label_id": 4,
+          "label": "Holding a cup/glass/bottle of something",
+          "charades_action_id": "c107"
+        },
+        {
+          "segment": [
+            0.0,
+            26.4
+          ],
+          "label_id": 7,
+          "label": "Sitting in a chair",
+          "charades_action_id": "c059"
+        }
+      ]
+    },
+    "7HV9Q_c052_t0.00_29.83": {
+      "subset": "val",
+      "duration": 29.8632,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            7.1,
+            29.83
+          ],
+          "label_id": 19,
+          "label": "Watching a laptop or something on a laptop",
+          "charades_action_id": "c051"
+        },
+        {
+          "segment": [
+            0.0,
+            29.83
+          ],
+          "label_id": 17,
+          "label": "Working/Playing on a laptop",
+          "charades_action_id": "c052"
+        },
+        {
+          "segment": [
+            0.0,
+            29.83
+          ],
+          "label_id": 22,
+          "label": "Playing with a phone/camera",
+          "charades_action_id": "c016"
+        }
+      ]
+    },
+    "Q6XGG_c051_t0.00_30.96": {
+      "subset": "val",
+      "duration": 30.9976,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            30.96
+          ],
+          "label_id": 7,
+          "label": "Sitting in a chair",
+          "charades_action_id": "c059"
+        },
+        {
+          "segment": [
+            0.0,
+            30.96
+          ],
+          "label_id": 19,
+          "label": "Watching a laptop or something on a laptop",
+          "charades_action_id": "c051"
+        },
+        {
+          "segment": [
+            24.8,
+            30.96
+          ],
+          "label_id": 6,
+          "label": "Someone is eating something",
+          "charades_action_id": "c156"
+        }
+      ]
+    },
+    "8Q0EY_c147_t0.00_31.58": {
+      "subset": "val",
+      "duration": 31.6333,
+      "fps": 30.0,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            30.0
+          ],
+          "label_id": 0,
+          "label": "Someone is cooking something",
+          "charades_action_id": "c147"
+        }
+      ]
+    },
+    "2WGSN_c109_t0.00_14.20": {
+      "subset": "val",
+      "duration": 14.2809,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            11.1
+          ],
+          "label_id": 9,
+          "label": "Drinking from a cup/glass/bottle",
+          "charades_action_id": "c106"
+        },
+        {
+          "segment": [
+            0.0,
+            12.0
+          ],
+          "label_id": 4,
+          "label": "Holding a cup/glass/bottle of something",
+          "charades_action_id": "c107"
+        },
+        {
+          "segment": [
+            0.0,
+            12.2
+          ],
+          "label_id": 14,
+          "label": "Putting a cup/glass/bottle somewhere",
+          "charades_action_id": "c109"
+        },
+        {
+          "segment": [
+            7.4,
+            12.4
+          ],
+          "label_id": 12,
+          "label": "Taking a cup/glass/bottle from somewhere",
+          "charades_action_id": "c110"
+        }
+      ]
+    },
+    "1ROX7_c059_t0.00_36.08": {
+      "subset": "val",
+      "duration": 36.1695,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            13.4
+          ],
+          "label_id": 6,
+          "label": "Someone is eating something",
+          "charades_action_id": "c156"
+        },
+        {
+          "segment": [
+            0.0,
+            36.08
+          ],
+          "label_id": 7,
+          "label": "Sitting in a chair",
+          "charades_action_id": "c059"
+        }
+      ]
+    },
+    "D3EY0_c150_t5.30_18.50": {
+      "subset": "val",
+      "duration": 18.5519,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            13.2
+          ],
+          "label_id": 4,
+          "label": "Holding a cup/glass/bottle of something",
+          "charades_action_id": "c107"
+        },
+        {
+          "segment": [
+            2.0,
+            12.7
+          ],
+          "label_id": 2,
+          "label": "Someone is running somewhere",
+          "charades_action_id": "c150"
+        },
+        {
+          "segment": [
+            0.0,
+            1.6
+          ],
+          "label_id": 16,
+          "label": "Walking through a doorway",
+          "charades_action_id": "c097"
+        }
+      ]
+    },
+    "CB42N_c052_t0.00_30.46": {
+      "subset": "val",
+      "duration": 30.4971,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            20.2,
+            28.6
+          ],
+          "label_id": 9,
+          "label": "Drinking from a cup/glass/bottle",
+          "charades_action_id": "c106"
+        },
+        {
+          "segment": [
+            0.0,
+            30.46
+          ],
+          "label_id": 17,
+          "label": "Working/Playing on a laptop",
+          "charades_action_id": "c052"
+        },
+        {
+          "segment": [
+            18.5,
+            30.46
+          ],
+          "label_id": 4,
+          "label": "Holding a cup/glass/bottle of something",
+          "charades_action_id": "c107"
+        },
+        {
+          "segment": [
+            16.6,
+            24.0
+          ],
+          "label_id": 12,
+          "label": "Taking a cup/glass/bottle from somewhere",
+          "charades_action_id": "c110"
+        },
+        {
+          "segment": [
+            0.0,
+            18.5
+          ],
+          "label_id": 19,
+          "label": "Watching a laptop or something on a laptop",
+          "charades_action_id": "c051"
+        }
+      ]
+    },
+    "X3KFE_c123_t0.00_31.83": {
+      "subset": "val",
+      "duration": 31.8693,
+      "fps": 29.37,
+      "annotations": [
+        {
+          "segment": [
+            22.4,
+            31.83
+          ],
+          "label_id": 22,
+          "label": "Playing with a phone/camera",
+          "charades_action_id": "c016"
+        },
+        {
+          "segment": [
+            14.4,
+            21.3
+          ],
+          "label_id": 9,
+          "label": "Drinking from a cup/glass/bottle",
+          "charades_action_id": "c106"
+        },
+        {
+          "segment": [
+            17.4,
+            25.8
+          ],
+          "label_id": 14,
+          "label": "Putting a cup/glass/bottle somewhere",
+          "charades_action_id": "c109"
+        },
+        {
+          "segment": [
+            0.0,
+            14.3
+          ],
+          "label_id": 3,
+          "label": "Holding a phone/camera",
+          "charades_action_id": "c015"
+        },
+        {
+          "segment": [
+            10.8,
+            17.3
+          ],
+          "label_id": 4,
+          "label": "Holding a cup/glass/bottle of something",
+          "charades_action_id": "c107"
+        },
+        {
+          "segment": [
+            10.9,
+            18.9
+          ],
+          "label_id": 9,
+          "label": "Drinking from a cup/glass/bottle",
+          "charades_action_id": "c106"
+        },
+        {
+          "segment": [
+            0.0,
+            31.83
+          ],
+          "label_id": 21,
+          "label": "Sitting on sofa/couch",
+          "charades_action_id": "c123"
+        }
+      ]
+    },
+    "FACX2_c016_t0.00_30.46": {
+      "subset": "val",
+      "duration": 30.4971,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            30.46
+          ],
+          "label_id": 22,
+          "label": "Playing with a phone/camera",
+          "charades_action_id": "c016"
+        },
+        {
+          "segment": [
+            0.0,
+            30.46
+          ],
+          "label_id": 3,
+          "label": "Holding a phone/camera",
+          "charades_action_id": "c015"
+        }
+      ]
+    },
+    "491X2_c059_t0.00_35.29": {
+      "subset": "val",
+      "duration": 35.3353,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            0.0,
+            19.7
+          ],
+          "label_id": 17,
+          "label": "Working/Playing on a laptop",
+          "charades_action_id": "c052"
+        },
+        {
+          "segment": [
+            32.5,
+            35.29
+          ],
+          "label_id": 10,
+          "label": "Someone is standing up from somewhere",
+          "charades_action_id": "c154"
+        },
+        {
+          "segment": [
+            0.0,
+            35.29
+          ],
+          "label_id": 7,
+          "label": "Sitting in a chair",
+          "charades_action_id": "c059"
+        }
+      ]
+    },
+    "WPPAT_c097_t2.20_18.10": {
+      "subset": "val",
+      "duration": 18.1848,
+      "fps": 29.97,
+      "annotations": [
+        {
+          "segment": [
+            2.0,
+            13.9
+          ],
+          "label_id": 16,
+          "label": "Walking through a doorway",
+          "charades_action_id": "c097"
+        }
+      ]
+    }
+  }
+}

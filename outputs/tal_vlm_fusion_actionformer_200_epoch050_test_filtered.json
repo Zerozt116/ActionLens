@@ -1,0 +1,447 @@
+{
+  "summary": {
+    "reviewed_proposals": 16,
+    "final_events": 4,
+    "weak_events": 0,
+    "rejected_events": 12,
+    "failed_events": 0
+  },
+  "final_events": [
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "5B8M5_c156_t0.00_30.71",
+      "video_id": "5B8M5",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "start_seconds": 0.0,
+      "end_seconds": 29.5562,
+      "confidence": 0.975,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.26597303,
+        "same_label_iou": 0.925686,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "The person is visibly seated on a blue chair in frames 0, 1, 2, 4, and 5. In frame 3, the person is partially occluded but still appears to be seated.",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/5B8M5_c156_t0.00_30.71/sitting_on_chair_0.00_29.56"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "K8AUX_c110_t0.00_29.54",
+      "video_id": "K8AUX",
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "start_seconds": 0.0,
+      "end_seconds": 27.3552,
+      "confidence": 0.975,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.24349971,
+        "same_label_iou": 0.889304,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "The person is holding a blue cup in frames 0-2, actively drinking from it.",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/K8AUX_c110_t0.00_29.54/holding_drink_container_0.00_27.36"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "8BG1T_c106_t5.60_45.46",
+      "video_id": "8BG1T",
+      "action": "sitting_down",
+      "action_name": "坐下",
+      "start_seconds": 2.3004,
+      "end_seconds": 14.0218,
+      "confidence": 0.975,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.3210628,
+        "same_label_iou": 0.72902,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "The person is seen standing at frame 0, then bending and lowering themselves onto the bench by frame 3, and is fully seated by frame 4.",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/8BG1T_c106_t5.60_45.46/sitting_down_2.30_14.02"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "406LH_c097_t1.00_21.00",
+      "video_id": "406LH",
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "start_seconds": 1.7271,
+      "end_seconds": 18.7993,
+      "confidence": 0.975,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.19917661,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "Person is holding a white cup or glass in hand, visible in frames 2-5.",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/406LH_c097_t1.00_21.00/holding_drink_container_1.73_18.80"
+      }
+    }
+  ],
+  "weak_events": [],
+  "rejected_events": [
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "K8AUX_c110_t0.00_29.54",
+      "video_id": "K8AUX",
+      "action": "walking_through_doorway",
+      "action_name": "穿过门口",
+      "start_seconds": 23.7151,
+      "end_seconds": 30.4718,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.11270653,
+        "same_label_iou": 0.666209,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person is standing in the doorway holding items and does not appear to be moving through it. The person is stationary or moving very slowly within the doorway area.",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/K8AUX_c110_t0.00_29.54/walking_through_doorway_23.72_30.47"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "1BUFQ_c132_t0.00_40.25",
+      "video_id": "1BUFQ",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "start_seconds": 14.716,
+      "end_seconds": 26.4033,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.34674564,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person is standing throughout the sampled frames.",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/1BUFQ_c132_t0.00_40.25/sitting_on_chair_14.72_26.40"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "1BUFQ_c132_t0.00_40.25",
+      "video_id": "1BUFQ",
+      "action": "holding_phone",
+      "action_name": "拿手机",
+      "start_seconds": 2.4445,
+      "end_seconds": 34.1925,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.23917495,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/1BUFQ_c132_t0.00_40.25/holding_phone_2.44_34.19"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "406LH_c097_t1.00_21.00",
+      "video_id": "406LH",
+      "action": "sitting_down",
+      "action_name": "坐下",
+      "start_seconds": 0.5417,
+      "end_seconds": 10.6098,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.21951726,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is standing throughout the sampled frames, interacting with a door.",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/406LH_c097_t1.00_21.00/sitting_down_0.54_10.61"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "406LH_c097_t1.00_21.00",
+      "video_id": "406LH",
+      "action": "pouring_drink_container",
+      "action_name": "倒水/倒入杯瓶",
+      "start_seconds": 2.1353,
+      "end_seconds": 12.6458,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.17587666,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "No drink container or pouring action is visible. Person is holding a phone and opening a door.",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/406LH_c097_t1.00_21.00/pouring_drink_container_2.14_12.65"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "SPG5Q_c150_t9.20_33.42",
+      "video_id": "SPG5Q",
+      "action": "drinking_water",
+      "action_name": "喝水",
+      "start_seconds": 0.0,
+      "end_seconds": 9.3258,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.15757921,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person is bending over and interacting with items on the counter, but no cup, bottle, or drinking action is visible.",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/SPG5Q_c150_t9.20_33.42/drinking_water_0.00_9.33"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "SPG5Q_c150_t9.20_33.42",
+      "video_id": "SPG5Q",
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "start_seconds": 0.0,
+      "end_seconds": 25.22,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.15682855,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/SPG5Q_c150_t9.20_33.42/holding_drink_container_0.00_25.22"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "5B8M5_c156_t0.00_30.71",
+      "video_id": "5B8M5",
+      "action": "looking_at_phone",
+      "action_name": "看手机",
+      "start_seconds": 0.0,
+      "end_seconds": 30.2159,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.14581606,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "No phone is visible in any of the sampled frames.",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/5B8M5_c156_t0.00_30.71/looking_at_phone_0.00_30.22"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "S1BYH_c150_t0.00_28.04",
+      "video_id": "S1BYH",
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "start_seconds": 0.0,
+      "end_seconds": 22.9803,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.13190499,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/S1BYH_c150_t0.00_28.04/holding_drink_container_0.00_22.98"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "5B8M5_c156_t0.00_30.71",
+      "video_id": "5B8M5",
+      "action": "holding_phone",
+      "action_name": "拿手机",
+      "start_seconds": 0.0,
+      "end_seconds": 30.2159,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.13036838,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/5B8M5_c156_t0.00_30.71/holding_phone_0.00_30.22"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "S1BYH_c150_t0.00_28.04",
+      "video_id": "S1BYH",
+      "action": "taking_phone",
+      "action_name": "拿起手机/相机",
+      "start_seconds": 0.0,
+      "end_seconds": 15.6038,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.09738372,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/S1BYH_c150_t0.00_28.04/taking_phone_0.00_15.60"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "S1BYH_c150_t0.00_28.04",
+      "video_id": "S1BYH",
+      "action": "walking_through_doorway",
+      "action_name": "穿过门口",
+      "start_seconds": 0.0,
+      "end_seconds": 21.6443,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.09702381,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "No doorway is visible in any of the sampled frames. The person is moving within a cluttered garage space, but there is no evidence of a doorway or crossing one.",
+        "review_dir": "outputs/tal_vlm_review_actionformer_200_epoch050_test_filtered/S1BYH_c150_t0.00_28.04/walking_through_doorway_0.00_21.64"
+      }
+    }
+  ],
+  "failed_events": []
+}

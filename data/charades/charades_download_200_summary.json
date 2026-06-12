@@ -1,0 +1,1602 @@
+[
+  {
+    "video_id": "8BG1T",
+    "member_name": "Charades_v1_480/8BG1T.mp4",
+    "output_path": "data/charades/videos_480p/8BG1T.mp4",
+    "bytes_written": 1960542,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "OINMN",
+    "member_name": "Charades_v1_480/OINMN.mp4",
+    "output_path": "data/charades/videos_480p/OINMN.mp4",
+    "bytes_written": 1807269,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "024PD",
+    "member_name": "Charades_v1_480/024PD.mp4",
+    "output_path": "data/charades/videos_480p/024PD.mp4",
+    "bytes_written": 2256986,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "EHTB6",
+    "member_name": "Charades_v1_480/EHTB6.mp4",
+    "output_path": "data/charades/videos_480p/EHTB6.mp4",
+    "bytes_written": 1589125,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "B5UXP",
+    "member_name": "Charades_v1_480/B5UXP.mp4",
+    "output_path": "data/charades/videos_480p/B5UXP.mp4",
+    "bytes_written": 2428586,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "P0DXX",
+    "member_name": "Charades_v1_480/P0DXX.mp4",
+    "output_path": "data/charades/videos_480p/P0DXX.mp4",
+    "bytes_written": 2411043,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "FVPMC",
+    "member_name": "Charades_v1_480/FVPMC.mp4",
+    "output_path": "data/charades/videos_480p/FVPMC.mp4",
+    "bytes_written": 2413441,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "CY2J2",
+    "member_name": "Charades_v1_480/CY2J2.mp4",
+    "output_path": "data/charades/videos_480p/CY2J2.mp4",
+    "bytes_written": 2304995,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "BGX4T",
+    "member_name": "Charades_v1_480/BGX4T.mp4",
+    "output_path": "data/charades/videos_480p/BGX4T.mp4",
+    "bytes_written": 1502090,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "S1BYH",
+    "member_name": "Charades_v1_480/S1BYH.mp4",
+    "output_path": "data/charades/videos_480p/S1BYH.mp4",
+    "bytes_written": 3058034,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "4FXUI",
+    "member_name": "Charades_v1_480/4FXUI.mp4",
+    "output_path": "data/charades/videos_480p/4FXUI.mp4",
+    "bytes_written": 3679013,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "ZCH1J",
+    "member_name": "Charades_v1_480/ZCH1J.mp4",
+    "output_path": "data/charades/videos_480p/ZCH1J.mp4",
+    "bytes_written": 1482318,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "JUF24",
+    "member_name": "Charades_v1_480/JUF24.mp4",
+    "output_path": "data/charades/videos_480p/JUF24.mp4",
+    "bytes_written": 1311539,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "6TNP4",
+    "member_name": "Charades_v1_480/6TNP4.mp4",
+    "output_path": "data/charades/videos_480p/6TNP4.mp4",
+    "bytes_written": 2849357,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "PURYC",
+    "member_name": "Charades_v1_480/PURYC.mp4",
+    "output_path": "data/charades/videos_480p/PURYC.mp4",
+    "bytes_written": 1462032,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "1Y09V",
+    "member_name": "Charades_v1_480/1Y09V.mp4",
+    "output_path": "data/charades/videos_480p/1Y09V.mp4",
+    "bytes_written": 1826383,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "HG8G1",
+    "member_name": "Charades_v1_480/HG8G1.mp4",
+    "output_path": "data/charades/videos_480p/HG8G1.mp4",
+    "bytes_written": 1174796,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "ZP5TG",
+    "member_name": "Charades_v1_480/ZP5TG.mp4",
+    "output_path": "data/charades/videos_480p/ZP5TG.mp4",
+    "bytes_written": 2541934,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "L57L2",
+    "member_name": "Charades_v1_480/L57L2.mp4",
+    "output_path": "data/charades/videos_480p/L57L2.mp4",
+    "bytes_written": 5060443,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "3HUXR",
+    "member_name": "Charades_v1_480/3HUXR.mp4",
+    "output_path": "data/charades/videos_480p/3HUXR.mp4",
+    "bytes_written": 1513405,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "38TF8",
+    "member_name": "Charades_v1_480/38TF8.mp4",
+    "output_path": "data/charades/videos_480p/38TF8.mp4",
+    "bytes_written": 1542628,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "QU2WL",
+    "member_name": "Charades_v1_480/QU2WL.mp4",
+    "output_path": "data/charades/videos_480p/QU2WL.mp4",
+    "bytes_written": 3046010,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "ENJ7V",
+    "member_name": "Charades_v1_480/ENJ7V.mp4",
+    "output_path": "data/charades/videos_480p/ENJ7V.mp4",
+    "bytes_written": 2639824,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "75HWR",
+    "member_name": "Charades_v1_480/75HWR.mp4",
+    "output_path": "data/charades/videos_480p/75HWR.mp4",
+    "bytes_written": 1525245,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "7JTEK",
+    "member_name": "Charades_v1_480/7JTEK.mp4",
+    "output_path": "data/charades/videos_480p/7JTEK.mp4",
+    "bytes_written": 1203940,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "7WIKW",
+    "member_name": "Charades_v1_480/7WIKW.mp4",
+    "output_path": "data/charades/videos_480p/7WIKW.mp4",
+    "bytes_written": 1851271,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "1LKPL",
+    "member_name": "Charades_v1_480/1LKPL.mp4",
+    "output_path": "data/charades/videos_480p/1LKPL.mp4",
+    "bytes_written": 2353275,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "229ZR",
+    "member_name": "Charades_v1_480/229ZR.mp4",
+    "output_path": "data/charades/videos_480p/229ZR.mp4",
+    "bytes_written": 3253515,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "STAZI",
+    "member_name": "Charades_v1_480/STAZI.mp4",
+    "output_path": "data/charades/videos_480p/STAZI.mp4",
+    "bytes_written": 2905413,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "M0DAY",
+    "member_name": "Charades_v1_480/M0DAY.mp4",
+    "output_path": "data/charades/videos_480p/M0DAY.mp4",
+    "bytes_written": 1588011,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "NDH24",
+    "member_name": "Charades_v1_480/NDH24.mp4",
+    "output_path": "data/charades/videos_480p/NDH24.mp4",
+    "bytes_written": 1171899,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "YVH4J",
+    "member_name": "Charades_v1_480/YVH4J.mp4",
+    "output_path": "data/charades/videos_480p/YVH4J.mp4",
+    "bytes_written": 3902568,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "BPZE3",
+    "member_name": "Charades_v1_480/BPZE3.mp4",
+    "output_path": "data/charades/videos_480p/BPZE3.mp4",
+    "bytes_written": 1338943,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "GY9MZ",
+    "member_name": "Charades_v1_480/GY9MZ.mp4",
+    "output_path": "data/charades/videos_480p/GY9MZ.mp4",
+    "bytes_written": 4144533,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "A1NKP",
+    "member_name": "Charades_v1_480/A1NKP.mp4",
+    "output_path": "data/charades/videos_480p/A1NKP.mp4",
+    "bytes_written": 2338705,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "PCXYE",
+    "member_name": "Charades_v1_480/PCXYE.mp4",
+    "output_path": "data/charades/videos_480p/PCXYE.mp4",
+    "bytes_written": 3074547,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "R28EY",
+    "member_name": "Charades_v1_480/R28EY.mp4",
+    "output_path": "data/charades/videos_480p/R28EY.mp4",
+    "bytes_written": 1820676,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "VSFCR",
+    "member_name": "Charades_v1_480/VSFCR.mp4",
+    "output_path": "data/charades/videos_480p/VSFCR.mp4",
+    "bytes_written": 1287769,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "24B2K",
+    "member_name": "Charades_v1_480/24B2K.mp4",
+    "output_path": "data/charades/videos_480p/24B2K.mp4",
+    "bytes_written": 3274904,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "1BUFQ",
+    "member_name": "Charades_v1_480/1BUFQ.mp4",
+    "output_path": "data/charades/videos_480p/1BUFQ.mp4",
+    "bytes_written": 1142496,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "U9UI8",
+    "member_name": "Charades_v1_480/U9UI8.mp4",
+    "output_path": "data/charades/videos_480p/U9UI8.mp4",
+    "bytes_written": 1671990,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "M8CDW",
+    "member_name": "Charades_v1_480/M8CDW.mp4",
+    "output_path": "data/charades/videos_480p/M8CDW.mp4",
+    "bytes_written": 1599257,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "Y6MUU",
+    "member_name": "Charades_v1_480/Y6MUU.mp4",
+    "output_path": "data/charades/videos_480p/Y6MUU.mp4",
+    "bytes_written": 1356380,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "X95MU",
+    "member_name": "Charades_v1_480/X95MU.mp4",
+    "output_path": "data/charades/videos_480p/X95MU.mp4",
+    "bytes_written": 2969496,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "L4DUU",
+    "member_name": "Charades_v1_480/L4DUU.mp4",
+    "output_path": "data/charades/videos_480p/L4DUU.mp4",
+    "bytes_written": 2756002,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "XFHYX",
+    "member_name": "Charades_v1_480/XFHYX.mp4",
+    "output_path": "data/charades/videos_480p/XFHYX.mp4",
+    "bytes_written": 2149961,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "FV684",
+    "member_name": "Charades_v1_480/FV684.mp4",
+    "output_path": "data/charades/videos_480p/FV684.mp4",
+    "bytes_written": 1976348,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "ARCUY",
+    "member_name": "Charades_v1_480/ARCUY.mp4",
+    "output_path": "data/charades/videos_480p/ARCUY.mp4",
+    "bytes_written": 2022987,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "406LH",
+    "member_name": "Charades_v1_480/406LH.mp4",
+    "output_path": "data/charades/videos_480p/406LH.mp4",
+    "bytes_written": 1284265,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "SPG5Q",
+    "member_name": "Charades_v1_480/SPG5Q.mp4",
+    "output_path": "data/charades/videos_480p/SPG5Q.mp4",
+    "bytes_written": 1489357,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "YDTH0",
+    "member_name": "Charades_v1_480/YDTH0.mp4",
+    "output_path": "data/charades/videos_480p/YDTH0.mp4",
+    "bytes_written": 2107442,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "7GIOE",
+    "member_name": "Charades_v1_480/7GIOE.mp4",
+    "output_path": "data/charades/videos_480p/7GIOE.mp4",
+    "bytes_written": 2532057,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "8PSXZ",
+    "member_name": "Charades_v1_480/8PSXZ.mp4",
+    "output_path": "data/charades/videos_480p/8PSXZ.mp4",
+    "bytes_written": 1209810,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "ZWE6N",
+    "member_name": "Charades_v1_480/ZWE6N.mp4",
+    "output_path": "data/charades/videos_480p/ZWE6N.mp4",
+    "bytes_written": 2096536,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "K8AUX",
+    "member_name": "Charades_v1_480/K8AUX.mp4",
+    "output_path": "data/charades/videos_480p/K8AUX.mp4",
+    "bytes_written": 2205941,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "B2X4D",
+    "member_name": "Charades_v1_480/B2X4D.mp4",
+    "output_path": "data/charades/videos_480p/B2X4D.mp4",
+    "bytes_written": 1369413,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "7XLMZ",
+    "member_name": "Charades_v1_480/7XLMZ.mp4",
+    "output_path": "data/charades/videos_480p/7XLMZ.mp4",
+    "bytes_written": 1696526,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "M40WF",
+    "member_name": "Charades_v1_480/M40WF.mp4",
+    "output_path": "data/charades/videos_480p/M40WF.mp4",
+    "bytes_written": 3003992,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "F0ZPW",
+    "member_name": "Charades_v1_480/F0ZPW.mp4",
+    "output_path": "data/charades/videos_480p/F0ZPW.mp4",
+    "bytes_written": 2303338,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "GYAR9",
+    "member_name": "Charades_v1_480/GYAR9.mp4",
+    "output_path": "data/charades/videos_480p/GYAR9.mp4",
+    "bytes_written": 1464875,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "5JSFE",
+    "member_name": "Charades_v1_480/5JSFE.mp4",
+    "output_path": "data/charades/videos_480p/5JSFE.mp4",
+    "bytes_written": 1342222,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "FN71T",
+    "member_name": "Charades_v1_480/FN71T.mp4",
+    "output_path": "data/charades/videos_480p/FN71T.mp4",
+    "bytes_written": 1896597,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "RV11J",
+    "member_name": "Charades_v1_480/RV11J.mp4",
+    "output_path": "data/charades/videos_480p/RV11J.mp4",
+    "bytes_written": 1553701,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "NSDFA",
+    "member_name": "Charades_v1_480/NSDFA.mp4",
+    "output_path": "data/charades/videos_480p/NSDFA.mp4",
+    "bytes_written": 2563607,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "DDUXF",
+    "member_name": "Charades_v1_480/DDUXF.mp4",
+    "output_path": "data/charades/videos_480p/DDUXF.mp4",
+    "bytes_written": 3676151,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "HB8QW",
+    "member_name": "Charades_v1_480/HB8QW.mp4",
+    "output_path": "data/charades/videos_480p/HB8QW.mp4",
+    "bytes_written": 1676609,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "OYG5H",
+    "member_name": "Charades_v1_480/OYG5H.mp4",
+    "output_path": "data/charades/videos_480p/OYG5H.mp4",
+    "bytes_written": 1596381,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "IJN3M",
+    "member_name": "Charades_v1_480/IJN3M.mp4",
+    "output_path": "data/charades/videos_480p/IJN3M.mp4",
+    "bytes_written": 2768920,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "AST4H",
+    "member_name": "Charades_v1_480/AST4H.mp4",
+    "output_path": "data/charades/videos_480p/AST4H.mp4",
+    "bytes_written": 2172405,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "0R5GS",
+    "member_name": "Charades_v1_480/0R5GS.mp4",
+    "output_path": "data/charades/videos_480p/0R5GS.mp4",
+    "bytes_written": 2526790,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "V58VE",
+    "member_name": "Charades_v1_480/V58VE.mp4",
+    "output_path": "data/charades/videos_480p/V58VE.mp4",
+    "bytes_written": 2476112,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "H603E",
+    "member_name": "Charades_v1_480/H603E.mp4",
+    "output_path": "data/charades/videos_480p/H603E.mp4",
+    "bytes_written": 1735957,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "1SKLG",
+    "member_name": "Charades_v1_480/1SKLG.mp4",
+    "output_path": "data/charades/videos_480p/1SKLG.mp4",
+    "bytes_written": 2953882,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "HY9LW",
+    "member_name": "Charades_v1_480/HY9LW.mp4",
+    "output_path": "data/charades/videos_480p/HY9LW.mp4",
+    "bytes_written": 1338382,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "0NCWX",
+    "member_name": "Charades_v1_480/0NCWX.mp4",
+    "output_path": "data/charades/videos_480p/0NCWX.mp4",
+    "bytes_written": 1764208,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "8LWV7",
+    "member_name": "Charades_v1_480/8LWV7.mp4",
+    "output_path": "data/charades/videos_480p/8LWV7.mp4",
+    "bytes_written": 969026,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "D4RH8",
+    "member_name": "Charades_v1_480/D4RH8.mp4",
+    "output_path": "data/charades/videos_480p/D4RH8.mp4",
+    "bytes_written": 1777770,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "EASCD",
+    "member_name": "Charades_v1_480/EASCD.mp4",
+    "output_path": "data/charades/videos_480p/EASCD.mp4",
+    "bytes_written": 2399765,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "C0207",
+    "member_name": "Charades_v1_480/C0207.mp4",
+    "output_path": "data/charades/videos_480p/C0207.mp4",
+    "bytes_written": 1590624,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "1DGSW",
+    "member_name": "Charades_v1_480/1DGSW.mp4",
+    "output_path": "data/charades/videos_480p/1DGSW.mp4",
+    "bytes_written": 2023581,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "U3OJV",
+    "member_name": "Charades_v1_480/U3OJV.mp4",
+    "output_path": "data/charades/videos_480p/U3OJV.mp4",
+    "bytes_written": 2061876,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "V5XKZ",
+    "member_name": "Charades_v1_480/V5XKZ.mp4",
+    "output_path": "data/charades/videos_480p/V5XKZ.mp4",
+    "bytes_written": 1387929,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "3FMAS",
+    "member_name": "Charades_v1_480/3FMAS.mp4",
+    "output_path": "data/charades/videos_480p/3FMAS.mp4",
+    "bytes_written": 2054218,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "B8BSY",
+    "member_name": "Charades_v1_480/B8BSY.mp4",
+    "output_path": "data/charades/videos_480p/B8BSY.mp4",
+    "bytes_written": 2379023,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "5B8M5",
+    "member_name": "Charades_v1_480/5B8M5.mp4",
+    "output_path": "data/charades/videos_480p/5B8M5.mp4",
+    "bytes_written": 2185886,
+    "status": "exists",
+    "error": ""
+  },
+  {
+    "video_id": "CVPQR",
+    "member_name": "Charades_v1_480/CVPQR.mp4",
+    "output_path": "data/charades/videos_480p/CVPQR.mp4",
+    "bytes_written": 1769930,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "MV9N4",
+    "member_name": "Charades_v1_480/MV9N4.mp4",
+    "output_path": "data/charades/videos_480p/MV9N4.mp4",
+    "bytes_written": 1300560,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "0YTSJ",
+    "member_name": "Charades_v1_480/0YTSJ.mp4",
+    "output_path": "data/charades/videos_480p/0YTSJ.mp4",
+    "bytes_written": 2450200,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "WOD0G",
+    "member_name": "Charades_v1_480/WOD0G.mp4",
+    "output_path": "data/charades/videos_480p/WOD0G.mp4",
+    "bytes_written": 2596409,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "UKOAU",
+    "member_name": "Charades_v1_480/UKOAU.mp4",
+    "output_path": "data/charades/videos_480p/UKOAU.mp4",
+    "bytes_written": 2854281,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "V8GK6",
+    "member_name": "Charades_v1_480/V8GK6.mp4",
+    "output_path": "data/charades/videos_480p/V8GK6.mp4",
+    "bytes_written": 1310403,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "5NG8W",
+    "member_name": "Charades_v1_480/5NG8W.mp4",
+    "output_path": "data/charades/videos_480p/5NG8W.mp4",
+    "bytes_written": 1577683,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "DUEEE",
+    "member_name": "Charades_v1_480/DUEEE.mp4",
+    "output_path": "data/charades/videos_480p/DUEEE.mp4",
+    "bytes_written": 956503,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "K8DDR",
+    "member_name": "Charades_v1_480/K8DDR.mp4",
+    "output_path": "data/charades/videos_480p/K8DDR.mp4",
+    "bytes_written": 2235545,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "VTYXW",
+    "member_name": "Charades_v1_480/VTYXW.mp4",
+    "output_path": "data/charades/videos_480p/VTYXW.mp4",
+    "bytes_written": 3044058,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "0A8ZT",
+    "member_name": "Charades_v1_480/0A8ZT.mp4",
+    "output_path": "data/charades/videos_480p/0A8ZT.mp4",
+    "bytes_written": 1327835,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "SZTNV",
+    "member_name": "Charades_v1_480/SZTNV.mp4",
+    "output_path": "data/charades/videos_480p/SZTNV.mp4",
+    "bytes_written": 1666181,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "0UFI4",
+    "member_name": "Charades_v1_480/0UFI4.mp4",
+    "output_path": "data/charades/videos_480p/0UFI4.mp4",
+    "bytes_written": 2045482,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "9W63D",
+    "member_name": "Charades_v1_480/9W63D.mp4",
+    "output_path": "data/charades/videos_480p/9W63D.mp4",
+    "bytes_written": 1537452,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "WZRLQ",
+    "member_name": "Charades_v1_480/WZRLQ.mp4",
+    "output_path": "data/charades/videos_480p/WZRLQ.mp4",
+    "bytes_written": 2772743,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "FET0V",
+    "member_name": "Charades_v1_480/FET0V.mp4",
+    "output_path": "data/charades/videos_480p/FET0V.mp4",
+    "bytes_written": 1375875,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "DBN7R",
+    "member_name": "Charades_v1_480/DBN7R.mp4",
+    "output_path": "data/charades/videos_480p/DBN7R.mp4",
+    "bytes_written": 1583935,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "G8O8P",
+    "member_name": "Charades_v1_480/G8O8P.mp4",
+    "output_path": "data/charades/videos_480p/G8O8P.mp4",
+    "bytes_written": 1645995,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "XNR76",
+    "member_name": "Charades_v1_480/XNR76.mp4",
+    "output_path": "data/charades/videos_480p/XNR76.mp4",
+    "bytes_written": 1020983,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "5MYL4",
+    "member_name": "Charades_v1_480/5MYL4.mp4",
+    "output_path": "data/charades/videos_480p/5MYL4.mp4",
+    "bytes_written": 2443864,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "FPODN",
+    "member_name": "Charades_v1_480/FPODN.mp4",
+    "output_path": "data/charades/videos_480p/FPODN.mp4",
+    "bytes_written": 1457975,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "QDRWK",
+    "member_name": "Charades_v1_480/QDRWK.mp4",
+    "output_path": "data/charades/videos_480p/QDRWK.mp4",
+    "bytes_written": 2763089,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "J26CF",
+    "member_name": "Charades_v1_480/J26CF.mp4",
+    "output_path": "data/charades/videos_480p/J26CF.mp4",
+    "bytes_written": 2617372,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "AHZWF",
+    "member_name": "Charades_v1_480/AHZWF.mp4",
+    "output_path": "data/charades/videos_480p/AHZWF.mp4",
+    "bytes_written": 922579,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "WNW0S",
+    "member_name": "Charades_v1_480/WNW0S.mp4",
+    "output_path": "data/charades/videos_480p/WNW0S.mp4",
+    "bytes_written": 1841618,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "WA7WD",
+    "member_name": "Charades_v1_480/WA7WD.mp4",
+    "output_path": "data/charades/videos_480p/WA7WD.mp4",
+    "bytes_written": 2261943,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "C6B3T",
+    "member_name": "Charades_v1_480/C6B3T.mp4",
+    "output_path": "data/charades/videos_480p/C6B3T.mp4",
+    "bytes_written": 2253298,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "OOCOF",
+    "member_name": "Charades_v1_480/OOCOF.mp4",
+    "output_path": "data/charades/videos_480p/OOCOF.mp4",
+    "bytes_written": 2491179,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "ENCXV",
+    "member_name": "Charades_v1_480/ENCXV.mp4",
+    "output_path": "data/charades/videos_480p/ENCXV.mp4",
+    "bytes_written": 1760232,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "KZK6W",
+    "member_name": "Charades_v1_480/KZK6W.mp4",
+    "output_path": "data/charades/videos_480p/KZK6W.mp4",
+    "bytes_written": 1421707,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "KNN3G",
+    "member_name": "Charades_v1_480/KNN3G.mp4",
+    "output_path": "data/charades/videos_480p/KNN3G.mp4",
+    "bytes_written": 2242972,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "YVFBN",
+    "member_name": "Charades_v1_480/YVFBN.mp4",
+    "output_path": "data/charades/videos_480p/YVFBN.mp4",
+    "bytes_written": 2035858,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "AHL6X",
+    "member_name": "Charades_v1_480/AHL6X.mp4",
+    "output_path": "data/charades/videos_480p/AHL6X.mp4",
+    "bytes_written": 1523175,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "YXP9P",
+    "member_name": "Charades_v1_480/YXP9P.mp4",
+    "output_path": "data/charades/videos_480p/YXP9P.mp4",
+    "bytes_written": 1738124,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "LOBSL",
+    "member_name": "Charades_v1_480/LOBSL.mp4",
+    "output_path": "data/charades/videos_480p/LOBSL.mp4",
+    "bytes_written": 1700756,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "GNA1H",
+    "member_name": "Charades_v1_480/GNA1H.mp4",
+    "output_path": "data/charades/videos_480p/GNA1H.mp4",
+    "bytes_written": 1564448,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "QHU9R",
+    "member_name": "Charades_v1_480/QHU9R.mp4",
+    "output_path": "data/charades/videos_480p/QHU9R.mp4",
+    "bytes_written": 1272900,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "J1YJ6",
+    "member_name": "Charades_v1_480/J1YJ6.mp4",
+    "output_path": "data/charades/videos_480p/J1YJ6.mp4",
+    "bytes_written": 2629575,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "S1QOX",
+    "member_name": "Charades_v1_480/S1QOX.mp4",
+    "output_path": "data/charades/videos_480p/S1QOX.mp4",
+    "bytes_written": 2753655,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "M8PXK",
+    "member_name": "Charades_v1_480/M8PXK.mp4",
+    "output_path": "data/charades/videos_480p/M8PXK.mp4",
+    "bytes_written": 1909142,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "VSO80",
+    "member_name": "Charades_v1_480/VSO80.mp4",
+    "output_path": "data/charades/videos_480p/VSO80.mp4",
+    "bytes_written": 1360434,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "FW1L0",
+    "member_name": "Charades_v1_480/FW1L0.mp4",
+    "output_path": "data/charades/videos_480p/FW1L0.mp4",
+    "bytes_written": 2185209,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "KAKC6",
+    "member_name": "Charades_v1_480/KAKC6.mp4",
+    "output_path": "data/charades/videos_480p/KAKC6.mp4",
+    "bytes_written": 1421693,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "DKTVI",
+    "member_name": "Charades_v1_480/DKTVI.mp4",
+    "output_path": "data/charades/videos_480p/DKTVI.mp4",
+    "bytes_written": 3266437,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "10J88",
+    "member_name": "Charades_v1_480/10J88.mp4",
+    "output_path": "data/charades/videos_480p/10J88.mp4",
+    "bytes_written": 1332143,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "7HV9Q",
+    "member_name": "Charades_v1_480/7HV9Q.mp4",
+    "output_path": "data/charades/videos_480p/7HV9Q.mp4",
+    "bytes_written": 1394801,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "Q6XGG",
+    "member_name": "Charades_v1_480/Q6XGG.mp4",
+    "output_path": "data/charades/videos_480p/Q6XGG.mp4",
+    "bytes_written": 1347812,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "8Q0EY",
+    "member_name": "Charades_v1_480/8Q0EY.mp4",
+    "output_path": "data/charades/videos_480p/8Q0EY.mp4",
+    "bytes_written": 1653330,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "004QE",
+    "member_name": "Charades_v1_480/004QE.mp4",
+    "output_path": "data/charades/videos_480p/004QE.mp4",
+    "bytes_written": 1374639,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "HIC67",
+    "member_name": "Charades_v1_480/HIC67.mp4",
+    "output_path": "data/charades/videos_480p/HIC67.mp4",
+    "bytes_written": 1337721,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "2WGSN",
+    "member_name": "Charades_v1_480/2WGSN.mp4",
+    "output_path": "data/charades/videos_480p/2WGSN.mp4",
+    "bytes_written": 1073994,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "857S9",
+    "member_name": "Charades_v1_480/857S9.mp4",
+    "output_path": "data/charades/videos_480p/857S9.mp4",
+    "bytes_written": 2244045,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "MI4SN",
+    "member_name": "Charades_v1_480/MI4SN.mp4",
+    "output_path": "data/charades/videos_480p/MI4SN.mp4",
+    "bytes_written": 1713245,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "A80GG",
+    "member_name": "Charades_v1_480/A80GG.mp4",
+    "output_path": "data/charades/videos_480p/A80GG.mp4",
+    "bytes_written": 2174497,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "5VUQE",
+    "member_name": "Charades_v1_480/5VUQE.mp4",
+    "output_path": "data/charades/videos_480p/5VUQE.mp4",
+    "bytes_written": 2458425,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "7WG7A",
+    "member_name": "Charades_v1_480/7WG7A.mp4",
+    "output_path": "data/charades/videos_480p/7WG7A.mp4",
+    "bytes_written": 2374381,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "R2RBJ",
+    "member_name": "Charades_v1_480/R2RBJ.mp4",
+    "output_path": "data/charades/videos_480p/R2RBJ.mp4",
+    "bytes_written": 747437,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "OE751",
+    "member_name": "Charades_v1_480/OE751.mp4",
+    "output_path": "data/charades/videos_480p/OE751.mp4",
+    "bytes_written": 1933524,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "UVMZ8",
+    "member_name": "Charades_v1_480/UVMZ8.mp4",
+    "output_path": "data/charades/videos_480p/UVMZ8.mp4",
+    "bytes_written": 1762895,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "K7HQG",
+    "member_name": "Charades_v1_480/K7HQG.mp4",
+    "output_path": "data/charades/videos_480p/K7HQG.mp4",
+    "bytes_written": 1582164,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "G4E4S",
+    "member_name": "Charades_v1_480/G4E4S.mp4",
+    "output_path": "data/charades/videos_480p/G4E4S.mp4",
+    "bytes_written": 4006448,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "XDT45",
+    "member_name": "Charades_v1_480/XDT45.mp4",
+    "output_path": "data/charades/videos_480p/XDT45.mp4",
+    "bytes_written": 1129094,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "1ROX7",
+    "member_name": "Charades_v1_480/1ROX7.mp4",
+    "output_path": "data/charades/videos_480p/1ROX7.mp4",
+    "bytes_written": 832989,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "WLA52",
+    "member_name": "Charades_v1_480/WLA52.mp4",
+    "output_path": "data/charades/videos_480p/WLA52.mp4",
+    "bytes_written": 1502310,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "D3EY0",
+    "member_name": "Charades_v1_480/D3EY0.mp4",
+    "output_path": "data/charades/videos_480p/D3EY0.mp4",
+    "bytes_written": 1141411,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "CB42N",
+    "member_name": "Charades_v1_480/CB42N.mp4",
+    "output_path": "data/charades/videos_480p/CB42N.mp4",
+    "bytes_written": 957070,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "W86JJ",
+    "member_name": "Charades_v1_480/W86JJ.mp4",
+    "output_path": "data/charades/videos_480p/W86JJ.mp4",
+    "bytes_written": 1237880,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "HSSOZ",
+    "member_name": "Charades_v1_480/HSSOZ.mp4",
+    "output_path": "data/charades/videos_480p/HSSOZ.mp4",
+    "bytes_written": 2788031,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "21E40",
+    "member_name": "Charades_v1_480/21E40.mp4",
+    "output_path": "data/charades/videos_480p/21E40.mp4",
+    "bytes_written": 1247054,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "SCHOY",
+    "member_name": "Charades_v1_480/SCHOY.mp4",
+    "output_path": "data/charades/videos_480p/SCHOY.mp4",
+    "bytes_written": 2082698,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "3GNH7",
+    "member_name": "Charades_v1_480/3GNH7.mp4",
+    "output_path": "data/charades/videos_480p/3GNH7.mp4",
+    "bytes_written": 696276,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "8Y7P5",
+    "member_name": "Charades_v1_480/8Y7P5.mp4",
+    "output_path": "data/charades/videos_480p/8Y7P5.mp4",
+    "bytes_written": 2301772,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "X3KFE",
+    "member_name": "Charades_v1_480/X3KFE.mp4",
+    "output_path": "data/charades/videos_480p/X3KFE.mp4",
+    "bytes_written": 1924743,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "LVLVR",
+    "member_name": "Charades_v1_480/LVLVR.mp4",
+    "output_path": "data/charades/videos_480p/LVLVR.mp4",
+    "bytes_written": 1581091,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "PSPMA",
+    "member_name": "Charades_v1_480/PSPMA.mp4",
+    "output_path": "data/charades/videos_480p/PSPMA.mp4",
+    "bytes_written": 1856526,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "S9SRM",
+    "member_name": "Charades_v1_480/S9SRM.mp4",
+    "output_path": "data/charades/videos_480p/S9SRM.mp4",
+    "bytes_written": 3046946,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "BVS38",
+    "member_name": "Charades_v1_480/BVS38.mp4",
+    "output_path": "data/charades/videos_480p/BVS38.mp4",
+    "bytes_written": 2323659,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "ZVMAY",
+    "member_name": "Charades_v1_480/ZVMAY.mp4",
+    "output_path": "data/charades/videos_480p/ZVMAY.mp4",
+    "bytes_written": 2772577,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "95HQC",
+    "member_name": "Charades_v1_480/95HQC.mp4",
+    "output_path": "data/charades/videos_480p/95HQC.mp4",
+    "bytes_written": 1565715,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "JW2HC",
+    "member_name": "Charades_v1_480/JW2HC.mp4",
+    "output_path": "data/charades/videos_480p/JW2HC.mp4",
+    "bytes_written": 1508702,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "RNCN8",
+    "member_name": "Charades_v1_480/RNCN8.mp4",
+    "output_path": "data/charades/videos_480p/RNCN8.mp4",
+    "bytes_written": 1199973,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "OSCS2",
+    "member_name": "Charades_v1_480/OSCS2.mp4",
+    "output_path": "data/charades/videos_480p/OSCS2.mp4",
+    "bytes_written": 3259958,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "55DDW",
+    "member_name": "Charades_v1_480/55DDW.mp4",
+    "output_path": "data/charades/videos_480p/55DDW.mp4",
+    "bytes_written": 2391486,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "1Q4SL",
+    "member_name": "Charades_v1_480/1Q4SL.mp4",
+    "output_path": "data/charades/videos_480p/1Q4SL.mp4",
+    "bytes_written": 2102768,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "VIKQG",
+    "member_name": "Charades_v1_480/VIKQG.mp4",
+    "output_path": "data/charades/videos_480p/VIKQG.mp4",
+    "bytes_written": 773276,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "MCNRZ",
+    "member_name": "Charades_v1_480/MCNRZ.mp4",
+    "output_path": "data/charades/videos_480p/MCNRZ.mp4",
+    "bytes_written": 1114990,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "372CC",
+    "member_name": "Charades_v1_480/372CC.mp4",
+    "output_path": "data/charades/videos_480p/372CC.mp4",
+    "bytes_written": 2058682,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "L8Y8D",
+    "member_name": "Charades_v1_480/L8Y8D.mp4",
+    "output_path": "data/charades/videos_480p/L8Y8D.mp4",
+    "bytes_written": 2389361,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "JG7BS",
+    "member_name": "Charades_v1_480/JG7BS.mp4",
+    "output_path": "data/charades/videos_480p/JG7BS.mp4",
+    "bytes_written": 1468007,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "9X6DL",
+    "member_name": "Charades_v1_480/9X6DL.mp4",
+    "output_path": "data/charades/videos_480p/9X6DL.mp4",
+    "bytes_written": 1277545,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "QNHM7",
+    "member_name": "Charades_v1_480/QNHM7.mp4",
+    "output_path": "data/charades/videos_480p/QNHM7.mp4",
+    "bytes_written": 1053593,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "CN5G4",
+    "member_name": "Charades_v1_480/CN5G4.mp4",
+    "output_path": "data/charades/videos_480p/CN5G4.mp4",
+    "bytes_written": 1729788,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "IR31O",
+    "member_name": "Charades_v1_480/IR31O.mp4",
+    "output_path": "data/charades/videos_480p/IR31O.mp4",
+    "bytes_written": 1360030,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "WMBOO",
+    "member_name": "Charades_v1_480/WMBOO.mp4",
+    "output_path": "data/charades/videos_480p/WMBOO.mp4",
+    "bytes_written": 2833643,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "8AT69",
+    "member_name": "Charades_v1_480/8AT69.mp4",
+    "output_path": "data/charades/videos_480p/8AT69.mp4",
+    "bytes_written": 1751229,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "V34GF",
+    "member_name": "Charades_v1_480/V34GF.mp4",
+    "output_path": "data/charades/videos_480p/V34GF.mp4",
+    "bytes_written": 1566221,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "B5R5B",
+    "member_name": "Charades_v1_480/B5R5B.mp4",
+    "output_path": "data/charades/videos_480p/B5R5B.mp4",
+    "bytes_written": 1700850,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "5HJ2H",
+    "member_name": "Charades_v1_480/5HJ2H.mp4",
+    "output_path": "data/charades/videos_480p/5HJ2H.mp4",
+    "bytes_written": 2080726,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "FACX2",
+    "member_name": "Charades_v1_480/FACX2.mp4",
+    "output_path": "data/charades/videos_480p/FACX2.mp4",
+    "bytes_written": 1122365,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "V2DAA",
+    "member_name": "Charades_v1_480/V2DAA.mp4",
+    "output_path": "data/charades/videos_480p/V2DAA.mp4",
+    "bytes_written": 1773652,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "DLQIT",
+    "member_name": "Charades_v1_480/DLQIT.mp4",
+    "output_path": "data/charades/videos_480p/DLQIT.mp4",
+    "bytes_written": 789784,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "5VJ1X",
+    "member_name": "Charades_v1_480/5VJ1X.mp4",
+    "output_path": "data/charades/videos_480p/5VJ1X.mp4",
+    "bytes_written": 2159269,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "491X2",
+    "member_name": "Charades_v1_480/491X2.mp4",
+    "output_path": "data/charades/videos_480p/491X2.mp4",
+    "bytes_written": 1971298,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "WPPAT",
+    "member_name": "Charades_v1_480/WPPAT.mp4",
+    "output_path": "data/charades/videos_480p/WPPAT.mp4",
+    "bytes_written": 1207959,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "AM3R2",
+    "member_name": "Charades_v1_480/AM3R2.mp4",
+    "output_path": "data/charades/videos_480p/AM3R2.mp4",
+    "bytes_written": 1679730,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "SU2UY",
+    "member_name": "Charades_v1_480/SU2UY.mp4",
+    "output_path": "data/charades/videos_480p/SU2UY.mp4",
+    "bytes_written": 1162442,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "VXNGC",
+    "member_name": "Charades_v1_480/VXNGC.mp4",
+    "output_path": "data/charades/videos_480p/VXNGC.mp4",
+    "bytes_written": 924725,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "622EX",
+    "member_name": "Charades_v1_480/622EX.mp4",
+    "output_path": "data/charades/videos_480p/622EX.mp4",
+    "bytes_written": 1630299,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "4O32W",
+    "member_name": "Charades_v1_480/4O32W.mp4",
+    "output_path": "data/charades/videos_480p/4O32W.mp4",
+    "bytes_written": 1270163,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "TE5P7",
+    "member_name": "Charades_v1_480/TE5P7.mp4",
+    "output_path": "data/charades/videos_480p/TE5P7.mp4",
+    "bytes_written": 907520,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "WSLMS",
+    "member_name": "Charades_v1_480/WSLMS.mp4",
+    "output_path": "data/charades/videos_480p/WSLMS.mp4",
+    "bytes_written": 2458447,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "XECIL",
+    "member_name": "Charades_v1_480/XECIL.mp4",
+    "output_path": "data/charades/videos_480p/XECIL.mp4",
+    "bytes_written": 2647337,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "DNWCR",
+    "member_name": "Charades_v1_480/DNWCR.mp4",
+    "output_path": "data/charades/videos_480p/DNWCR.mp4",
+    "bytes_written": 2581587,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "8ENLP",
+    "member_name": "Charades_v1_480/8ENLP.mp4",
+    "output_path": "data/charades/videos_480p/8ENLP.mp4",
+    "bytes_written": 1642815,
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "video_id": "92NRK",
+    "member_name": "Charades_v1_480/92NRK.mp4",
+    "output_path": "data/charades/videos_480p/92NRK.mp4",
+    "bytes_written": 1051396,
+    "status": "downloaded",
+    "error": ""
+  }
+]
