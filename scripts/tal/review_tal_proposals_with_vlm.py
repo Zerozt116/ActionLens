@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import os
 import subprocess
@@ -20,6 +21,37 @@ if str(SRC_ROOT) not in sys.path:
 
 
 DEFAULT_OUTCOMES = ("gt_hit_by_tal_only", "tal_only_non_gt")
+DEFAULT_TOP_K_PER_CLIP = 3
+DEFAULT_MIN_SCORE = 0.04
+DEFAULT_MIN_DURATION = 0.5
+DEFAULT_MAX_DURATION = 30.0
+
+CHARADES_TO_CANONICAL = {
+    "c015": "holding_phone",
+    "c016": "looking_at_phone",
+    "c017": "putting_phone",
+    "c018": "taking_phone",
+    "c019": "talking_on_phone",
+    "c051": "watching_laptop",
+    "c052": "using_laptop",
+    "c059": "sitting_on_chair",
+    "c065": "eating",
+    "c097": "walking_through_doorway",
+    "c106": "drinking_water",
+    "c107": "holding_drink_container",
+    "c108": "pouring_drink_container",
+    "c109": "putting_drink_container",
+    "c110": "taking_drink_container",
+    "c123": "sitting_on_sofa",
+    "c125": "sitting_on_floor",
+    "c129": "taking_medicine",
+    "c132": "watching_tv",
+    "c147": "cooking",
+    "c150": "running",
+    "c151": "sitting_down",
+    "c154": "standing_up",
+    "c156": "eating",
+}
 
 
 @dataclass(frozen=True)
@@ -55,6 +87,12 @@ def main() -> None:
         type=Path,
         default=Path("outputs/charades_clip_batch_50/batch_summary.json"),
         help="Batch summary containing clip_id -> clip_path records.",
+    )
+    parser.add_argument(
+        "--predictions-csv",
+        type=Path,
+        default=Path("outputs/actionformer_epoch034_val_predictions.csv"),
+        help="Full TAL prediction CSV used to compute rank_in_clip.",
     )
     parser.add_argument(
         "--output-root",
@@ -93,6 +131,30 @@ def main() -> None:
         help="A/B row outcomes to select for review.",
     )
     parser.add_argument("--limit", type=int, default=5, help="Maximum proposals to review.")
+    parser.add_argument(
+        "--top-k-per-clip",
+        type=int,
+        default=DEFAULT_TOP_K_PER_CLIP,
+        help="Keep only proposals whose full TAL rank within the clip is <= this value. Use 0 to disable.",
+    )
+    parser.add_argument(
+        "--min-score",
+        type=float,
+        default=DEFAULT_MIN_SCORE,
+        help="Minimum TAL score to review.",
+    )
+    parser.add_argument(
+        "--min-duration",
+        type=float,
+        default=DEFAULT_MIN_DURATION,
+        help="Minimum TAL segment duration in seconds.",
+    )
+    parser.add_argument(
+        "--max-duration",
+        type=float,
+        default=DEFAULT_MAX_DURATION,
+        help="Maximum TAL segment duration in seconds.",
+    )
     parser.add_argument("--context-seconds", type=float, default=1.0, help="Context to add around each TAL segment.")
     parser.add_argument("--frame-count", type=int, default=6, help="Frames sampled per review.")
     parser.add_argument("--model", default="Qwen/Qwen3-VL-8B-Instruct", help="VLM model.")
@@ -104,7 +166,16 @@ def main() -> None:
     args = parser.parse_args()
 
     clip_paths = load_clip_paths(args.batch_summary)
-    candidates = select_candidates(args.ab_report, outcomes=set(args.outcomes), limit=args.limit)
+    candidates, selection_summary = select_candidates(
+        args.ab_report,
+        predictions_csv=args.predictions_csv,
+        outcomes=set(args.outcomes),
+        limit=args.limit,
+        top_k_per_clip=args.top_k_per_clip,
+        min_score=args.min_score,
+        min_duration=args.min_duration,
+        max_duration=args.max_duration,
+    )
     records = [
         review_candidate(
             row=candidate,
@@ -122,7 +193,7 @@ def main() -> None:
         for candidate in candidates
     ]
     payload = {
-        "summary": summarize(records),
+        "summary": {**selection_summary, **summarize(records)},
         "records": [asdict(record) for record in records],
     }
     args.summary_output.parent.mkdir(parents=True, exist_ok=True)
@@ -147,13 +218,25 @@ def load_clip_paths(batch_summary: Path) -> dict[str, str]:
     }
 
 
-def select_candidates(path: Path, outcomes: set[str], limit: int) -> list[dict[str, Any]]:
+def select_candidates(
+    path: Path,
+    *,
+    predictions_csv: Path,
+    outcomes: set[str],
+    limit: int,
+    top_k_per_clip: int,
+    min_score: float,
+    min_duration: float,
+    max_duration: float,
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     payload = json.loads(path.read_text(encoding="utf-8"))
+    ranks = load_ranks(predictions_csv)
     rows = [
-        row
+        add_proposal_metrics(row, ranks)
         for row in payload.get("rows", [])
         if row.get("outcome") in outcomes and row.get("tal_present") and row.get("tal_best_segment")
     ]
+    candidates_before_limit = [row for row in rows if passes_filters(row, top_k_per_clip, min_score, min_duration, max_duration)]
     rows.sort(
         key=lambda row: (
             row.get("outcome") != "gt_hit_by_tal_only",
@@ -161,7 +244,105 @@ def select_candidates(path: Path, outcomes: set[str], limit: int) -> list[dict[s
             -float(row.get("tal_best_score", 0.0)),
         )
     )
-    return rows[:limit]
+    candidates_before_limit.sort(
+        key=lambda row: (
+            row.get("outcome") != "gt_hit_by_tal_only",
+            -float(row.get("tal_best_iou", 0.0)),
+            -float(row.get("tal_best_score", 0.0)),
+        )
+    )
+    selected = candidates_before_limit[:limit]
+    selection_summary = summarize_selection(
+        all_candidates=rows,
+        filtered_candidates=candidates_before_limit,
+        selected=selected,
+        outcomes=outcomes,
+        top_k_per_clip=top_k_per_clip,
+        min_score=min_score,
+        min_duration=min_duration,
+        max_duration=max_duration,
+        limit=limit,
+    )
+    return selected, selection_summary
+
+
+def load_ranks(path: Path) -> dict[tuple[str, str, float], int]:
+    by_clip: dict[str, list[dict[str, str]]] = {}
+    with path.open("r", encoding="utf-8", newline="") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            by_clip.setdefault(row["clip_id"], []).append(row)
+
+    ranks: dict[tuple[str, str, float], int] = {}
+    for clip_id, rows in by_clip.items():
+        rows.sort(key=lambda row: float(row["score"]), reverse=True)
+        for index, row in enumerate(rows, start=1):
+            action = CHARADES_TO_CANONICAL.get(row["charades_action_id"], row["charades_action_id"])
+            ranks[(clip_id, action, round(float(row["score"]), 8))] = index
+    return ranks
+
+
+def add_proposal_metrics(row: dict[str, Any], ranks: dict[tuple[str, str, float], int]) -> dict[str, Any]:
+    proposal = dict(row)
+    segment = proposal.get("tal_best_segment", [])
+    duration = 0.0
+    if len(segment) == 2:
+        duration = max(0.0, float(segment[1]) - float(segment[0]))
+    score = round(float(proposal.get("tal_best_score", 0.0)), 8)
+    proposal["tal_duration"] = round(duration, 4)
+    proposal["rank_in_clip"] = ranks.get((proposal["clip_id"], proposal["action"], score))
+    return proposal
+
+
+def passes_filters(
+    row: dict[str, Any],
+    top_k_per_clip: int,
+    min_score: float,
+    min_duration: float,
+    max_duration: float,
+) -> bool:
+    rank = row.get("rank_in_clip")
+    if top_k_per_clip > 0 and (rank is None or int(rank) > top_k_per_clip):
+        return False
+    score = float(row.get("tal_best_score", 0.0))
+    duration = float(row.get("tal_duration", 0.0))
+    return score >= min_score and min_duration <= duration <= max_duration
+
+
+def summarize_selection(
+    *,
+    all_candidates: list[dict[str, Any]],
+    filtered_candidates: list[dict[str, Any]],
+    selected: list[dict[str, Any]],
+    outcomes: set[str],
+    top_k_per_clip: int,
+    min_score: float,
+    min_duration: float,
+    max_duration: float,
+    limit: int,
+) -> dict[str, Any]:
+    return {
+        "selection_outcomes": sorted(outcomes),
+        "filter_top_k_per_clip": top_k_per_clip,
+        "filter_min_score": min_score,
+        "filter_min_duration": min_duration,
+        "filter_max_duration": max_duration,
+        "limit": limit,
+        "candidates_before_filter": len(all_candidates),
+        "candidates_after_filter": len(filtered_candidates),
+        "selected_for_review": len(selected),
+        "filtered_total": len(all_candidates) - len(filtered_candidates),
+        "filtered_by_rank": sum(
+            1
+            for row in all_candidates
+            if top_k_per_clip > 0 and (row.get("rank_in_clip") is None or int(row["rank_in_clip"]) > top_k_per_clip)
+        ),
+        "filtered_by_score": sum(float(row.get("tal_best_score", 0.0)) < min_score for row in all_candidates),
+        "filtered_by_duration": sum(
+            not (min_duration <= float(row.get("tal_duration", 0.0)) <= max_duration)
+            for row in all_candidates
+        ),
+    }
 
 
 def review_candidate(
