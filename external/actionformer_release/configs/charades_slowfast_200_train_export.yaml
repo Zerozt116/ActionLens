@@ -56,4 +56,4 @@ opt: {
   epochs: 50,
   weight_decay: 0.05,
 }
-output_folder: ./ckpt/
+output_folder: ./external/actionformer_release/ckpt/

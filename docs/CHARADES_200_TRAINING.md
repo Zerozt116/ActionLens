@@ -102,26 +102,22 @@ feature_dim = 2304
 
 ```bash
 python scripts/tal/dataloader_smoke.py \
-  external/actionformer_release/configs/charades_slowfast_200.yaml \
-  --mode train \
-  --index 0 \
-  --summary-output outputs/tal_dataloader_slowfast_200_train_summary.json
-
-python scripts/tal/dataloader_smoke.py \
-  external/actionformer_release/configs/charades_slowfast_200.yaml \
-  --mode eval \
-  --index 0 \
-  --summary-output outputs/tal_dataloader_slowfast_200_val_summary.json
+  outputs/charades_clips_200.csv \
+  --feature-manifest data/charades/features_manifest_200.json \
+  --feat-num-frames 32 \
+  --downsample-rate 1 \
+  --summary-output outputs/tal_dataloader_slowfast_200_summary.json
 ```
 
-两条 smoke 都通过后再训练。
+如果 summary 中 `ok` 接近 200，且没有大量 `missing_feature_entry`、`feature_load_failed` 或 `segments_outside_feature_grid`，即可训练。
 
 ## 6. 训练 ActionFormer 200-clip checkpoint
 
 ```bash
-cd ~/ActionLens/external/actionformer_release
+cd ~/ActionLens
 
-python ./train.py ./configs/charades_slowfast_200.yaml \
+python external/actionformer_release/train.py \
+  external/actionformer_release/configs/charades_slowfast_200.yaml \
   --output charades_200v \
   -p 1 \
   -c 1
@@ -179,8 +175,7 @@ outputs/charades_clips_200.csv
 outputs/charades_clips_200_summary.json
 outputs/tal_features_slowfast_200_summary.json
 data/charades/features_manifest_200.json
-outputs/tal_dataloader_slowfast_200_train_summary.json
-outputs/tal_dataloader_slowfast_200_val_summary.json
+outputs/tal_dataloader_slowfast_200_summary.json
 ```
 
 训练与推理结果：
