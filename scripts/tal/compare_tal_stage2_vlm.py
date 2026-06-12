@@ -97,13 +97,20 @@ def main() -> None:
     )
     parser.add_argument("--output-json", type=Path, required=True, help="Output JSON report path.")
     parser.add_argument("--output-md", type=Path, required=True, help="Output Markdown report path.")
+    parser.add_argument(
+        "--scope-note",
+        default="current TAL eval covers the ActionFormer val split only, not all 50 batch clips.",
+        help="Scope note to include in the JSON and Markdown report.",
+    )
     args = parser.parse_args()
 
     tal_by_clip = load_tal_topk(args.tal_topk)
     clip_manifest = load_clip_manifest(args.clips_manifest)
     rows = compare(tal_by_clip, args.batch_root, clip_manifest)
+    summary = build_summary(rows, tal_by_clip, args.batch_root)
+    summary["scope_note"] = args.scope_note
     payload = {
-        "summary": build_summary(rows, tal_by_clip, args.batch_root),
+        "summary": summary,
         "per_action": build_per_action(rows),
         "rows": [asdict(row) for row in rows],
     }
@@ -335,7 +342,7 @@ def render_markdown(payload: dict[str, Any]) -> str:
     lines.append(f"- TAL clips: {summary['tal_clip_count']}")
     lines.append(f"- Evaluated overlap clips: {summary['evaluated_clip_count']}")
     lines.append(f"- GT action instances in overlap clips: {summary['gt_action_instances']}")
-    lines.append("- Note: current TAL eval covers the ActionFormer val split only, not all 50 batch clips.")
+    lines.append(f"- Note: {summary['scope_note']}")
     lines.append("")
     lines.append("## GT Recall Proxy")
     lines.append("")

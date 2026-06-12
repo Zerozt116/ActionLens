@@ -1,0 +1,13 @@
+{
+  "summary": {
+    "reviewed_proposals": 0,
+    "final_events": 0,
+    "weak_events": 0,
+    "rejected_events": 0,
+    "failed_events": 0
+  },
+  "final_events": [],
+  "weak_events": [],
+  "rejected_events": [],
+  "failed_events": []
+}
