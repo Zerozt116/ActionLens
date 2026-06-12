@@ -11,3 +11,4 @@ runs/
 *.pt
 outputs/tal_vlm_review_epoch034/
 outputs/tal_vlm_review_epoch034_non_gt/
+outputs/tal_vlm_review_epoch034_train_filtered/

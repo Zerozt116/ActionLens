@@ -1,0 +1,609 @@
+{
+  "summary": {
+    "reviewed_proposals": 22,
+    "final_events": 11,
+    "weak_events": 0,
+    "rejected_events": 11,
+    "failed_events": 0
+  },
+  "final_events": [
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "5B8M5_c156_t0.00_30.71",
+      "video_id": "5B8M5",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "start_seconds": 0.0,
+      "end_seconds": 25.1764,
+      "confidence": 0.6957,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.04414934,
+        "same_label_iou": 0.78725,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "The person is visibly seated on a blue chair in frames 0, 1, 2, and 5. The chair is partially obscured in frame 3 but the person's posture indicates sitting. In frame 4, the person is standing, so sitting is not occurring at that moment.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/5B8M5_c156_t0.00_30.71/sitting_on_chair_0.00_25.18"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "FV684_c154_t0.00_32.92",
+      "video_id": "FV684",
+      "action": "standing_up",
+      "action_name": "站起",
+      "start_seconds": 4.622,
+      "end_seconds": 31.2506,
+      "confidence": 0.7459,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.05417131,
+        "same_label_iou": 0.748134,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "The person transitions from a bent-over position at the sink to standing upright while holding a vacuum cleaner.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/FV684_c154_t0.00_32.92/standing_up_4.62_31.25"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "ZP5TG_c123_t0.00_42.46",
+      "video_id": "ZP5TG",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "start_seconds": 9.5252,
+      "end_seconds": 39.9891,
+      "confidence": 0.748,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.04959076,
+        "same_label_iou": 0.707243,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 1.0,
+        "evidence": "The person in the yellow shirt is seated on a wooden chair with their legs crossed and arms resting on the chair's back and armrests.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/ZP5TG_c123_t0.00_42.46/sitting_on_chair_9.53_39.99"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "X95MU_c016_t0.00_36.38",
+      "video_id": "X95MU",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "start_seconds": 11.4382,
+      "end_seconds": 32.8593,
+      "confidence": 0.7249,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.04498973,
+        "same_label_iou": 0.694104,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 1.0,
+        "evidence": "The man is consistently seated on a white chair across all frames, holding a camera.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/X95MU_c016_t0.00_36.38/sitting_on_chair_11.44_32.86"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "CY2J2_c059_t0.00_50.83",
+      "video_id": "CY2J2",
+      "action": "standing_up",
+      "action_name": "站起",
+      "start_seconds": 42.0884,
+      "end_seconds": 51.2953,
+      "confidence": 0.6754,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.04008701,
+        "same_label_iou": 0.684,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "In frame 4, the person is seen rising from a seated position, and by frame 5, they are fully standing. This matches the definition of standing_up.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/CY2J2_c059_t0.00_50.83/standing_up_42.09_51.30"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "1BUFQ_c132_t0.00_40.25",
+      "video_id": "1BUFQ",
+      "action": "standing_up",
+      "action_name": "站起",
+      "start_seconds": 33.7302,
+      "end_seconds": 38.786,
+      "confidence": 0.7108,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.04715732,
+        "same_label_iou": 0.449393,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "Person is seen leaning forward from a seated position, then rising to a standing position while holding a piece of paper.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/1BUFQ_c132_t0.00_40.25/standing_up_33.73_38.79"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "M8CDW_c019_t0.00_32.79",
+      "video_id": "M8CDW",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "start_seconds": 4.8984,
+      "end_seconds": 19.8315,
+      "confidence": 0.7274,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.0454862,
+        "same_label_iou": 0.39442,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 1.0,
+        "evidence": "Person is seated on a chair throughout all frames, with legs extended and body supported by the chair.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/M8CDW_c019_t0.00_32.79/sitting_on_chair_4.90_19.83"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "PCXYE_c109_t0.00_28.40",
+      "video_id": "PCXYE",
+      "action": "standing_up",
+      "action_name": "站起",
+      "start_seconds": 0.0,
+      "end_seconds": 24.0912,
+      "confidence": 0.7239,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.04977425,
+        "same_label_iou": 0.264275,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "The person is seen transitioning from sitting on a motorcycle to standing and walking away.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/PCXYE_c109_t0.00_28.40/standing_up_0.00_24.09"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "X95MU_c016_t0.00_36.38",
+      "video_id": "X95MU",
+      "action": "sitting_down",
+      "action_name": "坐下",
+      "start_seconds": 9.1687,
+      "end_seconds": 12.7094,
+      "confidence": 0.7281,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.05061982,
+        "same_label_iou": 0.226577,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "The person starts bent over at frame 0, transitions to sitting on the chair by frame 2, and is fully seated by frame 3. The motion is continuous and matches the definition of sitting down.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/X95MU_c016_t0.00_36.38/sitting_down_9.17_12.71"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "Y6MUU_c015_t0.00_39.00",
+      "video_id": "Y6MUU",
+      "action": "walking_through_doorway",
+      "action_name": "穿过门口",
+      "start_seconds": 29.6302,
+      "end_seconds": 33.403,
+      "confidence": 0.6672,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.0434467,
+        "same_label_iou": 0.0,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.9,
+        "evidence": "The man turns his back to the camera and walks toward a door on the left side of the frame, appearing to approach or enter through it.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/Y6MUU_c015_t0.00_39.00/walking_through_doorway_29.63_33.40"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "confirmed_tal_vlm",
+      "clip_id": "U9UI8_c106_t0.00_30.54",
+      "video_id": "U9UI8",
+      "action": "holding_drink_container",
+      "action_name": "拿杯/瓶",
+      "start_seconds": 1.5818,
+      "end_seconds": 15.4635,
+      "confidence": 0.6949,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the temporal action segment and event-centered VLM confirmed the action.",
+      "tal": {
+        "score": 0.04398402,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": true,
+        "confidence": 0.95,
+        "evidence": "A person is holding a yellow cup in multiple frames, including frame 0 where they are clearly holding it, and frame 5 where they are drinking from it.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/U9UI8_c106_t0.00_30.54/holding_drink_container_1.58_15.46"
+      }
+    }
+  ],
+  "weak_events": [],
+  "rejected_events": [
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "NDH24_c052_t0.00_36.38",
+      "video_id": "NDH24",
+      "action": "holding_phone",
+      "action_name": "拿手机",
+      "start_seconds": 1.9665,
+      "end_seconds": 25.8477,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.05656701,
+        "same_label_iou": 0.601464,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is holding a laptop, not a phone.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/NDH24_c052_t0.00_36.38/holding_phone_1.97_25.85"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "5B8M5_c156_t0.00_30.71",
+      "video_id": "5B8M5",
+      "action": "standing_up",
+      "action_name": "站起",
+      "start_seconds": 9.3348,
+      "end_seconds": 14.439,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.05516886,
+        "same_label_iou": 0.470331,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person remains seated throughout the frames, leaning forward to interact with a plate.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/5B8M5_c156_t0.00_30.71/standing_up_9.33_14.44"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "24B2K_c125_t6.50_51.50",
+      "video_id": "24B2K",
+      "action": "putting_drink_container",
+      "action_name": "放下杯/瓶",
+      "start_seconds": 4.6276,
+      "end_seconds": 18.4994,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.04572371,
+        "same_label_iou": 0.084441,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The person is drinking from a glass, not putting it down.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/24B2K_c125_t6.50_51.50/putting_drink_container_4.63_18.50"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "FVPMC_c154_t0.00_35.25",
+      "video_id": "FVPMC",
+      "action": "standing_up",
+      "action_name": "站起",
+      "start_seconds": 16.7552,
+      "end_seconds": 20.0943,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.04467535,
+        "same_label_iou": 0.037987,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is bent over inside a cabinet, not transitioning to standing.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/FVPMC_c154_t0.00_35.25/standing_up_16.76_20.09"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "7JTEK_c156_t0.00_35.29",
+      "video_id": "7JTEK",
+      "action": "putting_drink_container",
+      "action_name": "放下杯/瓶",
+      "start_seconds": 3.7372,
+      "end_seconds": 7.4307,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.04483157,
+        "same_label_iou": 0.0,
+        "ab_outcome": "gt_hit_by_tal_only"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "No drink container (cup, glass, bottle, can) is visible in the frames. The person is holding a small plate or bowl, not a drink container.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/7JTEK_c156_t0.00_35.29/putting_drink_container_3.74_7.43"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "7JTEK_c156_t0.00_35.29",
+      "video_id": "7JTEK",
+      "action": "standing_up",
+      "action_name": "站起",
+      "start_seconds": 3.6947,
+      "end_seconds": 31.7483,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.04540604,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is already standing throughout the sampled frames, no transition from sitting or crouching observed.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/7JTEK_c156_t0.00_35.29/standing_up_3.69_31.75"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "M0DAY_c150_t0.00_24.83",
+      "video_id": "M0DAY",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "start_seconds": 12.613,
+      "end_seconds": 16.2008,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.04447498,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is standing on the floor, reaching into a closet.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/M0DAY_c150_t0.00_24.83/sitting_on_chair_12.61_16.20"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "6TNP4_c107_t0.90_44.58",
+      "video_id": "6TNP4",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "start_seconds": 36.516,
+      "end_seconds": 40.1385,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.04214919,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "The boy is sitting on the floor, not on a chair.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/6TNP4_c107_t0.90_44.58/sitting_on_chair_36.52_40.14"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "BGX4T_c097_t0.00_23.42",
+      "video_id": "BGX4T",
+      "action": "standing_up",
+      "action_name": "站起",
+      "start_seconds": 4.715,
+      "end_seconds": 18.9067,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.04183498,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is already standing and holding a vacuum cleaner throughout the frames.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/BGX4T_c097_t0.00_23.42/standing_up_4.71_18.91"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "STAZI_c097_t0.00_19.10",
+      "video_id": "STAZI",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "start_seconds": 14.7822,
+      "end_seconds": 19.6934,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.04074439,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/STAZI_c097_t0.00_19.10/sitting_on_chair_14.78_19.69"
+      }
+    },
+    {
+      "source": "tal_proposal",
+      "decision": "rejected_tal_vlm",
+      "clip_id": "BGX4T_c097_t0.00_23.42",
+      "video_id": "BGX4T",
+      "action": "sitting_on_chair",
+      "action_name": "坐在椅子上",
+      "start_seconds": 11.2352,
+      "end_seconds": 14.5384,
+      "confidence": 0.0,
+      "evidence_sources": [
+        "tal",
+        "event_vlm"
+      ],
+      "fusion_reason": "TAL proposed the segment but event-centered VLM rejected the action.",
+      "tal": {
+        "score": 0.04022443,
+        "same_label_iou": 0.0,
+        "ab_outcome": "tal_only_non_gt"
+      },
+      "event_vlm": {
+        "present": false,
+        "confidence": 0.0,
+        "evidence": "Person is standing and holding a yellow steam cleaner in all frames.",
+        "review_dir": "outputs/tal_vlm_review_epoch034_train_filtered/BGX4T_c097_t0.00_23.42/sitting_on_chair_11.24_14.54"
+      }
+    }
+  ],
+  "failed_events": []
+}
