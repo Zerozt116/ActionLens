@@ -10,3 +10,4 @@ __pycache__/
 runs/
 *.pt
 outputs/tal_vlm_review_epoch034/
+outputs/tal_vlm_review_epoch034_non_gt/
