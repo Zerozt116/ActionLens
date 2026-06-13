@@ -1,0 +1,567 @@
+{
+  "summary": {
+    "clip_count": 11,
+    "topk_clip_count": 11,
+    "gt_instances": 30,
+    "topk_action_hits": 5,
+    "topk_iou_positive_hits": 5,
+    "topk_iou_at_0_5_hits": 3,
+    "topk_action_recall": 0.1667,
+    "topk_iou_positive_recall": 0.1667,
+    "topk_iou_at_0_5_recall": 0.1
+  },
+  "per_action": [
+    {
+      "action": "Drinking from a cup/glass/bottle",
+      "gt": 2,
+      "action_hits": 0,
+      "iou_positive_hits": 0,
+      "iou_at_0_5_hits": 0,
+      "action_recall": 0.0,
+      "iou_positive_recall": 0.0,
+      "iou_at_0_5_recall": 0.0
+    },
+    {
+      "action": "Eating a sandwich",
+      "gt": 1,
+      "action_hits": 0,
+      "iou_positive_hits": 0,
+      "iou_at_0_5_hits": 0,
+      "action_recall": 0.0,
+      "iou_positive_recall": 0.0,
+      "iou_at_0_5_recall": 0.0
+    },
+    {
+      "action": "Holding a cup/glass/bottle of something",
+      "gt": 1,
+      "action_hits": 0,
+      "iou_positive_hits": 0,
+      "iou_at_0_5_hits": 0,
+      "action_recall": 0.0,
+      "iou_positive_recall": 0.0,
+      "iou_at_0_5_recall": 0.0
+    },
+    {
+      "action": "Holding a phone/camera",
+      "gt": 4,
+      "action_hits": 0,
+      "iou_positive_hits": 0,
+      "iou_at_0_5_hits": 0,
+      "action_recall": 0.0,
+      "iou_positive_recall": 0.0,
+      "iou_at_0_5_recall": 0.0
+    },
+    {
+      "action": "Playing with a phone/camera",
+      "gt": 2,
+      "action_hits": 0,
+      "iou_positive_hits": 0,
+      "iou_at_0_5_hits": 0,
+      "action_recall": 0.0,
+      "iou_positive_recall": 0.0,
+      "iou_at_0_5_recall": 0.0
+    },
+    {
+      "action": "Sitting in a chair",
+      "gt": 2,
+      "action_hits": 2,
+      "iou_positive_hits": 2,
+      "iou_at_0_5_hits": 2,
+      "action_recall": 1.0,
+      "iou_positive_recall": 1.0,
+      "iou_at_0_5_recall": 1.0
+    },
+    {
+      "action": "Sitting on sofa/couch",
+      "gt": 2,
+      "action_hits": 0,
+      "iou_positive_hits": 0,
+      "iou_at_0_5_hits": 0,
+      "action_recall": 0.0,
+      "iou_positive_recall": 0.0,
+      "iou_at_0_5_recall": 0.0
+    },
+    {
+      "action": "Someone is cooking something",
+      "gt": 1,
+      "action_hits": 0,
+      "iou_positive_hits": 0,
+      "iou_at_0_5_hits": 0,
+      "action_recall": 0.0,
+      "iou_positive_recall": 0.0,
+      "iou_at_0_5_recall": 0.0
+    },
+    {
+      "action": "Someone is eating something",
+      "gt": 3,
+      "action_hits": 0,
+      "iou_positive_hits": 0,
+      "iou_at_0_5_hits": 0,
+      "action_recall": 0.0,
+      "iou_positive_recall": 0.0,
+      "iou_at_0_5_recall": 0.0
+    },
+    {
+      "action": "Someone is going from standing to sitting",
+      "gt": 3,
+      "action_hits": 0,
+      "iou_positive_hits": 0,
+      "iou_at_0_5_hits": 0,
+      "action_recall": 0.0,
+      "iou_positive_recall": 0.0,
+      "iou_at_0_5_recall": 0.0
+    },
+    {
+      "action": "Someone is standing up from somewhere",
+      "gt": 4,
+      "action_hits": 2,
+      "iou_positive_hits": 2,
+      "iou_at_0_5_hits": 0,
+      "action_recall": 0.5,
+      "iou_positive_recall": 0.5,
+      "iou_at_0_5_recall": 0.0
+    },
+    {
+      "action": "Talking on a phone/camera",
+      "gt": 1,
+      "action_hits": 0,
+      "iou_positive_hits": 0,
+      "iou_at_0_5_hits": 0,
+      "action_recall": 0.0,
+      "iou_positive_recall": 0.0,
+      "iou_at_0_5_recall": 0.0
+    },
+    {
+      "action": "Walking through a doorway",
+      "gt": 1,
+      "action_hits": 1,
+      "iou_positive_hits": 1,
+      "iou_at_0_5_hits": 1,
+      "action_recall": 1.0,
+      "iou_positive_recall": 1.0,
+      "iou_at_0_5_recall": 1.0
+    },
+    {
+      "action": "Watching a laptop or something on a laptop",
+      "gt": 1,
+      "action_hits": 0,
+      "iou_positive_hits": 0,
+      "iou_at_0_5_hits": 0,
+      "action_recall": 0.0,
+      "iou_positive_recall": 0.0,
+      "iou_at_0_5_recall": 0.0
+    },
+    {
+      "action": "Watching television",
+      "gt": 1,
+      "action_hits": 0,
+      "iou_positive_hits": 0,
+      "iou_at_0_5_hits": 0,
+      "action_recall": 0.0,
+      "iou_positive_recall": 0.0,
+      "iou_at_0_5_recall": 0.0
+    },
+    {
+      "action": "Working/Playing on a laptop",
+      "gt": 1,
+      "action_hits": 0,
+      "iou_positive_hits": 0,
+      "iou_at_0_5_hits": 0,
+      "action_recall": 0.0,
+      "iou_positive_recall": 0.0,
+      "iou_at_0_5_recall": 0.0
+    }
+  ],
+  "rows": [
+    {
+      "clip_id": "024PD_c015_t0.00_59.04",
+      "label_id": 3,
+      "label": "Holding a phone/camera",
+      "segment": [
+        0.0,
+        59.04
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "1LKPL_c154_t0.00_33.58",
+      "label_id": 3,
+      "label": "Holding a phone/camera",
+      "segment": [
+        0.0,
+        33.58
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "1LKPL_c154_t0.00_33.58",
+      "label_id": 10,
+      "label": "Someone is standing up from somewhere",
+      "segment": [
+        0.0,
+        33.58
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "1LKPL_c154_t0.00_33.58",
+      "label_id": 22,
+      "label": "Playing with a phone/camera",
+      "segment": [
+        0.0,
+        33.58
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "3HUXR_c132_t0.00_41.62",
+      "label_id": 6,
+      "label": "Someone is eating something",
+      "segment": [
+        0.0,
+        37.2
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "3HUXR_c132_t0.00_41.62",
+      "label_id": 11,
+      "label": "Watching television",
+      "segment": [
+        0.0,
+        41.62
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "406LH_c097_t1.00_21.00",
+      "label_id": 20,
+      "label": "Eating a sandwich",
+      "segment": [
+        4.9,
+        16.4
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "406LH_c097_t1.00_21.00",
+      "label_id": 6,
+      "label": "Someone is eating something",
+      "segment": [
+        4.7,
+        16.9
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "406LH_c097_t1.00_21.00",
+      "label_id": 16,
+      "label": "Walking through a doorway",
+      "segment": [
+        2.0,
+        18.0
+      ],
+      "topk_action_hit": true,
+      "topk_best_iou": 0.616372,
+      "topk_iou_positive_hit": true,
+      "topk_iou_at_0_5_hit": true
+    },
+    {
+      "clip_id": "4FXUI_c052_t0.00_43.20",
+      "label_id": 19,
+      "label": "Watching a laptop or something on a laptop",
+      "segment": [
+        0.0,
+        37.9
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "4FXUI_c052_t0.00_43.20",
+      "label_id": 10,
+      "label": "Someone is standing up from somewhere",
+      "segment": [
+        35.0,
+        41.9
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "4FXUI_c052_t0.00_43.20",
+      "label_id": 17,
+      "label": "Working/Playing on a laptop",
+      "segment": [
+        0.0,
+        41.2
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "4FXUI_c052_t0.00_43.20",
+      "label_id": 7,
+      "label": "Sitting in a chair",
+      "segment": [
+        0.0,
+        41.0
+      ],
+      "topk_action_hit": true,
+      "topk_best_iou": 0.930356,
+      "topk_iou_positive_hit": true,
+      "topk_iou_at_0_5_hit": true
+    },
+    {
+      "clip_id": "8BG1T_c106_t5.60_45.46",
+      "label_id": 21,
+      "label": "Sitting on sofa/couch",
+      "segment": [
+        1.7,
+        39.86
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "8BG1T_c106_t5.60_45.46",
+      "label_id": 9,
+      "label": "Drinking from a cup/glass/bottle",
+      "segment": [
+        2.0,
+        38.1
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "8BG1T_c106_t5.60_45.46",
+      "label_id": 13,
+      "label": "Someone is going from standing to sitting",
+      "segment": [
+        1.5,
+        11.7
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "8BG1T_c106_t5.60_45.46",
+      "label_id": 13,
+      "label": "Someone is going from standing to sitting",
+      "segment": [
+        0.0,
+        5.5
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "8BG1T_c106_t5.60_45.46",
+      "label_id": 10,
+      "label": "Someone is standing up from somewhere",
+      "segment": [
+        31.3,
+        37.8
+      ],
+      "topk_action_hit": true,
+      "topk_best_iou": 0.281665,
+      "topk_iou_positive_hit": true,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "ARCUY_c059_t0.60_43.83",
+      "label_id": 13,
+      "label": "Someone is going from standing to sitting",
+      "segment": [
+        1.1,
+        6.7
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "ARCUY_c059_t0.60_43.83",
+      "label_id": 10,
+      "label": "Someone is standing up from somewhere",
+      "segment": [
+        36.9,
+        42.2
+      ],
+      "topk_action_hit": true,
+      "topk_best_iou": 0.307385,
+      "topk_iou_positive_hit": true,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "ARCUY_c059_t0.60_43.83",
+      "label_id": 7,
+      "label": "Sitting in a chair",
+      "segment": [
+        2.0,
+        41.6
+      ],
+      "topk_action_hit": true,
+      "topk_best_iou": 0.659705,
+      "topk_iou_positive_hit": true,
+      "topk_iou_at_0_5_hit": true
+    },
+    {
+      "clip_id": "B5UXP_c156_t0.00_53.00",
+      "label_id": 6,
+      "label": "Someone is eating something",
+      "segment": [
+        0.0,
+        53.0
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "BPZE3_c147_t0.00_35.12",
+      "label_id": 3,
+      "label": "Holding a phone/camera",
+      "segment": [
+        0.0,
+        35.12
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "BPZE3_c147_t0.00_35.12",
+      "label_id": 22,
+      "label": "Playing with a phone/camera",
+      "segment": [
+        0.0,
+        35.12
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "BPZE3_c147_t0.00_35.12",
+      "label_id": 0,
+      "label": "Someone is cooking something",
+      "segment": [
+        0.0,
+        35.12
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "OINMN_c019_t0.00_45.25",
+      "label_id": 3,
+      "label": "Holding a phone/camera",
+      "segment": [
+        0.0,
+        45.25
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "OINMN_c019_t0.00_45.25",
+      "label_id": 5,
+      "label": "Talking on a phone/camera",
+      "segment": [
+        0.0,
+        45.25
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "VSFCR_c123_t0.00_37.88",
+      "label_id": 21,
+      "label": "Sitting on sofa/couch",
+      "segment": [
+        0.0,
+        37.88
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "VSFCR_c123_t0.00_37.88",
+      "label_id": 9,
+      "label": "Drinking from a cup/glass/bottle",
+      "segment": [
+        0.0,
+        29.1
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    },
+    {
+      "clip_id": "VSFCR_c123_t0.00_37.88",
+      "label_id": 4,
+      "label": "Holding a cup/glass/bottle of something",
+      "segment": [
+        0.0,
+        29.1
+      ],
+      "topk_action_hit": false,
+      "topk_best_iou": 0.0,
+      "topk_iou_positive_hit": false,
+      "topk_iou_at_0_5_hit": false
+    }
+  ]
+}

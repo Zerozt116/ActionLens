@@ -1,0 +1,11 @@
+{
+  "train": 347,
+  "val": 74,
+  "test": 79,
+  "seed": 42,
+  "must_test": [
+    "024PD",
+    "8BG1T",
+    "OINMN"
+  ]
+}

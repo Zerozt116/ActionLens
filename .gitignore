@@ -13,7 +13,9 @@ runs/
 ckpt/
 data/charades/videos_480p/*.mp4
 data/charades/clips_480p_200/
+data/charades/clips_480p_500/
 data/charades/features_200/
+data/charades/features_500/
 outputs/tal_vlm_review_epoch034/
 outputs/tal_vlm_review_epoch034_non_gt/
 outputs/tal_vlm_review_epoch034_train_filtered/
